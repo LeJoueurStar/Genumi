@@ -1,7 +1,6 @@
 name: build-nwa
 on:
   push:
-  pull_request:
   workflow_dispatch:
 jobs:
   build:
@@ -11,21 +10,16 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 22
-      - name: Outils
+      - name: Installer les outils
         run: |
           sudo apt-get update
-          sudo apt-get install -y gcc-arm-none-eabi python3 python3-pil
-          mkdir -p $HOME/nwtools && cd $HOME/nwtools && npm install nwlink@0.0.16
+          sudo apt-get install -y gcc-arm-none-eabi python3
+          mkdir -p $HOME/nwtools
+          cd $HOME/nwtools && npm init -y > /dev/null && npm install nwlink@0.0.16
           echo 'Object.defineProperty(globalThis,"navigator",{value:{userAgent:"node"},writable:true,configurable:true});' > $HOME/nwpre.js
-      - name: Icône
-        run: |
-          python3 -c "from PIL import Image; im=Image.open('genumi.png').convert('RGBA'); bg=Image.new('RGBA', im.size, (255,255,255,255)); bg.alpha_composite(im); bg.convert('RGB').save('genumi_flat.png')"
-          mkdir -p output
-          node -r $HOME/nwpre.js $HOME/nwtools/node_modules/nwlink/bin/nwlink png-icon-o genumi_flat.png output/icon.o
-      - name: Base de connaissances et compilation
+      - name: Compiler
         run: |
           python3 tools/build_kb.py kb/qa.txt
-          touch src/kb.c src/engine.c
           make
       - uses: actions/upload-artifact@v4
         with:
