@@ -289,7 +289,7 @@ static bool definition(const char *q, char *out, int cap) {
   }
   char w[32];
   int n = 0;
-  while (*p && *p != ' ' && *p != '?' && n < 31) w[n++] = *p++;
+  while (*p && n < 31 && (((unsigned char)*p >= 'a' && (unsigned char)*p <= 'z') || ((unsigned char)*p >= '0' && (unsigned char)*p <= '9') || (unsigned char)*p >= 0x80)) w[n++] = *p++;
   w[n] = 0;
   if (!n) return false;
   if (!strcmp(w, "3arbi")) put(out, cap, "Un 3arbi, c'est une personne d'origine arabe. Le mot est aussi utilisé en langage familier : le sens dépend du contexte.");
@@ -311,11 +311,29 @@ static bool definition(const char *q, char *out, int cap) {
 static bool g_fallback = false;
 static char g_last_ans[200] = "";
 
+/* Vrai si la question contient un bloc de lettres sans séparateur (charabia). */
+static bool has_long_token(const char *q) {
+  int run = 0;
+  for (const char *p = q; *p; p++) {
+    unsigned char c = (unsigned char)*p;
+    if ((c >= 'a' && c <= 'z') || (c >= '0' && c <= '9')) {
+      if (++run >= 14) return true;
+    } else {
+      run = 0;
+    }
+  }
+  return false;
+}
+
 static void answer_core(const char *question, char *out, int cap, bool art) {
   char q[160];
   norm(question, q, sizeof q);
   out[0] = 0;
   g_fallback = false;
+  if (has_long_token(q)) {
+    put(out, cap, "Je n'ai pas bien compris ce message. Peux-tu le reformuler avec des mots simples ?");
+    return;
+  }
 
   if (art) {
     art_answer(q, out, cap);

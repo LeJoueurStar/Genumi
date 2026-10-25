@@ -1,12 +1,88 @@
 #include <string.h>
 #include <stdbool.h>
 #include "suggest.h"
+#include "kb_words.h"
 
 #define LEARN_MAX 32
 
 static const char *BASE_WORDS[] = {
-  "bonjour", "salut", "bonsoir", "merci", "comment", "ça", "va", "aide",
-  "pourquoi", "quelle", "heure", "oui", "non", "revoir", "je", "suis"
+  "bonjour",
+  "salut",
+  "bonsoir",
+  "merci",
+  "comment",
+  "ça",
+  "va",
+  "aide",
+  "pourquoi",
+  "quelle",
+  "quel",
+  "heure",
+  "oui",
+  "non",
+  "revoir",
+  "je",
+  "suis",
+  "tu",
+  "il",
+  "elle",
+  "nous",
+  "vous",
+  "ils",
+  "est",
+  "sont",
+  "que",
+  "qui",
+  "quoi",
+  "où",
+  "quand",
+  "combien",
+  "explique",
+  "définition",
+  "c'est",
+  "calcul",
+  "résultat",
+  "capitale",
+  "blague",
+  "dessine",
+  "nom",
+  "bien",
+  "peux",
+  "veux",
+  "fais",
+  "bonne",
+  "journée",
+  "soir",
+  "matin",
+  "aujourd'hui",
+  "vecteur",
+  "fonction",
+  "dérivée",
+  "intégrale",
+  "suite",
+  "probabilité",
+  "photosynthèse",
+  "atome",
+  "énergie",
+  "force",
+  "vitesse",
+  "acide",
+  "base",
+  "molécule",
+  "ordinateur",
+  "calculatrice",
+  "numworks",
+  "genumi",
+  "parce",
+  "donc",
+  "mais",
+  "et",
+  "ou",
+  "avec",
+  "pour",
+  "dans",
+  "sur",
+  "très",
 };
 #define BASE_COUNT (sizeof(BASE_WORDS) / sizeof(BASE_WORDS[0]))
 
@@ -69,6 +145,8 @@ int suggest_words(const char *input, char out[][WORD_MAX], bool *flag, int max) 
     n = add_cand(out, flag, n, max, BASE_WORDS[i], false, prefix, plen);
   for (int i = 0; i < learned_n; i++)
     n = add_cand(out, flag, n, max, learned[i], true, prefix, plen);
+  for (unsigned i = 0; i < KB_WORD_COUNT; i++)
+    n = add_cand(out, flag, n, max, KB_WORDS[i], false, prefix, plen);
   return n;
 }
 

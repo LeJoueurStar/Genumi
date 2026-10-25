@@ -50,3 +50,22 @@ with open(OUT, 'w', encoding='utf-8') as f:
 
 import os
 print('entrées :', len(entries), '->', OUT, os.path.getsize(OUT) // 1024, 'Ko')
+
+# Vocabulaire complet de la base (suggestions) : tous les mots utiles, sans doublon
+import re as _re
+_words = set()
+with open(SRC, encoding='utf-8') as _f:
+    for _line in _f:
+        if not _line.strip() or _line.startswith('#'):
+            continue
+        for _w in _re.findall(r"[a-zàâäéèêëïîôöùûüçœ]{3,}", _line.lower()):
+            _words.add(_w)
+_words = sorted(_words)
+with open('src/kb_words.h', 'w', encoding='utf-8') as _f:
+    _f.write('#ifndef KB_WORDS_H\n#define KB_WORDS_H\n')
+    _f.write('#define KB_WORD_COUNT %d\n' % len(_words))
+    _f.write('static const char *const KB_WORDS[KB_WORD_COUNT] = {\n')
+    for _w in _words:
+        _f.write('  "%s",\n' % _w)
+    _f.write('};\n#endif\n')
+print('mots de suggestion :', len(_words), '-> src/kb_words.h')
