@@ -1,46 +1,59 @@
+/* Moteur de Genumi : système expert à règles et mots-clés.
+ * Pas d'allocation dynamique : tout tient dans des tampons fixes. */
 #include <string.h>
 #include <stdbool.h>
 #include <stdint.h>
 #include "engine.h"
 #include "kb.h"
 
+#define Q_MAX 160
+
 static char g_name[32] = "";
-static char g_topic[40] = "";
-static uint32_t g_seed = 2463534242u;
+static char g_topic[48] = "";      /* dernier sujet défini (mémoire courte) */
+static char g_last[200] = "";      /* dernière réponse donnée */
+static bool g_art = false;
 
 void engine_set_name(const char *n) {
   strncpy(g_name, n, sizeof g_name - 1);
   g_name[sizeof g_name - 1] = 0;
 }
 
-static uint32_t rnd(uint32_t n) {
-  g_seed ^= g_seed << 13;
-  g_seed ^= g_seed >> 17;
-  g_seed ^= g_seed << 5;
-  return n ? g_seed % n : 0;
+void engine_reset(void) {
+  g_topic[0] = 0;
+  g_last[0] = 0;
 }
 
-static void put(char *out, int cap, const char *s) {
+/* ---------- utilitaires ---------- */
+
+static uint32_t hash_str(const char *s) {
+  uint32_t h = 2166136261u;
+  while (*s) h = (h ^ (unsigned char)*s++) * 16777619u;
+  return h;
+}
+
+static void put(char *o, int cap, const char *s) {
   int n = (int)strlen(s);
   if (n > cap - 1) n = cap - 1;
-  memcpy(out, s, n);
-  out[n] = 0;
+  memcpy(o, s, n);
+  o[n] = 0;
 }
 
-static void add(char *out, int cap, const char *s) {
-  int l = (int)strlen(out), n = (int)strlen(s);
+static void add(char *o, int cap, const char *s) {
+  int l = (int)strlen(o), n = (int)strlen(s);
   if (l + n > cap - 1) n = cap - 1 - l;
   if (n > 0) {
-    memcpy(out + l, s, n);
-    out[l + n] = 0;
+    memcpy(o + l, s, n);
+    o[l + n] = 0;
   }
 }
 
-static void pick(char *out, int cap, const char *const *arr, int n) {
-  add(out, cap, arr[rnd((uint32_t)n)]);
+/* Choix déterministe mais varié : la même question donne la même réponse,
+ * deux questions différentes en donnent des variantes. */
+static const char *pick_v(const char *seed, const char *const *v, int n) {
+  return v[hash_str(seed) % (uint32_t)n];
 }
 
-/* Minuscules ASCII, lettres accentuées ramenées à leur base, apostrophes en espaces. */
+/* Minuscules, sans accents (ramenés à leur lettre de base), apostrophes en espaces. */
 static void norm(const char *in, char *out, int cap) {
   int o = 0;
   for (int i = 0; in[i] && o < cap - 3; i++) {
@@ -63,23 +76,54 @@ static void norm(const char *in, char *out, int cap) {
     } else if (c >= 0x80) {
       while (in[i + 1] && ((unsigned char)in[i + 1] & 0xC0) == 0x80) i++;
       out[o++] = ' ';
-    } else if (c == '\'' || c == 0x27) {
+    } else if (c == '\'' || c == '-' || c == '?' || c == '!' || c == ',' || c == ';' || c == ':' || c == '.') {
       out[o++] = ' ';
     } else {
       out[o++] = (c >= 'A' && c <= 'Z') ? (char)(c + 32) : (char)c;
     }
   }
   out[o] = 0;
+  /* Espaces en début et fin, pour que les recherches de mots entiers marchent. */
+  char tmp[Q_MAX + 4];
+  int tl = 0;
+  tmp[tl++] = ' ';
+  for (int i = 0; out[i] && tl < Q_MAX + 2; i++) tmp[tl++] = out[i];
+  tmp[tl++] = ' ';
+  tmp[tl] = 0;
+  strncpy(out, tmp, cap - 1);
+  out[cap - 1] = 0;
+  /* Réduction des espaces multiples */
+  int k = 0;
+  for (int i = 0; out[i]; i++) {
+    if (out[i] == ' ' && k > 0 && out[k - 1] == ' ') continue;
+    out[k++] = out[i];
+  }
+  out[k] = 0;
 }
 
+/* Mot entier : la chaîne normalisée est entourée d'espaces. */
 static bool has(const char *q, const char *k) { return strstr(q, k) != NULL; }
 
-/* Expressions arithmétiques : + - * / et parenthèses, avec les étapes du calcul. */
+/* Plus long bloc de lettres sans espace (charabia). */
+static bool has_long_token(const char *q) {
+  int run = 0;
+  for (const char *p = q; *p; p++) {
+    unsigned char c = (unsigned char)*p;
+    if ((c >= 'a' && c <= 'z') || (c >= '0' && c <= '9')) {
+      if (++run >= 14) return true;
+    } else {
+      run = 0;
+    }
+  }
+  return false;
+}
+
+/* ---------- calcul avec étapes ---------- */
+
 static const char *pe_p;
 static bool pe_ok;
 static char st_buf[160];
 static int st_n;
-
 static long pe_expr(void);
 
 static void st_fmt(long v, char *s) {
@@ -215,6 +259,10 @@ static bool math_answer(const char *q, char *out, int cap) {
   st_buf[0] = 0;
   long v = pe_expr();
   pe_sp();
+  if (!pe_ok && strstr(e, "/0") && !strstr(e, "/0.")) {
+    put(out, cap, "Impossible : on ne peut pas diviser par zéro.");
+    return true;
+  }
   if (!pe_ok || *pe_p) return false;
   char sr[24];
   st_fmt(v, sr);
@@ -229,7 +277,8 @@ static bool math_answer(const char *q, char *out, int cap) {
   return true;
 }
 
-/* Dessins en texte : '|' sépare les lignes. */
+/* ---------- données ---------- */
+
 typedef struct { const char *key; const char *art; } Art;
 static const Art ARTS[] = {
   {"chat", "Voici un chat :|  /\\_/\\|( o.o )|  > ^ <"},
@@ -243,6 +292,192 @@ static const Art ARTS[] = {
   {"voiture", "Voici une voiture :|   ____|  /    \\_|_|___|___|(o)  (o)"},
 };
 
+static const char *const CAP_N[] = {"france", "espagne", "italie", "allemagne", "maroc", "algerie", "tunisie", "japon", "belgique", "canada", "bresil", "portugal"};
+static const char *const CAP_V[] = {"Paris", "Madrid", "Rome", "Berlin", "Rabat", "Alger", "Tunis", "Tokyo", "Bruxelles", "Ottawa", "Brasilia", "Lisbonne"};
+
+static const char *const JOKES[] = {
+  "Pourquoi les poissons n'aiment pas le tennis ? Parce qu'ils ont peur du filet.",
+  "Quel est le comble pour un mathématicien ? D'avoir des soucis avec ses racines.",
+  "Que dit un zéro à un huit ? Tu as une belle ceinture !",
+};
+
+static const char *const SAD[] = {
+  "Je suis désolé que tu te sentes comme ça. Tu veux m'en parler ?",
+  "Ça peut être dur. Qu'est-ce qui te pèse le plus en ce moment ?",
+  "Je suis là pour t'écouter, prends ton temps.",
+};
+
+static const char *const DEFS[][2] = {
+  {"3arbi", "Un 3arbi, c'est une personne d'origine arabe. Le mot est aussi utilisé en langage familier : le sens dépend du contexte."},
+  {"ia", "Une IA est un programme qui apprend à produire des réponses à partir d'exemples."},
+  {"numworks", "La NumWorks est une calculatrice graphique qu'on peut programmer en C ou en Python."},
+  {"nwa", "Un fichier .nwa est une application pour calculatrice NumWorks."},
+  {"python", "Python est un langage de programmation simple à lire, très utilisé en IA."},
+  {"gemini", "Gemini est un assistant d'intelligence artificielle développé par Google."},
+};
+
+/* ---------- intentions ---------- */
+
+typedef enum {
+  I_NONE, I_GREET, I_BYE, I_THANKS, I_HOW, I_WHOAMI, I_HELP, I_MYNAME_ASK,
+  I_MYNAME_SAY, I_SAD, I_TIME, I_NUMWORKS, I_CAPITAL, I_JOKE, I_DEFINE, I_FOLLOW
+} Intent;
+
+typedef struct { Intent id; const char *kw[12]; } Rule;
+
+static const Rule RULES[] = {
+  {I_GREET, {" bonjour ", " salut ", " bonsoir ", " hello ", " coucou ", " hey ", NULL}},
+  {I_BYE, {" au revoir ", " bye ", " a plus ", " a bientot ", " adieu ", " bonne nuit ", NULL}},
+  {I_THANKS, {" merci ", " thanks ", " gentil ", NULL}},
+  {I_HOW, {" ca va ", " comment vas ", " tu vas bien ", " ca roule ", " la forme ", NULL}},
+  {I_WHOAMI, {" qui es ", " ton nom ", " tu es qui ", " tu es quoi ", " presente toi ", NULL}},
+  {I_HELP, {" aide ", " aider ", " que sais ", " peux tu faire ", " que peux ", " tu fais quoi ", NULL}},
+  {I_MYNAME_ASK, {" mon nom ", " qui suis je ", " comment je m appelle ", " je m appelle quoi ", NULL}},
+  {I_MYNAME_SAY, {" je m appelle ", " mon prenom est ", NULL}},
+  {I_SAD, {" triste ", " mal ", " fatigue ", " stress ", " ennui ", " seul ", " pleure ", " angoisse ", NULL}},
+  {I_TIME, {" heure ", " meteo ", " quel jour ", " date ", " temps qu il fait ", NULL}},
+  {I_NUMWORKS, {" numworks ", " calculatrice ", " genumi ", NULL}},
+  {I_CAPITAL, {" capitale ", NULL}},
+  {I_JOKE, {" blague ", " drole ", " rigole ", " fais moi rire ", NULL}},
+  {I_DEFINE, {" c est quoi ", " qu est ce que ", " definition ", " explique moi ", " ca veut dire ", " signifie ", NULL}},
+  {I_FOLLOW, {" et toi ", " pourquoi ", " comment ca ", " et lui ", " et elle ", " et ca ", " encore ", " plus de details ", " davantage ", NULL}},
+};
+
+static int score(const char *q, const Rule *r) {
+  int s = 0;
+  for (int i = 0; r->kw[i]; i++)
+    if (has(q, r->kw[i])) s++;
+  return s;
+}
+
+static Intent best_intent(const char *q) {
+  Intent best = I_NONE;
+  int bs = 0;
+  for (unsigned i = 0; i < sizeof RULES / sizeof RULES[0]; i++) {
+    int s = score(q, &RULES[i]);
+    if (s > bs) {
+      bs = s;
+      best = RULES[i].id;
+    }
+  }
+  return best;
+}
+
+/* Extrait le sujet après un marqueur de définition. */
+static bool extract_term(const char *q, char *term, int cap) {
+  static const char *const MARK[] = {" c est quoi ", " qu est ce que ", " definition de ", " definition ", " explique moi ", " ca veut dire ", " signifie "};
+  const char *p = NULL;
+  for (unsigned i = 0; i < sizeof MARK / sizeof MARK[0] && !p; i++) {
+    const char *f = strstr(q, MARK[i]);
+    if (f) p = f + strlen(MARK[i]);
+  }
+  if (!p) return false;
+  static const char *const SKIP[] = {"le ", "la ", "les ", "un ", "une ", "des ", "de ", "du ", "d ", "l "};
+  bool again = true;
+  while (again) {
+    again = false;
+    for (unsigned i = 0; i < sizeof SKIP / sizeof SKIP[0]; i++) {
+      if (!strncmp(p, SKIP[i], strlen(SKIP[i]))) {
+        p += strlen(SKIP[i]);
+        again = true;
+      }
+    }
+  }
+  int n = 0;
+  while (*p == ' ') p++;
+  while (*p && *p != ' ' && *p != '?' && n < cap - 1) term[n++] = *p++;
+  term[n] = 0;
+  return n >= 2;
+}
+
+static const char *find_def(const char *term) {
+  for (unsigned i = 0; i < sizeof DEFS / sizeof DEFS[0]; i++)
+    if (!strcmp(DEFS[i][0], term)) return DEFS[i][1];
+  return NULL;
+}
+
+/* ---------- réponses ---------- */
+
+static void answer_intent(Intent it, const char *q, char *out, int cap) {
+  char seed[Q_MAX + 4];
+  strncpy(seed, q, sizeof seed - 1);
+  seed[sizeof seed - 1] = 0;
+  switch (it) {
+    case I_GREET: {
+      if (g_name[0]) {
+        put(out, cap, "Bonjour ");
+        add(out, cap, g_name);
+        add(out, cap, " ! ");
+      } else {
+        put(out, cap, "Bonjour ! ");
+      }
+      static const char *const V[] = {"Comment ça va aujourd'hui ?", "Qu'est-ce qui t'amène ?", "Je t'écoute."};
+      add(out, cap, pick_v(seed, V, 3));
+      return;
+    }
+    case I_BYE: {
+      static const char *const V[] = {"À bientôt !", "À plus tard !", "Bonne journée !"};
+      put(out, cap, pick_v(seed, V, 3));
+      return;
+    }
+    case I_THANKS: {
+      static const char *const V[] = {"Avec plaisir !", "Je t'en prie !", "Avec plaisir, je suis là si tu as besoin."};
+      put(out, cap, pick_v(seed, V, 3));
+      return;
+    }
+    case I_HOW: {
+      static const char *const V[] = {"Je vais bien, merci ! Et toi ?", "Très bien, merci de demander. Et toi ?", "Ça roule de mon côté ! Tu as quelque chose en tête ?"};
+      put(out, cap, pick_v(seed, V, 3));
+      return;
+    }
+    case I_WHOAMI:
+      put(out, cap, "Je suis Genumi, une IA qui tourne directement sur ta calculatrice, sans internet.");
+      return;
+    case I_HELP:
+      put(out, cap, "Je peux répondre à des questions, faire des calculs avec les étapes (ex : 12*3+4), donner des capitales, raconter une blague et dessiner. Touche « + » : option Images.");
+      return;
+    case I_MYNAME_ASK:
+      if (g_name[0]) {
+        put(out, cap, "Tu t'appelles ");
+        add(out, cap, g_name);
+        add(out, cap, ", c'est bien ça ?");
+      } else {
+        put(out, cap, "Tu ne m'as pas encore dit ton prénom. Tu peux me le dire !");
+      }
+      return;
+    case I_MYNAME_SAY:
+      put(out, cap, "Comment tu t'appelles ? Dis-moi « je m'appelle » suivi de ton prénom.");
+      return;
+    case I_SAD:
+      put(out, cap, pick_v(seed, SAD, 3));
+      return;
+    case I_TIME:
+      put(out, cap, "Je n'ai ni horloge ni accès à internet, donc je ne connais ni l'heure ni la météo.");
+      return;
+    case I_NUMWORKS:
+      put(out, cap, "Je tourne directement sur une NumWorks : je n'ai pas besoin d'internet pour répondre.");
+      return;
+    case I_JOKE:
+      put(out, cap, pick_v(seed, JOKES, 3));
+      return;
+    default:
+      out[0] = 0;
+      return;
+  }
+}
+
+static bool capital_answer(const char *q, char *out, int cap) {
+  for (unsigned i = 0; i < sizeof CAP_N / sizeof CAP_N[0]; i++) {
+    if (has(q, CAP_N[i])) {
+      put(out, cap, "La capitale : ");
+      add(out, cap, CAP_V[i]);
+      add(out, cap, ".");
+      return true;
+    }
+  }
+  return false;
+}
+
 static bool art_answer(const char *q, char *out, int cap) {
   for (unsigned i = 0; i < sizeof ARTS / sizeof ARTS[0]; i++) {
     if (has(q, ARTS[i].key)) {
@@ -254,215 +489,138 @@ static bool art_answer(const char *q, char *out, int cap) {
   return true;
 }
 
-static const char *const CAP_N[] = {"france", "espagne", "italie", "allemagne", "maroc", "algerie", "tunisie", "japon", "belgique", "canada", "bresil", "portugal"};
-static const char *const CAP_V[] = {"Paris", "Madrid", "Rome", "Berlin", "Rabat", "Alger", "Tunis", "Tokyo", "Bruxelles", "Ottawa", "Brasilia", "Lisbonne"};
-
-static const char *const JOKES[] = {
-  "Pourquoi les poissons n'aiment pas le tennis ? Parce qu'ils ont peur du filet.",
-  "Quel est le comble pour un mathématicien ? D'avoir des soucis avec ses racines.",
-  "Que dit un zéro à un huit ? Tu as une belle ceinture !",
-};
-
-static const char *const EMO[] = {
-  "Je suis désolé que tu te sentes comme ça. Tu veux m'en parler ?",
-  "Ça peut être dur. Qu'est-ce qui te pèse le plus en ce moment ?",
-  "Je suis là pour t'écouter, prends ton temps.",
-};
-
-static bool definition(const char *q, char *out, int cap) {
-  const char *p;
-  if ((p = strstr(q, "c est quoi"))) p += 10;
-  else if ((p = strstr(q, "qu est ce que"))) p += 13;
-  else if ((p = strstr(q, "definition"))) p += 10;
-  else return false;
-  for (;;) {
+/* Réponse quand rien ne correspond : on demande une précision sur le mot clé le plus long. */
+static void clarify(const char *q, char *out, int cap) {
+  char best[32] = "";
+  const char *p = q;
+  while (*p) {
     while (*p == ' ') p++;
-    if (!strncmp(p, "de ", 3)) p += 3;
-    else if (!strncmp(p, "du ", 3)) p += 3;
-    else if (!strncmp(p, "un ", 3)) p += 3;
-    else if (!strncmp(p, "une ", 4)) p += 4;
-    else if (!strncmp(p, "le ", 3)) p += 3;
-    else if (!strncmp(p, "la ", 3)) p += 3;
-    else if (!strncmp(p, "les ", 4)) p += 4;
-    else if (!strncmp(p, "l ", 2)) p += 2;
-    else break;
+    int n = 0;
+    char w[32];
+    while (*p && *p != ' ' && n < 31) w[n++] = *p++;
+    w[n] = 0;
+    if (n > (int)strlen(best)) strcpy(best, w);
   }
-  char w[32];
-  int n = 0;
-  while (*p && n < 31 && (((unsigned char)*p >= 'a' && (unsigned char)*p <= 'z') || ((unsigned char)*p >= '0' && (unsigned char)*p <= '9') || (unsigned char)*p >= 0x80)) w[n++] = *p++;
-  w[n] = 0;
-  if (!n) return false;
-  if (!strcmp(w, "3arbi")) put(out, cap, "Un 3arbi, c'est une personne d'origine arabe. Le mot est aussi utilisé en langage familier : le sens dépend du contexte.");
-  else if (!strcmp(w, "ia")) put(out, cap, "Une IA est un programme qui apprend à produire des réponses à partir d'exemples.");
-  else if (!strcmp(w, "numworks")) put(out, cap, "La NumWorks est une calculatrice graphique qu'on peut programmer en C ou en Python.");
-  else if (!strcmp(w, "nwa")) put(out, cap, "Un fichier .nwa est une application pour calculatrice NumWorks.");
-  else if (!strcmp(w, "python")) put(out, cap, "Python est un langage de programmation simple à lire, très utilisé en IA.");
-  else if (!strcmp(w, "gemini")) put(out, cap, "Gemini est un assistant d'intelligence artificielle développé par Google.");
-  else if (kb_search(w, out, cap)) {
+  if (strlen(best) >= 4) {
+    put(out, cap, "Je ne suis pas sûr de comprendre « ");
+    add(out, cap, best);
+    add(out, cap, " ». Peux-tu préciser ta question ?");
   } else {
-    put(out, cap, w);
-    add(out, cap, " : je ne connais pas encore bien ce mot. Tu peux m'expliquer ce que c'est ?");
+    static const char *const D[] = {"Tu peux me donner un peu plus de détails ?", "Je ne suis pas sûr de bien comprendre, tu peux reformuler ?", "Qu'est-ce que tu veux savoir exactement ?"};
+    put(out, cap, pick_v(q, D, 3));
   }
-  strncpy(g_topic, w, sizeof g_topic - 1);
-  g_topic[sizeof g_topic - 1] = 0;
-  return true;
 }
 
-static bool g_fallback = false;
-static char g_last_ans[200] = "";
-
-/* Vrai si la question contient un bloc de lettres sans séparateur (charabia). */
-static bool has_long_token(const char *q) {
-  int run = 0;
-  for (const char *p = q; *p; p++) {
-    unsigned char c = (unsigned char)*p;
-    if ((c >= 'a' && c <= 'z') || (c >= '0' && c <= '9')) {
-      if (++run >= 14) return true;
-    } else {
-      run = 0;
-    }
-  }
-  return false;
-}
-
-static void answer_core(const char *question, char *out, int cap, bool art) {
-  char q[160];
-  norm(question, q, sizeof q);
+static void answer_core(const char *raw, char *out, int cap, bool art) {
+  char q[Q_MAX + 4];
+  norm(raw, q, sizeof q);
   out[0] = 0;
-  g_fallback = false;
-  if (has_long_token(q)) {
-    put(out, cap, "Je n'ai pas bien compris ce message. Peux-tu le reformuler avec des mots simples ?");
-    return;
-  }
 
   if (art) {
     art_answer(q, out, cap);
     return;
   }
+  if (has_long_token(q)) {
+    put(out, cap, "Je n'ai pas bien compris ce message. Peux-tu le reformuler avec des mots simples ?");
+    return;
+  }
   if (math_answer(q, out, cap)) return;
 
-  if (has(q, "au revoir") || has(q, "bye") || has(q, "a plus") || has(q, "a bientot") || has(q, "adieu")) {
-    static const char *const B[] = {"À bientôt !", "À plus tard !", "Bonne journée !"};
-    pick(out, cap, B, 3);
-    return;
-  }
-  if (has(q, "merci")) {
-    static const char *const T[] = {"Avec plaisir !", "Je t'en prie !", "Avec plaisir, je suis là si tu as besoin."};
-    pick(out, cap, T, 3);
-    return;
-  }
-  if (has(q, "bonjour") || has(q, "bonsoir") || has(q, "salut") || has(q, "hello") || has(q, "coucou") || has(q, "hey")) {
+  Intent it = best_intent(q);
+
+  if (has(q, " ca va ") && (has(q, " bonjour ") || has(q, " salut ") || has(q, " bonsoir ") || has(q, " hello "))) {
     if (g_name[0]) {
       put(out, cap, "Bonjour ");
       add(out, cap, g_name);
-      add(out, cap, " ! ");
+      add(out, cap, " ! Je vais bien, merci. Et toi ?");
     } else {
-      put(out, cap, "Bonjour ! ");
-    }
-    static const char *const G[] = {"Comment ça va aujourd'hui ?", "Qu'est-ce qui t'amène ?", "Je t'écoute."};
-    pick(out, cap, G, 3);
-    return;
-  }
-  if (has(q, "qui es") || has(q, "ton nom") || (has(q, "appelles") && has(q, "tu"))) {
-    put(out, cap, "Je suis Genumi, une IA qui tourne directement sur ta calculatrice, sans internet.");
-    return;
-  }
-  if (has(q, "mon nom") || has(q, "je m appelle") || has(q, "qui suis je")) {
-    if (g_name[0]) {
-      put(out, cap, "Tu t'appelles ");
-      add(out, cap, g_name);
-      add(out, cap, ", c'est bien ça ?");
-    } else {
-      put(out, cap, "Tu ne m'as pas encore dit ton prénom.");
+      put(out, cap, "Bonjour ! Je vais bien, merci. Et toi ?");
     }
     return;
   }
-  if (has(q, "aide") || has(q, "peux tu faire") || has(q, "que sais")) {
-    put(out, cap, "Je peux répondre à des questions, faire des calculs (ex : 12*3+4), donner des capitales, raconter une blague et dessiner. Touche Toolbox : mode image.");
-    return;
+
+  if (it == I_CAPITAL || has(q, " capitale ")) {
+    if (capital_answer(q, out, cap)) return;
   }
-  if (has(q, "ca va") || has(q, "comment vas") || has(q, "tu vas bien") || has(q, "ca roule")) {
-    static const char *const V[] = {"Je vais bien, merci ! Et toi ?", "Très bien, merci de demander. Et toi ?", "Ça roule de mon côté ! Tu as quelque chose en tête ?"};
-    pick(out, cap, V, 3);
-    return;
-  }
-  if (has(q, "triste") || has(q, "mal ") || has(q, "fatigue") || has(q, "stress") || has(q, "ennui") || has(q, "seul")) {
-    pick(out, cap, EMO, 3);
-    return;
-  }
-  if (has(q, "heure") || has(q, "meteo") || has(q, "quel jour") || has(q, "la date")) {
-    put(out, cap, "Je n'ai ni horloge ni accès à internet, donc je ne connais ni l'heure ni la météo.");
-    return;
-  }
-  if (has(q, "numworks") || has(q, "calculatrice")) {
-    put(out, cap, "Je tourne directement sur une NumWorks : je n'ai pas besoin d'internet pour répondre.");
-    return;
-  }
-  if (has(q, "capitale")) {
-    for (unsigned i = 0; i < sizeof CAP_N / sizeof CAP_N[0]; i++) {
-      if (has(q, CAP_N[i])) {
-        put(out, cap, "La capitale : ");
-        add(out, cap, CAP_V[i]);
-        add(out, cap, ".");
-        return;
+
+  if (it == I_DEFINE) {
+    char term[48];
+    if (extract_term(q, term, sizeof term)) {
+      const char *d = find_def(term);
+      if (d) {
+        put(out, cap, d);
+      } else if (kb_search(term, out, cap)) {
+        /* réponse trouvée dans la base */
+      } else {
+        put(out, cap, term);
+        add(out, cap, " : je ne connais pas encore bien ce mot. Tu peux m'expliquer ce que c'est ?");
       }
+      strncpy(g_topic, term, sizeof g_topic - 1);
+      g_topic[sizeof g_topic - 1] = 0;
+      return;
     }
   }
-  if (definition(q, out, cap)) return;
-  if (has(q, "blague") || has(q, "drole") || has(q, "rigole")) {
-    pick(out, cap, JOKES, 3);
-    return;
-  }
-  if (has(q, "et toi") || has(q, "pourquoi") || has(q, "comment ca")) {
+
+  if (it == I_FOLLOW) {
+    if (has(q, " et toi ")) {
+      put(out, cap, "Moi, je suis une IA qui tourne sur ta calculatrice. Et toi, qu'est-ce qui t'intéresse ?");
+      return;
+    }
+    if (g_topic[0] && kb_search(g_topic, out, cap)) return;
     if (g_topic[0]) {
       put(out, cap, "Bonne question sur ");
       add(out, cap, g_topic);
       add(out, cap, " ! Je peux t'expliquer davantage si tu veux.");
-    } else {
-      put(out, cap, "Bonne question ! Tu peux préciser un peu ?");
+      return;
     }
+  }
+
+  if (it == I_MYNAME_SAY) {
+    /* « je m appelle Léa » : on retient le prénom qui suit */
+    const char *p = strstr(q, " je m appelle ");
+    if (p) {
+      p += strlen(" je m appelle ");
+      char nm[32];
+      int n = 0;
+      while (*p == ' ') p++;
+      while (*p && *p != ' ' && n < 31) nm[n++] = *p++;
+      nm[n] = 0;
+      if (n >= 2) {
+        if (nm[0] >= 'a' && nm[0] <= 'z') nm[0] = (char)(nm[0] - 32);
+        engine_set_name(nm);
+        put(out, cap, "Enchanté ");
+        add(out, cap, nm);
+        add(out, cap, " ! Je retiens ton prénom pendant cette session.");
+        return;
+      }
+    }
+  }
+
+  if (it != I_NONE && it != I_DEFINE && it != I_FOLLOW && it != I_CAPITAL) {
+    answer_intent(it, q, out, cap);
+    if (out[0]) return;
+  }
+
+  if (it == I_CAPITAL) {
+    put(out, cap, "De quel pays veux-tu la capitale ?");
     return;
   }
-  if (kb_search(q, out, cap)) return;
-  static const char *const D[] = {
-    "Tu peux me donner un peu plus de détails ?",
-    "Je ne suis pas sûr de bien comprendre, tu peux reformuler ?",
-    "Qu'est-ce que tu veux savoir exactement ?",
-  };
-  g_fallback = true;
-  pick(out, cap, D, 3);
-}
 
-static bool is_followup(const char *q) {
-  if ((int)strlen(q) <= 22) return true;
-  return has(q, "et lui") || has(q, "et elle") || has(q, "et ca") || has(q, "pourquoi")
-      || has(q, "explique") || has(q, "plus de details") || has(q, "encore") || has(q, "et pour");
+  if (kb_search(q, out, cap)) return;
+
+  clarify(q, out, cap);
 }
 
 void answer_for(const char *question, char *out, int cap, bool art) {
-  char q[160];
-  norm(question, q, sizeof q);
+  g_art = art;
   answer_core(question, out, cap, art);
-  if (!art && g_fallback && g_topic[0] && is_followup(q)) {
-    char q2[220];
-    strncpy(q2, q, 159);
-    q2[159] = 0;
-    strcat(q2, " ");
-    strcat(q2, g_topic);
-    answer_core(q2, out, cap, art);
-  }
-  if (g_last_ans[0] && !strcmp(out, g_last_ans)) {
+  if (!art && g_last[0] && !strcmp(out, g_last)) {
     char t[220];
     put(t, sizeof t, "Je te l'ai déjà dit : ");
     add(t, sizeof t, out);
     strncpy(out, t, cap - 1);
     out[cap - 1] = 0;
   }
-  strncpy(g_last_ans, out, sizeof g_last_ans - 1);
-  g_last_ans[sizeof g_last_ans - 1] = 0;
-}
-
-void engine_reset(void) {
-  g_topic[0] = 0;
-  g_last_ans[0] = 0;
+  strncpy(g_last, out, sizeof g_last - 1);
+  g_last[sizeof g_last - 1] = 0;
 }
