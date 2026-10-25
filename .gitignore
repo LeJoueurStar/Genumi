@@ -1,0 +1,4 @@
+output/
+build.log
+genumi_flat.png
+*.o

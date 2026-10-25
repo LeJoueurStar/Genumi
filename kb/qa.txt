@@ -1,0 +1,378 @@
+# question | réponse | mots-clés (optionnels, séparés par des virgules)
+Qu'est-ce que la photosynthèse ? | La photosynthèse est le processus par lequel les plantes transforment la lumière, l'eau et le CO2 en sucres et en oxygène. | plante,soleil,chlorophylle
+Quelle est la capitale du Canada ? | La capitale du Canada est Ottawa. | canada,ottawa
+Qui a peint la Joconde ? | La Joconde a été peinte par Léonard de Vinci, vers 1503. | joconde,vinci,tableau
+Combien de planètes dans le système solaire ? | Le système solaire compte huit planètes : Mercure, Vénus, la Terre, Mars, Jupiter, Saturne, Uranus et Neptune. | planete,espace,soleil
+Qu'est-ce qu'un volcan ? | Un volcan est une ouverture de la croûte terrestre par laquelle sortent du magma, des gaz et des cendres. | lave,eruption,terre
+Quand la Révolution française a-t-elle commencé ? | La Révolution française a commencé en 1789, avec la prise de la Bastille. | bastille,1789,france
+Qu'est-ce qu'un nombre premier ? | Un nombre premier est un entier supérieur à 1 qui n'a que deux diviseurs : 1 et lui-même. Exemples : 2, 3, 5, 7, 11. | premier,diviseur,arithmetique
+Le nombre 1 est-il premier ? | Non. Un nombre premier doit avoir exactement deux diviseurs, or 1 n'en a qu'un : lui-même. | premier,nombre,un
+Qu'est-ce que le théorème de Pythagore ? | Dans un triangle rectangle, le carré de l'hypoténuse est égal à la somme des carrés des deux autres côtés : a² + b² = c². | pythagore,triangle,rectangle,hypotenuse
+Quelle est la formule de l'aire d'un disque ? | L'aire d'un disque de rayon r est π × r². | aire,disque,cercle,rayon
+Quelle est la formule du périmètre d'un cercle ? | Le périmètre d'un cercle de rayon r est 2 × π × r, soit π × d avec d le diamètre. | perimetre,cercle,rayon,diametre
+Quelle est la valeur de pi ? | π est environ égal à 3,14159. C'est le rapport entre le périmètre d'un cercle et son diamètre. | pi,cercle
+Qu'est-ce qu'une fraction irréductible ? | Une fraction est irréductible quand son numérateur et son dénominateur n'ont aucun diviseur commun autre que 1. Exemple : 3/4 est irréductible, 6/8 ne l'est pas. | fraction,irreductible,simplifier
+Comment additionner deux fractions ? | On met les fractions au même dénominateur, puis on additionne les numérateurs. Exemple : 1/2 + 1/3 = 3/6 + 2/6 = 5/6. | fraction,addition,denominateur
+Comment multiplier deux fractions ? | On multiplie les numérateurs entre eux et les dénominateurs entre eux. Exemple : 2/3 × 3/5 = 6/15 = 2/5. | fraction,multiplication
+Comment diviser deux fractions ? | On multiplie par l'inverse de la seconde. Exemple : 1/2 ÷ 3/4 = 1/2 × 4/3 = 4/6 = 2/3. | fraction,division,inverse
+Qu'est-ce qu'un nombre décimal ? | Un nombre décimal est un nombre qui peut s'écrire avec un nombre fini de chiffres après la virgule, comme 2,75 ou 0,5. | decimal,virgule
+Combien font 25 % de 80 ? | 25 % de 80 vaut 80 × 25 / 100 = 2000 / 100 = 20. | pourcentage,pourcent,calcul
+Comment calculer un pourcentage ? | Pour calculer p % d'un nombre N, on fait N × p / 100. Exemple : 15 % de 200 = 200 × 15 / 100 = 30. | pourcentage,calcul
+Comment calculer une augmentation de 10 % ? | On multiplie par 1,10. Exemple : 200 augmenté de 10 % donne 200 × 1,10 = 220. | augmentation,pourcentage
+Comment calculer une réduction de 20 % ? | On multiplie par 0,80. Exemple : 50 diminué de 20 % donne 50 × 0,80 = 40. | reduction,pourcentage,diminution
+Qu'est-ce qu'une puissance ? | Une puissance est un produit de facteurs identiques : a^n = a × a × ... × a, avec n facteurs. Exemple : 2^5 = 2 × 2 × 2 × 2 × 2 = 32. | puissance,exposant
+Que vaut un nombre à la puissance zéro ? | Tout nombre non nul élevé à la puissance 0 vaut 1. Exemple : 5^0 = 1. | puissance,zero
+Quelles sont les règles de calcul des puissances ? | Pour a non nul : a^m × a^n = a^(m+n), et (a^m)^n = a^(m×n). Exemple : 2^3 × 2^4 = 2^7 = 128. | puissance,regle
+Qu'est-ce qu'une racine carrée ? | La racine carrée de x est le nombre positif qui, élevé au carré, donne x. Exemple : √49 = 7. | racine,carree
+Combien vaut la racine de 2 environ ? | La racine carrée de 2 est environ 1,414. | racine,2
+Quelle est la priorité des opérations ? | On calcule d'abord les parenthèses, puis les puissances et racines, puis les multiplications et divisions, et enfin les additions et soustractions. Exemple : 2 + 3 × 4 = 2 + 12 = 14. | priorite,operation,calcul,ordre
+Comment résoudre une équation du premier degré ? | On isole l'inconnue en faisant la même opération des deux côtés. Exemple : 2x + 3 = 11, donc 2x = 8 puis x = 4. | equation,inconnue,premier,degre,resoudre
+Qu'est-ce qu'une équation du second degré ? | C'est une équation de la forme ax² + bx + c = 0, avec a non nul. On la résout avec le discriminant Δ = b² − 4ac. | equation,second,degre,discriminant
+Comment interpréter le discriminant ? | Si Δ > 0, l'équation a deux solutions réelles ; si Δ = 0, une solution double ; si Δ < 0, aucune solution réelle. | discriminant,equation
+Quelles sont les solutions de x² − 5x + 6 = 0 ? | Δ = 25 − 24 = 1. Les solutions sont x = (5 − 1) / 2 = 2 et x = (5 + 1) / 2 = 3. | equation,second,degre,solution,discriminant
+Qu'est-ce qu'une fonction affine ? | Une fonction affine est de la forme f(x) = ax + b. Sa représentation est une droite de coefficient directeur a, qui coupe l'axe des ordonnées en b. | fonction,affine,droite,coefficient
+Qu'est-ce qu'une fonction linéaire ? | C'est une fonction affine avec b = 0, de la forme f(x) = ax. Sa courbe passe par l'origine du repère. | fonction,lineaire,origine
+Qu'est-ce que la fonction carré ? | La fonction carré est définie par f(x) = x². Sa courbe est une parabole, décroissante sur ]−∞ ; 0] puis croissante sur [0 ; +∞[. | fonction,carre,parabole
+Qu'est-ce qu'un vecteur ? | Un vecteur est défini par une direction, un sens et une longueur. Il se note souvent AB ou u. | vecteur,direction
+Qu'est-ce qu'une suite arithmétique ? | Une suite arithmétique a une différence constante r entre deux termes consécutifs : u(n+1) = u(n) + r. Son terme général est u(n) = u0 + n × r. | suite,arithmetique,raison
+Qu'est-ce qu'une suite géométrique ? | Une suite géométrique a un rapport constant q entre deux termes consécutifs : u(n+1) = u(n) × q. Son terme général est u(n) = u0 × q^n. | suite,geometrique,raison
+Qu'est-ce qu'une probabilité ? | Une probabilité est un nombre entre 0 et 1 qui mesure la chance qu'un événement se réalise. Si les issues sont équiprobables, P(A) = nombre de cas favorables / nombre de cas possibles. | probabilite,hasard,evenement
+Quelle est la probabilité d'obtenir 6 avec un dé équilibré ? | Il y a 1 cas favorable sur 6 cas possibles, donc P = 1/6, soit environ 0,167. | probabilite,de,six
+Qu'est-ce que la moyenne d'une série ? | La moyenne est la somme des valeurs divisée par leur nombre. Exemple : la moyenne de 4, 6 et 8 est (4 + 6 + 8) / 3 = 6. | moyenne,statistique,serie
+Qu'est-ce que la médiane ? | La médiane est la valeur centrale d'une série rangée par ordre croissant : la moitié des valeurs lui est inférieure, l'autre moitié supérieure. Exemple : la médiane de 1, 3, 4, 8, 9 est 4. | mediane,statistique
+Qu'est-ce que le PGCD ? | Le PGCD de deux entiers est leur plus grand diviseur commun. Exemple : PGCD(12 ; 18) = 6. | pgcd,diviseur,commun
+Qu'est-ce que le PPCM ? | Le PPCM de deux entiers est leur plus petit multiple commun. Exemple : PPCM(4 ; 6) = 12. | ppcm,multiple,commun
+Qu'est-ce qu'un nombre rationnel ? | Un nombre rationnel peut s'écrire sous forme de fraction a/b, avec a entier et b entier non nul. Exemple : 0,75 = 3/4. | rationnel,fraction
+Qu'est-ce qu'un nombre irrationnel ? | Un nombre irrationnel ne peut pas s'écrire sous forme de fraction d'entiers. Exemples : racine de 2, π. | irrationnel,racine,pi
+Combien de côtés a un hexagone ? | Un hexagone a 6 côtés et 6 sommets. | hexagone,polygone,cote
+Quelle est la somme des angles d'un triangle ? | La somme des angles d'un triangle vaut 180 degrés. | triangle,angle,180
+Quelle est la somme des angles d'un quadrilatère ? | La somme des angles d'un quadrilatère vaut 360 degrés. | quadrilatere,angle,360
+Comment calculer l'aire d'un triangle ? | L'aire d'un triangle est base × hauteur / 2. Exemple : base 6 cm, hauteur 4 cm : aire = 6 × 4 / 2 = 12 cm². | aire,triangle,base,hauteur
+Comment calculer l'aire d'un rectangle ? | L'aire d'un rectangle est longueur × largeur. Exemple : 5 cm × 3 cm = 15 cm². | aire,rectangle,longueur,largeur
+Comment calculer le volume d'un cube ? | Le volume d'un cube de côté c est c³. Exemple : côté 3 cm, volume 27 cm³. | volume,cube,cote
+Comment calculer le volume d'un pavé droit ? | Le volume d'un pavé droit est longueur × largeur × hauteur. | volume,pave,parallelepipede
+Comment calculer le volume d'une sphère ? | Le volume d'une sphère de rayon r est 4/3 × π × r³. | volume,sphere,rayon
+Qu'est-ce qu'un nombre entier relatif ? | Un entier relatif est positif, négatif ou nul : ..., −2, −1, 0, 1, 2, ... | entier,relatif,negatif
+Quelle est la règle des signes pour une multiplication ? | Deux nombres de même signe donnent un produit positif, deux nombres de signes différents donnent un produit négatif. Exemple : (−3) × (−4) = 12 et (−3) × 4 = −12. | signe,multiplication,negatif
+Qu'est-ce qu'un théorème ? | Un théorème est une proposition mathématique démontrée à partir d'axiomes ou d'autres théorèmes. | theoreme,demonstration
+Qu'est-ce qu'une démonstration par récurrence ? | On vérifie que la propriété est vraie au rang initial, puis qu'elle est héréditaire : si elle est vraie au rang n, elle est vraie au rang n + 1. | recurrence,demonstration
+Qu'est-ce qu'une dérivée ? | La dérivée de f en a mesure la pente de sa tangente en a : f'(a) = limite de (f(a + h) − f(a)) / h quand h tend vers 0. | derivee,tangente,pente
+Quelle est la dérivée de x² ? | La dérivée de x² est 2x. | derivee,carre
+Quelle est la dérivée de x³ ? | La dérivée de x³ est 3x². | derivee,cube
+Quelle est la dérivée de sin x ? | La dérivée de sin x est cos x. | derivee,sinus,cosinus
+Qu'est-ce qu'une intégrale ? | L'intégrale d'une fonction positive sur un intervalle [a ; b] est l'aire comprise entre sa courbe, l'axe des abscisses et les droites x = a et x = b. | integrale,aire
+Qu'est-ce que le logarithme népérien ? | Le logarithme népérien ln est la fonction réciproque de l'exponentielle : ln(e^x) = x, et e^(ln x) = x pour x strictement positif. | logarithme,ln,exponentielle
+Quelle est la valeur de e ? | e est environ égal à 2,71828. C'est la base de l'exponentielle et du logarithme népérien. | e,exponentielle,nombre
+Qu'est-ce que le sinus, le cosinus et la tangente ? | Dans un triangle rectangle : sin = côté opposé / hypoténuse, cos = côté adjacent / hypoténuse, tan = côté opposé / côté adjacent. | trigonometrie,sinus,cosinus,tangente
+Combien vaut cos 60 degrés ? | cos 60° = 1/2. | trigonometrie,cosinus,angle
+Combien vaut sin 30 degrés ? | sin 30° = 1/2. | trigonometrie,sinus,angle
+Combien vaut sin 90 degrés ? | sin 90° = 1. | trigonometrie,sinus,angle
+Qu'est-ce qu'un nombre complexe ? | Un nombre complexe s'écrit z = a + ib, avec a et b réels et i² = −1. | complexe,imaginaire
+Combien vaut i au carré ? | i² = −1, par définition de l'unité imaginaire. | complexe,imaginaire,i
+Qu'est-ce que la médiatrice d'un segment ? | La médiatrice d'un segment est la droite perpendiculaire à ce segment passant par son milieu. Tous ses points sont à égale distance des extrémités. | mediatrice,segment,perpendiculaire
+Qu'est-ce que la bissectrice d'un angle ? | La bissectrice d'un angle est la demi-droite qui partage cet angle en deux angles égaux. | bissectrice,angle
+Qu'est-ce qu'un cercle circonscrit ? | Le cercle circonscrit à un triangle passe par ses trois sommets. | cercle,circonscrit,triangle
+Combien vaut 10 puissance 3 ? | 10^3 = 1000. | puissance,dix
+Combien font 7 fois 8 ? | 7 × 8 = 56. | multiplication,table
+Qu'est-ce qu'un nombre pair ? | Un nombre pair est un entier divisible par 2, de la forme 2k. Exemples : 0, 4, 10. | pair,impair,divisible
+Qu'est-ce qu'une vitesse moyenne ? | La vitesse moyenne est la distance parcourue divisée par la durée : v = d / Δt, en mètres par seconde (m/s). Exemple : 100 m en 20 s donne v = 5 m/s. | vitesse,moyenne,distance,mouvement
+Comment convertir des km/h en m/s ? | On divise par 3,6 : 72 km/h = 72 / 3,6 = 20 m/s. | vitesse,conversion,km,ms
+Qu'est-ce que l'accélération ? | L'accélération est la variation de vitesse par unité de temps : a = Δv / Δt, en mètres par seconde carrée (m/s²). | acceleration,vitesse,mouvement
+Qu'est-ce que la première loi de Newton ? | Principe d'inertie : un corps isolé ou soumis à des forces qui se compensent reste au repos ou en mouvement rectiligne uniforme. | newton,inertie,force,repos
+Qu'est-ce que la deuxième loi de Newton ? | Le principe fondamental de la dynamique s'écrit ΣF = m × a : la somme des forces appliquées à un système est égale à sa masse multipliée par son accélération. | newton,dynamique,force,masse,acceleration
+Qu'est-ce que la troisième loi de Newton ? | Principe des actions réciproques : si un corps A exerce une force sur un corps B, B exerce sur A une force de même valeur, de même direction et de sens opposé. | newton,action,reaction,force
+Quelle est la différence entre masse et poids ? | La masse est une quantité de matière, en kilogrammes, qui ne change pas. Le poids est la force d'attraction exercée sur cette masse, P = m × g, en newtons. | masse,poids,force,gravitation
+Combien vaut g sur Terre ? | Au voisinage de la surface terrestre, g vaut environ 9,8 N/kg (ou 9,8 m/s²). | pesanteur,gravite,g,terre
+Qu'est-ce que la loi d'Ohm ? | Pour un conducteur ohmique, la tension U aux bornes est proportionnelle à l'intensité I : U = R × I, avec R la résistance en ohms. | ohm,tension,intensite,resistance
+Quelle est la loi des nœuds ? | La somme des intensités qui arrivent à un nœud est égale à la somme des intensités qui en repartent. | noeud,intensite,courant,electricite
+Quelle est la loi des mailles ? | La somme algébrique des tensions le long d'une maille fermée est nulle. | maille,tension,electricite
+Comment associer des résistances en série ? | La résistance équivalente est la somme : R = R1 + R2 + ... | resistance,serie,equivalente
+Comment associer des résistances en dérivation ? | L'inverse de la résistance équivalente est la somme des inverses : 1/R = 1/R1 + 1/R2 + ... | resistance,derivation,parallele,equivalente
+Qu'est-ce que la puissance électrique ? | La puissance électrique est P = U × I, en watts (W). Exemple : 230 V × 2 A = 460 W. | puissance,electrique,watt,tension,intensite
+Qu'est-ce que l'énergie électrique ? | L'énergie électrique est E = P × t, en joules si P est en watts et t en secondes. En pratique on utilise le kilowattheure (kWh). | energie,electrique,joule,kwh
+Qu'est-ce qu'un circuit en série ? | Dans un circuit en série, le courant a la même intensité en tout point, et la tension se répartit entre les dipôles. | circuit,serie,intensite,tension
+Qu'est-ce qu'un circuit en dérivation ? | Dans un circuit en dérivation, la tension est la même aux bornes de chaque branche, et l'intensité se répartit entre les branches. | circuit,derivation,tension,intensite
+Qu'est-ce qu'une onde mécanique ? | Une onde mécanique est la propagation d'une perturbation dans un milieu matériel, sans transport de matière. | onde,mecanique,propagation
+Quelle est la différence entre onde longitudinale et transversale ? | Dans une onde transversale, la perturbation est perpendiculaire à la direction de propagation (corde). Dans une onde longitudinale, elle lui est parallèle (son dans l'air). | onde,transversale,longitudinale
+Quelle est la vitesse de la lumière dans le vide ? | La vitesse de la lumière dans le vide est c = 3,00 × 10⁸ m/s. | lumiere,celerite,vide,vitesse
+Qu'est-ce que la réfraction ? | La réfraction est le changement de direction d'une onde lumineuse en passant d'un milieu à un autre. | refraction,lumiere,milieu,indice
+Qu'est-ce que l'indice de réfraction ? | L'indice de réfraction n d'un milieu est n = c / v, où v est la vitesse de la lumière dans ce milieu. Il est toujours supérieur ou égal à 1. | indice,refraction,lumiere
+Qu'est-ce que la loi de Snell-Descartes ? | n1 × sin i1 = n2 × sin i2, où i1 et i2 sont les angles d'incidence et de réfraction par rapport à la normale. | snell,descartes,refraction,angle
+Qu'est-ce que la réflexion totale ? | La réflexion totale se produit quand une onde passe d'un milieu plus réfringent vers un milieu moins réfringent avec un angle supérieur à l'angle limite. | reflexion,totale,angle,limite
+Qu'est-ce qu'une lentille convergente ? | Une lentille convergente fait converger les rayons parallèles à l'axe optique en un point appelé foyer image. Elle est plus épaisse au centre que sur les bords. | lentille,convergente,foyer,optique
+Quelle est la relation de conjugaison d'une lentille ? | Relation de Descartes : 1/OA' − 1/OA = 1/f', avec les conventions algébriques de l'optique géométrique. | lentille,conjugaison,descartes,focale
+Qu'est-ce que le spectre électromagnétique ? | Le spectre électromagnétique classe les ondes selon leur fréquence ou leur longueur d'onde : ondes radio, micro-ondes, infrarouge, visible, ultraviolet, rayons X, rayons gamma. | spectre,electromagnetique,onde,frequence
+Qu'est-ce que la longueur d'onde ? | La longueur d'onde λ est la distance parcourue par l'onde pendant une période T : λ = v × T, ou λ = v / f. | longueur,onde,lambda,periode,frequence
+Qu'est-ce que l'effet Doppler ? | L'effet Doppler est le changement de fréquence perçu lorsque la source et l'observateur sont en mouvement relatif : la fréquence augmente à l'approche et diminue à l'éloignement. | effet,doppler,frequence,mouvement
+Qu'est-ce qu'un atome ? | Un atome est constitué d'un noyau (protons et neutrons) entouré d'électrons. Il est électriquement neutre si le nombre de protons est égal au nombre d'électrons. | atome,noyau,proton,neutron,electron
+Qu'est-ce que le numéro atomique ? | Le numéro atomique Z est le nombre de protons dans le noyau. Il identifie l'élément chimique. | numero,atomique,proton,element
+Qu'est-ce que le nombre de masse ? | Le nombre de masse A est le nombre de nucléons (protons et neutrons) du noyau. | nombre,masse,nucleon,isotope
+Qu'est-ce qu'un isotope ? | Des isotopes ont le même numéro atomique Z mais un nombre de neutrons différent, donc un nombre de masse A différent. Exemple : carbone 12 et carbone 14. | isotope,carbone,neutron
+Qu'est-ce qu'un ion ? | Un ion est un atome ou un groupe d'atomes qui a perdu ou gagné des électrons. Un cation est positif, un anion est négatif. | ion,cation,anion,charge
+Qu'est-ce que la classification périodique ? | Les éléments sont rangés par numéro atomique croissant. Les colonnes (familles) regroupent des éléments aux propriétés chimiques semblables, car ils ont le même nombre d'électrons de valence. | classification,periodique,tableau,famille
+Qu'est-ce qu'un gaz noble ? | Les gaz nobles (hélium, néon, argon...) sont très peu réactifs car leur couche externe est saturée à 8 électrons, sauf l'hélium à 2. | gaz,noble,stable,octet
+Qu'est-ce que la règle de l'octet ? | Les atomes tendent à acquérir huit électrons sur leur couche externe, comme les gaz nobles, pour être stables. | octet,electron,stabilite,liaison
+Qu'est-ce qu'une liaison covalente ? | Une liaison covalente est une mise en commun de paires d'électrons entre deux atomes. Exemple : la molécule de dihydrogène H2. | liaison,covalente,electron,molecule
+Qu'est-ce qu'une liaison ionique ? | Une liaison ionique est l'attraction électrostatique entre un cation et un anion. Exemple : le chlorure de sodium NaCl. | liaison,ionique,ion,sel
+Qu'est-ce qu'une mole ? | La mole est l'unité de quantité de matière : une mole contient 6,02 × 10²³ entités élémentaires (nombre d'Avogadro). | mole,quantite,matiere,avogadro
+Quelle est la masse molaire de l'eau ? | La masse molaire de l'eau H2O vaut environ 18 g/mol : 2 × 1 + 16. | masse,molaire,eau,h2o
+Qu'est-ce que la concentration molaire ? | La concentration molaire est C = n / V, la quantité de matière divisée par le volume, en mol/L. | concentration,molaire,solution
+Comment calculer une quantité de matière ? | n = m / M, avec m la masse en grammes et M la masse molaire en g/mol. Exemple : 36 g d'eau (M = 18 g/mol) : n = 2 mol. | quantite,matiere,masse,molaire
+Qu'est-ce qu'une réaction chimique ? | Une réaction chimique transforme des réactifs en produits, en conservant les éléments chimiques : il y a conservation des atomes. | reaction,chimique,reactif,produit
+Qu'est-ce qu'une équation de réaction équilibrée ? | Une équation est équilibrée quand il y a le même nombre d'atomes de chaque élément de part et d'autre de la flèche. Exemple : 2 H2 + O2 → 2 H2O. | equation,equilibrer,atome,reaction
+Qu'est-ce qu'un acide selon Brønsted ? | Un acide est une espèce capable de céder un proton H⁺. Exemple : l'acide chlorhydrique HCl. | acide,bronsted,proton
+Qu'est-ce qu'une base selon Brønsted ? | Une base est une espèce capable de capter un proton H⁺. Exemple : l'ion hydroxyde HO⁻. | base,bronsted,proton
+Qu'est-ce que le pH ? | Le pH est égal à −log[H3O⁺]. Une solution neutre à 25 °C a un pH de 7, un pH inférieur à 7 est acide, supérieur à 7 est basique. | ph,acide,base,neutre
+Qu'est-ce qu'une réaction acido-basique ? | C'est un transfert de proton entre un acide et une base. Exemple : HCl + H2O → Cl⁻ + H3O⁺. | acido,basique,proton,transfert
+Qu'est-ce qu'une réaction d'oxydoréduction ? | C'est un transfert d'électrons : l'oxydant capte des électrons et se réduit, le réducteur en cède et s'oxyde. | oxydoreduction,oxydant,reducteur,electron
+Qu'est-ce qu'un couple oxydant-réducteur ? | Un couple est noté Ox/Red : Ox + n e⁻ ⇌ Red, où Ox est l'oxydant et Red le réducteur. | couple,oxydant,reducteur
+Qu'est-ce que la conservation de l'énergie ? | Dans un système isolé, l'énergie totale se conserve : elle peut se transformer d'une forme à une autre sans disparaître. | energie,conservation,systeme
+Qu'est-ce que l'énergie cinétique ? | L'énergie cinétique est Ec = ½ × m × v², avec m en kilogrammes et v en mètres par seconde. | energie,cinetique,vitesse,masse
+Qu'est-ce que l'énergie potentielle de pesanteur ? | Ep = m × g × h, où h est l'altitude par rapport à un niveau de référence choisi. | energie,potentielle,pesanteur,altitude
+Qu'est-ce que le travail d'une force ? | Le travail d'une force constante est W = F × d × cos α, où α est l'angle entre la force et le déplacement. Il s'exprime en joules. | travail,force,deplacement,joule
+Qu'est-ce qu'une transformation endothermique ? | Une transformation endothermique absorbe de l'énergie thermique de l'extérieur. Exemple : la fusion de la glace. | endothermique,energie,chaleur
+Qu'est-ce qu'une transformation exothermique ? | Une transformation exothermique libère de l'énergie thermique vers l'extérieur. Exemple : la combustion du méthane. | exothermique,energie,chaleur,combustion
+Quelle est la différence entre température et chaleur ? | La température mesure l'agitation thermique moyenne des particules, en kelvins ou degrés Celsius. La chaleur est un transfert d'énergie thermique entre deux corps de températures différentes. | temperature,chaleur,transfert,kelvin
+Comment convertir des degrés Celsius en kelvins ? | T(K) = θ(°C) + 273,15. Exemple : 20 °C = 293,15 K. | temperature,kelvin,celsius,conversion
+Qu'est-ce qu'un état de la matière ? | Les trois états courants sont solide (forme et volume propres), liquide (volume propre, forme du récipient) et gaz (ni forme ni volume propres). | etat,matiere,solide,liquide,gaz
+Qu'est-ce que la loi des gaz parfaits ? | p × V = n × R × T, avec p en pascals, V en mètres cubes, n en moles, T en kelvins et R = 8,31 J/(mol·K). | gaz,parfait,pression,volume,loi
+Qu'est-ce qu'un corps pur ? | Un corps pur est constitué d'une seule espèce chimique, avec des propriétés physiques fixes (température de fusion, masse volumique). Un mélange en contient plusieurs. | corps,pur,melange,espece
+Qu'est-ce qu'une solution ? | Une solution est un mélange homogène d'un soluté dissous dans un solvant. Exemple : le sel dans l'eau. | solution,solute,solvant,melange
+Qu'est-ce que la masse volumique ? | La masse volumique est ρ = m / V, en kg/m³ ou g/cm³. Exemple : l'eau a une masse volumique d'environ 1 g/cm³. | masse,volumique,densite
+Qu'est-ce que la densité ? | La densité d'un solide ou d'un liquide est le rapport de sa masse volumique à celle de l'eau. Elle est sans unité. | densite,masse,volumique,eau
+Qu'est-ce que le principe d'Archimède ? | Tout corps plongé dans un fluide subit une poussée verticale, dirigée vers le haut, égale au poids du fluide déplacé : Π = ρ × V × g. | archimede,poussee,fluide,flottaison
+Qu'est-ce que la pression ? | La pression est p = F / S, la force pressante divisée par la surface pressée. L'unité est le pascal (Pa), soit N/m². | pression,force,surface,pascal
+Quelle est la loi fondamentale de l'hydrostatique ? | p_B − p_A = ρ × g × (z_A − z_B) : la pression augmente avec la profondeur. | hydrostatique,pression,profondeur,fluide
+Qu'est-ce qu'une onde sonore ? | Une onde sonore est une onde longitudinale mécanique. Sa vitesse dépend du milieu : environ 340 m/s dans l'air à 15 °C. | son,onde,sonore,vitesse,air
+Qu'est-ce que la fréquence d'une onde ? | La fréquence f est le nombre de périodes par seconde, en hertz (Hz) : f = 1 / T. | frequence,hertz,periode,onde
+Qu'est-ce qu'un signal périodique ? | Un signal est périodique si ses valeurs se répètent identiquement à intervalles de temps réguliers, de période T. | signal,periodique,periode
+Qu'est-ce que l'énergie nucléaire de liaison ? | C'est l'énergie qu'il faut fournir pour séparer tous les nucléons d'un noyau. Elle mesure la stabilité du noyau. | nucleaire,liaison,noyau,stabilite
+Qu'est-ce que la radioactivité ? | C'est la désintégration spontanée de noyaux instables, avec émission de rayonnements alpha, bêta ou gamma. | radioactivite,desintegration,alpha,beta,gamma
+Qu'est-ce que la demi-vie ? | La demi-vie d'un élément radioactif est la durée au bout de laquelle la moitié des noyaux initiaux se sont désintégrés. | demi,vie,radioactif,desintegration
+Qu'est-ce que la fission nucléaire ? | La fission est la cassure d'un noyau lourd en noyaux plus légers, avec libération d'énergie. Elle est utilisée dans les centrales nucléaires. | fission,nucleaire,energie,noyau
+Qu'est-ce que la fusion nucléaire ? | La fusion est la réunion de noyaux légers en un noyau plus lourd, avec libération d'énergie. C'est le processus qui alimente le Soleil. | fusion,nucleaire,soleil,energie
+Qu'est-ce qu'un électron de valence ? | Un électron de valence est un électron de la couche externe d'un atome. Il détermine les propriétés chimiques de l'élément. | valence,electron,couche,externe
+Qu'est-ce qu'une catalyse ? | Un catalyseur accélère une réaction chimique sans être consommé et sans modifier son bilan. | catalyse,catalyseur,reaction,vitesse
+Qu'est-ce que la vitesse d'une réaction ? | La vitesse d'une réaction dépend de la concentration des réactifs, de la température et de la présence éventuelle d'un catalyseur. | vitesse,reaction,concentration,temperature
+Qu'est-ce qu'un équilibre chimique ? | Un équilibre chimique est atteint quand les concentrations des espèces ne varient plus, bien que les réactions continuent dans les deux sens. | equilibre,chimique,concentration
+Qu'est-ce que le quotient de réaction ? | Le quotient de réaction Q compare les concentrations actuelles des produits et des réactifs. À l'équilibre, Q est égal à la constante K. | quotient,reaction,constante,equilibre
+Qu'est-ce que la loi de Hess ? | L'énergie d'une réaction ne dépend que de l'état initial et de l'état final : on peut additionner les énergies des étapes intermédiaires. | hess,energie,reaction,etat
+Qu'est-ce qu'une réaction de combustion ? | Une combustion est une réaction rapide d'un combustible avec le dioxygène, avec dégagement de chaleur. Exemple : CH4 + 2 O2 → CO2 + 2 H2O. | combustion,methane,oxygene,chaleur
+Qu'est-ce qu'un alcane ? | Un alcane est un hydrocarbure saturé de formule générale CnH2n+2. Exemple : le méthane CH4, l'éthane C2H6. | alcane,hydrocarbure,saturé,methane
+Qu'est-ce qu'un groupe caractéristique ? | C'est un atome ou un groupe d'atomes qui donne ses propriétés chimiques à une famille de composés, comme le groupe hydroxyle OH des alcools. | groupe,caracteristique,alcool,fonction
+Qu'est-ce qu'un isomère ? | Des isomères ont la même formule brute mais des formules développées différentes. Exemple : le butane et le 2-méthylpropane, tous deux C4H10. | isomere,formule,brute,developpee
+Qu'est-ce que la spectroscopie infrarouge ? | C'est une méthode qui identifie des groupes fonctionnels grâce à leurs bandes d'absorption infrarouge, caractéristiques de certaines liaisons. | spectroscopie,infrarouge,absorption,liaison
+Comment nommer un alcane linéaire ? | On compte les atomes de carbone et on utilise le préfixe grec suivi de -ane : méthane (1 C), éthane (2), propane (3), butane (4), pentane (5), hexane (6). | nomenclature,alcane,methane,propane,butane
+Comment nommer un alcane ramifié ? | On repère la chaîne carbonée la plus longue, on numérote pour donner les plus petits indices aux substituants, puis on cite les substituants par ordre alphabétique. Exemple : 2-méthylbutane. | nomenclature,alcane,ramifie,substituant,chaine
+Qu'est-ce qu'un alcène ? | Un alcène est un hydrocarbure insaturé qui contient au moins une double liaison C=C, de formule générale CnH2n. Exemple : l'éthène C2H4. | alcene,insature,double,liaison
+Qu'est-ce qu'un alcyne ? | Un alcyne contient une triple liaison C≡C, de formule générale CnH2n−2. Exemple : l'éthyne C2H2. | alcyne,triple,liaison
+Qu'est-ce qu'un hydrocarbure aromatique ? | Un composé aromatique contient un cycle à six carbones avec des liaisons délocalisées, comme le benzène C6H6. | aromatique,benzene,cycle,delocalise
+Qu'est-ce qu'un alcool ? | Un alcool contient le groupe hydroxyle −OH fixé sur un carbone saturé. Exemple : l'éthanol C2H5OH. | alcool,hydroxyle,ethanol
+Qu'est-ce qu'un acide carboxylique ? | Un acide carboxylique contient le groupe −COOH. Exemple : l'acide éthanoïque CH3COOH, ou acide acétique. | acide,carboxylique,cooh,ethanoique,acetique
+Qu'est-ce qu'un ester ? | Un ester résulte de la réaction d'un acide carboxylique sur un alcool (estérification) : R-COOH + R'-OH ⇌ R-COO-R' + H2O. | ester,estérification,acide,alcool
+Qu'est-ce qu'une amine ? | Une amine est un composé qui dérive de l'ammoniac NH3 par remplacement d'un ou plusieurs hydrogènes par des groupes carbonés. | amine,ammoniac,azote
+Qu'est-ce qu'une réaction de substitution ? | Une substitution remplace un atome ou un groupe d'atomes par un autre. Exemple : la chloration du méthane CH4 + Cl2 → CH3Cl + HCl. | substitution,halogenation,chloration,methane
+Qu'est-ce qu'une réaction d'addition ? | Une addition consiste à fixer deux atomes ou groupes sur une double ou triple liaison. Exemple : l'hydrogénation de l'éthène C2H4 + H2 → C2H6. | addition,alcene,hydrogenation
+Qu'est-ce qu'une réaction d'élimination ? | Une élimination retire deux atomes ou groupes voisins pour former une liaison multiple. Exemple : la déshydratation de l'éthanol en éthène. | elimination,deshydratation,alcool
+Qu'est-ce que la stœchiométrie ? | La stœchiométrie étudie les proportions des réactifs et des produits d'une réaction, à partir des coefficients de l'équation équilibrée. | stechiometrie,proportion,coefficient,equation
+Comment faire un calcul stœchiométrique ? | On écrit l'équation équilibrée, on convertit les masses en quantités de matière (n = m/M), on utilise les coefficients pour trouver la quantité recherchée, puis on reconvertit en masse si nécessaire. | stechiometrie,calcul,quantite,matiere,masse
+Quelle masse d'eau obtient-on avec 4 g de dihydrogène et l'oxygène en excès ? | Équation : 2 H2 + O2 → 2 H2O. n(H2) = 4 / 2 = 2 mol, donc n(H2O) = 2 mol, soit m = 2 × 18 = 36 g d'eau. | stechiometrie,eau,dihydrogene,masse
+Qu'est-ce que le réactif limitant ? | C'est le réactif entièrement consommé en premier : il détermine la quantité maximale de produit formée. | reactif,limitant,stechiometrie,produit
+Comment trouver le réactif limitant ? | On calcule la quantité de chaque réactif, on la divise par son coefficient stœchiométrique, et le plus petit résultat désigne le réactif limitant. | reactif,limitant,calcul,coefficient
+Qu'est-ce que le rendement d'une réaction ? | Le rendement est le rapport entre la quantité de produit réellement obtenue et la quantité théorique attendue, souvent exprimé en pourcentage. | rendement,reaction,pourcentage,theorique
+Qu'est-ce que le volume molaire d'un gaz ? | Dans les conditions normales (0 °C, 1 atm), une mole de gaz parfait occupe environ 22,4 L. | volume,molaire,gaz,normal
+Comment calculer la concentration d'une solution diluée ? | Lors d'une dilution, la quantité de soluté se conserve : C1 × V1 = C2 × V2. Exemple : 0,5 mol/L en 100 mL, dilué à 250 mL, donne C2 = 0,5 × 100 / 250 = 0,2 mol/L. | dilution,concentration,solution,volume
+Qu'est-ce qu'une solution saturée ? | Une solution est saturée quand le solvant ne peut plus dissoudre de soluté à une température donnée : le surplus reste sous forme solide. | solution,saturee,solubilite,solute
+Qu'est-ce que la constante d'acidité Ka ? | Pour l'équilibre HA + H2O ⇌ A⁻ + H3O⁺, Ka = [A⁻][H3O⁺] / [HA]. Plus Ka est grand, plus l'acide est fort. | acidite,ka,constante,acide
+Qu'est-ce que le pKa ? | Le pKa est égal à −log Ka. Plus le pKa est petit, plus l'acide est fort. | pka,acidite,constante
+Qu'est-ce qu'un acide fort ? | Un acide fort est entièrement dissocié dans l'eau, avec un pKa inférieur à 0 environ. Exemple : l'acide chlorhydrique HCl. | acide,fort,dissociation,hcl
+Qu'est-ce qu'un acide faible ? | Un acide faible n'est que partiellement dissocié dans l'eau, avec un pKa supérieur à environ 4. Exemple : l'acide éthanoïque CH3COOH. | acide,faible,dissociation,ethanoique
+Qu'est-ce qu'une solution tampon ? | Une solution tampon contient un acide faible et sa base conjuguée. Son pH varie peu lors d'un ajout modéré d'acide ou de base. | tampon,solution,ph,acide,base
+Comment calculer le pH d'un acide fort ? | Pour un acide fort de concentration c, [H3O⁺] = c, donc pH = −log c. Exemple : c = 0,01 mol/L, pH = 2. | ph,acide,fort,calcul,concentration
+Comment calculer le pH d'une base forte ? | Pour une base forte de concentration c, [HO⁻] = c, donc pOH = −log c et pH = 14 − pOH. Exemple : c = 0,01 mol/L, pH = 12. | ph,base,forte,calcul,poh
+Qu'est-ce que le produit ionique de l'eau ? | À 25 °C, Ke = [H3O⁺][HO⁻] = 10⁻¹⁴. Dans l'eau pure, [H3O⁺] = [HO⁻] = 10⁻⁷ mol/L. | eau,produit,ionique,ke,ph
+Qu'est-ce qu'un titrage acido-basique ? | C'est une méthode qui détermine la concentration d'une solution en la faisant réagir avec une solution de concentration connue jusqu'à l'équivalence. | titrage,dosage,equivalence,acide,base
+Qu'est-ce que l'équivalence d'un titrage ? | L'équivalence est le moment où les réactifs ont été introduits dans les proportions stœchiométriques de la réaction. | equivalence,titrage,stechiometrie
+Qu'est-ce qu'un indicateur coloré ? | C'est un couple acide-base dont les deux formes ont des couleurs différentes. Il change de couleur autour de son pKa, ce qui permet de repérer l'équivalence. | indicateur,colore,ph,titrage
+Qu'est-ce qu'une pile électrochimique ? | Une pile transforme de l'énergie chimique en énergie électrique grâce à une réaction d'oxydoréduction, les deux demi-réactions étant séparées. | pile,electrochimie,oxydoreduction,energie
+Qu'est-ce qu'une électrolyse ? | L'électrolyse est une réaction forcée par un générateur, qui transforme de l'énergie électrique en énergie chimique. | electrolyse,generateur,energie,chimique
+Qu'est-ce que la loi de Faraday ? | La quantité de matière transformée à une électrode est proportionnelle à la charge électrique qui a traversé le circuit : Q = n × z × F, avec F = 96 500 C/mol. | faraday,electrolyse,charge,quantite
+Qu'est-ce que la série électrochimique ? | C'est le classement des couples oxydant-réducteur par potentiel standard. Un oxydant est d'autant plus fort que son potentiel est élevé. | serie,electrochimique,potentiel,oxydant
+Qu'est-ce que la corrosion ? | La corrosion est une oxydation spontanée d'un métal au contact d'un oxydant, comme le dioxygène de l'air, et souvent de l'eau. | corrosion,oxydation,metal,rouille
+Qu'est-ce que la protection cathodique ? | C'est une méthode qui protège un métal de la corrosion en le reliant à un métal plus réducteur, qui se corrode à sa place. | protection,cathodique,corrosion,anode
+Qu'est-ce que la liaison hydrogène ? | C'est une interaction intermoléculaire entre un atome d'hydrogène lié à un atome très électronégatif (O, N, F) et un autre atome électronégatif voisin. Elle explique la cohésion de l'eau. | liaison,hydrogene,intermoleculaire,eau
+Qu'est-ce que l'électronégativité ? | C'est la capacité d'un atome à attirer le doublet d'une liaison covalente vers lui. Elle augmente de gauche à droite et de bas en haut dans la classification. | electronegativite,liaison,polarisation
+Qu'est-ce qu'une molécule polaire ? | Une molécule est polaire si ses liaisons sont polarisées et que ses barycentres des charges positives et négatives ne coïncident pas. Exemple : l'eau. | molecule,polaire,dipole,eau
+Qu'est-ce que la géométrie VSEPR ? | La méthode VSEPR prédit la forme d'une molécule en plaçant les doublets d'électrons autour de l'atome central pour qu'ils soient le plus éloignés possible. Exemple : l'eau est coudée, l'ammoniac pyramidal, le méthane tétraédrique. | vsepr,geometrie,molecule,forme
+Quelle est la structure de Lewis du dioxyde de carbone ? | Le carbone a 4 électrons de valence, chaque oxygène 6. La molécule O=C=O comporte deux doubles liaisons C=O et aucun doublet non liant sur le carbone. | lewis,co2,dioxyde,carbone,structure
+Qu'est-ce que la mole par litre ? | C'est l'unité de concentration molaire, notée mol/L : une mole de soluté par litre de solution. | mol,litre,concentration,unite
+Qu'est-ce qu'un électron célibataire ? | C'est un électron seul dans une case quantique, qui rend la molécule ou l'atome paramagnétique. | electron,celibataire,paramagnetique
+Qu'est-ce que la configuration électronique ? | C'est la répartition des électrons dans les couches et sous-couches, en respectant le principe de Pauli, la règle de Klechkowski et la règle de Hund. Exemple : O = 1s² 2s² 2p⁴. | configuration,electronique,couche,orbitale
+Qu'est-ce que la règle de Hund ? | Dans une sous-couche, les électrons occupent d'abord chaque case quantique avec des spins parallèles, avant de former des doublets. | hund,configuration,electronique,spin
+Qu'est-ce que le principe de Pauli ? | Deux électrons d'un même atome ne peuvent pas avoir les quatre mêmes nombres quantiques : une case quantique contient au plus deux électrons de spins opposés. | pauli,electron,nombre,quantique
+Qu'est-ce qu'une réaction de précipitation ? | C'est une réaction qui forme un solide peu soluble, appelé précipité, lorsqu'on mélange deux solutions. Exemple : Ag⁺ + Cl⁻ → AgCl (s). | precipitation,solide,solubilite,argent
+Qu'est-ce que le produit de solubilité Ks ? | Pour AB (s) ⇌ A⁺ + B⁻, Ks = [A⁺][B⁻]. Un précipité apparaît quand le quotient de réaction dépasse Ks. | solubilite,ks,precipitation,constante
+Qu'est-ce qu'un complexe ? | Un complexe est un ion central, souvent un métal, lié à des molécules ou ions appelés ligands par des liaisons de coordination. | complexe,ligand,coordination,metal
+Qu'est-ce qu'un isomère de configuration ? | Ce sont des isomères qui ne peuvent pas passer de l'un à l'autre sans rompre une liaison. Exemple : les formes cis et trans des alcènes. | isomere,configuration,cis,trans
+Qu'est-ce qu'un carbone asymétrique ? | C'est un carbone lié à quatre groupes différents. Il est à l'origine de la chiralité, c'est-à-dire de molécules non superposables à leur image miroir. | carbone,asymetrique,chiralite,enantiomere
+Qu'est-ce qu'un énantiomère ? | Ce sont deux molécules images l'une de l'autre dans un miroir, non superposables. Elles ont les mêmes propriétés physiques, sauf leur pouvoir rotatoire. | enantiomere,chiralite,miroir
+Qu'est-ce que la loi de Beer-Lambert ? | L'absorbance A = ε × l × c, avec ε le coefficient d'absorption molaire, l la longueur de la cuve et c la concentration. | beer,lambert,absorbance,concentration,spectrophotometrie
+Qu'est-ce que la spectrophotométrie ? | C'est une méthode qui mesure l'absorption de la lumière par une solution, pour déterminer sa concentration grâce à la loi de Beer-Lambert. | spectrophotometrie,absorbance,concentration
+Qu'est-ce qu'un mécanisme réactionnel ? | C'est la succession des étapes élémentaires d'une réaction, avec les ruptures et formations de liaisons qui les accompagnent. | mecanisme,reactionnel,etape,liaison
+Qu'est-ce qu'un intermédiaire réactionnel ? | C'est une espèce formée puis consommée au cours d'un mécanisme. Elle n'apparaît pas dans l'équation globale. | intermediaire,reactionnel,mecanisme
+Qu'est-ce qu'un carbocation ? | C'est un ion dans lequel le carbone porte une charge positive, avec seulement six électrons de valence. Il est un intermédiaire fréquent en chimie organique. | carbocation,intermediaire,carbone,charge
+Qu'est-ce que la règle de Markovnikov ? | Lors de l'addition d'un acide halogéné sur un alcène, l'hydrogène se fixe sur le carbone qui porte déjà le plus d'hydrogènes. Exemple : propène + HCl donne le 2-chloropropane. | markovnikov,addition,alcene,regiosélectivite
+Qu'est-ce que la polymérisation ? | C'est la formation d'une macromolécule par enchaînement de nombreux motifs identiques, appelés monomères. Exemple : l'éthène donne le polyéthylène. | polymerisation,polymere,monomere,macromolecule
+Qu'est-ce qu'un polymère ? | C'est une macromolécule constituée d'un grand nombre de motifs répétés, les monomères. Exemple : le polyéthylène, le polystyrène. | polymere,macromolecule,monomere
+Qu'est-ce qu'une réaction de saponification ? | C'est l'hydrolyse basique d'un ester qui donne un carboxylate et un alcool. Elle est utilisée pour fabriquer le savon. | saponification,ester,hydrolyse,savon
+Qu'est-ce que la chimie verte ? | C'est un ensemble de principes qui visent à réduire ou supprimer l'usage et la production de substances dangereuses, en optimisant les réactions et leur rendement. | chimie,verte,developpement,durable,principe
+Qu'est-ce que le sens de variation d'une fonction ? | Une fonction f est croissante sur un intervalle I si, pour tous a < b dans I, f(a) ≤ f(b) ; elle est décroissante si f(a) ≥ f(b). Si f' > 0 sur I, f est strictement croissante sur I ; si f' < 0, elle est strictement décroissante. | fonction,variation,croissante,decroissante,derivee
+Qu'est-ce que la limite d'une fonction en l'infini ? | Une fonction f a pour limite L en +∞ si f(x) se rapproche de L quand x devient très grand. Exemple : la limite de 1/x en +∞ est 0. | limite,fonction,infini,asymptote
+Qu'est-ce qu'une asymptote horizontale ? | La droite y = L est une asymptote horizontale à la courbe de f si la limite de f(x) quand x tend vers ±∞ vaut L. | asymptote,horizontale,limite
+Qu'est-ce qu'une asymptote verticale ? | La droite x = a est une asymptote verticale si la limite de f(x) quand x tend vers a (par valeurs supérieures ou inférieures) vaut +∞ ou −∞. Exemple : f(x) = 1/x a pour asymptote x = 0. | asymptote,verticale,limite
+Qu'est-ce qu'une fonction polynôme du second degré ? | Une fonction f(x) = ax² + bx + c, avec a non nul, a pour courbe une parabole. Son sommet a pour abscisse −b/(2a). Si a > 0 la parabole est tournée vers le haut, si a < 0 vers le bas. | fonction,polynome,second,degre,parabole,sommet
+Comment trouver le sommet d'une parabole ? | Le sommet a pour abscisse x = −b / (2a), et pour ordonnée f(x). Exemple : f(x) = x² − 4x + 1, le sommet est en x = 2, f(2) = −3. | parabole,sommet,fonction
+Qu'est-ce que la fonction exponentielle ? | La fonction exponentielle exp est telle que exp' = exp et exp(0) = 1. On note e^x = exp(x). Elle est strictement positive et strictement croissante sur ℝ. | exponentielle,fonction,derivee,e
+Quelles sont les propriétés de l'exponentielle ? | e^(a+b) = e^a × e^b, e^(−a) = 1 / e^a, et (e^a)^n = e^(na). | exponentielle,propriete,calcul
+Quelle est la dérivée de e^x ? | La dérivée de e^(u(x)) est u'(x) × e^(u(x)). Pour u = x, la dérivée de e^x est e^x. | derivee,exponentielle,composee
+Qu'est-ce que la fonction logarithme népérien ? | La fonction ln est définie sur ]0 ; +∞[, croissante, avec ln(1) = 0 et ln(e) = 1. Elle est la réciproque de l'exponentielle. | logarithme,ln,fonction,reciproque
+Quelle est la dérivée de ln x ? | La dérivée de ln(x) est 1/x sur ]0 ; +∞[. Plus généralement, la dérivée de ln(u(x)) est u'(x) / u(x). | derivee,logarithme,ln
+Quelles sont les propriétés du logarithme ? | ln(ab) = ln a + ln b, ln(a/b) = ln a − ln b, ln(a^n) = n ln a, avec a et b strictement positifs. | logarithme,propriete,calcul
+Qu'est-ce qu'une dérivée seconde ? | La dérivée seconde f'' est la dérivée de f'. Si f'' > 0 sur un intervalle, la courbe de f y est convexe ; si f'' < 0, elle est concave. | derivee,seconde,convexite,concavite
+Qu'est-ce qu'un point d'inflexion ? | C'est un point où la courbe traverse sa tangente et où la convexité change. Il correspond souvent à un changement de signe de f''. | inflexion,convexite,tangente,derivee
+Comment étudier une fonction ? | On détermine l'ensemble de définition, les limites aux bornes, la dérivée, son signe, les variations, puis on dresse le tableau de variations et on trace la courbe. | etude,fonction,tableau,variation,limite
+Qu'est-ce qu'une équation différentielle ? | Une équation différentielle relie une fonction inconnue et ses dérivées. Exemple : y' = 2y a pour solutions y = C × e^(2x), où C est une constante. | equation,differentielle,solution,derivee
+Qu'est-ce qu'une primitive ? | Une primitive de f sur un intervalle I est une fonction F dont la dérivée est f. Deux primitives diffèrent d'une constante. | primitive,integrale,derivee
+Quelles sont les primitives usuelles ? | Une primitive de x^n est x^(n+1)/(n+1) pour n ≠ −1 ; de 1/x est ln|x| ; de e^x est e^x ; de cos x est sin x ; de sin x est −cos x. | primitive,usuelle,integrale
+Qu'est-ce que l'intégrale d'une fonction ? | Si F est une primitive de f sur [a ; b], l'intégrale est ∫ de a à b de f(x) dx = F(b) − F(a). Pour f ≥ 0, elle représente une aire. | integrale,primitive,aire
+Comment calculer une intégrale ? | On cherche une primitive F, puis on calcule F(b) − F(a). Exemple : ∫ de 0 à 2 de x dx = [x²/2] de 0 à 2 = 2 − 0 = 2. | integrale,calcul,primitive
+Qu'est-ce que la valeur moyenne d'une fonction ? | La valeur moyenne de f sur [a ; b] est (1 / (b − a)) × ∫ de a à b de f(x) dx. Exemple : sur [0 ; 2], la valeur moyenne de x est 1. | valeur,moyenne,fonction,integrale
+Qu'est-ce qu'une suite numérique ? | Une suite est une fonction de ℕ dans ℝ, notée (u_n), qui associe à chaque entier n un nombre u_n. | suite,numerique,terme,indice
+Qu'est-ce qu'une suite définie par récurrence ? | Une suite est définie par récurrence si u_(n+1) = f(u_n) à partir d'un premier terme u_0 donné. Exemple : u_0 = 1, u_(n+1) = 2u_n + 1. | suite,recurrence,terme
+Comment étudier le sens de variation d'une suite ? | On étudie le signe de u_(n+1) − u_n : si c'est positif pour tout n, la suite est croissante ; si c'est négatif, elle est décroissante. | suite,variation,croissante,decroissante
+Qu'est-ce qu'une suite majorée ou minorée ? | Une suite est majorée s'il existe M tel que u_n ≤ M pour tout n ; minorée s'il existe m tel que u_n ≥ m pour tout n. | suite,majoree,minoree,borne
+Qu'est-ce que la convergence d'une suite ? | Une suite converge vers L si u_n se rapproche de L quand n devient très grand. Une suite qui ne converge pas diverge. | suite,convergence,limite,divergence
+Qu'est-ce que la somme des n premiers termes d'une suite arithmétique ? | S_n = u_0 + u_1 + ... + u_n = (n + 1) × (u_0 + u_n) / 2. Exemple : somme de 1 à 10 = 10 × 11 / 2 = 55. | suite,arithmetique,somme,calcul
+Qu'est-ce que la somme des n premiers termes d'une suite géométrique ? | Si q est différent de 1, S_n = u_0 × (1 − q^(n+1)) / (1 − q). Exemple : somme de 1 + 2 + 4 + ... + 2^n = 2^(n+1) − 1. | suite,geometrique,somme,calcul
+Qu'est-ce que la limite d'une suite géométrique ? | Si |q| < 1, la suite géométrique (q^n) tend vers 0 ; si q = 1, elle est constante ; si q > 1, elle tend vers +∞. | suite,geometrique,limite,convergence
+Qu'est-ce qu'un coefficient binomial ? | C(n ; k) = n! / (k! × (n − k)!) est le nombre de façons de choisir k éléments parmi n. Exemple : C(5 ; 2) = 10. | binomial,combinaison,coefficient,denombrement
+Qu'est-ce que la loi binomiale ? | Si X suit une loi binomiale B(n ; p), P(X = k) = C(n ; k) × p^k × (1 − p)^(n − k). Son espérance est np et sa variance np(1 − p). | loi,binomiale,probabilite,esperance,variance
+Qu'est-ce que l'espérance d'une variable aléatoire ? | E(X) = Σ x_i × P(X = x_i) : c'est la moyenne des valeurs pondérée par leurs probabilités. | esperance,variable,aleatoire,probabilite
+Qu'est-ce que la variance et l'écart-type ? | V(X) = E(X²) − E(X)², et l'écart-type σ est la racine carrée de la variance. Ils mesurent la dispersion des valeurs autour de la moyenne. | variance,ecart,type,dispersion,aleatoire
+Qu'est-ce qu'une probabilité conditionnelle ? | P_B(A) = P(A ∩ B) / P(B), la probabilité de A sachant que B est réalisé, avec P(B) non nul. | conditionnelle,probabilite,evenement,sachant
+Qu'est-ce que la formule des probabilités totales ? | Si B1, ..., Bn forment une partition de l'univers, P(A) = Σ P(Bi) × P_Bi(A). | totales,probabilite,partition,formule
+Qu'est-ce que l'indépendance de deux événements ? | Deux événements A et B sont indépendants si P(A ∩ B) = P(A) × P(B), ou de façon équivalente si P_B(A) = P(A). | independance,evenement,probabilite
+Qu'est-ce qu'une loi normale ? | La loi normale N(μ ; σ²) est une loi continue en cloche, symétrique autour de sa moyenne μ, avec un écart-type σ. Environ 68 % des valeurs sont dans [μ − σ ; μ + σ], et 95 % dans [μ − 2σ ; μ + 2σ]. | loi,normale,gauss,cloche,ecart,type
+Qu'est-ce que l'échantillonnage ? | C'est l'étude d'une partie (échantillon) d'une population pour estimer une caractéristique de l'ensemble. La taille de l'échantillon influence la précision de l'estimation. | echantillonnage,echantillon,population,estimation
+Qu'est-ce qu'un intervalle de confiance ? | C'est un intervalle qui contient la vraie valeur d'un paramètre avec une probabilité donnée, souvent 95 %. Pour une proportion, il est proche de f ± 1/√n. | intervalle,confiance,proportion,estimation
+Qu'est-ce qu'une série statistique ? | C'est un ensemble de valeurs associées à des effectifs ou fréquences. On la résume par des indicateurs de position (moyenne, médiane) et de dispersion (étendue, écart-type, quartiles). | serie,statistique,moyenne,mediane,quartile
+Qu'est-ce qu'un quartile ? | Les quartiles Q1, Q2 (médiane) et Q3 découpent la série ordonnée en quatre parts de même effectif. L'écart interquartile est Q3 − Q1. | quartile,serie,dispersion,ecart
+Qu'est-ce qu'un diagramme en boîte ? | C'est une représentation d'une série par son minimum, Q1, la médiane, Q3 et son maximum. La boîte va de Q1 à Q3. | boite,diagramme,quartile,serie
+Qu'est-ce qu'un nuage de points ? | C'est la représentation de séries de couples (x, y) dans un repère. Il permet de visualiser une éventuelle liaison entre deux variables. | nuage,points,correlation,repere
+Qu'est-ce que la droite de régression linéaire ? | C'est la droite qui approche au mieux le nuage de points, au sens des moindres carrés. Elle passe par le point moyen (x̄ ; ȳ). | regression,lineaire,droite,nuage,moindres,carres
+Qu'est-ce que le coefficient de corrélation ? | Le coefficient r est compris entre −1 et 1. Plus |r| est proche de 1, plus la liaison linéaire est forte ; r proche de 0 indique une liaison faible. | correlation,coefficient,lineaire
+Qu'est-ce qu'un vecteur dans le plan ? | Un vecteur u(x ; y) est défini par ses coordonnées dans un repère. Le vecteur AB a pour coordonnées (x_B − x_A ; y_B − y_A). | vecteur,coordonnees,plan,repere
+Comment calculer la norme d'un vecteur ? | La norme de u(x ; y) est ||u|| = √(x² + y²). Exemple : u(3 ; 4) a pour norme 5. | vecteur,norme,longueur,coordonnees
+Comment calculer le produit scalaire ? | Pour u(x ; y) et v(x' ; y'), u · v = x × x' + y × y'. On a aussi u · v = ||u|| × ||v|| × cos θ. | produit,scalaire,vecteur,angle
+Quand deux vecteurs sont-ils orthogonaux ? | Deux vecteurs non nuls sont orthogonaux si et seulement si leur produit scalaire est nul : u · v = 0. | orthogonal,perpendiculaire,vecteur,produit,scalaire
+Comment calculer les coordonnées du milieu d'un segment ? | Le milieu I de [AB] a pour coordonnées ((x_A + x_B)/2 ; (y_A + y_B)/2). Exemple : A(1 ; 2), B(3 ; 6), I(2 ; 4). | milieu,segment,coordonnees
+Comment calculer la distance entre deux points ? | AB = √((x_B − x_A)² + (y_B − y_A)²). Exemple : A(0 ; 0), B(3 ; 4), AB = 5. | distance,points,coordonnees,longueur
+Qu'est-ce qu'une équation de droite ? | Une droite du plan a une équation de la forme ax + by + c = 0. Si b ≠ 0, elle s'écrit y = mx + p, avec m le coefficient directeur. | droite,equation,coefficient,directeur
+Qu'est-ce que la colinéarité de deux vecteurs ? | Deux vecteurs u(x ; y) et v(x' ; y') sont colinéaires si xy' − x'y = 0. | colineaire,vecteur,determinant
+Qu'est-ce que le cosinus d'un angle dans un triangle ? | Dans un triangle rectangle, cos α = côté adjacent / hypoténuse. Dans un triangle quelconque, la loi des cosinus donne a² = b² + c² − 2bc cos A. | cosinus,triangle,loi,angle
+Qu'est-ce que la loi des sinus ? | Dans un triangle ABC, a / sin A = b / sin B = c / sin C, où a, b, c sont les côtés opposés aux angles A, B, C. | loi,sinus,triangle,angle
+Quelles sont les valeurs remarquables du cosinus et du sinus ? | cos 0 = 1, sin 0 = 0 ; cos 30° = √3/2, sin 30° = 1/2 ; cos 45° = sin 45° = √2/2 ; cos 60° = 1/2, sin 60° = √3/2 ; cos 90° = 0, sin 90° = 1. | trigonometrie,remarquable,cosinus,sinus,angle
+Qu'est-ce que le radian ? | Un radian est l'angle au centre qui intercepte un arc de longueur égale au rayon. Un tour complet vaut 2π radians, soit 360°. | radian,angle,trigonometrie,mesure
+Comment convertir des degrés en radians ? | Un angle de θ degrés vaut θ × π / 180 radians. Exemple : 90° = π/2 rad. | conversion,degre,radian,angle
+Quelles sont les identités trigonométriques de base ? | cos² x + sin² x = 1, et tan x = sin x / cos x pour cos x non nul. | trigonometrie,identite,fondamentale,tangente
+Qu'est-ce que la fonction sinus ? | La fonction sin est périodique de période 2π, impaire, avec sin x comprise entre −1 et 1. Sa dérivée est cos x. | fonction,sinus,periodique,derivee
+Qu'est-ce que la fonction cosinus ? | La fonction cos est périodique de période 2π, paire, avec cos x comprise entre −1 et 1. Sa dérivée est −sin x. | fonction,cosinus,periodique,derivee
+Qu'est-ce qu'un nombre complexe sous forme trigonométrique ? | z = r(cos θ + i sin θ), où r = |z| est le module et θ l'argument. | complexe,trigonometrique,module,argument
+Comment calculer le module d'un nombre complexe ? | Pour z = a + ib, |z| = √(a² + b²). Exemple : z = 3 + 4i a pour module 5. | complexe,module,calcul
+Comment multiplier deux nombres complexes sous forme trigonométrique ? | On multiplie les modules et on additionne les arguments : r1 e^(iθ1) × r2 e^(iθ2) = r1 r2 e^(i(θ1 + θ2)). | complexe,produit,trigonometrique,argument
+Qu'est-ce que la forme exponentielle d'un complexe ? | z = r e^(iθ) avec e^(iθ) = cos θ + i sin θ. Elle simplifie les produits et les puissances : (r e^(iθ))^n = r^n e^(inθ). | complexe,exponentielle,forme,euler
+Qu'est-ce que la formule d'Euler ? | e^(iθ) = cos θ + i sin θ. Pour θ = π, on obtient e^(iπ) + 1 = 0. | euler,complexe,exponentielle,identite
+Qu'est-ce que la conjugaison d'un complexe ? | Le conjugué de z = a + ib est z̄ = a − ib. On a z × z̄ = a² + b² = |z|². | complexe,conjugue,module
+Comment résoudre une équation du second degré à coefficients réels dans ℂ ? | Si Δ < 0, les solutions sont (−b ± i√(−Δ)) / (2a). Exemple : x² + 1 = 0 a pour solutions x = i et x = −i. | complexe,second,degre,discriminant,racine
+Qu'est-ce qu'une racine carrée d'un nombre complexe ? | Les racines carrées de z = a + ib sont les nombres w = x + iy tels que w² = z : elles s'obtiennent en résolvant un système sur x et y. | complexe,racine,carree
+Qu'est-ce que l'argument principal d'un complexe ? | C'est l'argument θ de z, défini modulo 2π, choisi dans l'intervalle ]−π ; π]. | argument,complexe,principal
+Qu'est-ce qu'une matrice ? | Une matrice est un tableau de nombres à lignes et colonnes. Une matrice 2 × 2 s'écrit [[a ; b] ; [c ; d]]. | matrice,tableau,ligne,colonne
+Comment calculer le déterminant d'une matrice 2 × 2 ? | det [[a ; b] ; [c ; d]] = ad − bc. Une matrice est inversible si et seulement si son déterminant est non nul. | matrice,determinant,inversible
+Comment calculer le produit de deux matrices ? | Le coefficient (i ; j) de AB est la somme des produits des éléments de la ligne i de A par ceux de la colonne j de B. Le produit n'est pas commutatif en général. | matrice,produit,calcul
+Qu'est-ce que l'algorithme ? | Un algorithme est une suite finie d'instructions précises et ordonnées qui résout un problème. | algorithme,instruction,programme
+Qu'est-ce qu'une boucle dans un algorithme ? | Une boucle répète un bloc d'instructions tant qu'une condition est vraie (boucle conditionnelle), ou un nombre de fois connu (boucle itérative). | boucle,algorithme,iteration,condition
+Qu'est-ce qu'une variable aléatoire à loi continue ? | C'est une variable aléatoire qui peut prendre toutes les valeurs d'un intervalle. Sa loi est donnée par une fonction de densité f, positive, dont l'intégrale sur ℝ vaut 1. La probabilité P(a ≤ X ≤ b) est l'aire sous la courbe entre a et b. | variable,aleatoire,continue,densite,probabilite,loi
+Qu'est-ce qu'une densité de probabilité ? | C'est une fonction f positive sur un intervalle, telle que l'aire totale sous sa courbe vaut 1. Elle sert à calculer les probabilités par intégration. | densite,probabilite,integrale,loi,continue
+Qu'est-ce que la loi uniforme sur [a ; b] ? | C'est la loi continue dont la densité est constante sur [a ; b] : f(x) = 1 / (b − a). Sa moyenne est (a + b) / 2. Exemple : sur [0 ; 10], P(2 ≤ X ≤ 5) = 3/10. | loi,uniforme,continue,densite,probabilite
+Qu'est-ce que la loi exponentielle de paramètre λ ? | C'est la loi continue de densité f(x) = λ e^(−λx) sur [0 ; +∞[. Son espérance est 1/λ. Elle modélise souvent des durées de vie sans vieillissement. | loi,exponentielle,lambda,duree,vie,continue
+Comment calculer une probabilité avec la loi exponentielle ? | P(X ≤ t) = 1 − e^(−λt), et P(X ≥ t) = e^(−λt). Exemple : λ = 0,5, P(X ≤ 2) = 1 − e^(−1) ≈ 0,632. | loi,exponentielle,probabilite,calcul
+Qu'est-ce que la loi normale centrée réduite ? | C'est la loi normale N(0 ; 1), de moyenne 0 et d'écart-type 1. On la note Z, et sa densité est symétrique par rapport à l'axe des ordonnées. | loi,normale,centree,reduite,gauss
+Comment se ramener à la loi normale centrée réduite ? | Si X suit N(μ ; σ²), alors Z = (X − μ) / σ suit N(0 ; 1). Les probabilités se lisent alors dans la table de la loi normale centrée réduite. | loi,normale,reduction,centree,z
+Quelle est la probabilité qu'une variable normale soit dans [μ − 2σ ; μ + 2σ] ? | Environ 0,95 : c'est la règle des 95 %. Pour [μ − σ ; μ + σ], la probabilité est environ 0,68. | loi,normale,95,68,ecart,type
+Qu'est-ce que l'espérance d'une variable à loi continue ? | E(X) = ∫ de a à b de x f(x) dx, où f est la densité de X sur [a ; b]. C'est la moyenne théorique de la variable. | esperance,continue,integrale,densite,variable
+Qu'est-ce que la variance d'une variable à loi continue ? | V(X) = E(X²) − E(X)², avec E(X²) = ∫ de a à b de x² f(x) dx. Plus la variance est petite, plus les valeurs sont concentrées autour de la moyenne. | variance,continue,integrale,dispersion
+Comment résoudre l'équation différentielle y' = ay + b ? | Les solutions sont y(x) = C e^(ax) − b/a si a est non nul, avec C une constante réelle. Si a = 0, y' = b donne y = bx + C. | equation,differentielle,lineaire,premier,ordre,solution
+Quelle est la solution de y' = 2y avec y(0) = 3 ? | Les solutions sont y = C e^(2x). La condition y(0) = 3 donne C = 3, donc y = 3 e^(2x). | equation,differentielle,condition,initiale,exponentielle
+Qu'est-ce qu'une condition initiale ? | C'est une valeur imposée à la solution en un point, par exemple y(0) = 3. Elle permet de déterminer la constante C d'une équation différentielle. | condition,initiale,equation,differentielle,constante
+Qu'est-ce que le produit scalaire avec les coordonnées ? | Pour u(x ; y) et v(x' ; y'), u · v = x x' + y y'. Il est nul si les vecteurs sont orthogonaux, et u · u = ||u||². | produit,scalaire,coordonnees,vecteur
+Comment calculer un angle avec le produit scalaire ? | cos θ = (u · v) / (||u|| × ||v||), ce qui donne l'angle entre les deux vecteurs. | produit,scalaire,angle,cosinus
+Quelle est la formule du théorème de la médiane ? | Dans un triangle ABC, avec I milieu de [BC] : AB² + AC² = 2 AI² + BC² / 2. | produit,scalaire,mediane,triangle
+Qu'est-ce qu'une primitive de f(x) = e^(ax) ? | Une primitive est F(x) = e^(ax) / a, pour a non nul. Exemple : une primitive de e^(3x) est e^(3x) / 3. | primitive,exponentielle,calcul
+Qu'est-ce que la somme de deux suites convergentes ? | Si u_n tend vers L et v_n tend vers L', alors u_n + v_n tend vers L + L'. Les règles de produit et de quotient s'appliquent de la même façon, avec les conditions de non-nullité. | suite,limite,somme,convergence
+Qu'est-ce qu'une suite de limite infinie ? | Une suite tend vers +∞ si ses termes deviennent aussi grands qu'on le souhaite à partir d'un certain rang. Exemple : n² tend vers +∞. | suite,limite,infinie,divergence
+Qu'est-ce que le théorème des gendarmes ? | Si u_n ≤ v_n ≤ w_n à partir d'un certain rang, et si u_n et w_n tendent vers la même limite L, alors v_n tend vers L. | theoreme,gendarmes,suite,limite
+Qu'est-ce que le théorème de la valeur intermédiaire ? | Si f est continue sur [a ; b] et que k est compris entre f(a) et f(b), alors l'équation f(x) = k admet au moins une solution sur [a ; b]. | valeur,intermediaire,continuite,solution,theoreme
+Qu'est-ce que la continuité d'une fonction ? | Une fonction est continue en a si sa limite en a existe et est égale à f(a). Sur un intervalle, elle se trace sans lever le crayon. | continuite,fonction,limite
+Qu'est-ce qu'une fonction dérivable ? | Une fonction est dérivable en a si le taux d'accroissement (f(a + h) − f(a)) / h admet une limite finie quand h tend vers 0. Cette limite est f'(a). | derivable,derivee,taux,accroissement
+Comment dériver un produit ? | (uv)' = u'v + uv'. Exemple : (x × e^x)' = e^x + x e^x. | derivee,produit,regle,calcul
+Comment dériver un quotient ? | (u / v)' = (u'v − uv') / v², pour v non nulle. Exemple : (1/x)' = −1/x². | derivee,quotient,regle,calcul
+Comment dériver une fonction composée ? | (f ∘ u)' = u' × f'(u). Exemple : (e^(3x))' = 3 e^(3x). | derivee,composee,chaine,regle
+Qu'est-ce qu'une tangente à une courbe ? | La tangente à la courbe de f au point d'abscisse a a pour équation y = f'(a)(x − a) + f(a). | tangente,courbe,equation,derivee
+Comment trouver la tangente à une courbe en un point ? | On calcule f(a) et f'(a), puis on applique y = f'(a)(x − a) + f(a). Exemple : f(x) = x² en a = 1 : y = 2(x − 1) + 1 = 2x − 1. | tangente,equation,calcul,point
+Qu'est-ce qu'un signal sinusoïdal ? | Un signal sinusoïdal s'écrit u(t) = Um × sin(2πft + φ), avec Um l'amplitude, f la fréquence en hertz et φ la phase à l'origine. | signal,sinusoidal,amplitude,frequence,phase
+Qu'est-ce que la valeur efficace d'une tension alternative ? | La valeur efficace d'une tension sinusoïdale est Ueff = Um / √2. Exemple : le secteur 230 V efficace a une amplitude d'environ 325 V. | valeur,efficace,tension,alternatif,amplitude
+Comment calculer la période d'un signal ? | T = 1 / f, en secondes, où f est la fréquence en hertz. Exemple : f = 50 Hz donne T = 0,02 s. | periode,frequence,signal,calcul
+Qu'est-ce que le déphasage entre deux signaux ? | C'est la différence de phase Δφ entre deux signaux de même fréquence. Pour un décalage temporel Δt, Δφ = 2π Δt / T. | dephasage,phase,signal,retard
+Qu'est-ce qu'un condensateur ? | Un condensateur est un dipôle qui stocke de l'énergie électrique sous forme de charges. Sa capacité C s'exprime en farads (F). La charge vaut q = C × u. | condensateur,capacite,charge,farad
+Qu'est-ce qu'une bobine ? | Une bobine est un dipôle qui stocke de l'énergie magnétique. Son inductance L s'exprime en henrys (H), et sa tension vaut u = L × di/dt. | bobine,inductance,henry,magnetique
+Quelle est l'énergie stockée dans un condensateur ? | Ec = ½ × C × u². Exemple : C = 100 µF sous 10 V donne E = ½ × 100 × 10⁻⁶ × 100 = 5 mJ. | condensateur,energie,capacite,tension
+Quelle est l'énergie stockée dans une bobine ? | Em = ½ × L × i². Exemple : L = 2 H parcourue par 0,5 A donne E = ½ × 2 × 0,25 = 0,25 J. | bobine,energie,inductance,intensite
+Qu'est-ce qu'un circuit RC ? | C'est un circuit comportant une résistance R et un condensateur C en série. La constante de temps est τ = R × C : la tension aux bornes du condensateur atteint environ 63 % de sa valeur finale après un temps τ. | circuit,rc,constante,temps,condensateur,resistance
+Qu'est-ce qu'un circuit RL ? | C'est un circuit comportant une résistance R et une bobine L en série. Sa constante de temps est τ = L / R. | circuit,rl,constante,temps,bobine,resistance
+Qu'est-ce qu'un régime transitoire ? | C'est l'évolution d'un circuit entre deux régimes permanents, avec des grandeurs qui varient avant de se stabiliser. Il dure environ 5τ. | regime,transitoire,permanent,constante,temps
+Qu'est-ce que l'énergie cinétique d'un solide en translation ? | Ec = ½ × m × v², avec m la masse en kilogrammes et v la vitesse en m/s. Exemple : 2 kg à 3 m/s donne Ec = 9 J. | energie,cinetique,translation,masse,vitesse
+Qu'est-ce que le théorème de l'énergie cinétique ? | La variation d'énergie cinétique d'un solide entre deux instants est égale à la somme des travaux des forces qui s'exercent sur lui : ΔEc = Σ W. | theoreme,energie,cinetique,travail,force
+Qu'est-ce que l'énergie mécanique ? | Em = Ec + Ep. Si seules des forces conservatives agissent, l'énergie mécanique se conserve. | energie,mecanique,conservation,cinetique,potentielle
+Qu'est-ce qu'une force conservative ? | Une force est conservative si le travail qu'elle fournit ne dépend que de la position initiale et finale, pas du chemin suivi. Le poids et la force élastique en sont des exemples. | force,conservative,travail,poids
+Qu'est-ce qu'une énergie thermique ? | C'est l'énergie liée à l'agitation désordonnée des particules d'un système. Elle varie avec la température : ΔU = m × c × Δθ, avec c la capacité thermique massique. | energie,thermique,agitation,temperature,capacite
+Qu'est-ce que la capacité thermique massique de l'eau ? | Elle vaut environ 4,18 kJ/(kg·K). Exemple : chauffer 1 kg d'eau de 20 °C à 40 °C demande environ 83,6 kJ. | capacite,thermique,eau,chaleur,calcul
+Qu'est-ce qu'un rayonnement électromagnétique ? | C'est une onde transportant de l'énergie sans support matériel, qui se propage dans le vide à la vitesse c. Sa fréquence et sa longueur d'onde sont liées par c = λ × f. | rayonnement,electromagnetique,onde,vide
+Qu'est-ce que l'énergie d'un photon ? | E = h × f, où h = 6,63 × 10⁻³⁴ J·s est la constante de Planck et f la fréquence. Plus la fréquence est grande, plus l'énergie est élevée. | photon,energie,planck,frequence
+Qu'est-ce que la loi de Wien ? | Pour un corps noir, la longueur d'onde du maximum d'émission est inversement proportionnelle à sa température : λmax × T = 2,9 × 10⁻³ m·K. | wien,corps,noir,temperature,longueur,onde
+Qu'est-ce que le corps noir ? | C'est un objet idéal qui absorbe toute la lumière qu'il reçoit. Il émet un rayonnement qui ne dépend que de sa température. | corps,noir,rayonnement,temperature
+Qu'est-ce que l'effet photoélectrique ? | C'est l'émission d'électrons par un métal éclairé par une lumière dont la fréquence dépasse un seuil. Il met en évidence la nature corpusculaire de la lumière. | effet,photoelectrique,photon,metal,seuil
+Qu'est-ce qu'un niveau d'énergie atomique ? | Les électrons d'un atome occupent des niveaux d'énergie quantifiés. Un photon est émis ou absorbé quand l'électron passe d'un niveau à un autre : ΔE = h × f. | niveau,energie,atome,electron,quantifie
+Qu'est-ce que le spectre d'émission d'un élément ? | C'est la liste des radiations émises par un élément excité. Chaque élément a un spectre caractéristique, comme une empreinte. | spectre,emission,element,raie
+Qu'est-ce qu'un spectre d'absorption ? | C'est l'ensemble des radiations absorbées par une substance traversée par la lumière blanche. Les raies d'absorption correspondent aux raies d'émission du même élément. | spectre,absorption,raie,element
+Qu'est-ce que la densité de probabilité de présence d'un électron ? | Elle indique où l'électron a le plus de chances de se trouver autour du noyau. Elle n'est pas une trajectoire précise. | densite,probabilite,presence,electron,orbitale
+Qu'est-ce qu'une vitesse de réaction moyenne ? | C'est la variation de concentration d'un réactif ou d'un produit par unité de temps : v = Δ[produit] / Δt, en mol·L⁻¹·s⁻¹. | vitesse,reaction,moyenne,concentration
+Comment la température influence-t-elle une réaction ? | En général, une augmentation de la température accélère une réaction chimique, car les chocs entre molécules sont plus fréquents et plus énergétiques. | temperature,vitesse,reaction,chocs
+Comment la concentration influence-t-elle une réaction ? | En général, plus les réactifs sont concentrés, plus la réaction est rapide, car les chocs efficaces sont plus fréquents. | concentration,vitesse,reaction,chocs
+Qu'est-ce que la conductivité d'une solution ? | C'est la capacité d'une solution à conduire le courant, due à la présence d'ions mobiles. Elle augmente avec la concentration en ions. | conductivite,solution,ion,courant
+Qu'est-ce qu'un électrolyte ? | C'est une substance qui, dissoute dans l'eau, forme des ions et devient conductrice. Exemple : le chlorure de sodium. | electrolyte,ion,conductrice,solution
+Qu'est-ce que la dissolution d'un composé ionique ? | C'est la séparation des ions du solide sous l'action des molécules d'eau. Exemple : NaCl(s) → Na⁺(aq) + Cl⁻(aq). | dissolution,ionique,eau,solution
+Qu'est-ce qu'une solution aqueuse ? | C'est une solution dont le solvant est l'eau. Le symbole (aq) indique qu'une espèce est dissoute dans l'eau. | solution,aqueuse,eau,aq
+Qu'est-ce que l'échelle de pH ? | Le pH varie généralement entre 0 et 14. À 25 °C, pH 7 est neutre, un pH inférieur est acide, un pH supérieur est basique. | ph,echelle,acide,base,neutre
+Qu'est-ce que le pOH ? | pOH = −log[HO⁻], et à 25 °C on a pH + pOH = 14. | poh,ph,base
+Comment calculer une quantité de matière dans une solution ? | n = C × V, avec C en mol/L et V en litres. Exemple : 0,2 mol/L dans 500 mL donne n = 0,2 × 0,5 = 0,1 mol. | quantite,matiere,solution,concentration,volume
+Qu'est-ce qu'une réaction totale ? | C'est une réaction où un réactif est entièrement consommé, sans retour possible. Elle est représentée par une flèche simple. | reaction,totale,reactif,consomme
+Qu'est-ce qu'une réaction non totale ? | C'est une réaction qui atteint un équilibre : réactifs et produits coexistent. Elle est représentée par une double flèche ⇌. | reaction,non,totale,equilibre
+Qu'est-ce qu'un avancement d'une réaction ? | C'est la grandeur x qui mesure le nombre de fois où l'équation est réalisée. Pour une quantité initiale n0 d'un réactif de coefficient 1, n = n0 − x. | avancement,reaction,quantite,matiere
+Qu'est-ce qu'une combustion complète ? | C'est une combustion où le carbone est transformé en dioxyde de carbone et l'hydrogène en eau. Exemple : CH4 + 2 O2 → CO2 + 2 H2O. | combustion,complete,co2,eau
+Qu'est-ce qu'une combustion incomplète ? | C'est une combustion avec un manque de dioxygène : il se forme du monoxyde de carbone CO et du carbone. Ce gaz est toxique. | combustion,incomplete,co,toxique
+Qu'est-ce que le pouvoir calorifique ? | C'est l'énergie libérée par la combustion complète d'une unité de masse ou de volume d'un combustible, en J/kg ou J/m³. | pouvoir,calorifique,combustible,energie,combustion
+Qu'est-ce que le rendement énergétique d'un système ? | Le rendement est le rapport entre l'énergie utile et l'énergie fournie : η = Eutile / Efournie. Il est toujours inférieur ou égal à 1. | rendement,energie,utile,fournie
+Qu'est-ce que la puissance d'un système ? | C'est l'énergie transférée par unité de temps : P = E / Δt, en watts. Exemple : 3 600 J en 1 s donne 3 600 W. | puissance,energie,temps,watt
+Qu'est-ce que la conversion d'énergie dans une centrale ? | Une centrale transforme une énergie primaire (chimique, nucléaire, solaire) en énergie électrique, en passant souvent par une énergie thermique puis mécanique. | centrale,conversion,energie,electrique
+Qu'est-ce qu'un panneau photovoltaïque ? | C'est un dispositif qui convertit directement la lumière en énergie électrique, grâce à l'effet photoélectrique dans des semi-conducteurs. | photovoltaique,panneau,solaire,lumiere
+Qu'est-ce qu'une pile à combustible ? | C'est un générateur qui transforme l'énergie chimique d'un combustible (souvent le dihydrogène) et du dioxygène en énergie électrique, avec de l'eau comme produit. | pile,combustible,hydrogene,electrique
