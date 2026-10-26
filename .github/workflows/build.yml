@@ -9,11 +9,10 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Outils ARM (mis en cache)
-        uses: awalsh128/cache-apt-pkgs-action@latest
-        with:
-          packages: gcc-arm-none-eabi
-          version: 1
+      - name: Outils ARM
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y gcc-arm-none-eabi binutils-arm-none-eabi libnewlib-arm-none-eabi libnewlib-dev python3
 
       - uses: actions/setup-node@v4
         with:
