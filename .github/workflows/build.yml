@@ -5,22 +5,42 @@ on:
 jobs:
   build:
     runs-on: ubuntu-24.04
+    timeout-minutes: 25
     steps:
       - uses: actions/checkout@v4
+
+      - name: Outils ARM (mis en cache)
+        uses: awalsh128/cache-apt-pkgs-action@latest
+        with:
+          packages: gcc-arm-none-eabi
+          version: 1
+
       - uses: actions/setup-node@v4
         with:
           node-version: 22
-      - name: Installer les outils
+
+      - name: Cache nwlink
+        id: nwcache
+        uses: actions/cache@v4
+        with:
+          path: ~/nwtools
+          key: nwlink-0.0.16
+
+      - name: Installer nwlink
+        if: steps.nwcache.outputs.cache-hit != 'true'
         run: |
-          sudo apt-get update
-          sudo apt-get install -y gcc-arm-none-eabi python3
           mkdir -p $HOME/nwtools
           cd $HOME/nwtools && npm init -y > /dev/null && npm install nwlink@0.0.16
+
+      - name: Préparer nwpre
+        run: |
           echo 'Object.defineProperty(globalThis,"navigator",{value:{userAgent:"node"},writable:true,configurable:true});' > $HOME/nwpre.js
-      - name: Compiler
+
+      - name: Base et compilation
         run: |
           python3 tools/build_kb.py kb/qa.txt
           make
+
       - uses: actions/upload-artifact@v4
         with:
           name: Genumi
