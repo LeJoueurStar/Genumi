@@ -427,17 +427,19 @@ static void anim_frame(uint32_t now) {
     int tp = 100 + (240 - y) * 1000 / 144;
     row_age[y] = (int)t - tp;
   }
-  bool any = false;
+  /* Les bandes d'interface sont recomposées une fois par image, avec le fond animé
+   * (zone_color). On ne peint à part que les lignes hors bandes : pas de scintillement. */
   for (int y = 0; y < 240; y++) {
+    bool in_band = (y >= 26 && y < 216) || (y >= 220);
+    if (in_band) continue;
     uint32_t h = 2166136261u;
-    for (int k = 0; k < 4; k++) h = (h ^ anim_pixel(k, y)) * 16777619u;
+    for (int k = 0; k < 4; k++) h = (h ^ anim_pixel(k * 80, y)) * 16777619u;
     if (h == row_sig[y]) continue;
     row_sig[y] = h;
-    any = true;
     for (int x = 0; x < 320; x++) rowbuf[x] = anim_pixel(x, y);
     eadk_display_push_rect((eadk_rect_t){ 0, (uint16_t)y, 320, 1 }, rowbuf);
   }
-  if (any) draw_overlays(now, true);
+  draw_overlays(now, true);
 }
 
 static eadk_color_t fixed_bg(int x, int y) {
