@@ -5,3 +5,4 @@ Qu'est-ce qu'un processeur ? | Le processeur est le composant d'un ordinateur qu
 Qu'est-ce qu'un programme informatique ? | Un programme informatique est une suite d'instructions écrite dans un langage de programmation, que l'ordinateur exécute pour accomplir une tâche. | programme,informatique,instruction,langage
 Qu'est-ce qu'un atome ? | Un atome est la plus petite partie d'un élément chimique : un noyau de protons et de neutrons, entouré d'électrons. | atome,noyau,element
 Qu'est-ce qu'un élément chimique ? | Un élément chimique est une espèce d'atomes caractérisée par son numéro atomique, c'est-à-dire son nombre de protons. Exemples : l'oxygène O, le fer Fe. | element,chimique,atome
+Qu'est-ce qu'une force ? | Une force est une action qui peut modifier le mouvement d'un objet ou le déformer. Elle se mesure en newtons (N) et se représente par un vecteur. | force,newton,action,vecteur

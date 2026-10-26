@@ -11,6 +11,7 @@
 static char g_name[32] = "";
 static char g_topic[48] = "";      /* dernier sujet défini (mémoire courte) */
 static char g_last[200] = "";      /* dernière réponse donnée */
+static int g_tab_k = 0, g_tab_next = 1, g_tab_max = 10;   /* table en cours */
 static bool g_art = false;
 
 void engine_set_name(const char *n) {
@@ -21,6 +22,9 @@ void engine_set_name(const char *n) {
 void engine_reset(void) {
   g_topic[0] = 0;
   g_last[0] = 0;
+  g_tab_k = 0;
+  g_tab_next = 1;
+  g_tab_max = 10;
 }
 
 /* ---------- utilitaires ---------- */
@@ -364,6 +368,13 @@ static Intent best_intent(const char *q) {
 }
 
 /* Extrait le sujet après un marqueur de définition. */
+static bool is_small_word(const char *w) {
+  static const char *const S[] = {"que", "qui", "quoi", "est", "une", "des", "les", "pour", "dans", "sur", "avec", "par", "ce", "cet", "cette", "son", "sa", "ses", "tu", "vous", "moi", "toi", "nous", "ils", "elle", "aussi", "tres", "bien", "peux", "veux", "fais", "dis", "donne", "montre", "sais"};
+  for (unsigned i = 0; i < sizeof S / sizeof S[0]; i++)
+    if (!strcmp(w, S[i])) return true;
+  return false;
+}
+
 static bool extract_term(const char *q, char *term, int cap) {
   static const char *const MARK[] = {" c est quoi ", " qu est ce que ", " definition de ", " definition ", " explique moi ", " ca veut dire ", " signifie "};
   const char *p = NULL;
@@ -527,48 +538,102 @@ static void answer_core(const char *raw, char *out, int cap, bool art) {
   if (math_answer(q, out, cap)) return;
 
   {
-    /* « table de 9 » ou « table de 100 » : la table complète, une ligne par multiplication */
+    /* « table de 9 », « table de 6 jusqu à 100 », puis « suite » */
     const char *t = strstr(q, " table ");
-    if (t) {
-      t += 7;
-      for (;;) {
-        if (*t == ' ') t++;
-        else if (!strncmp(t, "de ", 3) || !strncmp(t, "du ", 3)) t += 3;
-        else if (!strncmp(t, "d ", 2)) t += 2;
-        else break;
-      }
-      if (*t >= '0' && *t <= '9') {
-        int k = 0, nd = 0;
-        while (*t >= '0' && *t <= '9' && nd < 3) {
-          k = k * 10 + (*t - '0');
-          t++;
-          nd++;
+    bool want_suite = g_tab_k > 0 && g_tab_next <= g_tab_max && has(q, " suite ");
+    if (t || want_suite) {
+      int k = g_tab_k;
+      if (t) {
+        t += 7;
+        for (;;) {
+          if (*t == ' ') t++;
+          else if (!strncmp(t, "de ", 3) || !strncmp(t, "du ", 3)) t += 3;
+          else if (!strncmp(t, "d ", 2)) t += 2;
+          else break;
         }
-        if (k >= 1 && k <= 100) {
-          char a[8], b[8], c[8];
-          out[0] = 0;
-          st_fmt(k, a);
-          add(out, cap, "Table de ");
-          add(out, cap, a);
-          add(out, cap, " :");
-          for (int i = 1; i <= 10; i++) {
-            st_fmt(i, b);
-            st_fmt(k * i, c);
-            add(out, cap, "|");
-            add(out, cap, a);
-            add(out, cap, " \xC3\x97 ");
-            add(out, cap, b);
-            add(out, cap, " = ");
-            add(out, cap, c);
+        if (*t >= '0' && *t <= '9') {
+          k = 0;
+          int nd = 0;
+          while (*t >= '0' && *t <= '9' && nd < 3) {
+            k = k * 10 + (*t - '0');
+            t++;
+            nd++;
           }
-          add(out, cap, ".");
-          return;
+          g_tab_max = 10;
+          const char *j = strstr(q, " jusqu a ");
+          if (j) {
+            j += 9;
+            int big = 0, nj = 0;
+            while (*j >= '0' && *j <= '9' && nj < 3) {
+              big = big * 10 + (*j - '0');
+              j++;
+              nj++;
+            }
+            if (big >= 10 && big <= 100) g_tab_max = big;
+          }
+          g_tab_k = k;
+          g_tab_next = 1;
+          want_suite = true;
+        } else {
+          want_suite = false;
         }
+      }
+      if (want_suite && k >= 1 && k <= 100) {
+        int last = g_tab_next + 9;
+        if (last > g_tab_max) last = g_tab_max;
+        char a2[8], b2[8], c2[8];
+        out[0] = 0;
+        st_fmt(k, a2);
+        if (g_tab_next == 1) {
+          add(out, cap, "Table de ");
+          add(out, cap, a2);
+          add(out, cap, " :");
+        } else {
+          add(out, cap, "Table de ");
+          add(out, cap, a2);
+          add(out, cap, " (suite) :");
+        }
+        for (int i = g_tab_next; i <= last; i++) {
+          st_fmt(i, b2);
+          st_fmt(k * i, c2);
+          add(out, cap, "|");
+          add(out, cap, a2);
+          add(out, cap, " \xC3\x97 ");
+          add(out, cap, b2);
+          add(out, cap, " = ");
+          add(out, cap, c2);
+        }
+        g_tab_next = last + 1;
+        if (g_tab_next <= g_tab_max) add(out, cap, "|Tape « suite » pour la suite.");
+        else add(out, cap, ".");
+        return;
       }
     }
   }
 
   Intent it = best_intent(q);
+
+  {
+    /* Un seul mot utile (ex. « force ») : on donne la définition de ce mot, si la base en a une */
+    char one[32] = "";
+    int words = 0, longest = 0;
+    const char *p2 = q;
+    while (*p2) {
+      while (*p2 == ' ') p2++;
+      int n = 0;
+      char w[32];
+      while (*p2 && *p2 != ' ' && n < 31) w[n++] = *p2++;
+      w[n] = 0;
+      if (n >= 3 && !is_small_word(w)) {
+        words++;
+        if (n > longest) {
+          longest = n;
+          strcpy(one, w);
+        }
+      }
+    }
+    if (words == 1 && kb_find_question(one, out, cap)) return;
+  }
 
   if (has(q, " ca va ") && (has(q, " bonjour ") || has(q, " salut ") || has(q, " bonsoir ") || has(q, " hello "))) {
     if (g_name[0]) {

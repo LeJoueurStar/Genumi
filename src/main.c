@@ -5,6 +5,7 @@
 #include "font.h"
 #include "logo.h"
 #include "dots.h"
+#include "anim_bg.h"
 static bool art_mode = false;
 #define CH_MAX 48
 #define CH_VIEW_Y 56
@@ -269,7 +270,7 @@ static eadk_color_t tbuf[320 * FNT_H];
 #define ZONE_EDGE 150
 #define INK 0x0883
 #define GREYTXT 0x8C71
-#define IN_X 24
+#define IN_X 20
 #define IN_Y 168
 #define IN_W 280
 #define IN_H 46
@@ -363,25 +364,10 @@ static eadk_color_t palette3(int s) {
 }
 
 /* Couleur d'un pixel : la zone colorée commence au front, le bas est le plus avancé. */
+/* Fond de l'animation : table mesurée sur la vidéo originale (voir anim_bg.h). */
 static eadk_color_t anim_pixel(int x, int y) {
-  int E = anim_fr;
-  eadk_color_t c;
-  if (y < E - 14) {
-    c = eadk_color_white;
-  } else if (y < E) {
-    c = lerp565(eadk_color_white, A_GREEN, (y - (E - 14)) * 255 / 14);
-  } else {
-    int span = 240 - E;
-    if (span < 1) span = 1;
-    int u = (y - E) * 255 / span;
-    int s = u * 250 / 255 + anim_shift;
-    c = palette3(s);
-    int fk = ((int)anim_tn - 2300 - (240 - y) * 3) * 255 / 1000;
-    if (fk < 0) fk = 0;
-    if (fk > 255) fk = 255;
-    if (fk > 0) c = lerp565(c, fixed_bg(x, y), fk);
-  }
-  return c;
+  (void)x;
+  return (eadk_color_t)anim_bg565(anim_tn, y);
 }
 
 /* Position du front : monte jusqu'à 150, s'arrête, puis redescend vers 200. */
@@ -420,7 +406,7 @@ static void anim_begin(uint32_t now) {
 
 static void anim_frame(uint32_t now) {
   uint32_t t = now - anim_t0;
-  if (t >= 3900) {
+  if (t >= ANIM_TMAX) {
     anim_on = false;
     splash_edge = -1;
     bg_dirty = true;
