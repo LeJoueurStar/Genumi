@@ -366,8 +366,11 @@ static eadk_color_t palette3(int s) {
 /* Couleur d'un pixel : la zone colorée commence au front, le bas est le plus avancé. */
 /* Fond de l'animation : table mesurée sur la vidéo originale (voir anim_bg.h). */
 static eadk_color_t anim_pixel(int x, int y) {
-  (void)x;
-  return (eadk_color_t)anim_bg565(anim_tn, y);
+  eadk_color_t c = (eadk_color_t)anim_bg565(anim_tn, x, y);
+  int k = (anim_tn - 3300) * 255 / 1200;   /* fondu vers le fond fixe, de 3,3 s à 4,5 s */
+  if (k <= 0) return c;
+  if (k > 255) k = 255;
+  return (eadk_color_t)mix565((uint16_t)c, (uint16_t)fixed_bg(x, y), k);
 }
 
 /* Position du front : monte jusqu'à 150, s'arrête, puis redescend vers 200. */
@@ -438,7 +441,10 @@ static void anim_frame(uint32_t now) {
 }
 
 static eadk_color_t fixed_bg(int x, int y) {
-  return grad_px(x, y, (y - 60) * 255 / 180);
+  int g = (y - 110) * 255 / 130;
+  if (g < 0) g = 0;
+  if (g > 255) g = 255;
+  return grad_px(x, y, g * g / 255);
 }
 
 static eadk_color_t zone_color(int x, int y) {
