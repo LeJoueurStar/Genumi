@@ -404,7 +404,6 @@ static void anim_begin(uint32_t now) {
   anim_fk = 0;
   anim_last = 0;
   for (int y = 0; y < 240; y++) row_sig[y] = 0xFFFFFFFFu;
-  eadk_display_push_rect_uniform(eadk_screen_rect, eadk_color_white);
 }
 
 static void anim_frame(uint32_t now) {
@@ -412,7 +411,6 @@ static void anim_frame(uint32_t now) {
   if (t >= ANIM_TMAX) {
     anim_on = false;
     splash_edge = -1;
-    bg_dirty = true;
     return;
   }
   if (anim_last && now - anim_last < 60) return;
@@ -430,7 +428,7 @@ static void anim_frame(uint32_t now) {
   /* Les bandes d'interface sont recomposées une fois par image, avec le fond animé
    * (zone_color). On ne peint à part que les lignes hors bandes : pas de scintillement. */
   for (int y = 0; y < 240; y++) {
-    bool in_band = (y >= 26 && y < 216) || (y >= 220);
+    bool in_band = (y >= 26 && y < 166) || (y >= 167 && y < 216) || (y >= 220);
     if (in_band) continue;
     uint32_t h = 2166136261u;
     for (int k = 0; k < 4; k++) h = (h ^ anim_pixel(k * 80, y)) * 16777619u;
