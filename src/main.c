@@ -14,7 +14,7 @@ static char ch_txt[CH_MAX][80];
 static int ch_kind[CH_MAX], ch_y[CH_MAX], ch_h[CH_MAX], ch_n = 0, ch_last_user = -1;
 static uint32_t bub_t0 = 0, think_t0 = 0, reveal_t0 = 0, now_c = 0;
 static bool thinking = false, revealing = false, menu_on = false;
-static char pend[160];
+static char pend[320];
 static int reveal_n = 0, scroll_px = 0;
 static bool plus_closing = false, reason_on = false, reason_drawn = false, reason_close = false;
 static int menu_sel = 0;
@@ -77,6 +77,10 @@ static char sugg[3][WORD_MAX];
 static bool sugg_learned[3];
 static int sugg_n = 0, sugg_sel = 0;
 static bool sugg_active = false;
+static char sugg_all[12][WORD_MAX];
+static bool sugg_all_flag[12];
+static int sugg_off = 0;
+static char last_before[INPUT_MAX + 1] = "";
 static bool upper = false, digits = false;
 static uint32_t press_ms[KEY_COUNT];
 static bool armed[KEY_COUNT];
@@ -1583,7 +1587,7 @@ int main(int argc, char *argv[]) {
     if (revealing) {
       reveal_n = (int)((now - reveal_t0) / 28);
       if (reveal_n >= (int)strlen(pend)) {
-        char done[200];
+        char done[360];
         strcpy(done, "Genumi: ");
         strcat(done, pend);
         conv_append(done);
@@ -1595,7 +1599,27 @@ int main(int argc, char *argv[]) {
     char before[INPUT_MAX + 1];
     memcpy(before, input, cur);
     before[cur] = 0;
-    sugg_n = suggest_words(before, sugg, sugg_learned, 3);
+    {
+      /* Fenêtre de 3 propositions : elle avance à chaque lettre ajoutée au même mot,
+       * et revient au début quand le mot change. S'il n'y a plus rien, elle reste. */
+      int tot = suggest_words(before, sugg_all, sugg_all_flag, 12);
+      int lb = (int)strlen(last_before), lc = (int)strlen(before);
+      char lastc = lc > 0 ? before[lc - 1] : ' ';
+      bool letter = (lastc >= 'a' && lastc <= 'z') || (lastc >= 'A' && lastc <= 'Z') || (unsigned char)lastc >= 0x80;
+      if (lc == 0) sugg_off = 0;
+      else if (lb > 0 && lc > lb && letter && !strncmp(before, last_before, lb)) sugg_off += 3;
+      else if (lc != lb) sugg_off = 0;
+      strcpy(last_before, before);
+      if (sugg_off > tot - 3) sugg_off = tot > 3 ? tot - 3 : 0;
+      if (sugg_off < 0) sugg_off = 0;
+      sugg_n = tot - sugg_off;
+      if (sugg_n > 3) sugg_n = 3;
+      if (sugg_n < 0) sugg_n = 0;
+      for (int i = 0; i < sugg_n; i++) {
+        strcpy(sugg[i], sugg_all[sugg_off + i]);
+        sugg_learned[i] = sugg_all_flag[sugg_off + i];
+      }
+    }
     if (sugg_sel >= sugg_n) sugg_sel = 0;
 
     prev = s;

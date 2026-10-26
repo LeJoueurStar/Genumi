@@ -53,3 +53,27 @@ bool kb_search(const char *query, char *out, int cap) {
   out[cap - 1] = 0;
   return true;
 }
+
+/* Cherche une entrée dont la QUESTION contient le mot demandé (ex. « molécule »).
+ * Parmi les entrées trouvées, on prend la question la plus courte : la plus précise. */
+bool kb_find_question(const char *term, char *out, int cap) {
+  char t[48];
+  int n = (int)strlen(term);
+  if (n < 3 || n > 40) return false;
+  strcpy(t, " ");
+  strcat(t, term);
+  strcat(t, " ");
+  int best = -1, bestlen = 1000;
+  for (int i = 0; i < KB_COUNT; i++) {
+    if (!strstr(KB_Q[i], t)) continue;
+    int l = (int)strlen(KB_Q[i]);
+    if (l < bestlen) {
+      bestlen = l;
+      best = i;
+    }
+  }
+  if (best < 0) return false;
+  strncpy(out, KB_ANS[best], cap - 1);
+  out[cap - 1] = 0;
+  return true;
+}

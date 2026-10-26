@@ -1,0 +1,7 @@
+# Entrées ajoutées après les premiers tests : définitions à mots exacts
+Qu'est-ce qu'une molécule ? | Une molécule est un assemblage d'atomes liés entre eux par des liaisons chimiques. Exemples : le dioxygène O2, l'eau H2O, le dioxyde de carbone CO2. | molecule,atome,liaison
+Qu'est-ce qu'un ordinateur ? | Un ordinateur est une machine qui traite des informations en suivant des instructions appelées programmes. Il est composé d'un processeur, de mémoire et d'éléments d'entrée et de sortie. | ordinateur,machine,programme,processeur
+Qu'est-ce qu'un processeur ? | Le processeur est le composant d'un ordinateur qui exécute les instructions des programmes et réalise les calculs. | processeur,ordinateur,calcul
+Qu'est-ce qu'un programme informatique ? | Un programme informatique est une suite d'instructions écrite dans un langage de programmation, que l'ordinateur exécute pour accomplir une tâche. | programme,informatique,instruction,langage
+Qu'est-ce qu'un atome ? | Un atome est la plus petite partie d'un élément chimique : un noyau de protons et de neutrons, entouré d'électrons. | atome,noyau,element
+Qu'est-ce qu'un élément chimique ? | Un élément chimique est une espèce d'atomes caractérisée par son numéro atomique, c'est-à-dire son nombre de protons. Exemples : l'oxygène O, le fer Fe. | element,chimique,atome

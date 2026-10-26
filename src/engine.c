@@ -526,6 +526,48 @@ static void answer_core(const char *raw, char *out, int cap, bool art) {
   }
   if (math_answer(q, out, cap)) return;
 
+  {
+    /* « table de 9 » ou « table de 100 » : la table complète, une ligne par multiplication */
+    const char *t = strstr(q, " table ");
+    if (t) {
+      t += 7;
+      for (;;) {
+        if (*t == ' ') t++;
+        else if (!strncmp(t, "de ", 3) || !strncmp(t, "du ", 3)) t += 3;
+        else if (!strncmp(t, "d ", 2)) t += 2;
+        else break;
+      }
+      if (*t >= '0' && *t <= '9') {
+        int k = 0, nd = 0;
+        while (*t >= '0' && *t <= '9' && nd < 3) {
+          k = k * 10 + (*t - '0');
+          t++;
+          nd++;
+        }
+        if (k >= 1 && k <= 100) {
+          char a[8], b[8], c[8];
+          out[0] = 0;
+          st_fmt(k, a);
+          add(out, cap, "Table de ");
+          add(out, cap, a);
+          add(out, cap, " :");
+          for (int i = 1; i <= 10; i++) {
+            st_fmt(i, b);
+            st_fmt(k * i, c);
+            add(out, cap, "|");
+            add(out, cap, a);
+            add(out, cap, " \xC3\x97 ");
+            add(out, cap, b);
+            add(out, cap, " = ");
+            add(out, cap, c);
+          }
+          add(out, cap, ".");
+          return;
+        }
+      }
+    }
+  }
+
   Intent it = best_intent(q);
 
   if (has(q, " ca va ") && (has(q, " bonjour ") || has(q, " salut ") || has(q, " bonsoir ") || has(q, " hello "))) {
@@ -549,6 +591,8 @@ static void answer_core(const char *raw, char *out, int cap, bool art) {
       const char *d = find_def(term);
       if (d) {
         put(out, cap, d);
+      } else if (kb_find_question(term, out, cap)) {
+        /* réponse précise trouvée dans une question de la base */
       } else if (kb_search(term, out, cap)) {
         /* réponse trouvée dans la base */
       } else {
