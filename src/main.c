@@ -369,7 +369,7 @@ static eadk_color_t palette3(int s) {
 /* Fond de l'animation : table mesurée sur la vidéo originale (voir anim_bg.h). */
 static eadk_color_t anim_pixel(int x, int y) {
   eadk_color_t c = (eadk_color_t)anim_bg565(anim_tn, x, y);
-  int k = (anim_tn - 3300) * 255 / 1200;   /* fondu vers le fond fixe, de 3,3 s à 4,5 s */
+  int k = (anim_tn - 3300) * 255 / 850;    /* fondu vers le fond fixe, de 3,3 s à 4,15 s */
   if (k <= 0) return c;
   if (k > 255) k = 255;
   return (eadk_color_t)mix565((uint16_t)c, (uint16_t)fixed_bg(x, y), k);
@@ -410,7 +410,7 @@ static void anim_begin(uint32_t now) {
 
 static void anim_frame(uint32_t now) {
   uint32_t t = now - anim_t0;
-  if (t >= ANIM_TMAX) {
+  if (t >= 4200) {
     anim_on = false;
     splash_edge = -1;
     return;
@@ -660,15 +660,14 @@ static void comp_header(void) {
   sy0 = 26;
   sh = 30;
   sfill_zone();
-  sfill_circle(13, 40, 12, 0xE71C);
-  sfill_circle(13, 40, 11, eadk_color_white);
+  sfill_circle(13, 39, 12, 0xE71C);
+  sfill_circle(13, 39, 11, eadk_color_white);
   sfill_rect(6, 36, 14, 2, INK);
-  sfill_rect(6, 42, 14, 2, INK);
+  sfill_rect(6, 41, 14, 2, INK);
   stext("V0.1.0", 34, 32, INK, BG_ZONE);
   sline(88, 36, 92, 40, INK);
   sline(92, 40, 96, 36, INK);
-  spill(218, 28, 96, 28, 14, eadk_color_white);
-  crayon(230, 42);
+  crayon(278, 42);
   profile_icon(302, 42);
   sflush(26, 30);
 }
@@ -815,7 +814,9 @@ static void chat_draw(void) {
       }
       int yl = ch_y[j - 1] - top + CH_VIEW_Y;
       int bx = 320 - 14 - maxw - 8;
-      spill(bx, y - 4, maxw + 16, (yl - y) + 22, 9, BUBBLE);
+      int bh = (yl - y) + 22;
+      int br = bh / 2 < 12 ? bh / 2 : 12;
+      spill(bx, y - 4, maxw + 16, bh, br, BUBBLE);
       for (int k = i; k < j; k++) {
         int yk = ch_y[k] - top + CH_VIEW_Y;
         stext(ch_txt[k], bx + 8, yk, INK, BUBBLE);
