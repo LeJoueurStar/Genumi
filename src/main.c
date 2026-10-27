@@ -13,6 +13,8 @@ static bool art_mode = false;
 #define BUBBLE 0xD73F
 static char ch_txt[CH_MAX][80];
 static int ch_kind[CH_MAX], ch_y[CH_MAX], ch_h[CH_MAX], ch_n = 0, ch_last_user = -1;
+static int ch_msg[CH_MAX];
+static int ch_cur_msg = 0;
 static uint32_t bub_t0 = 0, think_t0 = 0, reveal_t0 = 0, now_c = 0;
 static bool thinking = false, revealing = false, menu_on = false;
 static char pend[320];
@@ -658,16 +660,16 @@ static void comp_header(void) {
   sy0 = 26;
   sh = 30;
   sfill_zone();
-  sfill_circle(16, 40, 13, 0xE71C);
-  sfill_circle(16, 40, 12, eadk_color_white);
-  sfill_rect(9, 36, 14, 2, INK);
-  sfill_rect(9, 42, 14, 2, INK);
-  stext("V0.1.0", 36, 32, INK, BG_ZONE);
-  sline(92, 36, 96, 40, INK);
-  sline(96, 40, 100, 36, INK);
-  spill(246, 26, 70, 28, 14, eadk_color_white);
-  crayon(262, 40);
-  profile_icon(302, 40);
+  sfill_circle(13, 40, 12, 0xE71C);
+  sfill_circle(13, 40, 11, eadk_color_white);
+  sfill_rect(6, 36, 14, 2, INK);
+  sfill_rect(6, 42, 14, 2, INK);
+  stext("V0.1.0", 34, 32, INK, BG_ZONE);
+  sline(88, 36, 92, 40, INK);
+  sline(92, 40, 96, 36, INK);
+  spill(218, 28, 96, 28, 14, eadk_color_white);
+  crayon(230, 42);
+  profile_icon(302, 42);
   sflush(26, 30);
 }
 
@@ -696,12 +698,14 @@ static void ch_add(int kind, const char *txt, int h) {
     memmove(ch_txt[0], ch_txt[1], (CH_MAX - 1) * 80);
     memmove(ch_kind, ch_kind + 1, (CH_MAX - 1) * sizeof(int));
     memmove(ch_h, ch_h + 1, (CH_MAX - 1) * sizeof(int));
+    memmove(ch_msg, ch_msg + 1, (CH_MAX - 1) * sizeof(int));
     ch_n = CH_MAX - 1;
     if (ch_last_user >= 0) ch_last_user--;
   }
   strncpy(ch_txt[ch_n], txt, 79);
   ch_txt[ch_n][79] = 0;
   ch_kind[ch_n] = kind;
+  ch_msg[ch_n] = ch_cur_msg;
   ch_h[ch_n] = h;
   ch_n++;
 }
@@ -720,6 +724,7 @@ static void ch_build(void) {
     bool user = sl >= 5 && memcmp(s, "Toi: ", 5) == 0;
     bool ai = sl >= 8 && memcmp(s, "Genumi: ", 8) == 0;
     if (user || ai) {
+      ch_cur_msg++;
       const char *t = user ? s + 5 : s + 8;
       int tl = sl - (user ? 5 : 8), p = 0;
       while (p < tl) {
@@ -801,10 +806,20 @@ static void chat_draw(void) {
       if (dt < 300) y += (300 - dt) * 16 / 300;
     }
     if (ch_kind[i] == 0) {
-      int w = u8_count(ch_txt[i]) * FNT_W;
-      int x = 320 - 14 - w;
-      spill(x - 8, y - 2, w + 16, 18, 9, BUBBLE);
-      stext(ch_txt[i], x, y, INK, BUBBLE);
+      if (i > 0 && ch_kind[i - 1] == 0 && ch_msg[i - 1] == ch_msg[i]) continue;
+      int j = i, maxw = 0;
+      while (j < ch_n && ch_kind[j] == 0 && ch_msg[j] == ch_msg[i]) {
+        int wj = u8_count(ch_txt[j]) * FNT_W;
+        if (wj > maxw) maxw = wj;
+        j++;
+      }
+      int yl = ch_y[j - 1] - top + CH_VIEW_Y;
+      int bx = 320 - 14 - maxw - 8;
+      spill(bx, y - 4, maxw + 16, (yl - y) + 22, 9, BUBBLE);
+      for (int k = i; k < j; k++) {
+        int yk = ch_y[k] - top + CH_VIEW_Y;
+        stext(ch_txt[k], bx + 8, yk, INK, BUBBLE);
+      }
     } else if (ch_kind[i] == 1) {
       stext(ch_txt[i], 16, y, INK, BG_ZONE);
     } else if (ch_kind[i] == 3) {
