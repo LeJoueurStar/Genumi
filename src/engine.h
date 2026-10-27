@@ -4,4 +4,5 @@
 void engine_set_name(const char *n);
 void answer_for(const char *question, char *out, int cap, bool art);
 void engine_reset(void);
+void engine_reason(char *out, int cap);
 #endif

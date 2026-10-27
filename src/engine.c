@@ -13,6 +13,8 @@ static char g_topic[48] = "";      /* dernier sujet défini (mémoire courte) */
 static char g_last[200] = "";      /* dernière réponse donnée */
 static int g_tab_k = 0, g_tab_next = 1, g_tab_max = 10;   /* table en cours */
 static bool g_art = false;
+static char g_q[48] = "";         /* dernière question (pour le raisonnement) */
+static char g_src[16] = "";       /* type de réponse : calcul, table, base, règle, précision */
 
 void engine_set_name(const char *n) {
   strncpy(g_name, n, sizeof g_name - 1);
@@ -722,7 +724,14 @@ static void answer_core(const char *raw, char *out, int cap, bool art) {
 
 void answer_for(const char *question, char *out, int cap, bool art) {
   g_art = art;
+  strncpy(g_q, question, sizeof g_q - 1);
+  g_q[sizeof g_q - 1] = 0;
   answer_core(question, out, cap, art);
+  if (strstr(out, "Résultat")) strcpy(g_src, "calcul");
+  else if (strstr(out, "Table de")) strcpy(g_src, "table");
+  else if (strstr(out, "Peux-tu") || strstr(out, "Tu peux")) strcpy(g_src, "precision");
+  else if (strlen(out) > 60) strcpy(g_src, "base");
+  else strcpy(g_src, "regle");
   if (!art && g_last[0] && !strcmp(out, g_last)) {
     char t[220];
     put(t, sizeof t, "Je te l'ai déjà dit : ");
@@ -732,4 +741,20 @@ void answer_for(const char *question, char *out, int cap, bool art) {
   }
   strncpy(g_last, out, sizeof g_last - 1);
   g_last[sizeof g_last - 1] = 0;
+}
+
+/* Étapes du raisonnement pour la dernière réponse, lignes séparées par « | ». */
+void engine_reason(char *out, int cap) {
+  char q[22];
+  strncpy(q, g_q, sizeof q - 1);
+  q[sizeof q - 1] = 0;
+  out[0] = 0;
+  add(out, cap, "Question : ");
+  add(out, cap, q);
+  add(out, cap, "|");
+  if (!strcmp(g_src, "calcul")) add(out, cap, "Calcul effectué étape par étape");
+  else if (!strcmp(g_src, "table")) add(out, cap, "Table de multiplication générée");
+  else if (!strcmp(g_src, "precision")) add(out, cap, "Question floue : précision demandée");
+  else if (!strcmp(g_src, "base")) add(out, cap, "Réponse trouvée dans la base de connaissances");
+  else add(out, cap, "Réponse trouvée par une règle");
 }

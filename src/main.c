@@ -476,10 +476,27 @@ static uint16_t wash565(int t) {
   return (uint16_t)(((r >> 3) << 11) | ((g >> 2) << 5) | (b >> 3));
 }
 
+/* Fond de la conversation : bleu en haut, blanc en bas. */
+static eadk_color_t conv_bg(int x, int y) {
+  (void)x;
+  int g = y * 255 / 150;
+  if (g > 255) g = 255;
+  int r = 176 + (250 - 176) * g / 255;
+  int gg = 212 + (252 - 212) * g / 255;
+  int b = 250 + (255 - 250) * g / 255;
+  return (eadk_color_t)(((r >> 3) << 11) | ((gg >> 2) << 5) | (b >> 3));
+}
+
 static eadk_color_t zone_color(int x, int y) {
   if (asking_name) return eadk_color_white;
-  if (wash_active) return (eadk_color_t)mix565((uint16_t)fixed_bg(x, y), wash565(wash_t), wash_k);
   if (anim_on) return anim_pixel(x, y);
+  if (wash_active) {
+    eadk_color_t base = sent_in_session ? conv_bg(x, y) : fixed_bg(x, y);
+    int kt = wash_k * (240 - y) / 240;
+    if (kt < 0) kt = 0;
+    return (eadk_color_t)mix565((uint16_t)base, wash565(wash_t), kt);
+  }
+  if (sent_in_session) return conv_bg(x, y);
   return fixed_bg(x, y);
 }
 
@@ -684,20 +701,40 @@ static void profile_icon(int cx, int cy) {
   sfill_rect(cx - 5, cy + 2, 11, 4, eadk_color_white);
 }
 
+/* Icône « nouvelle conversation » : un C avec un crayon, comme sur la capture. */
+static void newchat_icon(int cx, int cy) {
+  for (int dy = -7; dy <= 7; dy++)
+    for (int dx = -7; dx <= 7; dx++) {
+      int d2 = dx * dx + dy * dy;
+      if (d2 >= 36 && d2 <= 56 && !(dx > 1 && dy < -1)) sfill_rect(cx + dx, cy + dy, 1, 1, INK);
+    }
+  sline(cx + 2, cy + 2, cx + 7, cy - 3, INK);
+  sline(cx + 3, cy + 2, cx + 8, cy - 3, INK);
+}
+
+static void dots3(int cx, int cy) {
+  for (int k = 0; k < 3; k++) sfill_rect(cx - 6 + k * 5, cy - 1, 2, 2, INK);
+}
+
 static void comp_header(void) {
   sy0 = 26;
   sh = 30;
   sfill_zone();
-  sfill_circle(13, 39, 12, 0xE71C);
-  sfill_circle(13, 39, 11, eadk_color_white);
-  sfill_rect(6, 36, 14, 2, INK);
-  sfill_rect(6, 41, 14, 2, INK);
+  sfill_circle(14, 39, 12, 0xE71C);
+  sfill_circle(14, 39, 11, eadk_color_white);
+  sfill_rect(7, 36, 14, 2, INK);
+  sfill_rect(7, 41, 14, 2, INK);
   stext("V0.1.0", 34, 32, INK, BG_ZONE);
   sline(88, 36, 92, 40, INK);
   sline(92, 40, 96, 36, INK);
-  spill(266, 28, 26, 28, 14, eadk_color_white);
-  crayon(279, 42);
-  profile_icon(304, 42);
+  spill(218, 28, 96, 28, 14, eadk_color_white);
+  if (sent_in_session) {
+    newchat_icon(236, 42);
+    dots3(296, 42);
+  } else {
+    crayon(236, 42);
+    profile_icon(298, 42);
+  }
   sflush(26, 30);
 }
 
@@ -859,8 +896,9 @@ static void chat_draw(void) {
       draw_actions(y);
     } else if (ch_kind[i] == 4) {
       for (int k = 0; k < 3; k++) {
-        bool act = (int)((now_c / 330) % 3) == k;
-        sfill_rect(16 + k * 5, act ? y + 2 : y + 4, 3, 3, act ? INK : GREYTXT);
+        uint32_t ph = (now_c + (uint32_t)k * 300u) % 900u;
+        int lift = ph < 450u ? (int)(ph * 3u / 450u) : (int)((900u - ph) * 3u / 450u);
+        sfill_rect(16 + k * 5, y + 4 - lift, 3, 3, INK);
       }
     }
   }
@@ -1016,6 +1054,16 @@ static void reason_text(const char *s, int x, int y, eadk_color_t fg) {
 }
 
 static void reason_band(int top, int bot) {
+  static char rb[200];
+  engine_reason(rb, sizeof rb);
+  char *l1 = rb;
+  char *l2 = strchr(rb, '|');
+  if (l2) {
+    *l2 = 0;
+    l2++;
+  } else {
+    l2 = "";
+  }
   sy0 = top;
   sh = bot - top;
   sfill_rect(0, 128, 320, 112, eadk_color_white);
@@ -1029,12 +1077,10 @@ static void reason_band(int top, int bot) {
   sfill_rect(145, 131, 30, 4, 0x4208);
   reason_text("Étapes du raisonnement", 62, 142, INK);
   ring(24, 166, INK);
-  reason_text("Question comprise", 40, 162, INK);
-  reason_text("Sujet identifié dans la question.", 40, 178, GREYTXT);
-  ring(24, 204, INK);
-  reason_text("Réponse préparée", 40, 200, INK);
-  reason_text("Réponse rédigée à partir du sujet.", 40, 216, GREYTXT);
-  reason_text("Modèle 3.5 Flash-Lite High utilisé", 40, 232, GREYTXT);
+  reason_text(l1, 40, 162, INK);
+  ring(24, 190, INK);
+  reason_text(l2, 40, 186, GREYTXT);
+  reason_text("Modèle 3.5 Flash-Lite High utilisé", 40, 214, GREYTXT);
   sflush(top, sh);
 }
 
@@ -1167,6 +1213,7 @@ static void draw(uint32_t now) {
   c = sig_u(c, input_len > 0 ? 1u : 0u);
   c = sig_u(c, (uint32_t)reveal_n);
   c = sig_u(c, (thinking ? 1u : 0u) | (revealing ? 2u : 0u) | (menu_on ? 4u : 0u));
+  c = sig_u(c, (uint32_t)menu_sel);
   c = sig_u(c, (uint32_t)scroll_px);
   c = sig_u(c, (thinking || revealing || (now_c - bub_t0) < 400) ? (now_c / 120) : 0u);
   c = sig_u(c, (uint32_t)ch_n);
@@ -1442,6 +1489,7 @@ static void new_conversation(void) {
   menu_on = false;
   sent_in_session = false;
   ph_done = false;
+  ph_start = (uint32_t)eadk_timing_millis();
   plus_on = false;
   img_chip = false;
   art_mode = false;
