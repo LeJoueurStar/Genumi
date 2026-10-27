@@ -19,6 +19,9 @@ static uint32_t bub_t0 = 0, think_t0 = 0, reveal_t0 = 0, now_c = 0;
 static bool thinking = false, revealing = false, menu_on = false;
 static char pend[320];
 static int reveal_n = 0, scroll_px = 0;
+static bool wash_active = false;
+static int wash_t = 0, wash_k = 0;
+static uint32_t wash_last = 0;
 static bool plus_closing = false, reason_on = false, reason_drawn = false, reason_close = false;
 static int menu_sel = 0;
 
@@ -242,6 +245,8 @@ static void submit(void) {
   conv_append(line);
   answer_for(input, pend, sizeof pend, art_mode);
   bub_t0 = think_t0 = (uint32_t)eadk_timing_millis();
+  wash_active = true;
+  wash_last = 0;
   thinking = true;
   revealing = false;
   reveal_n = 0;
@@ -449,8 +454,27 @@ static eadk_color_t fixed_bg(int x, int y) {
   return grad_px(x, y, g * g / 255);
 }
 
+static const uint16_t WASH_T[13] = {0, 1500, 2000, 2500, 3000, 3500, 4000, 4500, 5000, 5500, 6000, 6500, 7000};
+static const uint8_t WASH_RGB[13][3] = {
+  {214, 234, 252}, {214, 234, 252}, {240, 245, 253}, {237, 245, 253}, {234, 247, 245}, {238, 248, 241},
+  {237, 247, 236}, {246, 249, 234}, {252, 249, 228}, {253, 243, 244}, {243, 238, 251}, {238, 239, 252}, {255, 255, 255}};
+
+static uint16_t wash565(int t) {
+  int i = 0;
+  while (i < 11 && t >= WASH_T[i + 1]) i++;
+  int span = WASH_T[i + 1] - WASH_T[i];
+  int f = (t - WASH_T[i]) * 255 / span;
+  if (f < 0) f = 0;
+  if (f > 255) f = 255;
+  int r = WASH_RGB[i][0] + (WASH_RGB[i + 1][0] - WASH_RGB[i][0]) * f / 255;
+  int g = WASH_RGB[i][1] + (WASH_RGB[i + 1][1] - WASH_RGB[i][1]) * f / 255;
+  int b = WASH_RGB[i][2] + (WASH_RGB[i + 1][2] - WASH_RGB[i][2]) * f / 255;
+  return (uint16_t)(((r >> 3) << 11) | ((g >> 2) << 5) | (b >> 3));
+}
+
 static eadk_color_t zone_color(int x, int y) {
   if (asking_name) return eadk_color_white;
+  if (wash_active) return (eadk_color_t)mix565((uint16_t)fixed_bg(x, y), wash565(wash_t), wash_k);
   if (anim_on) return anim_pixel(x, y);
   return fixed_bg(x, y);
 }
@@ -828,8 +852,8 @@ static void chat_draw(void) {
       draw_actions(y);
     } else if (ch_kind[i] == 4) {
       for (int k = 0; k < 3; k++) {
-        int by = ((now_c / 180 + k) % 3 == 0) ? y - 3 : y;
-        sfill_rect(16 + k * 8, by + 6, 3, 3, INK);
+        bool act = (int)((now_c / 220) % 3) == k;
+        sfill_rect(16 + k * 5, y + 4 - k * 2, act ? 3 : 2, act ? 3 : 2, act ? INK : GREYTXT);
       }
     }
   }
@@ -1446,7 +1470,6 @@ int main(int argc, char *argv[]) {
     pick_greeting();
   }
 
-  eadk_display_push_rect_uniform(eadk_screen_rect, eadk_color_white);
   if (user_name[0]) engine_set_name(user_name);
   splash();
   ph_start = (uint32_t)eadk_timing_millis();
@@ -1587,14 +1610,23 @@ int main(int argc, char *argv[]) {
     }
 
     now_c = now;
-    if (thinking && now - think_t0 > 1400) {
+    if (thinking && now - think_t0 > 6700) {
       thinking = false;
       revealing = true;
       reveal_t0 = now;
       reveal_n = 0;
     }
     if (revealing) {
-      reveal_n = (int)((now - reveal_t0) / 28);
+      {
+        int steps = (int)((now - reveal_t0) / 90);
+        int len = (int)strlen(pend), pos = 0, k = 0;
+        while (k < steps && pos < len) {
+          while (pos < len && pend[pos] != ' ') pos++;
+          while (pos < len && pend[pos] == ' ') pos++;
+          k++;
+        }
+        reveal_n = pos;
+      }
       if (reveal_n >= (int)strlen(pend)) {
         char done[360];
         strcpy(done, "Genumi: ");
@@ -1638,6 +1670,26 @@ int main(int argc, char *argv[]) {
       eadk_display_push_rect_uniform(eadk_screen_rect, eadk_color_white);
       top_sig = sug_sig = in_sig = 0xFFFFFFFFu;
       help_drawn = false; bg_dirty = true;
+    }
+    if (wash_active) {
+      wash_t = (int)(now - bub_t0);
+      if (wash_t >= 7000) {
+        wash_active = false;
+        wash_k = 0;
+        bg_dirty = true;
+      } else {
+        wash_k = wash_t < 5500 ? 150 : (7000 - wash_t) * 150 / 1500;
+        if (wash_k < 0) wash_k = 0;
+        if (now - wash_last >= 120) {
+          wash_last = now;
+          draw_overlays(now, true);
+          for (int y = 0; y < 240; y++) {
+            if ((y >= 26 && y < 166) || (y >= 167 && y < 216) || (y >= 220)) continue;
+            for (int x = 0; x < 320; x++) rowbuf[x] = zone_color(x, y);
+            eadk_display_push_rect((eadk_rect_t){ 0, (uint16_t)y, 320, 1 }, rowbuf);
+          }
+        }
+      }
     }
     if (anim_on) anim_frame(now);
     if (need_redraw(now)) draw(now);
