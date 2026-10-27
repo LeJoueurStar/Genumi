@@ -642,12 +642,12 @@ static void draw_text(const char *s, int x, int y, bool large, eadk_color_t fg, 
 
 /* Zone d'en-tête : menu, V1.0.0, « Mettre à niveau », profil générique. */
 static void crayon(int cx, int cy) {
-  static const int EX[24] = {12, 12, 10, 8, 6, 3, 0, -3, -6, -8, -10, -12, -12, -12, -10, -8, -6, -3, 0, 3, 6, 8, 10, 12};
-  static const int EY[24] = {0, 2, 4, 6, 7, 8, 8, 8, 7, 6, 4, 2, 0, -2, -4, -6, -7, -8, -8, -8, -7, -6, -4, -2};
-  for (int k = 0; k < 24; k++) sfill_rect(cx + EX[k] - 1, cy + EY[k] - 1, 2, 2, INK);
-  sline(cx - 5, cy + 4, cx + 5, cy - 4, INK);
-  sline(cx - 4, cy + 5, cx + 6, cy - 3, INK);
-  sline(cx - 6, cy + 5, cx - 4, cy + 3, INK);
+  /* pointillés en ovale, puis un crayon en diagonale (comme le bouton de la capture) */
+  static const int EX[16] = {9, 8, 6, 3, 0, -3, -6, -8, -9, -8, -6, -3, 0, 3, 6, 8};
+  static const int EY[16] = {0, 3, 5, 6, 7, 6, 5, 3, 0, -3, -5, -6, -7, -6, -5, -3};
+  for (int k = 0; k < 16; k++) sfill_rect(cx + EX[k] - 1, cy + EY[k] - 1, 2, 2, INK);
+  for (int s = -1; s <= 1; s++) sline(cx - 5 + s, cy + 5, cx + 5 + s, cy - 5, INK);
+  sline(cx - 6, cy + 6, cx - 4, cy + 4, INK);
 }
 
 static void profile_icon(int cx, int cy) {
@@ -667,8 +667,9 @@ static void comp_header(void) {
   stext("V0.1.0", 34, 32, INK, BG_ZONE);
   sline(88, 36, 92, 40, INK);
   sline(92, 40, 96, 36, INK);
-  crayon(278, 42);
-  profile_icon(302, 42);
+  spill(266, 28, 26, 28, 14, eadk_color_white);
+  crayon(279, 42);
+  profile_icon(304, 42);
   sflush(26, 30);
 }
 
