@@ -22,6 +22,9 @@ static int reveal_n = 0, scroll_px = 0;
 static bool wash_active = false;
 static int wash_t = 0, wash_k = 0;
 static uint32_t wash_last = 0;
+static uint32_t think_len = 1500;
+static uint32_t reveal_word_t = 0;
+static int reveal_prev = -1;
 static bool plus_closing = false, reason_on = false, reason_drawn = false, reason_close = false;
 static int menu_sel = 0;
 
@@ -247,6 +250,7 @@ static void submit(void) {
   bub_t0 = think_t0 = (uint32_t)eadk_timing_millis();
   wash_active = true;
   wash_last = 0;
+  think_len = 1200 + (uint32_t)((strlen(input) * 97u) % 1800u);
   thinking = true;
   revealing = false;
   reveal_n = 0;
@@ -847,13 +851,16 @@ static void chat_draw(void) {
         stext(ch_txt[k], bx + 8, yk, INK, BUBBLE);
       }
     } else if (ch_kind[i] == 1) {
-      stext(ch_txt[i], 16, y, INK, BG_ZONE);
+      int fade = (int)(now_c - reveal_word_t) * 255 / 250;
+      if (fade > 255) fade = 255;
+      eadk_color_t fg = (revealing && i == ch_n - 1) ? mix565(GREYTXT, INK, fade) : INK;
+      stext(ch_txt[i], 16, y, fg, BG_ZONE);
     } else if (ch_kind[i] == 3) {
       draw_actions(y);
     } else if (ch_kind[i] == 4) {
       for (int k = 0; k < 3; k++) {
-        bool act = (int)((now_c / 220) % 3) == k;
-        sfill_rect(16 + k * 5, y + 4 - k * 2, act ? 3 : 2, act ? 3 : 2, act ? INK : GREYTXT);
+        bool act = (int)((now_c / 330) % 3) == k;
+        sfill_rect(16 + k * 5, act ? y + 2 : y + 4, 3, 3, act ? INK : GREYTXT);
       }
     }
   }
@@ -1610,7 +1617,7 @@ int main(int argc, char *argv[]) {
     }
 
     now_c = now;
-    if (thinking && now - think_t0 > 6700) {
+    if (thinking && now - think_t0 > think_len) {
       thinking = false;
       revealing = true;
       reveal_t0 = now;
@@ -1626,6 +1633,10 @@ int main(int argc, char *argv[]) {
           k++;
         }
         reveal_n = pos;
+        if (reveal_n != reveal_prev) {
+          reveal_prev = reveal_n;
+          reveal_word_t = now;
+        }
       }
       if (reveal_n >= (int)strlen(pend)) {
         char done[360];
@@ -1673,13 +1684,16 @@ int main(int argc, char *argv[]) {
     }
     if (wash_active) {
       wash_t = (int)(now - bub_t0);
-      if (wash_t >= 7000) {
+      int wash_end = (int)think_len + 400;
+      if (wash_t >= wash_end) {
         wash_active = false;
         wash_k = 0;
         bg_dirty = true;
       } else {
-        wash_k = wash_t < 5500 ? 150 : (7000 - wash_t) * 150 / 1500;
+        int eff = wash_t * 7000 / wash_end;
+        wash_k = eff < 5500 ? 150 : (7000 - eff) * 150 / 1500;
         if (wash_k < 0) wash_k = 0;
+        wash_t = eff;
         if (now - wash_last >= 120) {
           wash_last = now;
           draw_overlays(now, true);
