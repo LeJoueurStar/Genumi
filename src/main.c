@@ -458,43 +458,42 @@ static eadk_color_t fixed_bg(int x, int y) {
   return grad_px(x, y, g * g / 255);
 }
 
-static const uint16_t WASH_T[13] = {0, 1500, 2000, 2500, 3000, 3500, 4000, 4500, 5000, 5500, 6000, 6500, 7000};
-static const uint8_t WASH_RGB[13][3] = {
-  {214, 234, 252}, {214, 234, 252}, {240, 245, 253}, {237, 245, 253}, {234, 247, 245}, {238, 248, 241},
-  {237, 247, 236}, {246, 249, 234}, {252, 249, 228}, {253, 243, 244}, {243, 238, 251}, {238, 239, 252}, {255, 255, 255}};
+/* Teintes du haut de l'écran pendant la réponse, mesurées sur la vidéo (ms après l'envoi). */
+static const uint16_t WASH_T[16] = {0, 300, 500, 800, 1200, 1500, 1800, 2100, 2400, 2650, 2900, 3100, 3400, 3700, 4000, 4200};
+static const uint8_t WASH_RGB[16][3] = {
+  {242, 246, 251}, {228, 237, 253}, {211, 228, 253}, {197, 228, 250}, {207, 234, 237}, {203, 239, 224},
+  {214, 242, 211}, {229, 244, 204}, {241, 244, 195}, {253, 237, 200}, {244, 209, 235}, {223, 207, 246},
+  {220, 222, 251}, {243, 244, 253}, {248, 248, 248}, {248, 248, 248}};
 
 static uint16_t wash565(int t) {
   int i = 0;
-  while (i < 11 && t >= WASH_T[i + 1]) i++;
+  while (i < 14 && t >= WASH_T[i + 1]) i++;
   int span = WASH_T[i + 1] - WASH_T[i];
   int f = (t - WASH_T[i]) * 255 / span;
   if (f < 0) f = 0;
   if (f > 255) f = 255;
   int r = WASH_RGB[i][0] + (WASH_RGB[i + 1][0] - WASH_RGB[i][0]) * f / 255;
   int g = WASH_RGB[i][1] + (WASH_RGB[i + 1][1] - WASH_RGB[i][1]) * f / 255;
-  int b = WASH_RGB[i][2] + (WASH_RGB[i + 1][2] - WASH_RGB[i][2]) * f / 255;
-  return (uint16_t)(((r >> 3) << 11) | ((g >> 2) << 5) | (b >> 3));
+  int bl = WASH_RGB[i][2] + (WASH_RGB[i + 1][2] - WASH_RGB[i][2]) * f / 255;
+  return (uint16_t)(((r >> 3) << 11) | ((g >> 2) << 5) | (bl >> 3));
 }
 
-/* Fond de la conversation : bleu en haut, blanc en bas. */
+/* Fond de conversation : blanc, comme dans la vidéo après l'animation. */
 static eadk_color_t conv_bg(int x, int y) {
   (void)x;
-  int g = y * 255 / 150;
-  if (g > 255) g = 255;
-  int r = 176 + (250 - 176) * g / 255;
-  int gg = 212 + (252 - 212) * g / 255;
-  int b = 250 + (255 - 250) * g / 255;
-  return (eadk_color_t)(((r >> 3) << 11) | ((gg >> 2) << 5) | (b >> 3));
+  (void)y;
+  return (eadk_color_t)((248 >> 3) << 11 | (248 >> 2) << 5 | (248 >> 3));
 }
 
 static eadk_color_t zone_color(int x, int y) {
   if (asking_name) return eadk_color_white;
   if (anim_on) return anim_pixel(x, y);
   if (wash_active) {
+    int w = (170 - y) * 255 / 120;
+    if (w < 0) w = 0;
+    if (w > 255) w = 255;
     eadk_color_t base = sent_in_session ? conv_bg(x, y) : fixed_bg(x, y);
-    int kt = wash_k * (240 - y) / 240;
-    if (kt < 0) kt = 0;
-    return (eadk_color_t)mix565((uint16_t)base, wash565(wash_t), kt);
+    return (eadk_color_t)mix565((uint16_t)base, wash565(wash_t), w);
   }
   if (sent_in_session) return conv_bg(x, y);
   return fixed_bg(x, y);
@@ -720,20 +719,20 @@ static void comp_header(void) {
   sy0 = 26;
   sh = 30;
   sfill_zone();
-  sfill_circle(14, 39, 12, 0xE71C);
-  sfill_circle(14, 39, 11, eadk_color_white);
-  sfill_rect(7, 36, 14, 2, INK);
-  sfill_rect(7, 41, 14, 2, INK);
-  stext("V0.1.0", 34, 32, INK, BG_ZONE);
-  sline(88, 36, 92, 40, INK);
-  sline(92, 40, 96, 36, INK);
-  spill(218, 28, 96, 28, 14, eadk_color_white);
+  sfill_circle(17, 39, 12, 0xE71C);
+  sfill_circle(17, 39, 11, eadk_color_white);
+  sfill_rect(10, 36, 14, 2, INK);
+  sfill_rect(10, 41, 14, 2, INK);
+  stext("V0.1.0", 38, 32, INK, BG_ZONE);
+  sline(92, 36, 96, 40, INK);
+  sline(96, 40, 100, 36, INK);
+  spill(262, 28, 52, 28, 14, eadk_color_white);
   if (sent_in_session) {
-    newchat_icon(236, 42);
-    dots3(296, 42);
+    newchat_icon(282, 42);
+    dots3(302, 42);
   } else {
-    crayon(236, 42);
-    profile_icon(298, 42);
+    crayon(282, 42);
+    profile_icon(302, 42);
   }
   sflush(26, 30);
 }
@@ -1732,16 +1731,13 @@ int main(int argc, char *argv[]) {
     }
     if (wash_active) {
       wash_t = (int)(now - bub_t0);
-      int wash_end = (int)think_len + 400;
+      int wash_end = 4000;
       if (wash_t >= wash_end) {
         wash_active = false;
         wash_k = 0;
         bg_dirty = true;
       } else {
-        int eff = wash_t * 7000 / wash_end;
-        wash_k = eff < 5500 ? 150 : (7000 - eff) * 150 / 1500;
-        if (wash_k < 0) wash_k = 0;
-        wash_t = eff;
+        wash_k = 255;
         if (now - wash_last >= 120) {
           wash_last = now;
           draw_overlays(now, true);
