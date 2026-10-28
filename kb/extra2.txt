@@ -1,0 +1,133 @@
+# ---------- Numérique et sciences de l'informatique (SIN, ITEC) ----------
+Qu'est-ce qu'un bit ? | Un bit est la plus petite unité d'information : il vaut 0 ou 1. Un octet est un groupe de 8 bits. | bit,octet,information,binaire
+Qu'est-ce que le système binaire ? | Le système binaire n'utilise que les chiffres 0 et 1. Chaque position représente une puissance de 2. Exemple : 1011 = 8 + 2 + 1 = 11. | binaire,base,2,conversion
+Comment convertir un nombre décimal en binaire ? | On divise successivement par 2 et on lit les restes de bas en haut. Exemple : 13 donne 1101 (13 = 8 + 4 + 1). | binaire,conversion,decimal
+Qu'est-ce que l'hexadécimal ? | C'est un système en base 16, avec les chiffres 0 à 9 puis A à F. Exemple : FF = 255 en décimal. | hexadecimal,base,16,conversion
+Qu'est-ce qu'une porte logique ? | C'est un circuit électronique qui réalise une fonction logique simple : ET, OU, NON, NON-ET, NON-OU, OU exclusif. | porte,logique,circuit,et,ou,non
+Quelle est la table de vérité du ET logique ? | La sortie du ET vaut 1 seulement si toutes les entrées valent 1. | logique,et,table,verite
+Quelle est la table de vérité du OU logique ? | La sortie du OU vaut 1 si au moins une entrée vaut 1. | logique,ou,table,verite
+Qu'est-ce qu'un algorithme ? | C'est une suite finie et ordonnée d'instructions précises qui résout un problème en un nombre fini d'étapes. | algorithme,instruction,methode
+Qu'est-ce qu'une variable en programmation ? | C'est un emplacement mémoire nommé qui contient une valeur pouvant changer pendant l'exécution du programme. | variable,programmation,memoire,valeur
+Qu'est-ce qu'une condition en programmation ? | C'est une instruction qui exécute un bloc d'instructions seulement si une expression est vraie (si / sinon). | condition,si,sinon,programmation
+Qu'est-ce qu'une boucle ? | Une boucle répète un bloc d'instructions : boucle « pour » quand le nombre de répétitions est connu, boucle « tant que » quand il dépend d'une condition. | boucle,pour,tant,que,repetition
+Qu'est-ce qu'une fonction en programmation ? | C'est un bloc d'instructions regroupé sous un nom, qui reçoit des paramètres et peut renvoyer une valeur. | fonction,procedure,parametre,retour
+Qu'est-ce qu'un tableau ? | C'est une structure de données qui regroupe plusieurs valeurs du même type, repérées par un indice (en partant de 0 ou de 1 selon le langage). | tableau,liste,indice,structure
+Qu'est-ce qu'une liste chaînée ? | C'est une suite d'éléments où chaque élément contient une valeur et l'adresse du suivant. | liste,chainee,pointeur,structure
+Qu'est-ce qu'une pile (structure LIFO) ? | Une pile est une structure où le dernier élément entré est le premier sorti (Last In, First Out). | pile,lifo,structure,donnees
+Qu'est-ce qu'une file (structure FIFO) ? | Une file est une structure où le premier élément entré est le premier sorti (First In, First Out). | file,fifo,structure,donnees
+Qu'est-ce qu'un tri à bulles ? | C'est un algorithme de tri qui compare deux éléments voisins et les échange s'ils sont dans le mauvais ordre, jusqu'à ce que la liste soit triée. | tri,bulles,algorithme,comparaison
+Qu'est-ce que la recherche dichotomique ? | C'est une recherche dans une liste triée : on compare la valeur au milieu, puis on garde la moitié qui peut contenir la valeur. | dichotomique,recherche,liste,triee
+Qu'est-ce que la complexité d'un algorithme ? | C'est une estimation du nombre d'opérations en fonction de la taille des données. Une recherche dichotomique est en log(n), un tri à bulles en n². | complexite,algorithme,performance,ordre
+Qu'est-ce qu'un réseau informatique ? | C'est un ensemble d'appareils reliés entre eux pour échanger des données, par des câbles ou sans fil. | reseau,informatique,communication,donnees
+Qu'est-ce qu'une adresse IP ? | C'est un numéro qui identifie un appareil sur un réseau IP. Une adresse IPv4 est formée de 4 nombres de 0 à 255, par exemple 192.168.1.10. | adresse,ip,ipv4,reseau
+Qu'est-ce que le protocole TCP/IP ? | C'est l'ensemble des règles qui permettent aux appareils d'Internet de se transmettre des données. TCP découpe et contrôle les données, IP les achemine. | tcp,ip,protocole,internet,reseau
+Qu'est-ce qu'un routeur ? | C'est un appareil qui relie plusieurs réseaux et choisit le chemin des données entre eux. | routeur,reseau,adresse,chemin
+Qu'est-ce qu'un commutateur (switch) ? | C'est un appareil qui relie des machines d'un même réseau local et transmet les données à la bonne machine. | switch,commutateur,reseau,local
+Qu'est-ce qu'une base de données ? | C'est un ensemble d'informations organisées en tables, reliées entre elles, et interrogées avec un langage comme SQL. | base,donnees,table,sql
+Qu'est-ce qu'une clé primaire ? | C'est un champ qui identifie de façon unique chaque enregistrement d'une table. | cle,primaire,table,base
+Qu'est-ce que SQL ? | C'est le langage standard pour interroger et modifier une base de données relationnelle. Exemple : SELECT nom FROM eleves WHERE classe = '1A'. | sql,requete,base,donnees
+Qu'est-ce qu'un système d'exploitation ? | C'est le logiciel qui gère le matériel et les programmes d'un ordinateur (Windows, Linux, Android...). | systeme,exploitation,logiciel,materiel
+Qu'est-ce que la mémoire vive (RAM) ? | C'est une mémoire rapide qui stocke temporairement les données des programmes en cours d'utilisation. Elle se vide à l'arrêt de l'appareil. | ram,memoire,vive,temporaire
+Qu'est-ce qu'un processeur (CPU) ? | C'est le composant qui exécute les instructions des programmes. Il est caractérisé par sa fréquence (en GHz) et son nombre de cœurs. | processeur,cpu,frequence,coeur
+Qu'est-ce que la cybersécurité ? | C'est l'ensemble des moyens qui protègent les systèmes et les données contre les attaques : mots de passe forts, mises à jour, pare-feu, chiffrement. | cybersecurite,securite,pare,feu,chiffrement
+Qu'est-ce que le chiffrement ? | C'est une méthode qui rend des données illisibles sans une clé. Le chiffrement symétrique utilise la même clé pour chiffrer et déchiffrer. | chiffrement,cryptage,cle,securite
+Qu'est-ce qu'un capteur ? | C'est un composant qui transforme une grandeur physique (température, lumière, distance) en signal électrique exploitable. | capteur,mesure,signal,grandeur
+Qu'est-ce qu'un actionneur ? | C'est un composant qui transforme un signal électrique en action physique, comme un moteur, une lampe ou une électrovanne. | actionneur,moteur,commande,action
+Qu'est-ce qu'un système automatisé ? | C'est un système qui exécute des tâches sans intervention humaine, grâce à des capteurs, un système de commande et des actionneurs. | automatisme,automatisation,commande,capteur
+Qu'est-ce qu'un microcontrôleur ? | C'est un circuit intégré qui regroupe un processeur, de la mémoire et des entrées-sorties, utilisé pour piloter des systèmes embarqués comme Arduino. | microcontroleur,embarque,arduino,processeur
+Qu'est-ce qu'un signal analogique ? | C'est un signal dont la valeur varie de façon continue dans le temps. Un signal numérique ne prend qu'un nombre fini de valeurs. | analogique,numerique,signal,continu
+Qu'est-ce que la conversion analogique-numérique ? | C'est la transformation d'un signal continu en nombres, par échantillonnage (prélèvement régulier) puis quantification (arrondi à des niveaux). | conversion,analogique,numerique,echantillonnage
+Qu'est-ce que l'écoconception ? | C'est la prise en compte de l'environnement dès la conception d'un produit : durabilité, réparabilité, recyclabilité, consommation d'énergie. | ecoconception,environnement,produit,durabilite
+Qu'est-ce que le cycle de vie d'un produit ? | C'est l'ensemble des étapes d'un produit : extraction des matières, fabrication, distribution, utilisation, fin de vie (recyclage ou élimination). | cycle,vie,produit,acv,environnement
+Qu'est-ce que l'économie circulaire ? | C'est un modèle qui limite le gaspillage : réutiliser, réparer, recycler, pour garder les ressources le plus longtemps possible. | economie,circulaire,recyclage,ressource
+Qu'est-ce qu'un cahier des charges ? | C'est le document qui décrit les besoins d'un projet et les contraintes à respecter (fonctions, performances, coût, délais). | cahier,charges,projet,besoin,contrainte
+Qu'est-ce que la méthode SADT (ou diagramme de fonctions) ? | C'est une méthode qui décrit un système par des fonctions reliées par des flux : entrées, sorties, contrôles et mécanismes. | sadt,fonction,flux,diagramme
+Qu'est-ce qu'un diagramme de Gantt ? | C'est un planning qui représente les tâches d'un projet sur un axe de temps, avec leurs durées et leurs enchaînements. | gantt,planning,projet,tache,duree
+Qu'est-ce que le prototypage ? | C'est la réalisation d'un modèle d'essai d'un produit pour vérifier une idée avant la production. | prototype,prototypage,essai,conception
+Qu'est-ce que la modélisation 3D ? | C'est la création d'un objet virtuel en trois dimensions, qui peut ensuite être imprimé ou utilisé en simulation. | modelisation,3d,cao,conception
+Qu'est-ce que la CAO ? | C'est la conception assistée par ordinateur : on dessine et simule des pièces ou des produits sur logiciel. | cao,conception,assistee,ordinateur
+Qu'est-ce que la fabrication additive ? | C'est la fabrication d'une pièce couche par couche, comme l'impression 3D. | additive,impression,3d,couche
+Qu'est-ce qu'un circuit électrique en courant continu ? | C'est un circuit où le courant circule toujours dans le même sens, fourni par une pile ou une batterie. | courant,continu,circuit,pile
+Qu'est-ce que le courant alternatif ? | C'est un courant qui change de sens périodiquement. En France, le secteur est en 230 V efficace à 50 Hz. | alternatif,secteur,hertz,frequence
+Qu'est-ce qu'un moteur électrique ? | C'est un convertisseur qui transforme l'énergie électrique en énergie mécanique de rotation. | moteur,electrique,rotation,conversion
+Qu'est-ce qu'un transformateur ? | C'est un appareil qui modifie la tension d'un courant alternatif. Le rapport des tensions est égal au rapport du nombre de spires. | transformateur,tension,spires,alternatif
+Qu'est-ce qu'un rendement énergétique ? | C'est le rapport entre l'énergie utile et l'énergie consommée. Un rendement de 0,8 signifie que 80 % de l'énergie est utilisée. | rendement,energie,utile,consommee
+Qu'est-ce que l'énergie renouvelable ? | C'est une énergie issue de sources qui se renouvellent naturellement : soleil, vent, eau, biomasse, géothermie. | renouvelable,energie,solaire,eolien
+Qu'est-ce qu'une éolienne ? | C'est un dispositif qui transforme l'énergie cinétique du vent en énergie électrique grâce à une génératrice. | eolienne,vent,energie,electrique
+Qu'est-ce qu'un panneau solaire photovoltaïque ? | C'est un dispositif qui convertit directement la lumière en électricité grâce à des cellules semi-conductrices. | photovoltaique,solaire,cellule,electricite
+Qu'est-ce qu'une pompe à chaleur ? | C'est une machine qui transfère de la chaleur d'un milieu froid vers un milieu plus chaud, en consommant de l'électricité. | pompe,chaleur,transfert,energie
+Qu'est-ce que l'isolation thermique ? | C'est la limitation des échanges de chaleur entre l'intérieur et l'extérieur d'un bâtiment, pour réduire les pertes d'énergie. | isolation,thermique,batiment,chaleur
+Qu'est-ce que la conduction thermique ? | C'est le transfert de chaleur de proche en proche dans un matériau, sans déplacement de matière. | conduction,thermique,chaleur,materiau
+Qu'est-ce que la convection ? | C'est le transfert de chaleur par le déplacement d'un fluide (air ou eau) qui se réchauffe et circule. | convection,fluide,chaleur
+Qu'est-ce que le rayonnement thermique ? | C'est le transfert de chaleur par ondes électromagnétiques, sans support matériel. Le soleil chauffe la Terre ainsi. | rayonnement,thermique,chaleur,onde
+Qu'est-ce qu'un bâtiment basse consommation ? | C'est un bâtiment conçu pour consommer très peu d'énergie, grâce à une bonne isolation, des matériaux performants et des énergies renouvelables. | batiment,basse,consommation,energie
+Qu'est-ce que la norme RT ou RE 2020 ? | Ce sont des réglementations thermiques françaises qui fixent des limites de consommation et d'émissions pour les bâtiments neufs. | reglementation,thermique,re2020,batiment
+Qu'est-ce qu'une charpente ? | C'est la structure porteuse d'un toit, qui reçoit les charges et les transmet aux murs ou aux fondations. | charpente,toit,structure,charge
+Qu'est-ce qu'une fondation ? | C'est la partie d'un ouvrage qui transmet ses charges au sol. Elle peut être superficielle (semelle) ou profonde (pieux). | fondation,sol,semelle,pieu
+Qu'est-ce qu'une poutre ? | C'est un élément de construction horizontal qui travaille en flexion, soutenant des charges entre deux appuis. | poutre,flexion,appui,structure
+Qu'est-ce qu'un poteau ? | C'est un élément vertical qui travaille principalement en compression et transmet les charges vers les fondations. | poteau,compression,vertical,structure
+Qu'est-ce que la résistance des matériaux ? | C'est la science qui étudie la tenue des pièces soumises à des efforts : traction, compression, flexion, cisaillement, torsion. | resistance,materiaux,effort,contrainte
+Qu'est-ce qu'une contrainte mécanique ? | C'est la force par unité de surface, notée σ. Elle s'exprime en pascals (Pa) : σ = F / S. | contrainte,mecanique,force,surface,pascal
+Qu'est-ce que le module d'Young ? | C'est la grandeur qui caractérise la rigidité d'un matériau : contrainte divisée par déformation relative, en pascals. | module,young,rigidite,materiau
+Qu'est-ce qu'un plan d'architecte ? | C'est un dessin à l'échelle qui représente un bâtiment vu d'en haut (plan), de côté (coupe ou élévation), avec les cotes et légendes. | plan,architecte,echelle,dessin
+Qu'est-ce qu'une échelle de dessin ? | C'est le rapport entre la dimension sur le dessin et la dimension réelle. Une échelle de 1/50 signifie que 1 cm sur le plan vaut 50 cm dans la réalité. | echelle,dessin,plan,rapport
+Qu'est-ce que la perspective ? | C'est une technique de représentation qui donne une impression de profondeur, avec un ou plusieurs points de fuite. | perspective,dessin,profondeur,point,fuite
+Qu'est-ce que le design ? | C'est la démarche de conception d'un objet ou d'un service qui allie fonction, usage, esthétique et contraintes de production. | design,conception,fonction,esthetique
+Qu'est-ce que la démarche de design ? | Elle suit des étapes : analyse du besoin, recherche, idées, prototypage, test, puis amélioration jusqu'à la solution finale. | design,demarche,besoin,prototype,test
+Qu'est-ce qu'une maquette ? | C'est une représentation réduite et tridimensionnelle d'un projet, pour en juger les volumes et l'aspect avant réalisation. | maquette,volume,projet,representation
+Qu'est-ce qu'un logiciel de traitement d'image ? | C'est un logiciel qui permet de retoucher et composer des images : sélection, calques, couleurs, filtres. | image,retouche,calque,logiciel
+Qu'est-ce qu'un calque en graphisme ? | C'est une couche transparente superposée à d'autres couches, qui permet de modifier une partie de l'image sans toucher aux autres. | calque,graphisme,couche,image
+Qu'est-ce que le modèle RVB ? | C'est un mode de couleur qui mélange le rouge, le vert et le bleu, utilisé pour les écrans. Le modèle CMJN sert pour l'impression. | rvb,couleur,ecran,cmjn
+Qu'est-ce que la résolution d'une image ? | C'est le nombre de pixels qui composent l'image. Plus il y en a, plus l'image est détaillée. | resolution,pixel,image,definition
+Qu'est-ce qu'un pixel ? | C'est le plus petit élément d'une image numérique, qui porte une couleur. | pixel,image,numerique,element
+Qu'est-ce qu'une image vectorielle ? | C'est une image décrite par des formes géométriques (points, droites, courbes). Elle reste nette à toute taille, contrairement à l'image matricielle. | vectoriel,vecteur,image,forme
+Qu'est-ce qu'une image matricielle ? | C'est une image formée d'une grille de pixels. Elle se dégrade quand on l'agrandit beaucoup. | matriciel,pixel,image,grille
+Qu'est-ce que la typographie ? | C'est l'art de choisir et de disposer les caractères : police, taille, interlignage, alignement, contraste. | typographie,police,caractere,texte
+Qu'est-ce qu'une police de caractères ? | C'est un ensemble de caractères qui partagent le même dessin, avec des graisses et des styles. On distingue les empattements (serif) et les linéales (sans-serif). | police,caractere,serif,typographie
+Qu'est-ce que l'ergonomie ? | C'est l'étude de l'adaptation d'un produit ou d'un poste de travail à l'utilisateur, pour qu'il soit efficace, sûr et confortable. | ergonomie,usage,utilisateur,confort
+Qu'est-ce que l'interface utilisateur ? | C'est la partie d'un logiciel ou d'un appareil avec laquelle l'utilisateur interagit : boutons, menus, écrans. | interface,utilisateur,ecran,menu
+Qu'est-ce que le cahier des charges fonctionnel ? | C'est le document qui décrit les fonctions attendues d'un produit (fonctions de service et fonctions contraintes) et leurs critères d'acceptation. | cahier,charges,fonctionnel,fonction
+Qu'est-ce qu'un matériau composite ? | C'est un matériau formé de plusieurs constituants aux propriétés complémentaires, comme la fibre de verre dans une résine. | composite,materiau,fibre,resine
+Qu'est-ce qu'un matériau recyclable ? | C'est un matériau qui peut être transformé à nouveau en matière première après sa fin de vie, comme l'aluminium, le verre ou certains plastiques. | recyclable,materiau,recyclage,matiere
+Qu'est-ce que la maintenance préventive ? | C'est l'entretien planifié d'un équipement pour prévenir les pannes, à intervalles réguliers. | maintenance,preventive,entretien,panne
+Qu'est-ce que la maintenance corrective ? | C'est la réparation d'un équipement après une panne, pour le remettre en état de fonctionner. | maintenance,corrective,panne,reparation
+Qu'est-ce qu'un schéma électrique ? | C'est une représentation normalisée d'un circuit, avec des symboles pour chaque composant et les liaisons entre eux. | schema,electrique,symbole,circuit
+Qu'est-ce qu'un fusible ? | C'est un dispositif de protection qui coupe le circuit quand l'intensité dépasse une valeur limite, pour éviter la surchauffe. | fusible,protection,intensite,securite
+Qu'est-ce qu'un disjoncteur ? | C'est un appareil de protection qui coupe automatiquement le courant en cas de surcharge ou de court-circuit, et qui peut être réarmé. | disjoncteur,protection,surcharge,court,circuit
+Qu'est-ce qu'un court-circuit ? | C'est une liaison accidentelle de faible résistance entre deux points d'un circuit, qui provoque une intensité très élevée. | court,circuit,intensite,resistance
+Qu'est-ce que la mise à la terre ? | C'est la liaison électrique entre les masses métalliques d'un appareil et la terre, pour évacuer un défaut et protéger les personnes. | terre,masse,protection,securite
+Qu'est-ce qu'un condensateur dans un circuit ? | Il stocke de l'énergie électrique sous forme de charges. Sa capacité C se mesure en farads. | condensateur,capacite,charge,energie
+Qu'est-ce qu'une diode ? | C'est un composant qui laisse passer le courant dans un seul sens. Une diode électroluminescente (LED) émet de la lumière. | diode,sens,courant,led
+Qu'est-ce qu'un transistor ? | C'est un composant semi-conducteur qui sert d'interrupteur ou d'amplificateur, commandé par une tension ou un courant. | transistor,interrupteur,amplificateur,semi,conducteur
+Qu'est-ce qu'une résistance électrique ? | C'est un composant qui s'oppose au passage du courant. Sa valeur R se mesure en ohms (ohms) et vérifie la loi d'Ohm : U = R × I. | resistance,ohm,loi,tension,intensite
+Qu'est-ce qu'un multimètre ? | C'est un appareil qui mesure la tension, l'intensité et la résistance. Il se branche en parallèle pour la tension, en série pour l'intensité. | multimetre,mesure,tension,intensite
+Qu'est-ce qu'un oscilloscope ? | C'est un appareil qui affiche la variation d'une tension en fonction du temps, sous forme de courbe. | oscilloscope,courbe,tension,temps
+# ---------- Mathématiques : méthodes et calculs ----------
+Comment factoriser une expression ? | On cherche un facteur commun ou une identité remarquable. Exemple : 6x + 9 = 3(2x + 3). | factoriser,facteur,commun,expression
+Quelles sont les identités remarquables ? | (a + b)² = a² + 2ab + b² ; (a − b)² = a² − 2ab + b² ; (a + b)(a − b) = a² − b². | identite,remarquable,developper,carre
+Comment résoudre une équation produit ? | Si A × B = 0, alors A = 0 ou B = 0. Exemple : (x − 2)(x + 3) = 0 donne x = 2 ou x = −3. | equation,produit,nul,solution
+Comment résoudre une inéquation du premier degré ? | On résout comme une équation, en retournant le sens de l'inégalité si on multiplie ou divise par un nombre négatif. Exemple : −2x > 4 donne x < −2. | inequation,premier,degre,sens
+Comment additionner des fractions de dénominateurs différents ? | On cherche un dénominateur commun (le PPCM), puis on additionne les numérateurs. Exemple : 1/4 + 1/6 = 3/12 + 2/12 = 5/12. | fraction,addition,denominateur,commun
+Comment calculer une puissance d'une puissance ? | (a^m)^n = a^(m × n). Exemple : (2³)² = 2⁶ = 64. | puissance,regle,calcul
+Qu'est-ce que la notation scientifique ? | C'est l'écriture d'un nombre sous la forme a × 10^n, avec 1 ≤ a < 10. Exemple : 3 500 = 3,5 × 10³. | notation,scientifique,puissance,dix
+Comment calculer une moyenne pondérée ? | On multiplie chaque valeur par son coefficient, on additionne, puis on divise par la somme des coefficients. | moyenne,ponderee,coefficient
+Qu'est-ce qu'une proportion ? | C'est un rapport entre une partie et le tout, souvent exprimé en pourcentage ou en fraction. | proportion,rapport,pourcentage
+Comment résoudre un problème de proportionnalité ? | On utilise le produit en croix : si a/b = c/d, alors a × d = b × c. | proportionnalite,produit,croix,egalite
+Qu'est-ce qu'une fonction affine ? | C'est une fonction de la forme f(x) = ax + b. Sa courbe est une droite de coefficient directeur a, qui coupe l'axe des ordonnées en b. | affine,fonction,droite,coefficient
+Comment trouver le coefficient directeur d'une droite ? | a = (y_B − y_A) / (x_B − x_A), pour deux points A et B de la droite. | coefficient,directeur,droite,pente
+Comment déterminer l'intersection de deux droites ? | On résout le système formé par leurs deux équations : on cherche le point (x ; y) qui vérifie les deux. | intersection,droites,systeme,point
+Qu'est-ce qu'un système d'équations ? | C'est un ensemble d'équations à plusieurs inconnues, qu'on résout par substitution ou par combinaison. | systeme,equations,substitution,combinaison
+Comment calculer un volume de cylindre ? | V = π × r² × h, où r est le rayon de la base et h la hauteur. | volume,cylindre,pi,rayon
+Comment calculer le volume d'un cône ? | V = (1/3) × π × r² × h. | volume,cone,pi,rayon
+Comment calculer l'aire latérale d'un cylindre ? | A = 2 × π × r × h. | aire,laterale,cylindre,pi
+Qu'est-ce que le théorème de Thalès ? | Si deux droites sécantes sont coupées par deux parallèles, les longueurs des segments correspondants sont proportionnelles. | thales,parallele,proportion,segment
+Qu'est-ce que la réciproque du théorème de Pythagore ? | Si dans un triangle le carré du plus grand côté est égal à la somme des carrés des deux autres, alors le triangle est rectangle. | pythagore,reciproque,rectangle
+Comment calculer la tangente d'un angle dans un triangle rectangle ? | tan(angle) = côté opposé / côté adjacent. Exemple : côté opposé 3, côté adjacent 4 donne tan = 0,75. | tangente,trigonometrie,triangle,rectangle
+Comment utiliser la calculatrice pour une racine carrée ? | La racine de a est a élevé à la puissance 1/2. Exemple : √25 = 25^(1/2) = 5. | racine,carree,puissance,calcul
+Qu'est-ce qu'une statistique descriptive ? | C'est un ensemble d'indicateurs qui résument une série : effectif, fréquence, moyenne, médiane, étendue, écart-type. | statistique,descriptive,indicateur,serie
+Qu'est-ce qu'un histogramme ? | C'est une représentation graphique d'une série continue, où l'aire de chaque rectangle est proportionnelle à l'effectif de la classe. | histogramme,classe,effectif,graphique
+Qu'est-ce qu'une fréquence cumulée ? | C'est la somme des fréquences jusqu'à une valeur donnée. Elle sert à lire une médiane ou un quartile sur une courbe. | frequence,cumulee,mediane,quartile
+Qu'est-ce qu'un arbre de probabilités ? | C'est un schéma qui représente les issues successives d'une expérience aléatoire, avec leurs probabilités sur les branches. | arbre,probabilites,branche,issue
+Qu'est-ce qu'une expérience aléatoire ? | C'est une expérience dont le résultat ne peut pas être prévu avec certitude, mais dont on connaît l'ensemble des issues possibles. | experience,aleatoire,issue,hasard
+Qu'est-ce qu'un événement contraire ? | L'événement contraire de A, noté A barre, est réalisé quand A ne l'est pas. On a P(A barre) = 1 − P(A). | contraire,evenement,probabilite
+Qu'est-ce qu'une loi de probabilité discrète ? | C'est la donnée de toutes les valeurs possibles d'une variable aléatoire, avec leur probabilité. Leur somme vaut 1. | loi,probabilite,discrete,variable

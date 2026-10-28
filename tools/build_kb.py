@@ -8,7 +8,7 @@ import re
 import sys
 import unicodedata
 
-FILES = [f for f in ['kb/qa.txt', 'kb/extra.txt'] if os.path.exists(f)]
+FILES = [f for f in ['kb/qa.txt', 'kb/extra.txt', 'kb/extra2.txt'] if os.path.exists(f)]
 OUT = 'src/kb_data.h'
 WORDS_OUT = 'src/kb_words.h'
 STOP = set('les des une est que qui quoi pour dans sur avec par ce cet cette son sa ses ils elle vous tu je il en au aux du de la le un et ou'.split())

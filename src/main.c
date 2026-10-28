@@ -17,7 +17,7 @@ static int ch_msg[CH_MAX];
 static int ch_cur_msg = 0;
 static uint32_t bub_t0 = 0, think_t0 = 0, reveal_t0 = 0, now_c = 0;
 static bool thinking = false, revealing = false, menu_on = false;
-static char pend[320];
+static char pend[640];
 static int reveal_n = 0, scroll_px = 0;
 static bool wash_active = false;
 static int wash_t = 0, wash_k = 0;
@@ -1686,7 +1686,7 @@ int main(int argc, char *argv[]) {
         }
       }
       if (reveal_n >= (int)strlen(pend)) {
-        char done[360];
+        char done[700];
         strcpy(done, "Genumi: ");
         strcat(done, pend);
         conv_append(done);

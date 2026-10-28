@@ -82,7 +82,7 @@ static void norm(const char *in, char *out, int cap) {
     } else if (c >= 0x80) {
       while (in[i + 1] && ((unsigned char)in[i + 1] & 0xC0) == 0x80) i++;
       out[o++] = ' ';
-    } else if (c == '\'' || c == '-' || c == '?' || c == '!' || c == ',' || c == ';' || c == ':' || c == '.') {
+    } else if (c == '\'' || c == '?' || c == '!' || c == ',' || c == ';' || c == ':' || c == '.') {
       out[o++] = ' ';
     } else {
       out[o++] = (c >= 'A' && c <= 'Z') ? (char)(c + 32) : (char)c;
@@ -125,19 +125,21 @@ static bool has_long_token(const char *q) {
 }
 
 /* ---------- calcul avec étapes ---------- */
+/* Analyseur : + - * / ^ et parenthèses, nombres longs (64 bits), une étape par ligne. */
+typedef long long num_t;
 
 static const char *pe_p;
 static bool pe_ok;
-static char st_buf[160];
+static char pe_err[64];
+static char st_buf[640];
 static int st_n;
-static long pe_expr(void);
 
-static void st_fmt(long v, char *s) {
+static void st_fmt(num_t v, char *s) {
   char t[24];
   int k = 0, n = 0;
-  long a = v < 0 ? -v : v;
+  num_t a = v < 0 ? -v : v;
   do {
-    t[k++] = (char)('0' + a % 10);
+    t[k++] = (char)('0' + (int)(a % 10));
     a /= 10;
   } while (a);
   if (v < 0) s[n++] = '-';
@@ -145,36 +147,51 @@ static void st_fmt(long v, char *s) {
   s[n] = 0;
 }
 
-static void st_add(long a, char op, long b, long r) {
-  char sa[24], sb[24], sr[24], line[64];
-  if (st_n >= 4) return;
+static void st_rec(const char *line) {
+  if (st_n < 12) {
+    strcat(st_buf, "|");
+    strcat(st_buf, line);
+  }
+  st_n++;
+}
+
+static void st_add(num_t a, char op, num_t b, num_t r) {
+  char sa[24], sb[24], sr[24], line[72];
   st_fmt(a, sa);
   st_fmt(b, sb);
   st_fmt(r, sr);
-  const char *o = op == '*' ? "\xC3\x97" : op == '/' ? "\xC3\xB7" : op == '+' ? "+" : "-";
+  const char *o = op == '*' ? "\xC3\x97" : op == '/' ? "\xC3\xB7" : op == '^' ? "^" : op == '+' ? "+" : "-";
   line[0] = 0;
   strcat(line, sa);
   strcat(line, o);
   strcat(line, sb);
   strcat(line, " = ");
   strcat(line, sr);
-  strcat(st_buf, st_n == 0 ? "Étapes : " : ", puis ");
-  strcat(st_buf, line);
-  st_n++;
+  st_rec(line);
 }
+
+static void pe_fail(const char *msg) {
+  if (pe_ok) {
+    strncpy(pe_err, msg, sizeof pe_err - 1);
+    pe_err[sizeof pe_err - 1] = 0;
+  }
+  pe_ok = false;
+}
+
+static num_t pe_expr(void);
 
 static void pe_sp(void) {
   while (*pe_p == ' ') pe_p++;
 }
 
-static long pe_atom(void) {
+static num_t pe_atom(void) {
   pe_sp();
   if (*pe_p == '(') {
     pe_p++;
-    long v = pe_expr();
+    num_t v = pe_expr();
     pe_sp();
     if (*pe_p == ')') pe_p++;
-    else pe_ok = false;
+    else pe_fail("Il manque une parenthèse fermante.");
     return v;
   }
   if (*pe_p == '-') {
@@ -182,57 +199,97 @@ static long pe_atom(void) {
     return -pe_atom();
   }
   if (*pe_p >= '0' && *pe_p <= '9') {
-    long v = 0;
+    num_t v = 0;
+    int nd = 0;
     while (*pe_p >= '0' && *pe_p <= '9') {
+      if (++nd > 15) {
+        pe_fail("Nombre trop grand pour la calculatrice.");
+        return 0;
+      }
       v = v * 10 + (*pe_p - '0');
       pe_p++;
     }
     return v;
   }
-  pe_ok = false;
+  pe_fail("Je n'arrive pas à lire ce calcul.");
   return 0;
 }
 
-static long pe_term(void) {
-  long v = pe_atom();
+static num_t pe_power(void) {
+  num_t base = pe_atom();
+  pe_sp();
+  if (*pe_p == '^') {
+    pe_p++;
+    num_t e = pe_power();
+    if (e < 0 || e > 62) {
+      pe_fail("Puissance trop grande.");
+      return 0;
+    }
+    num_t r = 1;
+    for (num_t i = 0; i < e; i++) r *= base;
+    st_add(base, '^', e, r);
+    return r;
+  }
+  return base;
+}
+
+static num_t pe_term(void) {
+  num_t v = pe_power();
   for (;;) {
     pe_sp();
     if (*pe_p == '*') {
       pe_p++;
-      long b = pe_atom();
-      long r = v * b;
+      num_t b = pe_power();
+      num_t r = v * b;
       st_add(v, '*', b, r);
       v = r;
     } else if (*pe_p == '/') {
       pe_p++;
-      long b = pe_atom();
+      num_t b = pe_power();
       if (b == 0) {
-        pe_ok = false;
+        pe_fail("Impossible : on ne peut pas diviser par zéro.");
         return 0;
       }
-      long r = v / b;
-      st_add(v, '/', b, r);
-      v = r;
+      num_t q = v / b, rem = v % b;
+      if (rem == 0) {
+        st_add(v, '/', b, q);
+      } else {
+        char sa[24], sb[24], sq[24], sr[24], line[80];
+        st_fmt(v, sa);
+        st_fmt(b, sb);
+        st_fmt(q, sq);
+        st_fmt(rem < 0 ? -rem : rem, sr);
+        line[0] = 0;
+        strcat(line, sa);
+        strcat(line, " \xC3\xB7 ");
+        strcat(line, sb);
+        strcat(line, " = ");
+        strcat(line, sq);
+        strcat(line, " reste ");
+        strcat(line, sr);
+        st_rec(line);
+      }
+      v = q;
     } else {
       return v;
     }
   }
 }
 
-static long pe_expr(void) {
-  long v = pe_term();
+static num_t pe_expr(void) {
+  num_t v = pe_term();
   for (;;) {
     pe_sp();
     if (*pe_p == '+') {
       pe_p++;
-      long b = pe_term();
-      long r = v + b;
+      num_t b = pe_term();
+      num_t r = v + b;
       st_add(v, '+', b, r);
       v = r;
     } else if (*pe_p == '-') {
       pe_p++;
-      long b = pe_term();
-      long r = v - b;
+      num_t b = pe_term();
+      num_t r = v - b;
       st_add(v, '-', b, r);
       v = r;
     } else {
@@ -241,41 +298,69 @@ static long pe_expr(void) {
   }
 }
 
+/* Extrait l'expression : chiffres, opérateurs, parenthèses, et « x » entre deux nombres. */
+static int extract_expr(const char *q, char *e, int cap) {
+  int n = 0;
+  bool started = false;
+  for (const char *p = q; *p && n < cap - 2; p++) {
+    char c = *p;
+    bool ok = (c >= '0' && c <= '9') || c == '+' || c == '-' || c == '*' || c == '/' || c == '^' || c == '(' || c == ')' || c == ' ';
+    if (!ok && c == 'x' && started) {
+      const char *before = p - 1;
+      while (before > q && *before == ' ') before--;
+      const char *after = p + 1;
+      while (*after == ' ') after++;
+      if ((*before >= '0' && *before <= '9') || *before == ')') {
+        if ((*after >= '0' && *after <= '9') || *after == '(') {
+          e[n++] = '*';
+          continue;
+        }
+      }
+    }
+    if (ok) {
+      if (c != ' ' || started) {
+        e[n++] = c;
+        if (c != ' ') started = true;
+      }
+    } else if (started) {
+      break;
+    }
+  }
+  while (n > 0 && e[n - 1] == ' ') n--;
+  e[n] = 0;
+  return n;
+}
+
 static bool math_answer(const char *q, char *out, int cap) {
   bool digit = false, op = false;
   for (const char *p = q; *p; p++) {
     if (*p >= '0' && *p <= '9') digit = true;
-    if (*p == '+' || *p == '-' || *p == '*' || *p == '/') op = true;
+    if (*p == '+' || *p == '-' || *p == '*' || *p == '/' || *p == '^' || *p == 'x') op = true;
   }
   if (!digit || !op) return false;
-  char e[64];
-  int n = 0;
-  for (const char *p = q; *p && n < 60; p++) {
-    char c = *p;
-    if ((c >= '0' && c <= '9') || c == '+' || c == '-' || c == '*' || c == '/' || c == '(' || c == ')' || c == ' ') {
-      e[n++] = c;
-    } else if (n > 0) {
-      break;
-    }
-  }
-  e[n] = 0;
+  char e[160];
+  if (extract_expr(q, e, sizeof e) == 0) return false;
   pe_p = e;
   pe_ok = true;
+  pe_err[0] = 0;
   st_n = 0;
   st_buf[0] = 0;
-  long v = pe_expr();
+  num_t v = pe_expr();
   pe_sp();
-  if (!pe_ok && strstr(e, "/0") && !strstr(e, "/0.")) {
-    put(out, cap, "Impossible : on ne peut pas diviser par zéro.");
+  if (pe_ok && *pe_p) pe_fail("Je n'arrive pas à lire la fin du calcul.");
+  if (!pe_ok) {
+    if (!pe_err[0]) return false;
+    put(out, cap, pe_err);
     return true;
   }
-  if (!pe_ok || *pe_p) return false;
   char sr[24];
   st_fmt(v, sr);
   out[0] = 0;
-  if (st_n) {
+  if (st_n > 0) {
+    add(out, cap, "Étapes :");
     add(out, cap, st_buf);
-    add(out, cap, ". ");
+    if (st_n > 12) add(out, cap, "|(étapes suivantes non affichées)");
+    add(out, cap, "|");
   }
   add(out, cap, "Résultat : ");
   add(out, cap, sr);
