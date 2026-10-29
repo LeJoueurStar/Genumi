@@ -1,0 +1,69 @@
+# ---------- STI2D : innovation technologique et éco-conception (ITEC) ----------
+Qu'est-ce que l'innovation technologique ? | C'est la création d'un produit, d'un procédé ou d'un service nouveau ou amélioré, qui répond à un besoin et apporte une valeur à l'utilisateur. | innovation,technologique,produit,procede
+Qu'est-ce qu'un brevet ? | C'est un titre de propriété industrielle qui protège une invention pendant 20 ans en échange de sa description publique. | brevet,invention,propriete,industrielle
+Qu'est-ce qu'un prototype fonctionnel ? | C'est un modèle réalisé pour tester le fonctionnement réel d'une solution, avant la fabrication en série. | prototype,fonctionnel,test,serie
+Qu'est-ce qu'une analyse de la valeur ? | C'est une méthode qui examine chaque fonction d'un produit pour réduire son coût sans perdre les fonctions utiles. | analyse,valeur,cout,fonction
+Qu'est-ce que le coût de revient ? | C'est la somme des dépenses nécessaires à la fabrication d'un produit : matières, main-d'oeuvre, énergie, frais généraux. | cout,revient,fabrication,depenses
+Qu'est-ce que la durabilité d'un produit ? | C'est sa capacité à durer dans le temps sans perte notable de performance, ce qui limite le renouvellement et les déchets. | durabilite,produit,duree,dechet
+Qu'est-ce que la réparabilité ? | C'est la facilité avec laquelle un produit peut être démonté et réparé, avec des pièces disponibles et une notice claire. | reparabilite,produit,piece,notice
+Qu'est-ce que l'indice de réparabilité ? | C'est une note sur 10 donnée à certains produits électroniques en France, qui évalue leur facilité de réparation. | indice,reparabilite,note,france
+Qu'est-ce que la fin de vie d'un produit ? | C'est la phase où le produit est collecté, démonté, trié, puis recyclé, valorisé ou éliminé. | fin,vie,produit,recyclage,tri
+Qu'est-ce que la filière de recyclage du verre ? | Le verre usagé est collecté, trié, broyé en calcin, puis refondu pour fabriquer de nouveaux emballages, sans perte de qualité. | recyclage,verre,calcin,collecte
+Qu'est-ce que la REP (responsabilité élargie du producteur) ? | C'est le principe selon lequel le producteur finance la collecte et le traitement des produits en fin de vie qu'il met sur le marché. | rep,responsabilite,producteur,recyclage
+Qu'est-ce que le réemploi ? | C'est la réutilisation d'un produit pour le même usage, sans transformation importante, comme un vélo d'occasion. | reemploi,reutilisation,produit,usage
+Qu'est-ce que le recyclage des métaux ? | Les métaux sont triés, fondus et purifiés pour obtenir de nouveaux métaux de même qualité, avec une économie importante d'énergie. | recyclage,metal,fusion,energie
+Qu'est-ce qu'une analyse de cycle de vie (ACV) ? | C'est une méthode qui mesure les impacts environnementaux d'un produit sur tout son cycle de vie : matières, fabrication, transport, usage et fin de vie. | acv,cycle,vie,impact,environnement
+Qu'est-ce que l'empreinte carbone d'un produit ? | C'est la quantité de gaz à effet de serre émise tout au long du cycle de vie du produit, exprimée en kg ou tonnes de CO2 équivalent. | empreinte,carbone,produit,co2
+Qu'est-ce que l'écoconception d'un emballage ? | C'est la réduction de la quantité de matière, le choix de matériaux recyclables et la limitation des emballages superflus. | emballage,ecoconception,matiere,recyclable
+Qu'est-ce que le principe de fonctionnalité ? | En écoconception, il consiste à concevoir un produit pour remplir une fonction sans superflu, en optimisant l'usage plutôt que la possession. | fonctionnalite,ecoconception,usage
+Qu'est-ce qu'un matériau bio-sourcé ? | C'est un matériau issu en totalité ou en partie de la biomasse végétale ou animale, comme le bois, le chanvre ou le lin. | bio,source,materiau,biomasse,chanvre
+Qu'est-ce que la robotique ? | C'est la science et la technique qui conçoivent et commandent des robots, à partir de capteurs, de calculateurs et d'actionneurs. | robotique,robot,capteur,actionneur
+Qu'est-ce qu'un robot industriel ? | C'est un manipulateur programmable, avec plusieurs axes de mouvement, utilisé pour soudage, peinture, assemblage ou manutention. | robot,industriel,manipulateur,axe
+Qu'est-ce qu'un degré de liberté en robotique ? | C'est un mouvement indépendant que peut effectuer un robot, comme une rotation ou une translation. | degre,liberte,robot,mouvement
+Qu'est-ce qu'un automate programmable (API) ? | C'est un appareil industriel qui exécute un programme de commande à partir de l'état de ses entrées, et pilote les sorties. | automate,programmable,api,commande
+Qu'est-ce qu'un capteur de présence ? | C'est un capteur qui détecte la présence d'un objet ou d'une personne, par exemple infrarouge, ultrason ou inductif. | capteur,presence,detection,infrarouge
+Qu'est-ce qu'un capteur de température ? | C'est un capteur qui convertit la température en signal électrique, comme une sonde à thermistance ou un thermocouple. | capteur,temperature,thermistance,thermocouple
+Qu'est-ce qu'une chaîne d'information ? | C'est l'ensemble des fonctions qui acquièrent, traitent et communiquent les informations d'un système : capteurs, traitement, interface. | chaine,information,systeme,acquisition
+Qu'est-ce qu'une chaîne d'énergie ? | C'est l'ensemble des fonctions qui alimentent, transmettent et transforment l'énergie d'un système : alimentation, distribution, conversion, transmission. | chaine,energie,systeme,conversion
+Qu'est-ce qu'un réducteur de vitesse ? | C'est un ensemble d'engrenages qui diminue la vitesse de rotation et augmente le couple transmis. | reducteur,vitesse,couple,engrenage
+Qu'est-ce qu'un engrenage ? | C'est une roue dentée qui transmet un mouvement de rotation en engrenant avec une autre roue, sans glissement. | engrenage,roue,dentee,rotation
+Qu'est-ce qu'une courroie ? | C'est un organe de transmission souple qui transmet un mouvement de rotation entre deux poulies, par adhérence. | courroie,transmission,poulie,rotation
+Qu'est-ce qu'un roulement ? | C'est un organe qui guide la rotation d'un arbre, en réduisant les frottements grâce à des billes ou des rouleaux. | roulement,rotation,frottement,arbre
+Qu'est-ce qu'un vérin ? | C'est un actionneur qui transforme l'énergie d'un fluide (air comprimé ou huile) en mouvement de translation. | verin,actionneur,fluide,translation
+Qu'est-ce qu'un moteur pas à pas ? | C'est un moteur qui tourne d'un angle fixe à chaque impulsion électrique, ce qui permet un positionnement précis. | moteur,pas,pas,impulsion,positionnement
+Qu'est-ce qu'un servomoteur ? | C'est un moteur équipé d'un capteur de position, qui corrige en permanence sa rotation pour atteindre la position demandée. | servomoteur,position,capteur,commande
+Qu'est-ce qu'un système asservi ? | C'est un système qui compare la consigne à la mesure et corrige son action jusqu'à ce que l'écart soit nul ou très faible. | asservi,consigne,mesure,correction,boucle
+Qu'est-ce qu'une boucle de régulation ? | C'est un circuit qui mesure une grandeur, la compare à une consigne et agit pour la maintenir constante, comme un thermostat. | regulation,boucle,consigne,thermostat
+# ---------- STI2D : architecture et construction (AC) ----------
+Qu'est-ce qu'un mur porteur ? | C'est un mur qui reçoit les charges du plancher et du toit et les transmet aux fondations. Il ne doit pas être supprimé sans étude. | mur,porteur,charge,structure
+Qu'est-ce qu'un plancher ? | C'est un élément horizontal qui sépare deux niveaux d'un bâtiment et supporte les charges d'utilisation. | plancher,niveau,charge,horizontal
+Qu'est-ce qu'un linteau ? | C'est une poutre placée au-dessus d'une ouverture (porte ou fenêtre), qui reprend les charges des maçonneries situées au-dessus. | linteau,ouverture,poutre,maconnerie
+Qu'est-ce qu'un chaînage ? | C'est un élément horizontal en béton armé qui relie les murs d'un bâtiment et améliore sa résistance aux mouvements du sol. | chainage,beton,arme,mur
+Qu'est-ce que le béton armé ? | C'est un béton renforcé par des barres d'acier qui reprennent les efforts de traction, le béton résistant bien à la compression. | beton,arme,acier,traction,compression
+Qu'est-ce que la maçonnerie ? | C'est la construction en éléments assemblés, comme les briques, les parpaings ou les pierres, liés par du mortier. | maconnerie,brique,parpaing,mortier
+Qu'est-ce que le mortier ? | C'est un mélange de sable, de liant (ciment ou chaux) et d'eau, utilisé pour lier les éléments de maçonnerie. | mortier,sable,ciment,chaux
+Qu'est-ce qu'une dalle ? | C'est une plaque horizontale en béton, qui forme un plancher ou une fondation et répartit les charges sur sa surface. | dalle,beton,plancher,fondation
+Qu'est-ce qu'une semelle de fondation ? | C'est un élargissement en béton situé sous un poteau ou un mur, qui répartit la charge sur le sol. | semelle,fondation,sol,beton
+Qu'est-ce que l'étanchéité d'un bâtiment ? | C'est la protection contre l'eau et l'air qui pénètrent par le toit, les murs ou les menuiseries, grâce à des membranes et des joints. | etancheite,batiment,eau,air,joint
+Qu'est-ce qu'une membrane d'étanchéité ? | C'est une couche imperméable posée sur un toit ou une toiture-terrasse pour empêcher l'eau de pénétrer. | membrane,etancheite,toiture,eau
+Qu'est-ce que la ventilation d'un logement ? | C'est le renouvellement de l'air intérieur pour évacuer l'humidité, les odeurs et les polluants. Une VMC assure ce renouvellement. | ventilation,vmc,air,humidite
+Qu'est-ce que l'acoustique du bâtiment ? | C'est l'étude de l'isolement contre les bruits extérieurs et entre logements, ainsi que du confort sonore à l'intérieur. | acoustique,bruit,isolement,confort
+Qu'est-ce qu'un pont thermique ? | C'est une zone du bâtiment où la chaleur passe plus facilement, par exemple à la jonction d'un mur et d'un plancher, ce qui crée des pertes d'énergie. | pont,thermique,perte,jonction
+Qu'est-ce que la perméabilité à l'air ? | C'est la capacité de l'enveloppe d'un bâtiment à laisser passer l'air non contrôlé, ce qui entraîne des pertes de chaleur. | permeabilite,air,enveloppe,perte
+Qu'est-ce que le coefficient U d'une paroi ? | C'est le flux de chaleur qui traverse un mètre carré de paroi pour une différence de température de 1 K. Plus U est petit, meilleure est l'isolation. | coefficient,transmission,paroi,isolation
+Qu'est-ce que la résistance thermique R ? | C'est la capacité d'un matériau à s'opposer au passage de la chaleur. Elle est égale à l'épaisseur divisée par la conductivité thermique. | resistance,thermique,epaisseur,conductivite
+Qu'est-ce que la conductivité thermique ? | C'est la capacité d'un matériau à transmettre la chaleur. Plus elle est faible, plus le matériau est isolant. | conductivite,thermique,materiau,isolant
+Qu'est-ce qu'un diagnostic de performance énergétique (DPE) ? | C'est un document qui classe un logement de A (très performant) à G (très énergivore) selon sa consommation et ses émissions. | dpe,diagnostic,performance,energetique,classe
+Qu'est-ce qu'un permis de construire ? | C'est l'autorisation délivrée par la mairie pour construire un bâtiment neuf ou modifier fortement un bâtiment existant. | permis,construire,mairie,autorisation
+Qu'est-ce que le plan local d'urbanisme (PLU) ? | C'est le document qui fixe les règles de construction d'une commune : zones, hauteurs, implantations, aspect des bâtiments. | plu,urbanisme,commune,regle
+Qu'est-ce qu'un bureau d'études ? | C'est une équipe qui calcule, dimensionne et vérifie les ouvrages avant leur réalisation, en respectant les normes. | bureau,etudes,calcul,dimensionnement
+Qu'est-ce que le dimensionnement d'une structure ? | C'est le calcul des sections et des matériaux d'une structure pour qu'elle résiste aux charges avec une marge de sécurité. | dimensionnement,structure,charge,securite
+Qu'est-ce qu'une charge permanente ? | C'est une charge qui ne varie pas au cours du temps, comme le poids propre de la structure et des équipements fixes. | charge,permanente,poids,structure
+Qu'est-ce qu'une charge d'exploitation ? | C'est une charge due à l'usage du bâtiment : personnes, mobilier, véhicules. Elle varie selon la destination des locaux. | charge,exploitation,usage,personne
+Qu'est-ce que la neige comme charge climatique ? | C'est une charge variable qui dépend de la région et de l'altitude, et qui se répartit sur la toiture. | neige,charge,climatique,toiture
+Qu'est-ce que le vent comme charge climatique ? | C'est une action horizontale et une pression sur les parois, qui dépend de la région, de la hauteur et de la rugosité du site. | vent,charge,pression,paroi
+Qu'est-ce qu'un bâtiment à ossature bois ? | C'est un bâtiment dont la structure porteuse est en bois, avec un remplissage d'isolant. Il est léger et peu émissif en carbone. | ossature,bois,structure,isolant
+Qu'est-ce qu'une chape ? | C'est une couche de mortier ou de béton coulée sur un plancher, qui forme un support plan pour le revêtement de sol. | chape,mortier,beton,sol
+Qu'est-ce qu'un enduit ? | C'est une couche de mortier ou de plâtre appliquée sur un mur pour le protéger et le finir. | enduit,mortier,platre,mur
+Qu'est-ce que le plâtre ? | C'est un matériau obtenu par la cuisson du gypse, utilisé pour les enduits et les cloisons en plaques de plâtre. | platre,gypse,cloison,enduit
+Qu'est-ce qu'une cloison de distribution ? | C'est une paroi légère, non porteuse, qui sépare les pièces d'un même niveau. | cloison,distribution,legere,non,porteuse

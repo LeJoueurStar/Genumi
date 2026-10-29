@@ -1,0 +1,44 @@
+# ---------- Géographie de la France : régions et départements ----------
+Quelle est la plus grande région de France métropolitaine ? | La Nouvelle-Aquitaine est la plus grande région de France métropolitaine, avec environ 84 000 km². | nouvelle,aquitaine,region,plus,grande
+Quelle est la capitale de la région Auvergne-Rhône-Alpes ? | Lyon est la capitale de la région Auvergne-Rhône-Alpes, et la deuxième ville de France. | auvergne,rhone,alpes,lyon,capitale
+Quelle est la capitale de la région Occitanie ? | Toulouse est la capitale de la région Occitanie, surnommée la ville rose. | occitanie,toulouse,capitale,rose
+Quelle est la capitale de la Bretagne ? | Rennes est la capitale de la Bretagne. | bretagne,rennes,capitale
+Quelle est la capitale de la Normandie ? | Rouen est la capitale administrative de la Normandie, et Caen en est une ville importante. | normandie,rouen,caen,capitale
+Quelle est la capitale des Hauts-de-France ? | Lille est la capitale de la région Hauts-de-France. | hauts,france,lille,capitale
+Quelle est la capitale du Grand Est ? | Strasbourg est la capitale de la région Grand Est, et siège du Parlement européen. | grand,est,strasbourg,capitale,parlement
+Quelle est la capitale de la Provence-Alpes-Côte d'Azur ? | Marseille est la capitale de la région Provence-Alpes-Côte d'Azur, et la plus grande ville du sud de la France. | provence,alpes,cote,azur,marseille,capitale
+Quelle est la capitale de la Nouvelle-Aquitaine ? | Bordeaux est la capitale de la région Nouvelle-Aquitaine. | nouvelle,aquitaine,bordeaux,capitale
+Quelle est la capitale de l'Île-de-France ? | Paris est la capitale de la région Île-de-France et de la France. | ile,france,paris,capitale
+Quelle est la capitale des Pays de la Loire ? | Nantes est la capitale de la région Pays de la Loire. | pays,loire,nantes,capitale
+Quelle est la capitale du Centre-Val de Loire ? | Orléans est la capitale de la région Centre-Val de Loire. | centre,val,loire,orleans,capitale
+Quelle est la capitale de la Bourgogne-Franche-Comté ? | Dijon est la capitale de la région Bourgogne-Franche-Comté. | bourgogne,franche,comte,dijon,capitale
+Quelle est la capitale de la Corse ? | Ajaccio est la capitale de la Corse, et Bastia est sa deuxième grande ville. | corse,ajaccio,bastia,capitale
+Combien la France compte-t-elle de régions ? | La France compte 18 régions : 13 en métropole et 5 régions d'outre-mer. | regions,france,18,metropole,outre,mer
+Combien la France compte-t-elle de départements ? | La France compte 101 départements, dont 96 en métropole et 5 outre-mer. | departements,france,101,metropole
+Qu'est-ce que la Corse pour la géographie ? | La Corse est une île de Méditerranée, rattachée à la France, avec une collectivité territoriale spécifique. | corse,ile,mediterranee,collectivite
+Quels sont les départements d'outre-mer ? | Ce sont la Guadeloupe, la Martinique, la Guyane, La Réunion et Mayotte. | outre,mer,guadeloupe,martinique,guyane,reunion,mayotte
+Où se trouve la Guyane ? | La Guyane est un département français d'Amérique du Sud, situé entre le Brésil et le Suriname. | guyane,amerique,sud,bresil,suriname
+Où se trouve La Réunion ? | La Réunion est une île française de l'océan Indien, à l'est de Madagascar. | reunion,ile,ocean,indien,madagascar
+Quelle est la capitale de la Guadeloupe ? | Basse-Terre est le chef-lieu de la Guadeloupe, et Pointe-à-Pitre en est la principale ville économique. | guadeloupe,basse,terre,pointe,pitre
+Quelle est la capitale de la Martinique ? | Fort-de-France est la préfecture et la ville principale de la Martinique. | martinique,fort,france,prefecture
+Quelle est la capitale de la Nouvelle-Calédonie ? | Nouméa est la capitale de la Nouvelle-Calédonie, collectivité française du Pacifique. | nouvelle,caledonie,noumea,pacifique
+Quelle est la capitale de la Polynésie française ? | Papeete, sur l'île de Tahiti, est la capitale de la Polynésie française. | polynesie,papeete,tahiti
+Quels sont les fleuves de France ? | Les principaux fleuves sont la Seine, la Loire, le Rhône, la Garonne et le Rhin, qui forme la frontière avec l'Allemagne. | fleuve,seine,loire,rhone,garonne,rhin
+Quelles sont les principales montagnes de France ? | Les Alpes (mont Blanc), les Pyrénées (pic d'Aneto côté espagnol), le Massif central et le Jura. | montagne,alpes,pyrenees,massif,central,jura
+Quelles sont les mers qui bordent la France ? | La France métropolitaine est bordée par la Manche, l'océan Atlantique, la mer Méditerranée et la mer du Nord. | mer,manche,atlantique,mediterranee,nord
+Quel est le plus haut sommet de France ? | Le mont Blanc, dans les Alpes, culmine à 4 809 mètres d'altitude. | mont,blanc,alpes,sommet,4809
+# ---------- Europe : repères ----------
+Quels sont les plus grands pays d'Europe ? | Par superficie, la Russie (partie européenne), l'Ukraine, la France (métropole) et l'Espagne sont parmi les plus grands. | europe,grands,pays,superficie
+Quelle est la plus longue rivière d'Europe ? | C'est le Volga, en Russie, d'environ 3 500 km. | europe,volga,russie,riviere,longue
+Quel est le plus grand lac d'Europe ? | C'est le lac Ladoga, en Russie, situé près de Saint-Pétersbourg. | europe,lac,ladoga,russie
+Quelle est la plus haute montagne d'Europe ? | Le mont Elbrouz, dans le Caucase, est le point culminant de l'Europe, à environ 5 642 mètres. | europe,elbrouz,caucase,montagne
+Quelles sont les plus grandes villes d'Europe ? | Par population de l'agglomération, Londres, Paris, Istanbul, Moscou et Berlin figurent parmi les plus grandes. | europe,grandes,villes,londres,paris
+Qu'est-ce que l'espace Schengen ? | C'est un espace de libre circulation des personnes entre plusieurs pays européens, sans contrôle systématique aux frontières intérieures. | schengen,espace,circulation,frontiere
+Qu'est-ce que la zone euro ? | C'est l'ensemble des pays de l'Union européenne qui ont adopté l'euro comme monnaie commune. | zone,euro,monnaie,union
+Qu'est-ce que le Conseil de l'Europe ? | C'est une organisation européenne créée en 1949, qui défend les droits de l'homme et l'État de droit. Elle est distincte de l'Union européenne. | conseil,europe,1949,droits,homme
+Qu'est-ce que la Cour européenne des droits de l'homme ? | C'est une juridiction du Conseil de l'Europe, à Strasbourg, qui veille au respect de la Convention européenne des droits de l'homme. | cour,europeenne,droits,homme,strasbourg
+Qu'est-ce que le Parlement européen ? | C'est l'assemblée élue au suffrage universel direct par les citoyens de l'Union européenne, qui siège à Strasbourg et à Bruxelles. | parlement,europeen,strasbourg,bruxelles
+Qu'est-ce que la Commission européenne ? | C'est l'organe exécutif de l'Union européenne, qui propose les lois et veille à leur application, siégeant à Bruxelles. | commission,europeenne,executif,bruxelles
+Qu'est-ce que le Conseil européen ? | C'est l'institution qui réunit les chefs d'État et de gouvernement de l'Union européenne pour définir les grandes orientations politiques. | conseil,europeen,chefs,etat,gouvernement
+Qu'est-ce que la Banque centrale européenne ? | C'est l'institution qui conduit la politique monétaire de la zone euro, dont l'objectif principal est la stabilité des prix. Elle siège à Francfort. | banque,centrale,europeenne,bce,francfort,euro
+Qu'est-ce que l'OTAN ? | L'Organisation du traité de l'Atlantique Nord est une alliance militaire créée en 1949, qui réunit des pays d'Amérique du Nord et d'Europe. | otan,alliance,militaire,1949,atlantique

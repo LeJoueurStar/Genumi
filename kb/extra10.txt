@@ -1,0 +1,60 @@
+# ---------- Collège : mathématiques et sciences ----------
+Qu'est-ce qu'un nombre entier ? | C'est un nombre sans partie décimale, positif, négatif ou nul : ..., −2, −1, 0, 1, 2, ... | entier,nombre,relatif
+Qu'est-ce qu'un multiple d'un nombre ? | Un multiple de n est le produit de n par un entier. Exemple : les multiples de 4 sont 0, 4, 8, 12, ... | multiple,nombre,produit
+Qu'est-ce qu'un diviseur ? | Un diviseur d'un entier est un entier qui le divise sans reste. Exemple : les diviseurs de 12 sont 1, 2, 3, 4, 6, 12. | diviseur,division,reste
+Comment savoir si un nombre est divisible par 3 ? | Un nombre est divisible par 3 si la somme de ses chiffres est divisible par 3. Exemple : 123 (1+2+3=6) est divisible par 3. | divisible,3,critere,somme
+Comment savoir si un nombre est divisible par 9 ? | Un nombre est divisible par 9 si la somme de ses chiffres est divisible par 9. Exemple : 729 (7+2+9=18) est divisible par 9. | divisible,9,critere,somme
+Comment savoir si un nombre est divisible par 5 ? | Un nombre est divisible par 5 si son chiffre des unités est 0 ou 5. | divisible,5,critere,unite
+Comment savoir si un nombre est divisible par 10 ? | Un nombre est divisible par 10 si son chiffre des unités est 0. | divisible,10,critere
+Qu'est-ce qu'une écriture fractionnaire ? | C'est une écriture a/b où a est le numérateur et b le dénominateur, non nul. Elle représente un quotient. | fraction,numerateur,denominateur,quotient
+Comment comparer deux fractions ? | On les met au même dénominateur, ou on compare leurs écritures décimales. Exemple : 3/4 est plus grand que 2/3 car 9/12 > 8/12. | comparer,fraction,denominateur
+Comment multiplier une fraction par un entier ? | On multiplie le numérateur par l'entier : 3 × 2/5 = 6/5. | fraction,multiplication,entier
+Qu'est-ce que la règle de trois ? | C'est une méthode de proportionnalité : si 4 kg coûtent 12 €, alors 6 kg coûtent 12 × 6 / 4 = 18 €. | regle,trois,proportionnalite,calcul
+Qu'est-ce qu'un nombre au carré ? | C'est le produit d'un nombre par lui-même. Exemple : 7² = 49. | carre,nombre,puissance
+Qu'est-ce qu'une racine carrée parfaite ? | C'est la racine d'un carré d'entier. Exemples : √25 = 5 et √81 = 9. | racine,carree,parfaite,entier
+Qu'est-ce que le calcul littéral ? | C'est un calcul où les nombres sont remplacés par des lettres, qui représentent des valeurs quelconques. Exemple : 2x + 3x = 5x. | calcul,litteral,lettre,variable
+Qu'est-ce qu'une expression littérale ? | C'est une expression qui contient des lettres, comme 3a + 2b. On peut la calculer en remplaçant les lettres par des valeurs. | expression,litterale,lettre
+Comment réduire une expression ? | On regroupe les termes semblables (même lettre avec la même puissance). Exemple : 3x + 5 − x + 2 = 2x + 7. | reduire,expression,termes,semblables
+Comment développer 3(x + 4) ? | On multiplie chaque terme : 3(x + 4) = 3x + 12. | developper,distributivite,calcul
+Qu'est-ce que la double distributivité ? | C'est la règle (a + b)(c + d) = ac + ad + bc + bd. Exemple : (x + 1)(x + 2) = x² + 3x + 2. | distributivite,double,developper
+Comment résoudre une équation du premier degré ? | On isole l'inconnue en faisant la même opération des deux côtés. Exemple : 2x + 3 = 11 donne 2x = 8, donc x = 4. | equation,premier,degre,inconnue,resolution
+Comment vérifier une solution d'équation ? | On remplace l'inconnue par la valeur trouvée et on vérifie que l'égalité est vraie. | verifier,solution,equation
+Qu'est-ce qu'un repère orthonormé ? | C'est un repère formé de deux axes perpendiculaires, gradués de la même façon. | repere,orthonorme,axe,abscisse,ordonnee
+Qu'est-ce que l'abscisse et l'ordonnée d'un point ? | Dans un repère, l'abscisse est la première coordonnée (horizontale) et l'ordonnée la seconde (verticale). | abscisse,ordonnee,coordonnees,point
+Qu'est-ce qu'une fonction ? | C'est une relation qui associe à chaque nombre x d'un ensemble au plus une valeur f(x). | fonction,image,antecedent
+Qu'est-ce qu'une image et un antécédent ? | Si f(3) = 7, alors 7 est l'image de 3 par f, et 3 est un antécédent de 7. | image,antecedent,fonction
+Qu'est-ce qu'une fonction linéaire ? | C'est une fonction de la forme f(x) = ax, dont la courbe est une droite passant par l'origine. | fonction,lineaire,origine,droite
+Qu'est-ce que la pente d'une droite ? | C'est le coefficient directeur a dans y = ax + b : pour un déplacement horizontal de 1, la droite monte de a. | pente,coefficient,directeur,droite
+Qu'est-ce que le théorème de Pythagore ? | Dans un triangle rectangle, le carré de l'hypoténuse est égal à la somme des carrés des deux autres côtés : a² + b² = c². | pythagore,triangle,rectangle,hypotenuse
+Qu'est-ce que la réciproque de Pythagore ? | Si a² + b² = c² dans un triangle, alors ce triangle est rectangle. | reciproque,pythagore,triangle,rectangle
+Qu'est-ce que le théorème de Thalès ? | Si des droites parallèles coupent deux sécantes, les longueurs des segments correspondants sont proportionnelles. | thales,parallele,proportionnalite,segment
+Qu'est-ce que la trigonométrie dans un triangle rectangle ? | cos = côté adjacent / hypoténuse, sin = côté opposé / hypoténuse, tan = côté opposé / côté adjacent. | trigonometrie,cosinus,sinus,tangente
+Qu'est-ce qu'un volume ? | C'est la mesure de l'espace occupé par un solide. Il s'exprime en cm³, m³ ou en litres (1 L = 1 dm³). | volume,solide,cm³,litre
+Quelle est la conversion entre litres et cm³ ? | 1 L = 1 dm³ = 1000 cm³. | conversion,litre,cm³,volume
+Qu'est-ce que l'aire d'un disque ? | C'est A = π × r2, où r est le rayon. | aire,disque,pi,rayon
+Qu'est-ce que la longueur d'un cercle ? | C'est L = 2 × π × r = π × d. | longueur,cercle,perimetre,pi
+Qu'est-ce qu'un prisme droit ? | C'est un solide dont les deux bases sont identiques et parallèles, reliées par des faces rectangulaires perpendiculaires à ces bases. | prisme,droit,solide,base
+Qu'est-ce qu'une pyramide ? | C'est un solide dont la base est un polygone et dont les faces latérales sont des triangles qui se rejoignent au sommet. | pyramide,solide,sommet,base
+Qu'est-ce qu'une sphère ? | C'est l'ensemble des points situés à la même distance (le rayon) d'un centre, dans l'espace. | sphere,rayon,centre,espace
+Qu'est-ce qu'un nombre décimal périodique ? | C'est un nombre dont l'écriture décimale a une suite de chiffres qui se répète indéfiniment. Exemple : 1/3 = 0,333... | periodique,decimal,repetition
+Qu'est-ce que l'arrondi d'un nombre ? | C'est une valeur approchée avec moins de chiffres. Exemple : 3,14159 arrondi au centième vaut 3,14. | arrondi,approche,decimal
+Qu'est-ce qu'une valeur approchée ? | C'est un nombre proche d'une valeur exacte, utilisé quand la valeur exacte n'est pas exprimable simplement. | approche,valeur,exacte
+Qu'est-ce que la probabilité d'un événement certain ? | Un événement certain a une probabilité de 1, et un événement impossible une probabilité de 0. | probabilite,certain,impossible
+Qu'est-ce qu'une fréquence ? | C'est le rapport entre l'effectif d'une valeur et l'effectif total : f = effectif / effectif total. | frequence,effectif,rapport
+Qu'est-ce qu'un tableau d'effectifs ? | C'est un tableau qui indique, pour chaque valeur ou catégorie, le nombre de fois où elle apparaît. | tableau,effectif,categorie
+Qu'est-ce qu'un diagramme circulaire ? | C'est un graphique où chaque secteur représente une catégorie, avec un angle proportionnel à sa fréquence (fréquence × 360°). | diagramme,circulaire,secteur,angle
+# ---------- Langues vivantes : vocabulaire et grammaire de base ----------
+Comment dit-on « bonjour » en espagnol ? | On dit « hola » ou « buenos días » le matin. | espagnol,bonjour,hola,salutation
+Comment dit-on « merci » en espagnol ? | On dit « gracias ». Pour répondre : « de nada ». | espagnol,merci,gracias,remerciement
+Comment dit-on « je ne comprends pas » en espagnol ? | On dit « no entiendo ». | espagnol,comprendre,entiendo,negation
+Comment dit-on « comment ça va ? » en espagnol ? | On dit « ¿cómo estás? ». | espagnol,comment,estas,salutation
+Comment dit-on « bonjour » en allemand ? | On dit « Guten Tag ». Le matin, on peut dire « Guten Morgen ». | allemand,bonjour,guten,tag
+Comment dit-on « merci » en allemand ? | On dit « danke » ou « danke schön ». Pour répondre : « bitte ». | allemand,merci,danke,remerciement
+Comment dit-on « je ne sais pas » en allemand ? | On dit « ich weiß nicht ». | allemand,savoir,weiss,negation
+Comment dit-on « bonjour » en italien ? | On dit « buongiorno » ou « ciao » pour dire bonjour ou salut. | italien,bonjour,buongiorno,ciao
+Comment dit-on « merci » en italien ? | On dit « grazie ». Pour répondre : « prego ». | italien,merci,grazie,remerciement
+Comment dit-on « je m'appelle » en espagnol ? | On dit « me llamo ». Exemple : « Me llamo Tom ». | espagnol,appelle,llamo,nom
+Qu'est-ce que le présent en anglais ? | Le présent simple sert aux habitudes et aux faits : « I play football every Sunday ». À la troisième personne, on ajoute un « s » : « She plays ». | anglais,present,simple,habitude
+Qu'est-ce que le prétérit anglais ? | Le prétérit sert à parler d'une action terminée dans le passé : « I played yesterday ». Les verbes irréguliers ont une forme particulière, comme « went ». | anglais,preterit,passe,irregulier
+Qu'est-ce que le futur en anglais ? | On utilise « will » pour une décision ou une prédiction : « I will call you ». On utilise « going to » pour un projet : « I'm going to travel ». | anglais,futur,will,going,to
+Qu'est-ce que le conditionnel anglais ? | On utilise « would » pour une situation hypothétique : « I would travel if I had time ». | anglais,conditionnel,would,hypothese

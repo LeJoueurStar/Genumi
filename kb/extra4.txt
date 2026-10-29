@@ -1,0 +1,107 @@
+# ---------- STI2D : systèmes d'information et numérique (SIN) ----------
+Qu'est-ce qu'un protocole de communication ? | C'est un ensemble de règles qui définit le format, l'ordre et le contrôle des messages échangés entre deux machines. | protocole,communication,regle,message
+Qu'est-ce que HTTP ? | HTTP est le protocole qui permet au navigateur de demander des pages web à un serveur, par des requêtes (GET, POST) et des réponses avec un code d'état (200, 404...). | http,web,requete,serveur,navigateur
+Qu'est-ce qu'un code d'état HTTP 404 ? | Le code 404 signifie que la ressource demandée n'a pas été trouvée sur le serveur. | http,404,erreur,ressource
+Qu'est-ce que l'adresse MAC ? | C'est l'identifiant physique unique d'une carte réseau, écrit en six paires hexadécimales, par exemple 00:1A:2B:3C:4D:5E. | mac,adresse,carte,reseau,identifiant
+Qu'est-ce que le DNS ? | Le DNS (Domain Name System) traduit un nom de domaine comme wikipedia.org en adresse IP. | dns,nom,domaine,adresse,ip
+Qu'est-ce qu'un masque de sous-réseau ? | C'est un nombre qui indique quelle partie d'une adresse IP désigne le réseau et quelle partie désigne la machine. Exemple : 255.255.255.0. | masque,sous,reseau,adresse
+Qu'est-ce qu'une passerelle par défaut ? | C'est l'adresse du routeur auquel une machine envoie les données destinées à un autre réseau. | passerelle,routeur,reseau,adresse
+Qu'est-ce que le modèle OSI ? | C'est un modèle en sept couches qui décrit la communication entre systèmes : physique, liaison, réseau, transport, session, présentation, application. | osi,modele,couche,reseau
+Qu'est-ce que la différence entre TCP et UDP ? | TCP est fiable et vérifie la livraison des paquets. UDP est plus rapide mais ne garantit pas la livraison, ce qui convient au streaming ou aux jeux. | tcp,udp,transport,fiable,paquet
+Qu'est-ce qu'un paquet de données ? | C'est une petite unité d'information transmise sur un réseau, composée d'un en-tête (adresses, contrôle) et de données. | paquet,donnees,reseau,entete
+Qu'est-ce qu'un pare-feu ? | C'est un dispositif logiciel ou matériel qui filtre les flux entrants et sortants selon des règles, pour protéger un réseau. | pare,feu,firewall,filtrage,securite
+Qu'est-ce que le Wi-Fi ? | C'est une technologie de réseau sans fil qui utilise des ondes radio pour relier des appareils à un point d'accès. | wifi,sans,fil,onde,radio,reseau
+Qu'est-ce que le Bluetooth ? | C'est une technologie sans fil à courte portée, pour relier des appareils proches comme un casque ou un clavier. | bluetooth,sans,fil,courte,portee
+Qu'est-ce que la fibre optique ? | C'est un câble qui transmet des données sous forme de lumière, avec un très grand débit et une faible atténuation. | fibre,optique,cable,debit,lumiere
+Qu'est-ce que le débit d'une connexion ? | C'est la quantité de données transmises par seconde, mesurée en bits par seconde (bit/s, Mbit/s, Gbit/s). | debit,connexion,bit,seconde
+Qu'est-ce qu'une base de données relationnelle ? | C'est une base organisée en tables reliées entre elles par des clés, qui évite la répétition des informations. | relationnel,table,cle,base
+Qu'est-ce qu'une clé étrangère ? | C'est un champ d'une table qui renvoie à la clé primaire d'une autre table, pour créer une liaison entre les deux. | cle,etrangere,liaison,table
+Qu'est-ce que la normalisation d'une base ? | C'est l'organisation des données pour supprimer les redondances et les incohérences, en séparant les informations dans plusieurs tables. | normalisation,base,redondance,table
+Qu'est-ce qu'une requête SQL SELECT ? | SELECT choisit les colonnes à afficher, FROM indique la table, WHERE filtre les lignes. Exemple : SELECT nom FROM eleves WHERE moyenne > 10. | select,sql,requete,filtre
+Qu'est-ce qu'une jointure en SQL ? | C'est une requête qui combine les lignes de deux tables liées par une clé. Exemple : SELECT e.nom, c.libelle FROM eleves e JOIN classes c ON e.classe_id = c.id. | jointure,sql,table,cle
+Qu'est-ce que le langage HTML ? | C'est le langage de balisage qui décrit la structure d'une page web : titres, paragraphes, liens, images. | html,balise,page,web,structure
+Qu'est-ce que le langage CSS ? | C'est le langage qui décrit la présentation d'une page web : couleurs, polices, mise en page. | css,style,presentation,web
+Qu'est-ce que le JavaScript ? | C'est un langage de programmation qui rend les pages web interactives, exécuté par le navigateur. | javascript,programmation,web,interactif
+Qu'est-ce qu'une variable en Python ? | C'est un nom qui désigne une valeur, créée par une affectation. Exemple : x = 5 crée la variable x contenant 5. | python,variable,affectation,valeur
+Qu'est-ce qu'une liste en Python ? | C'est une collection ordonnée et modifiable d'éléments, écrite entre crochets. Exemple : notes = [12, 15, 9]. | python,liste,collection,crochet
+Qu'est-ce qu'un dictionnaire en Python ? | C'est une collection de paires clé-valeur, écrite entre accolades. Exemple : eleve = {"nom": "Léa", "age": 16}. | python,dictionnaire,cle,valeur
+Qu'est-ce qu'une boucle for en Python ? | Elle répète un bloc d'instructions pour chaque élément d'une séquence. Exemple : for i in range(3): print(i) affiche 0, 1, 2. | python,boucle,for,range
+Qu'est-ce qu'une boucle while en Python ? | Elle répète un bloc tant qu'une condition est vraie. Exemple : while x < 5: x = x + 1. | python,boucle,while,condition
+Qu'est-ce qu'une fonction en Python ? | Elle se définit avec def, reçoit des paramètres et peut renvoyer une valeur avec return. Exemple : def double(x): return 2 * x. | python,fonction,def,return
+Qu'est-ce que l'indentation en Python ? | C'est le retrait des lignes, qui délimite les blocs d'instructions. Elle est obligatoire et remplace les accolades. | python,indentation,bloc
+Qu'est-ce qu'une chaîne de caractères ? | C'est une suite de caractères entre guillemets, qui se manipule comme une séquence. | chaine,caracteres,texte,python
+Qu'est-ce qu'un type de données ? | C'est la nature d'une valeur : entier, décimal, texte, booléen. Le type détermine les opérations possibles. | type,donnees,entier,texte,booleen
+Qu'est-ce qu'un booléen ? | C'est une valeur qui ne peut être que vraie (True) ou fausse (False). | booleen,vrai,faux,logique
+Qu'est-ce qu'un commentaire dans un programme ? | C'est un texte ignoré par l'ordinateur, destiné à expliquer le code. En Python, il commence par #. | commentaire,code,explication
+Qu'est-ce qu'un bug ? | C'est une erreur dans un programme qui produit un comportement non prévu. Le débogage consiste à le trouver et le corriger. | bug,erreur,debogage,programme
+Qu'est-ce que le débogage ? | C'est la recherche et la correction des erreurs d'un programme, par des tests et l'observation de son exécution. | debogage,erreur,test,correction
+Qu'est-ce qu'un test unitaire ? | C'est un test qui vérifie le bon fonctionnement d'une petite partie du programme, comme une fonction. | test,unitaire,fonction,verification
+Qu'est-ce que l'open data ? | ce sont des données publiques mises à disposition gratuitement, sous une licence qui permet de les réutiliser. | open,data,donnees,publiques,licence
+Qu'est-ce que le RGPD ? | C'est le règlement européen qui protège les données personnelles : consentement, droit d'accès, rectification et effacement. | rgpd,donnees,personnelles,protection,europe
+Qu'est-ce qu'un cookie ? | C'est un petit fichier déposé par un site dans le navigateur pour mémoriser des informations sur la visite. | cookie,navigateur,site,donnees
+Qu'est-ce que le phishing ? | C'est une attaque qui cherche à voler des informations (mots de passe, données bancaires) en se faisant passer pour un organisme de confiance. | phishing,hameçonnage,attaque,securite
+Qu'est-ce qu'un mot de passe robuste ? | C'est un mot de passe long, mélangeant lettres majuscules et minuscules, chiffres et symboles, et différent pour chaque service. | mot,passe,robuste,securite
+Qu'est-ce que l'authentification à deux facteurs ? | C'est une protection qui demande deux preuves d'identité distinctes, comme un mot de passe et un code reçu sur téléphone. | authentification,deux,facteurs,securite
+Qu'est-ce qu'un logiciel malveillant ? | C'est un programme conçu pour nuire : virus, ver, rançongiciel, cheval de Troie, espiogiciel. | malveillant,virus,ver,rancongiciel,securite
+Qu'est-ce que la sauvegarde des données ? | C'est la copie régulière des données sur un support distinct, pour les récupérer en cas de perte ou d'attaque. | sauvegarde,donnees,copie,perte
+Qu'est-ce qu'une archive numérique ? | C'est un fichier qui regroupe et souvent compresse plusieurs fichiers, comme un zip ou un tar. | archive,fichier,compression,zip
+Qu'est-ce que la compression sans perte ? | C'est une compression qui réduit la taille d'un fichier sans perdre aucune donnée, comme le format PNG ou ZIP. | compression,perte,png,zip
+Qu'est-ce que la compression avec perte ? | C'est une compression qui supprime une partie des données pour réduire fortement la taille, comme le format JPEG ou MP3. | compression,perte,jpeg,mp3
+Qu'est-ce que le codage binaire d'un texte ? | Chaque caractère est représenté par un code numérique, comme le code ASCII (sur 7 ou 8 bits) ou Unicode. | codage,texte,ascii,unicode
+Qu'est-ce que le code ASCII ? | C'est un code qui associe 128 caractères courants (lettres, chiffres, symboles) à des nombres de 0 à 127. | ascii,code,caractere,nombre
+Qu'est-ce qu'Unicode ? | C'est un système qui attribue un numéro unique à chaque caractère de presque toutes les langues et symboles. | unicode,caractere,langue,symbole
+Qu'est-ce qu'une image en noir et blanc numérique ? | Chaque pixel est codé sur un bit (noir ou blanc), ou sur plusieurs bits pour les niveaux de gris. | image,pixel,bit,gris
+Qu'est-ce que la profondeur de couleur ? | C'est le nombre de bits utilisés pour coder la couleur de chaque pixel. Sur 8 bits par canal, on obtient 16 millions de couleurs en RVB. | profondeur,couleur,bit,rvb
+Qu'est-ce qu'un son numérique ? | C'est un signal sonore échantillonné et quantifié : plus la fréquence d'échantillonnage est élevée, plus le son est fidèle. | son,numerique,echantillonnage,frequence
+Qu'est-ce que la fréquence d'échantillonnage ? | C'est le nombre de mesures par seconde d'un signal sonore. Un CD utilise 44 100 Hz. | echantillonnage,frequence,cd,son
+Qu'est-ce qu'une vidéo numérique ? | C'est une suite d'images (images par seconde) accompagnée d'un son, compressée pour réduire sa taille. | video,image,seconde,compression
+# ---------- STI2D : innovation et design (I2D) ----------
+Qu'est-ce qu'un besoin ? | C'est une exigence exprimée par un utilisateur : ce dont il a réellement besoin, indépendamment des solutions techniques. | besoin,utilisateur,exigence
+Qu'est-ce qu'une fonction de service ? | C'est une fonction qu'un produit doit remplir pour répondre à un besoin, exprimée par un verbe à l'infinitif et un complément. | fonction,service,produit,besoin
+Qu'est-ce qu'une fonction contrainte ? | C'est une contrainte que le produit doit respecter : normes, coût, esthétique, environnement, sécurité. | fonction,contrainte,norme,cout
+Qu'est-ce que la valeur d'usage ? | C'est la capacité d'un produit à satisfaire un besoin de l'utilisateur. | valeur,usage,produit,besoin
+Qu'est-ce que la valeur d'estime ? | C'est l'image, le prestige ou le plaisir ressentis par l'utilisateur quand il possède ou utilise un produit. | valeur,estime,image,prestige
+Qu'est-ce qu'un cycle de développement itératif ? | C'est une méthode où le produit est conçu en plusieurs boucles successives : idées, prototype, test, amélioration. | iteratif,cycle,developpement,prototype
+Qu'est-ce qu'une étude de marché ? | C'est une analyse des clients potentiels, de la concurrence et des attentes pour évaluer un produit avant de le lancer. | etude,marche,client,concurrence
+Qu'est-ce qu'un persona ? | C'est un profil fictif mais réaliste d'un utilisateur type, qui aide à concevoir un produit en pensant à ses besoins. | persona,utilisateur,profil,conception
+Qu'est-ce que le design thinking ? | C'est une démarche centrée sur l'utilisateur : empathie, définition du problème, idéation, prototypage et test. | design,thinking,utilisateur,idee
+Qu'est-ce que le brainstorming ? | C'est une séance de recherche d'idées en groupe, sans critique pendant la phase de production, puis tri des idées. | brainstorming,idee,groupe,creativite
+Qu'est-ce qu'un croquis ? | C'est un dessin rapide à main levée qui exprime une idée de forme ou de fonctionnement, sans souci de précision. | croquis,dessin,idee,forme
+Qu'est-ce qu'une vue en projection orthogonale ? | C'est une représentation d'un objet selon des vues perpendiculaires : vue de face, de dessus et de gauche, placées selon une norme. | projection,orthogonale,vue,face,dessus
+Qu'est-ce qu'une coupe en dessin technique ? | C'est une vue qui montre l'intérieur d'une pièce, obtenue en la coupant par un plan imaginaire et en hachurant la matière coupée. | coupe,dessin,technique,hachure
+Qu'est-ce qu'une cote en dessin technique ? | C'est une indication chiffrée qui donne une dimension réelle de la pièce, avec son unité (souvent le millimètre). | cote,dimension,dessin,millimetre
+Qu'est-ce qu'une tolérance dimensionnelle ? | C'est l'écart admis entre la dimension réelle et la dimension nominale d'une pièce, pour qu'elle reste fonctionnelle. | tolerance,dimension,ecart,piece
+Qu'est-ce qu'un ajustement ? | C'est la relation entre deux pièces assemblées : jeu (libre), serrage (forcé) ou incertain. | ajustement,jeu,serrage,assemblage
+Qu'est-ce que la rugosité d'une surface ? | C'est l'état de finition d'une surface : plus la rugosité est faible, plus la surface est lisse. | rugosite,surface,finition
+Qu'est-ce qu'un matériau isolant ? | C'est un matériau qui s'oppose fortement au passage de la chaleur ou de l'électricité. | isolant,materiau,chaleur,electricite
+Qu'est-ce qu'un matériau conducteur ? | C'est un matériau qui laisse facilement passer le courant électrique, comme le cuivre ou l'aluminium. | conducteur,materiau,courant,cuivre
+Qu'est-ce qu'un polymère thermoplastique ? | C'est un plastique qui se ramollit à la chaleur et peut être remis en forme plusieurs fois. | thermoplastique,polymere,chaleur,plastique
+Qu'est-ce qu'un thermodurcissable ? | C'est un plastique qui durcit définitivement lors de la mise en forme et ne peut plus être refondu. | thermodurcissable,plastique,resine
+Qu'est-ce que l'impression 3D par dépôt de fil ? | C'est une technique où un fil de plastique fondu est déposé couche après couche pour construire la pièce. | impression,3d,fil,depot,couche
+Qu'est-ce que l'usinage ? | C'est la mise en forme d'une pièce par enlèvement de matière, avec une machine-outil (tournage, fraisage, perçage). | usinage,enlevement,matiere,tournage,fraisage
+Qu'est-ce que le tournage ? | C'est un usinage où la pièce tourne et l'outil avance pour enlever de la matière, ce qui donne des pièces de révolution. | tournage,usinage,piece,revolution
+Qu'est-ce que le fraisage ? | C'est un usinage où l'outil rotatif, la fraise, enlève de la matière sur une pièce fixée sur la table. | fraisage,usinage,fraise,table
+Qu'est-ce qu'une commande numérique ? | C'est le pilotage d'une machine-outil par un programme informatique, qui indique les déplacements et les vitesses. | commande,numerique,machine,programme
+Qu'est-ce que la découpe laser ? | C'est une technique où un faisceau laser fait fondre ou brûler la matière pour la découper selon un tracé numérique. | laser,decoupe,materiau,trace
+# ---------- STI2D : énergie et environnement (EE) ----------
+Qu'est-ce qu'une énergie primaire ? | C'est une énergie telle qu'elle existe dans la nature, avant transformation : pétrole, gaz, uranium, vent, soleil. | energie,primaire,nature,ressource
+Qu'est-ce qu'une énergie finale ? | C'est l'énergie livrée à l'utilisateur sous une forme utilisable : électricité, gaz, carburant, chaleur. | energie,finale,utilisateur,forme
+Qu'est-ce qu'une énergie fossile ? | C'est une énergie issue de la décomposition de matière organique enfouie : charbon, pétrole, gaz naturel. Elle n'est pas renouvelable. | fossile,energie,charbon,petrole,gaz
+Qu'est-ce que le rendement d'une centrale électrique ? | C'est le rapport entre l'énergie électrique produite et l'énergie primaire consommée. Les centrales thermiques ont souvent un rendement de 30 à 45 %. | rendement,centrale,electrique,thermique
+Qu'est-ce qu'une énergie hydraulique ? | C'est l'énergie de l'eau en mouvement ou en chute, transformée en électricité par une turbine dans un barrage. | hydraulique,eau,turbine,barrage
+Qu'est-ce que la géothermie ? | C'est l'exploitation de la chaleur interne de la Terre, pour le chauffage ou la production d'électricité. | geothermie,chaleur,terre,chauffage
+Qu'est-ce que la biomasse ? | C'est l'ensemble de la matière organique d'origine végétale ou animale qui peut être utilisée comme source d'énergie : bois, déchets, biogaz. | biomasse,energie,bois,biogaz
+Qu'est-ce que le biogaz ? | C'est un gaz produit par la fermentation de matière organique en l'absence d'air (méthanisation), surtout du méthane. | biogaz,methane,fermentation,methanisation
+Qu'est-ce qu'un réseau électrique intelligent ? | C'est un réseau qui utilise des capteurs et des communications pour adapter la production et la consommation en temps réel. | reseau,intelligent,smart,grid,production,consommation
+Qu'est-ce que le stockage d'énergie ? | C'est la conservation d'énergie pour la restituer plus tard : batteries, stations de transfert d'énergie par pompage, hydrogène. | stockage,energie,batterie,hydrogene
+Qu'est-ce qu'une batterie lithium-ion ? | C'est un accumulateur rechargeable qui stocke l'énergie chimique et la restitue sous forme électrique. Il est très utilisé dans les téléphones et les véhicules électriques. | batterie,lithium,accumulateur,recharge
+Qu'est-ce que l'hydrogène comme vecteur d'énergie ? | L'hydrogène est un vecteur d'énergie : il est produit par électrolyse de l'eau, stocké, puis utilisé dans une pile à combustible pour produire de l'électricité. | hydrogene,vecteur,electrolyse,pile
+Qu'est-ce que l'efficacité énergétique ? | C'est l'utilisation de la quantité d'énergie la plus faible pour obtenir un même service, par exemple avec un appareil plus performant. | efficacite,energetique,service,economie
+Qu'est-ce qu'un bilan carbone ? | C'est la mesure des émissions de gaz à effet de serre d'une activité, exprimée en tonnes de CO2 équivalent. | bilan,carbone,emission,co2,equivalent
+Qu'est-ce que le protocole de Kyoto ? | C'est un accord international de 1997 qui fixe des objectifs contraignants de réduction des gaz à effet de serre pour les pays développés. | kyoto,protocole,gaz,effet,serre
+Qu'est-ce que l'accord de Paris ? | C'est un accord international de 2015 qui vise à limiter le réchauffement climatique nettement en dessous de 2 °C par rapport à l'ère préindustrielle. | paris,accord,climat,2015,rechauffement
+Qu'est-ce que la pollution de l'air ? | C'est la présence dans l'air de substances nocives : particules fines, dioxyde d'azote, ozone, dioxyde de soufre, qui affectent la santé et l'environnement. | pollution,air,particules,ozone
+Qu'est-ce qu'une eau potable ? | C'est une eau dont la qualité permet la consommation sans risque pour la santé, grâce au traitement et au contrôle de sa composition. | eau,potable,traitement,sante
+Qu'est-ce que le traitement des eaux usées ? | C'est l'ensemble des étapes qui épurent les eaux polluées avant de les rejeter dans le milieu naturel : dégrillage, décantation, traitement biologique. | eaux,usees,epuration,traitement
+Qu'est-ce que la biodiversité ? | C'est la diversité du vivant à tous les niveaux : diversité des espèces, des gènes et des écosystèmes. | biodiversite,espece,gene,ecosysteme
+Qu'est-ce qu'une espèce invasive ? | C'est une espèce introduite hors de son aire d'origine, qui se propage et perturbe les écosystèmes locaux. | espece,invasive,ecosysteme,introduction

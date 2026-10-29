@@ -326,7 +326,7 @@ Qu'est-ce que la continuité d'une fonction ? | Une fonction est continue en a s
 Qu'est-ce qu'une fonction dérivable ? | Une fonction est dérivable en a si le taux d'accroissement (f(a + h) − f(a)) / h admet une limite finie quand h tend vers 0. Cette limite est f'(a). | derivable,derivee,taux,accroissement
 Comment dériver un produit ? | (uv)' = u'v + uv'. Exemple : (x × e^x)' = e^x + x e^x. | derivee,produit,regle,calcul
 Comment dériver un quotient ? | (u / v)' = (u'v − uv') / v², pour v non nulle. Exemple : (1/x)' = −1/x². | derivee,quotient,regle,calcul
-Comment dériver une fonction composée ? | (f ∘ u)' = u' × f'(u). Exemple : (e^(3x))' = 3 e^(3x). | derivee,composee,chaine,regle
+Comment dériver une fonction composée ? | (f o u)' = u' × f'(u). Exemple : (e^(3x))' = 3 e^(3x). | derivee,composee,chaine,regle
 Qu'est-ce qu'une tangente à une courbe ? | La tangente à la courbe de f au point d'abscisse a a pour équation y = f'(a)(x − a) + f(a). | tangente,courbe,equation,derivee
 Comment trouver la tangente à une courbe en un point ? | On calcule f(a) et f'(a), puis on applique y = f'(a)(x − a) + f(a). Exemple : f(x) = x² en a = 1 : y = 2(x − 1) + 1 = 2x − 1. | tangente,equation,calcul,point
 Qu'est-ce qu'un signal sinusoïdal ? | Un signal sinusoïdal s'écrit u(t) = Um × sin(2πft + φ), avec Um l'amplitude, f la fréquence en hertz et φ la phase à l'origine. | signal,sinusoidal,amplitude,frequence,phase

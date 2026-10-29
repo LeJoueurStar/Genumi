@@ -1,0 +1,52 @@
+# ---------- Collège : sciences physiques et chimie ----------
+Qu'est-ce qu'un atome ? | C'est la plus petite particule d'un élément chimique : un noyau de protons et de neutrons, entouré d'électrons. | atome,noyau,proton,neutron,electron
+Qu'est-ce qu'une molécule ? | C'est un assemblage d'atomes liés entre eux. Exemple : H2O, CO2, O2. | molecule,atome,liaison
+Qu'est-ce qu'un élément chimique ? | C'est une espèce d'atomes qui ont le même nombre de protons (le numéro atomique). | element,chimique,atome,numero
+Qu'est-ce qu'un corps pur ? | C'est un corps constitué d'une seule espèce chimique, comme l'eau pure ou le dioxygène. | corps,pur,espece,chimique
+Qu'est-ce qu'un mélange ? | C'est un ensemble de plusieurs corps purs. Il peut être homogène (une seule phase) ou hétérogène. | melange,homogene,heterogene
+Qu'est-ce qu'une solution ? | C'est un mélange homogène d'un soluté dissous dans un solvant. Exemple : du sel dans l'eau. | solution,solute,solvant,melange
+Qu'est-ce qu'un changement d'état ? | C'est le passage de la matière d'un état à un autre : fusion, solidification, vaporisation, liquéfaction, sublimation. | changement,etat,fusion,vaporisation
+Qu'est-ce que la masse volumique ? | C'est la masse par unité de volume : ρ = m / V. Exemple : l'eau a une masse volumique de 1 g/cm³. | masse,volumique,densite,eau
+Qu'est-ce que la densité ? | C'est le rapport entre la masse volumique d'un corps et celle de l'eau. Elle n'a pas d'unité. | densite,eau,rapport
+Qu'est-ce qu'une force ? | C'est une action mécanique qui peut modifier le mouvement ou la forme d'un objet. Elle s'exprime en newtons (N). | force,newton,action,mecanique
+Qu'est-ce que le poids d'un objet ? | C'est la force d'attraction de la Terre sur l'objet : P = m × g, avec g ≈ 9,8 N/kg. | poids,force,masse,pesanteur
+Quelle est la différence entre masse et poids ? | La masse est la quantité de matière, en kg, et ne change pas. Le poids est une force, en newtons, qui dépend de la gravité. | masse,poids,difference,kilogramme
+Qu'est-ce qu'une tension électrique ? | C'est la différence de potentiel entre deux points d'un circuit, mesurée en volts (V) avec un voltmètre branché en dérivation. | tension,electrique,volt,voltmetre
+Qu'est-ce qu'une intensité électrique ? | C'est la quantité de charges qui traverse une section du circuit par seconde, mesurée en ampères (A) avec un ampèremètre branché en série. | intensite,electrique,ampere,ampermetre
+Qu'est-ce qu'un circuit en série ? | C'est un circuit où les dipôles sont branchés les uns à la suite des autres : l'intensité est la même partout. | circuit,serie,intensite,dipole
+Qu'est-ce qu'un circuit en dérivation ? | C'est un circuit où les dipôles sont branchés en parallèle : la tension est la même aux bornes de chaque branche. | circuit,derivation,parallele,tension
+Qu'est-ce que la loi d'Ohm ? | Pour un conducteur ohmique, U = R × I, avec U en volts, R en ohms et I en ampères. | ohm,loi,tension,resistance,intensite
+Qu'est-ce qu'un conducteur ohmique ? | C'est un dipôle dont la tension et l'intensité sont proportionnelles : sa caractéristique est une droite passant par l'origine. | conducteur,ohmique,proportionnel
+Qu'est-ce qu'un interrupteur ? | C'est un dipôle qui ouvre ou ferme le circuit. Ouvert, il ne laisse pas passer le courant. | interrupteur,dipole,ouvert,ferme
+Qu'est-ce qu'une lampe ? | C'est un dipôle qui transforme l'énergie électrique en lumière et en chaleur. | lampe,dipole,lumiere,chaleur
+Qu'est-ce que l'énergie électrique ? | C'est l'énergie fournie par un générateur, E = P × t, en joules (J) ou en kilowattheures (kWh). | energie,electrique,puissance,joule,kwh
+Qu'est-ce que la puissance électrique ? | C'est P = U × I, en watts (W). Exemple : 230 V × 2 A = 460 W. | puissance,electrique,watt,tension,intensite
+Qu'est-ce que la vitesse de la lumière ? | Dans le vide, la lumière se déplace à environ 300 000 km/s, soit 3,00 × 10⁸ m/s. | lumiere,vitesse,vide,celerite
+Qu'est-ce qu'une source de lumière ? | C'est un objet qui émet sa propre lumière, comme le Soleil ou une lampe. | source,lumiere,emission
+Qu'est-ce qu'un objet diffusant ? | C'est un objet qui renvoie la lumière qu'il reçoit dans toutes les directions, ce qui permet de le voir. | objet,diffusant,lumiere,reflexion
+Qu'est-ce que la réflexion de la lumière ? | C'est le renvoi de la lumière par une surface. L'angle de réflexion est égal à l'angle d'incidence. | reflexion,lumiere,angle,incidence
+Qu'est-ce que la réfraction ? | C'est le changement de direction de la lumière lors du passage d'un milieu à un autre, comme l'air et l'eau. | refraction,lumiere,milieu,changement,direction
+Qu'est-ce qu'une lentille convergente ? | C'est une lentille plus épaisse au centre qu'au bord, qui fait converger les rayons parallèles vers un point appelé foyer. | lentille,convergente,foyer
+Qu'est-ce que la mesure d'une distance par écho ? | Le son parcourt la distance aller-retour en un temps t, donc d = v × t / 2. Dans l'air, v ≈ 340 m/s. | echo,son,distance,vitesse
+Qu'est-ce que la vitesse du son dans l'air ? | Elle est d'environ 340 m/s, soit 1 224 km/h, à 15 °C. | son,vitesse,air,celerite
+Qu'est-ce qu'un son grave et un son aigu ? | Un son grave a une fréquence basse, un son aigu a une fréquence élevée. La hauteur d'un son dépend de sa fréquence. | son,grave,aigu,frequence,hauteur
+Qu'est-ce que l'intensité sonore ? | C'est la puissance sonore par unité de surface, qui détermine le volume perçu. Elle se mesure en décibels (dB). | intensite,sonore,decibel,volume
+Qu'est-ce que la hauteur d'un son ? | C'est la caractéristique liée à la fréquence : plus elle est élevée, plus le son est aigu. | hauteur,son,frequence,aigu
+Qu'est-ce qu'un tableau périodique ? | C'est un tableau qui range les éléments chimiques par numéro atomique croissant, en colonnes (familles) et en lignes (périodes). | tableau,periodique,element,famille,periode
+Qu'est-ce qu'un gaz noble ? | C'est un élément très peu réactif, comme l'hélium ou le néon, dont la couche externe est saturée. | gaz,noble,helium,neon,stable
+Qu'est-ce que le dihydrogène ? | C'est le gaz de formule H2, très inflammable, qui brûle dans le dioxygène en produisant de l'eau. | dihydrogene,h2,gaz,inflammable
+Qu'est-ce que le dioxygène ? | C'est le gaz de formule O2, présent dans l'air, qui entretient la combustion et la respiration. | dioxygene,o2,air,combustion
+Qu'est-ce que le dioxyde de carbone ? | C'est le gaz de formule CO2, produit par la respiration et la combustion. C'est un gaz à effet de serre. | dioxyde,carbone,co2,effet,serre
+Qu'est-ce qu'une réaction chimique ? | C'est la transformation de réactifs en produits, avec conservation des atomes. Exemple : 2 H2 + O2 → 2 H2O. | reaction,chimique,reactif,produit
+Qu'est-ce que la conservation des atomes ? | Lors d'une réaction chimique, le nombre d'atomes de chaque élément reste le même avant et après la réaction. | conservation,atome,reaction,equation
+Qu'est-ce qu'une équation chimique équilibrée ? | C'est une équation où le nombre d'atomes de chaque élément est identique des deux côtés de la flèche. | equation,equilibree,atome,coefficient
+Qu'est-ce qu'un acide ? | C'est une espèce chimique qui libère des ions H+ dans l'eau. Son pH est inférieur à 7. | acide,ph,hydrogene,eau
+Qu'est-ce qu'une base ? | C'est une espèce chimique qui libère des ions hydroxyde HO- dans l'eau. Son pH est supérieur à 7. | base,ph,hydroxyde,eau
+Qu'est-ce que le pH ? | C'est une mesure de l'acidité d'une solution, sur une échelle de 0 à 14. 7 correspond à une solution neutre. | ph,acidite,echelle,neutre
+Qu'est-ce qu'un indicateur coloré ? | C'est une substance qui change de couleur selon le pH de la solution. Le BBT est jaune en milieu acide, bleu en milieu basique. | indicateur,colore,ph,bbt
+Qu'est-ce que la neutralisation ? | C'est la réaction entre un acide et une base qui donne de l'eau et un sel, et qui conduit à un pH proche de 7. | neutralisation,acide,base,sel,eau
+Qu'est-ce qu'un sel ? | C'est un composé ionique formé d'un cation et d'un anion, comme le chlorure de sodium NaCl. | sel,ionique,cation,anion
+Qu'est-ce qu'un ion ? | C'est un atome ou un groupe d'atomes porteur d'une charge électrique : positive pour un cation, négative pour un anion. | ion,cation,anion,charge
+Qu'est-ce que la combustion ? | C'est une réaction rapide et exothermique entre un combustible et le dioxygène, qui libère de la chaleur et souvent de la lumière. | combustion,exothermique,combustible,dioxygene
+Qu'est-ce qu'une réaction exothermique ? | C'est une réaction qui libère de l'énergie thermique vers le milieu extérieur, dont la température augmente. | exothermique,energie,chaleur,temperature
+Qu'est-ce qu'une réaction endothermique ? | C'est une réaction qui absorbe de l'énergie thermique du milieu extérieur, dont la température diminue. | endothermique,energie,chaleur,absorbe

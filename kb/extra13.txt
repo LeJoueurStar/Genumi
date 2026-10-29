@@ -1,0 +1,56 @@
+# ---------- Mathématiques : arithmétique (spécialité, terminale) ----------
+Qu'est-ce que la division euclidienne ? | Pour a et b > 0, il existe un unique couple (q ; r) tel que a = bq + r, avec 0 ≤ r < b. Exemple : 17 = 5 × 3 + 2. | division,euclidienne,quotient,reste
+Qu'est-ce que la congruence ? | a est congru à b modulo n si n divise a − b, ce qui s'écrit a ≡ b (mod n). Exemple : 17 ≡ 2 (mod 5). | congruence,modulo,reste
+Qu'est-ce que l'algorithme d'Euclide ? | C'est un algorithme qui calcule le PGCD de deux entiers en remplaçant le couple (a ; b) par (b ; a mod b) jusqu'à obtenir un reste nul. | euclide,pgcd,algorithme,reste
+Qu'est-ce que le théorème de Bézout ? | Deux entiers a et b sont premiers entre eux si et seulement s'il existe des entiers u et v tels que au + bv = 1. | bezout,premiers,entre,eux,entiers
+Qu'est-ce que le théorème de Gauss ? | Si n divise ab et que n est premier avec a, alors n divise b. | gauss,divise,premier,entiers
+Qu'est-ce qu'un nombre premier ? | C'est un entier supérieur à 1 dont les seuls diviseurs positifs sont 1 et lui-même. | premier,diviseur,entier
+Qu'est-ce que le petit théorème de Fermat ? | Si p est premier et que a n'est pas divisible par p, alors a^(p−1) ≡ 1 (mod p). | fermat,petit,theoreme,premier,congruence
+# ---------- Mathématiques : fonctions et calcul (terminale) ----------
+Qu'est-ce qu'une fonction logarithme décimal ? | log(x) = ln(x) / ln(10). Elle vérifie log(10^n) = n. | logarithme,decimal,log
+Qu'est-ce que la fonction partie entière ? | E(x) est le plus grand entier inférieur ou égal à x. Exemple : E(3,7) = 3 et E(−2,5) = −3. | partie,entiere,fonction,entier
+Qu'est-ce que la limite d'une suite géométrique de raison q ? | Si |q| < 1, la suite tend vers 0. Si q > 1, elle tend vers +∞. Si q = 1, elle est constante. | suite,geometrique,raison,limite
+Qu'est-ce que le théorème du point fixe ? | Si une fonction continue sur un intervalle envoie cet intervalle dans lui-même, elle admet au moins un point fixe, c'est-à-dire une valeur x telle que f(x) = x. | point,fixe,theoreme,continue
+Qu'est-ce qu'une asymptote oblique ? | C'est une droite y = ax + b telle que la différence entre f(x) et ax + b tend vers 0 quand x tend vers l'infini. | asymptote,oblique,limite
+Qu'est-ce qu'une convexité ? | Une fonction est convexe sur un intervalle si sa courbe est située au-dessus de ses tangentes. Elle est convexe si sa dérivée seconde est positive. | convexite,fonction,derivee,seconde
+Qu'est-ce que l'inégalité de convexité ? | Pour une fonction convexe, la courbe est sous la corde entre deux de ses points. | inegalite,convexe,corde,courbe
+Qu'est-ce qu'une intégrale impropre ? | C'est une intégrale dont la fonction n'est pas définie en une borne ou dont l'intervalle est infini. Elle est calculée comme une limite. | integrale,impropre,limite,borne
+Qu'est-ce que la méthode d'Euler ? | C'est une méthode numérique qui approche la solution d'une équation différentielle y' = f(x, y) par un pas de temps h : y(n+1) = yn + h f(xn, yn). | euler,numerique,equation,differentielle,pas
+Qu'est-ce qu'une suite définie par une fonction ? | C'est une suite u(n+1) = f(un). Si elle converge vers L et f est continue, alors L est un point fixe de f. | suite,fonction,point,fixe
+Qu'est-ce que le théorème de comparaison pour les suites ? | Si un ≤ vn à partir d'un certain rang et que un tend vers +∞, alors vn tend vers +∞. | comparaison,suite,limite,infini
+# ---------- SVT : immunologie et santé (terminale) ----------
+Qu'est-ce qu'un lymphocyte T ? | C'est une cellule immunitaire qui reconnaît un antigène présenté par une autre cellule et coordonne la réponse ou détruit les cellules infectées. | lymphocyte,t,antigene,immunitaire
+Qu'est-ce que le complexe majeur d'histocompatibilité (CMH) ? | C'est une molécule présente à la surface des cellules qui présente des fragments d'antigènes aux lymphocytes T. | cmh,histocompatibilite,antigene,lymphocyte
+Qu'est-ce qu'une cellule présentatrice d'antigène ? | C'est une cellule, comme le macrophage ou la cellule dendritique, qui capture un antigène, le fragmente et le présente aux lymphocytes. | presentatrice,antigene,macrophage,dendritique
+Qu'est-ce que l'immunité innée ? | C'est la première ligne de défense, rapide et non spécifique, qui repose sur la peau, les phagocytes et l'inflammation. | immunite,innee,phagocyte,inflammation
+Qu'est-ce que l'immunité acquise ? | C'est la réponse spécifique d'un antigène, plus lente, qui produit une mémoire immunitaire grâce aux lymphocytes B et T. | immunite,acquise,specifique,memoire
+Qu'est-ce qu'une réponse immunitaire primaire et secondaire ? | La réponse primaire est lente et apparaît à la première rencontre avec un antigène. La réponse secondaire, plus rapide et plus forte, a lieu lors d'une nouvelle rencontre grâce à la mémoire. | reponse,primaire,secondaire,memoire
+Qu'est-ce que le VIH ? | C'est le virus de l'immunodéficience humaine, qui détruit progressivement les lymphocytes T CD4 et affaiblit le système immunitaire, conduisant au sida. | vih,virus,lymphocyte,sida
+Qu'est-ce que l'allergie ? | C'est une réaction immunitaire excessive contre une substance normalement inoffensive, appelée allergène. | allergie,allergene,reaction,immunitaire
+Qu'est-ce que l'auto-immunité ? | C'est une réaction immunitaire dirigée contre les propres constituants de l'organisme, comme dans le diabète de type 1 ou la polyarthrite. | auto,immunite,reaction,diabete
+Qu'est-ce que la tolérance immunitaire ? | C'est la capacité du système immunitaire à ne pas réagir contre les constituants du soi, grâce à l'élimination des lymphocytes autoréactifs. | tolerance,immunitaire,soi,lymphocyte
+Qu'est-ce qu'un test de dépistage ? | C'est un examen qui cherche la présence d'une maladie ou d'un marqueur chez une personne sans symptôme. | depistage,test,maladie,marqueur
+# ---------- STI2D : compléments (SIN, ITEC, EE, AC) ----------
+Qu'est-ce qu'un capteur analogique ? | C'est un capteur qui fournit une grandeur électrique continue, proportionnelle à la grandeur mesurée. | capteur,analogique,continu,proportionnel
+Qu'est-ce qu'un capteur numérique ? | C'est un capteur qui fournit directement une information codée en binaire, comme un codeur incrémental ou un capteur de présence à deux états. | capteur,numerique,binaire,codage
+Qu'est-ce que la précision d'un capteur ? | C'est l'écart maximal entre la valeur mesurée et la valeur réelle, souvent exprimé en pourcentage de l'étendue de mesure. | precision,capteur,mesure,ecart
+Qu'est-ce que l'étendue de mesure ? | C'est la plage des valeurs qu'un capteur peut mesurer correctement, de la valeur minimale à la valeur maximale. | etendue,mesure,capteur,plage
+Qu'est-ce que la chaîne de traitement d'un signal ? | C'est l'enchaînement qui acquiert un signal, le conditionne (amplification, filtrage), le convertit en numérique, puis le traite. | chaine,traitement,signal,filtrage
+Qu'est-ce qu'un filtre passe-bas ? | C'est un filtre qui laisse passer les basses fréquences et atténue les hautes fréquences. | filtre,passe,bas,frequence
+Qu'est-ce qu'un filtre passe-haut ? | C'est un filtre qui laisse passer les hautes fréquences et atténue les basses fréquences. | filtre,passe,haut,frequence
+Qu'est-ce qu'un amplificateur opérationnel ? | C'est un circuit intégré qui amplifie la différence entre ses deux entrées. Il sert à construire des filtres, des comparateurs et des amplificateurs. | amplificateur,operationnel,ampli,op
+Qu'est-ce qu'un comparateur ? | C'est un circuit qui compare deux tensions et donne une sortie haute ou basse selon celle qui est la plus grande. | comparateur,tension,sortie
+Qu'est-ce que la logique séquentielle ? | C'est une logique dont la sortie dépend des entrées et de l'état précédent du circuit, grâce à des bascules et des registres. | logique,sequentielle,bascule,etat
+Qu'est-ce que la logique combinatoire ? | C'est une logique dont la sortie ne dépend que des valeurs actuelles des entrées, sans mémoire. | logique,combinatoire,sortie,entree
+Qu'est-ce qu'un réseau de capteurs sans fil ? | C'est un ensemble de capteurs autonomes qui communiquent par radio pour transmettre leurs mesures à un système central. | reseau,capteur,sans,fil,radio
+Qu'est-ce que l'internet des objets (IoT) ? | C'est l'ensemble des objets connectés qui échangent des données sur un réseau, comme une montre, une prise ou un thermostat. | internet,objets,iot,connecte
+Qu'est-ce que la maquette numérique d'un bâtiment ? | C'est une représentation 3D qui regroupe toutes les informations d'un bâtiment (géométrie, matériaux, coûts), utilisée pendant la conception et l'exploitation. | maquette,numerique,bim,batiment
+Qu'est-ce que le BIM ? | C'est la maquette numérique partagée entre tous les acteurs d'un projet de construction, pour coordonner la conception, la réalisation et l'exploitation. | bim,maquette,numerique,projet
+Qu'est-ce qu'un plan de masse ? | C'est un plan qui représente l'implantation d'un bâtiment sur son terrain, avec les limites de propriété et les accès. | plan,masse,terrain,implantation
+Qu'est-ce qu'une coupe de bâtiment ? | C'est une représentation verticale d'un bâtiment, qui montre l'organisation des niveaux, la hauteur des plafonds et la structure. | coupe,batiment,niveau,hauteur
+Qu'est-ce qu'une façade ? | C'est une élévation extérieure d'un bâtiment, qui montre les ouvertures, les matériaux et l'aspect architectural. | facade,elevation,ouverture,materiau
+Qu'est-ce qu'une isolation par l'extérieur ? | C'est la pose d'un isolant sur la face extérieure des murs, ce qui limite les ponts thermiques et protège la structure. | isolation,exterieur,pont,thermique
+Qu'est-ce que le chauffage au bois ? | C'est un chauffage qui utilise la combustion de bûches, granulés ou plaquettes, avec un rendement élevé pour les appareils modernes. | chauffage,bois,granule,combustion
+Qu'est-ce qu'un chauffe-eau thermodynamique ? | C'est un appareil qui utilise une pompe à chaleur pour chauffer l'eau sanitaire en prélevant de la chaleur dans l'air ambiant. | chauffe,eau,thermodynamique,pompe,chaleur
+Qu'est-ce qu'une ventilation double flux ? | C'est un système qui extrait l'air vicié et insuffle de l'air neuf, avec un échangeur qui récupère la chaleur de l'air extrait. | ventilation,double,flux,echangeur,chaleur
+Qu'est-ce que l'éclairage naturel dans un bâtiment ? | C'est l'utilisation de la lumière du jour pour éclairer les pièces, grâce aux baies vitrées et aux puits de lumière. | eclairage,naturel,lumiere,jour

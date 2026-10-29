@@ -1,0 +1,86 @@
+# ---------- Lycée : physique-chimie (spécialité, terminale) ----------
+Qu'est-ce que la mécanique newtonienne ? | C'est la mécanique qui décrit le mouvement des corps à partir des lois de Newton. Elle est valable pour des vitesses faibles devant celle de la lumière. | mecanique,newtonienne,newton,mouvement
+Qu'est-ce que le référentiel galiléen ? | C'est un référentiel dans lequel le principe d'inertie s'applique : un corps isolé y est immobile ou en mouvement rectiligne uniforme. | referentiel,galileen,inertie
+Qu'est-ce qu'un vecteur vitesse ? | C'est le vecteur dont la direction est tangente à la trajectoire, dont le sens est celui du mouvement et dont la norme est la vitesse. | vecteur,vitesse,trajectoire,tangente
+Qu'est-ce qu'une chute libre ? | C'est le mouvement d'un corps soumis uniquement à son poids. Dans l'approximation, son accélération est constante et égale à g. | chute,libre,poids,acceleration
+Qu'est-ce que l'énergie cinétique d'un système ? | C'est la somme des énergies cinétiques de ses parties. Pour un solide en translation, Ec = ½ m v². | energie,cinetique,systeme,translation
+Qu'est-ce qu'un oscillateur harmonique ? | C'est un système qui, écarté de sa position d'équilibre, revient vers elle avec une force proportionnelle à l'écart. Son mouvement est sinusoïdal. | oscillateur,harmonique,equilibre,sinusoidal
+Qu'est-ce que la période propre d'un pendule élastique ? | T0 = 2π √(m/k), avec m la masse et k la raideur du ressort. | periode,propre,pendule,elastique,raideur
+Qu'est-ce que la pulsation d'un oscillateur ? | C'est la grandeur oméga = 2π / T, en radians par seconde, qui caractérise la vitesse de l'oscillation. | pulsation,oscillateur,radian,periode
+Qu'est-ce qu'un signal sinusoïdal en physique ? | C'est un signal de la forme s(t) = Smax × cos(omégat + φ), caractérisé par son amplitude, sa pulsation et sa phase à l'origine. | signal,sinusoidal,amplitude,phase
+Qu'est-ce que la résonance ? | C'est le phénomène où l'amplitude d'un oscillateur forcé devient maximale quand la fréquence de l'excitation est égale à sa fréquence propre. | resonance,oscillateur,frequence,amplitude
+Qu'est-ce que la diffraction ? | C'est l'étalement d'une onde après le passage par une ouverture ou un obstacle de taille comparable à sa longueur d'onde. | diffraction,onde,ouverture,longueur
+Qu'est-ce que l'interférence ? | C'est la superposition de deux ondes qui se renforcent ou s'annulent selon leur différence de phase. | interference,onde,superposition,phase
+Qu'est-ce qu'un spectre d'émission continu ? | C'est un spectre qui contient toutes les radiations d'une plage de longueurs d'onde, émis par un corps chaud solide ou liquide. | spectre,continu,emission,radiation
+Qu'est-ce que la loi de Planck ? | Elle relie l'énergie d'un photon à sa fréquence : E = h × f, avec h = 6,63 × 10^(-34) J·s. | planck,photon,energie,frequence
+Qu'est-ce qu'un quantum d'énergie ? | C'est la plus petite quantité d'énergie qu'un système peut échanger avec la lumière, égale à h × f pour un photon. | quantum,energie,photon,planck
+Qu'est-ce qu'un niveau d'énergie de l'atome d'hydrogène ? | Les niveaux sont donnés par E_n = −13,6 / n² eV, avec n entier positif. | hydrogene,niveau,energie,eV
+Qu'est-ce que l'électron-volt ? | C'est une unité d'énergie égale à l'énergie acquise par un électron accéléré par une tension de 1 volt : 1 eV = 1,6 × 10^(-19) J. | electron,volt,energie,unite
+Qu'est-ce que la radioactivité alpha ? | C'est l'émission d'un noyau d'hélium (deux protons et deux neutrons) par un noyau instable. | radioactivite,alpha,helium,noyau
+Qu'est-ce que la radioactivité bêta ? | C'est la transformation d'un neutron en proton (bêta moins) ou d'un proton en neutron (bêta plus), avec émission d'un électron ou d'un positon. | radioactivite,beta,neutron,proton
+Qu'est-ce que la loi de décroissance radioactive ? | Le nombre de noyaux restants suit N(t) = N0 × e^(−λt), avec λ la constante radioactive. | decroissance,radioactive,constante,exponentielle
+Qu'est-ce que l'activité d'une source radioactive ? | C'est le nombre de désintégrations par seconde. Son unité est le becquerel (Bq). | activite,becquerel,desintegration
+Qu'est-ce qu'un gray ? | C'est l'unité de dose absorbée : un gray correspond à une énergie d'un joule absorbée par kilogramme de matière. | gray,dose,absorbee,joule
+Qu'est-ce qu'un sievert ? | C'est l'unité de dose équivalente, qui tient compte de la nocivité du rayonnement pour l'organisme. | sievert,dose,equivalente,rayonnement
+Qu'est-ce que la conservation de la charge électrique ? | Dans un système isolé, la charge électrique totale se conserve : elle ne se crée ni ne se détruit. | charge,electrique,conservation
+Qu'est-ce qu'un champ électrique ? | C'est une grandeur vectorielle créée par une charge, qui exerce une force sur les charges placées dans son voisinage. | champ,electrique,vecteur,force
+Qu'est-ce qu'un champ magnétique ? | C'est une grandeur vectorielle créée par un aimant ou un courant, qui exerce une force sur les charges en mouvement. | champ,magnetique,aimant,courant
+Qu'est-ce que la force de Lorentz ? | C'est la force exercée par un champ électromagnétique sur une charge en mouvement : F = q (E + v × B). | lorentz,force,champ,charge
+Qu'est-ce qu'un condensateur en régime transitoire ? | Quand il se charge à travers une résistance, sa tension augmente selon uC(t) = E (1 − e^(−t/τ)), avec τ = RC. | condensateur,transitoire,charge,rc
+Qu'est-ce qu'un circuit RLC ? | C'est un circuit qui comporte une résistance, une bobine et un condensateur en série. Il peut être amorti ou entretenu selon la valeur de R. | rlc,circuit,resistance,bobine,condensateur
+Qu'est-ce que la pulsation propre d'un circuit LC ? | C'est oméga0 = 1 / √(LC). Elle donne la fréquence des oscillations libres du circuit. | pulsation,propre,lc,oscillation
+Qu'est-ce qu'un gaz parfait ? | C'est un gaz modèle dont les particules n'interagissent pas, et dont l'état est décrit par p V = n R T. | gaz,parfait,modele,pression,volume,temperature
+Qu'est-ce qu'une transformation isotherme ? | C'est une transformation qui se fait à température constante. Pour un gaz parfait, p × V reste constant. | isotherme,transformation,temperature,constante
+Qu'est-ce qu'une transformation isobare ? | C'est une transformation qui se fait à pression constante. Pour un gaz parfait, V / T reste constant. | isobare,transformation,pression,constante
+Qu'est-ce que le premier principe de la thermodynamique ? | Il exprime la conservation de l'énergie : la variation d'énergie interne d'un système est égale à la somme du travail et de la chaleur échangés. | premier,principe,thermodynamique,energie,interne
+Qu'est-ce que le second principe de la thermodynamique ? | Il indique que l'entropie d'un système isolé ne diminue jamais : les transformations naturelles sont irréversibles. | second,principe,entropie,irreversible
+Qu'est-ce que l'entropie ? | C'est une grandeur qui mesure le désordre d'un système, et qui augmente dans les transformations réelles. | entropie,desordre,transformation
+Qu'est-ce qu'un rendement de Carnot ? | C'est le rendement maximal d'une machine thermique entre deux sources de températures T_chaude et T_froide : η = 1 − T_froide / T_chaude (en kelvins). | carnot,rendement,machine,thermique,temperature
+Qu'est-ce qu'une réaction d'estérification ? | C'est la réaction entre un acide carboxylique et un alcool, qui donne un ester et de l'eau. Elle est lente et limitée, et se fait en équilibre. | estérification,acide,alcool,ester,eau
+Qu'est-ce qu'une réaction d'hydrolyse ? | C'est une réaction de rupture d'une liaison par action de l'eau, comme l'hydrolyse d'un ester qui redonne un acide et un alcool. | hydrolyse,eau,ester,rupture
+Qu'est-ce que la constante d'équilibre K ? | C'est le quotient de réaction à l'équilibre chimique, qui ne dépend que de la température. Elle permet de prévoir le sens d'évolution d'une réaction. | constante,equilibre,quotient,temperature
+Qu'est-ce que le critère d'évolution spontanée ? | Une réaction évolue dans le sens direct si Q < K, dans le sens inverse si Q > K, et l'équilibre est atteint si Q = K. | critere,evolution,quotient,constante
+Qu'est-ce qu'un tableau d'avancement ? | C'est un tableau qui suit les quantités de matière de chaque espèce au cours d'une réaction, en fonction de l'avancement x. | tableau,avancement,quantite,reaction
+Qu'est-ce que l'avancement maximal ? | C'est la valeur de x atteinte à la fin d'une réaction totale, quand le réactif limitant est entièrement consommé. | avancement,maximal,reactif,limitant
+Qu'est-ce que la vitesse volumique d'une réaction ? | C'est la variation de l'avancement par unité de temps et de volume : v = (1/V) × dx/dt. | vitesse,volumique,reaction,avancement
+Qu'est-ce que le suivi conductimétrique ? | C'est la mesure de la conductivité d'une solution au cours d'une réaction, car elle varie avec la concentration des ions. | conductimetrie,suivi,conductivite,ions
+Qu'est-ce qu'un pH-mètre ? | C'est un appareil qui mesure le pH d'une solution à l'aide d'une électrode sensible aux ions H3O+. | ph,metre,electrode,mesure
+Qu'est-ce que la gamme d'un titrage ? | C'est l'ensemble des solutions de concentrations connues utilisées pour établir une courbe d'étalonnage. | gamme,titrage,etalonnage,concentration
+Qu'est-ce qu'une solution étalon ? | C'est une solution dont la concentration est connue avec précision, préparée pour un titrage ou un étalonnage. | etalon,solution,concentration,precision
+Qu'est-ce que la chromatographie ? | C'est une méthode de séparation des espèces d'un mélange, selon leurs affinités différentes avec une phase fixe et une phase mobile. | chromatographie,separation,melange,phase
+Qu'est-ce qu'un rapport frontal de chromatographie ? | C'est le rapport de la distance parcourue par une espèce sur la distance parcourue par le front du solvant. Il caractérise l'espèce. | chromatographie,rapport,frontal,front
+Qu'est-ce qu'un spectre IR ? | C'est un spectre qui donne les bandes d'absorption de liaisons dans l'infrarouge (nombre d'onde en cm-1). Il permet d'identifier les groupes caractéristiques. | spectre,infrarouge,absorption,liaison
+Qu'est-ce que la RMN du proton ? | C'est une méthode qui donne le nombre de signaux, leur déplacement chimique et leur multiplicité, pour déterminer la structure d'une molécule. | rmn,proton,signal,structure
+# ---------- Lycée : sciences de la vie et de la Terre (terminale) ----------
+Qu'est-ce que la réplication de l'ADN ? | C'est la duplication de l'ADN avant la division cellulaire : chaque brin sert de modèle pour fabriquer un nouveau brin complémentaire. | replication,adn,brin,complementaire
+Qu'est-ce que la transcription ? | C'est la synthèse d'un ARN messager à partir d'un brin d'ADN, dans le noyau. | transcription,arn,messager,noyau
+Qu'est-ce que la traduction ? | C'est la lecture de l'ARN messager dans le cytoplasme, par les ribosomes, pour assembler une chaîne d'acides aminés selon le code génétique. | traduction,ribosome,codon,acide,amine
+Qu'est-ce que le code génétique ? | C'est la correspondance entre les codons (groupes de trois nucléotides de l'ARN) et les acides aminés. Il est presque universel. | code,genetique,codon,acide,amine
+Qu'est-ce qu'un codon ? | C'est un groupe de trois nucléotides consécutifs de l'ARN messager, qui code pour un acide aminé ou un signal d'arrêt. | codon,nucleotide,arn,acide
+Qu'est-ce que la mutation ponctuelle ? | C'est le remplacement, l'ajout ou la suppression d'un seul nucléotide dans l'ADN. Elle peut modifier une protéine. | mutation,ponctuelle,nucleotide,proteine
+Qu'est-ce que le brassage génétique ? | C'est le mélange des allèles lors de la méiose (brassage intrachromosomique et interchromosomique) et de la fécondation. | brassage,genetique,meiose,fecondation
+Qu'est-ce que la fécondation ? | C'est la fusion de deux gamètes, un mâle et un femelle, qui forme une cellule-oeuf diploïde. | fecondation,gamete,oeuf,diploide
+Qu'est-ce qu'un gamète ? | C'est une cellule sexuelle haploïde, comme le spermatozoïde ou l'ovule, produite par méiose. | gamete,haploide,spermatozoide,ovule
+Qu'est-ce que la génétique des populations ? | C'est l'étude de la fréquence des allèles dans une population et de leur évolution au fil des générations. | genetique,population,frequence,allele
+Qu'est-ce que la loi de Hardy-Weinberg ? | Dans une population idéale, les fréquences alléliques et génotypiques restent constantes d'une génération à l'autre : p² + 2pq + q² = 1. | hardy,weinberg,population,frequence
+Qu'est-ce que la dérive génétique ? | C'est la variation aléatoire des fréquences alléliques dans une petite population, due au hasard de la reproduction. | derive,genetique,population,hasard
+Qu'est-ce que la spéciation ? | C'est la formation de nouvelles espèces à partir d'une espèce ancestrale, souvent après isolement géographique des populations. | speciation,espece,isolement,population
+Qu'est-ce qu'un arbre phylogénétique ? | C'est un schéma qui représente les liens de parenté entre espèces, à partir de leurs caractères partagés et de leur histoire évolutive. | phylogenetique,arbre,parente,evolution
+Qu'est-ce que le réchauffement climatique ? | C'est l'augmentation de la température moyenne de la planète, due principalement aux émissions de gaz à effet de serre d'origine humaine. | rechauffement,climatique,temperature,ges
+Qu'est-ce qu'un GIEC ? | C'est le groupe d'experts intergouvernemental sur l'évolution du climat, qui publie des rapports sur les causes et les conséquences du réchauffement. | giec,experts,climat,rapport
+Qu'est-ce que la respiration des plantes ? | C'est la dégradation du glucose en dioxyde de carbone et en eau, qui libère de l'énergie, comme chez les animaux. | respiration,plante,glucose,energie
+Qu'est-ce que la transpiration des plantes ? | C'est la perte d'eau sous forme de vapeur par les stomates des feuilles, qui permet la circulation de la sève brute. | transpiration,plante,stomate,seve
+Qu'est-ce que la sève brute ? | C'est la solution d'eau et de sels minéraux absorbée par les racines et conduite vers les feuilles par le xylème. | seve,brute,xyleme,racine
+Qu'est-ce que la sève élaborée ? | C'est la solution de matières organiques produites par la photosynthèse, conduite dans toute la plante par le phloème. | seve,elaboree,phloeme,matiere
+Qu'est-ce qu'une symbiose ? | C'est une association durable et bénéfique entre deux espèces, comme celle des lichens (algue et champignon). | symbiose,association,espece,benefique
+Qu'est-ce que le parasitisme ? | C'est une relation entre deux espèces où l'une tire profit de l'autre, à qui elle nuit, sans toujours la tuer. | parasitisme,parasite,hote,relation
+Qu'est-ce qu'une fermentation ? | C'est une voie de dégradation du glucose en l'absence de dioxygène, qui produit par exemple de l'alcool ou de l'acide lactique. | fermentation,glucose,dioxygene,alcool
+Qu'est-ce que la photorespiration ? | C'est une voie métabolique qui consomme du dioxygène et du carbone fixé, en condition de forte luminosité et de fermeture des stomates. | photorespiration,plante,dioxygene
+Qu'est-ce que la mitochondrie ? | C'est un organite de la cellule où se déroule la respiration cellulaire, qui fournit l'énergie sous forme d'ATP. | mitochondrie,respiration,atp,organite
+Qu'est-ce que le réticulum endoplasmique ? | C'est un ensemble de membranes qui fabrique et transporte des protéines et des lipides dans la cellule. | reticulum,endoplasmique,membrane,proteine
+Qu'est-ce que l'appareil de Golgi ? | C'est un organite qui modifie, trie et emballe les protéines avant leur envoi vers leur destination. | golgi,appareil,proteine,emballage
+Qu'est-ce qu'un lysosome ? | C'est un organite qui contient des enzymes de digestion, et qui dégrade les déchets et les molécules à recycler dans la cellule. | lysosome,enzyme,digestion,dechet
+Qu'est-ce que la membrane plasmique ? | C'est la membrane qui entoure la cellule et contrôle les échanges avec le milieu. Elle est formée d'une double couche de lipides et de protéines. | membrane,plasmique,lipide,proteine
+Qu'est-ce que la diffusion passive ? | C'est le passage d'une substance à travers la membrane, du milieu le plus concentré vers le moins concentré, sans dépense d'énergie. | diffusion,passive,membrane,concentration
+Qu'est-ce que le transport actif ? | C'est le passage d'une substance à travers la membrane contre son gradient de concentration, avec dépense d'énergie (ATP). | transport,actif,gradient,atp
+Qu'est-ce que l'osmose ? | C'est la diffusion de l'eau à travers une membrane semi-perméable, de la solution la moins concentrée vers la plus concentrée. | osmose,eau,membrane,concentration

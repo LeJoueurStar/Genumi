@@ -1,0 +1,27 @@
+# ---------- Pays francophones : repères ----------
+Pays francophone : Québec ? | Le Québec est une province du Canada où le français est la langue officielle. Sa capitale est Québec et sa ville la plus peuplée est Montréal. | quebec,canada,francophone,montreal,province
+Pays francophone : Sénégal, histoire ? | Le Sénégal est indépendant depuis 1960. Dakar est sa capitale, et le pays est connu pour son histoire liée à l'île de Gorée. | senegal,dakar,gorée,independance,1960
+Pays francophone : Belgique, particularité ? | La Belgique a trois langues officielles : le néerlandais, le français et l'allemand. Bruxelles est à la fois capitale du pays et de l'Union européenne. | belgique,langues,bruxelles,union,europeenne
+Pays francophone : Suisse, particularité ? | La Suisse est une confédération avec quatre langues nationales : allemand, français, italien et romanche. Berne est la capitale fédérale. | suisse,confederation,berne,langues
+Pays francophone : Haïti ? | Haïti est le premier pays d'Amérique latine à avoir obtenu son indépendance, en 1804, après la révolte des esclaves. Le créole haïtien et le français sont parlés. | haiti,independance,1804,creole
+Pays francophone : Madagascar ? | Madagascar est la quatrième plus grande île du monde. Le malgache et le français y sont parlés, et la capitale est Antananarivo. | madagascar,ile,malgache,antananarivo
+Pays francophone : Côte d'Ivoire ? | La Côte d'Ivoire est un grand producteur de cacao. Sa capitale politique est Yamoussoukro, et la plus grande ville est Abidjan. | cote,ivoire,cacao,abidjan,yamoussoukro
+Pays francophone : Maroc ? | Le Maroc est un royaume d'Afrique du Nord, avec Rabat comme capitale. L'arabe est la langue officielle, et le français est très utilisé. | maroc,rabat,royaume,arabe
+Pays francophone : Algérie ? | L'Algérie est le plus grand pays d'Afrique par sa superficie. Sa capitale est Alger, et l'arabe et l'amazigh sont langues officielles. | algerie,alger,superficie,arabe
+Pays francophone : Tunisie ? | La Tunisie est située au nord de l'Afrique. Sa capitale est Tunis et l'arabe est sa langue officielle. | tunisie,tunis,arabe
+Pays francophone : Vietnam, influence française ? | Le Viêt Nam a été une colonie française (Indochine). Le français reste connu dans certains milieux, mais la langue officielle est le vietnamien. | vietnam,indochine,colonie,francais
+Pays francophone : Liban ? | Le Liban a le français comme langue de culture importante, en plus de l'arabe. Sa capitale est Beyrouth. | liban,beyrouth,arabe,culture
+Pays francophone : Luxembourg ? | Le Luxembourg a trois langues officielles : le luxembourgeois, le français et l'allemand. Sa capitale est la ville de Luxembourg. | luxembourg,langues,allemand
+Pays francophone : Monaco ? | Monaco est une principauté d'environ deux kilomètres carrés sur la Côte d'Azur. Le français est sa langue officielle. | monaco,principaute,cote,azur
+# ---------- Pays anglophones : repères ----------
+Pays anglophone : Royaume-Uni, composition ? | Le Royaume-Uni est formé de l'Angleterre, de l'Écosse, du pays de Galles et de l'Irlande du Nord. Sa capitale est Londres. | royaume,uni,angleterre,ecosse,galles,londres
+Pays anglophone : États-Unis, composition ? | Les États-Unis comptent 50 États fédérés. Washington D.C. est la capitale fédérale, et l'anglais n'est pas langue officielle au niveau fédéral. | etats,unis,washington,federal,50
+Pays anglophone : Australie ? | L'Australie est à la fois un pays et un continent. Sa capitale est Canberra, et Sydney et Melbourne sont ses plus grandes villes. | australie,canberra,sydney,melbourne
+Pays anglophone : Nouvelle-Zélande ? | La Nouvelle-Zélande est formée de deux grandes îles principales. Sa capitale est Wellington, et le maori est aussi langue officielle. | nouvelle,zelande,wellington,maori
+Pays anglophone : Canada, langues ? | Le Canada a deux langues officielles au niveau fédéral : l'anglais et le français. Ottawa est la capitale. | canada,ottawa,anglais,francais,officielles
+Pays anglophone : Inde, anglais ? | En Inde, l'anglais est une langue officielle avec le hindi, et reste très utilisé dans l'administration et l'éducation. | inde,anglais,hindi,administration
+Pays anglophone : Nigeria ? | Le Nigeria est le pays le plus peuplé d'Afrique. L'anglais est sa langue officielle, et Abuja est la capitale. | nigeria,afrique,peuple,abuja,anglais
+Pays anglophone : Afrique du Sud ? | L'Afrique du Sud a onze langues officielles. Elle a trois capitales : Pretoria (exécutive), Le Cap (législative) et Bloemfontein (judiciaire). | afrique,sud,langues,capitales,pretoria
+Pays anglophone : Jamaïque ? | La Jamaïque est une île des Caraïbes, pays du reggae et de l'athlétisme. L'anglais est la langue officielle, et Kingston est la capitale. | jamaique,caraibes,reggae,kingston
+Pays anglophone : Singapour ? | Singapour est une cité-État d'Asie du Sud-Est. Ses langues officielles sont l'anglais, le malais, le mandarin et le tamoul. | singapour,cite,etat,langues
+Pays anglophone : Kenya ? | Le Kenya a le swahili et l'anglais comme langues officielles. Nairobi est la capitale. | kenya,swahili,anglais,nairobi

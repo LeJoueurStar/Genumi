@@ -1,0 +1,38 @@
+# ---------- Mathématiques de terminale (analyse, probabilités, géométrie) ----------
+Qu'est-ce que la continuité d'une fonction ? | Une fonction est continue en a si lim(x→a) f(x) = f(a). Une fonction dérivable est continue. | continuite,fonction,limite,derivable
+Qu'est-ce que le théorème des valeurs intermédiaires ? | Si f est continue et strictement monotone sur [a ; b], alors pour tout k entre f(a) et f(b), l'équation f(x) = k a une unique solution. | valeurs,intermediaires,continue,monotone,solution
+Quelle est la dérivée de la fonction racine carrée ? | La dérivée de √x est 1 / (2√x), pour x strictement positif. | derivee,racine,carree,fonction
+Quelle est la dérivée de 1/x ? | La dérivée de 1/x est −1/x², pour x non nul. | derivee,inverse,fonction
+Quelle est la dérivée de e^(u(x)) ? | C'est u'(x) × e^(u(x)). Exemple : la dérivée de e^(2x) est 2e^(2x). | derivee,exponentielle,compose
+Quelle est la dérivée de ln(u(x)) ? | C'est u'(x) / u(x), pour u strictement positive. | derivee,logarithme,compose
+Qu'est-ce que la limite de x ln(x) en 0 ? | Elle vaut 0 : lim(x→0, x>0) x ln x = 0, par croissances comparées. | limite,logarithme,croissance,comparee
+Qu'est-ce que les croissances comparées ? | Pour n > 0, la limite de e^x / x^n en +∞ est +∞, et la limite de x^n e^(−x) en +∞ est 0. L'exponentielle l'emporte sur les puissances. | croissance,comparee,exponentielle,limite
+Qu'est-ce qu'une primitive de u' × u ? | C'est u2/2 : la dérivée de u2/2 est u' × u. | primitive,integrale,compose
+Comment calculer une intégrale par parties ? | intégrale u v' = [u v] − intégrale u' v. On choisit u et v' pour simplifier la deuxième intégrale. | integration,parties,calcul,integrale
+Quelle est la formule de la moyenne d'une fonction ? | La valeur moyenne de f sur [a ; b] est (1/(b − a)) × intégrale de a à b de f(x) dx. | valeur,moyenne,integrale,fonction
+Qu'est-ce qu'une équation différentielle y' = ay ? | Ses solutions sont y(x) = C e^(ax), où C est une constante réelle. | equation,differentielle,exponentielle,solution
+Qu'est-ce qu'une suite adjacente ? | Deux suites sont adjacentes si l'une est croissante, l'autre décroissante, et leur différence tend vers 0. Elles convergent vers la même limite. | suite,adjacente,limite,convergence
+Qu'est-ce que le théorème de convergence monotone ? | Une suite croissante et majorée converge. Une suite décroissante et minorée converge. | suite,monotone,convergence,majoree
+Qu'est-ce qu'une suite de Fibonacci ? | C'est la suite définie par F₀ = 0, F₁ = 1 et Fn+2 = Fn+1 + Fn. Elle commence par 0, 1, 1, 2, 3, 5, 8. | fibonacci,suite,recurrence
+Qu'est-ce qu'un raisonnement par récurrence ? | On démontre qu'une propriété est vraie au rang initial, puis qu'elle est héréditaire : si elle est vraie au rang n, elle l'est au rang n+1. | recurrence,demonstration,initialisation,heredite
+Qu'est-ce qu'une variable aléatoire discrète ? | C'est une fonction qui associe un nombre réel à chaque issue d'une expérience aléatoire, et qui prend un nombre fini ou dénombrable de valeurs. | variable,aleatoire,discrete,valeur
+Qu'est-ce que la loi de Bernoulli ? | C'est la loi d'une variable qui ne prend que les valeurs 0 et 1, avec P(X = 1) = p. Son espérance est p et sa variance p(1 − p). | bernoulli,loi,probabilite,esperance
+Qu'est-ce que la loi géométrique ? | C'est la loi du rang du premier succès dans une succession d'épreuves indépendantes de probabilité p. P(X = k) = (1 − p)^(k−1) × p. | geometrique,loi,succes,rang
+Qu'est-ce que la loi de Poisson ? | C'est la loi d'un nombre d'événements rares sur un intervalle, de paramètre λ. P(X = k) = e^(−λ) λ^k / k!. Son espérance est λ. | poisson,loi,evenement,parametre
+Qu'est-ce qu'une loi uniforme continue ? | C'est une loi dont la densité est constante sur un intervalle [a ; b] : f(x) = 1/(b − a). Son espérance est (a + b)/2. | uniforme,continue,densite,esperance
+Qu'est-ce que la loi exponentielle ? | C'est une loi continue de densité f(x) = λe^(−λx) pour x ≥ 0. Sa fonction de répartition est F(x) = 1 − e^(−λx). | exponentielle,loi,continue,repartition
+Qu'est-ce que la propriété d'absence de mémoire de la loi exponentielle ? | P_(X>t)(X > t + s) = P(X > s) : la probabilité de survivre encore s unités de temps ne dépend pas du temps déjà écoulé. | absence,memoire,exponentielle,loi
+Qu'est-ce que la loi normale centrée réduite ? | C'est la loi N(0 ; 1), de moyenne 0 et d'écart-type 1. Sa densité est symétrique autour de 0. | normale,centree,reduite,gauss
+Qu'est-ce que l'intervalle de fluctuation ? | C'est l'intervalle qui contient la fréquence d'un caractère dans un échantillon avec une probabilité donnée, souvent 95 %, autour de la proportion théorique p. | intervalle,fluctuation,echantillon,proportion
+Qu'est-ce qu'une loi des grands nombres ? | Quand la taille de l'échantillon augmente, la moyenne empirique se rapproche de l'espérance théorique. | loi,grands,nombres,moyenne,esperance
+Qu'est-ce que le produit scalaire en géométrie analytique ? | Pour u(x ; y) et v(x' ; y'), u · v = xx' + yy'. Il permet de calculer les angles et de tester l'orthogonalité. | produit,scalaire,analytique,vecteur
+Quelle est l'équation cartésienne d'un cercle ? | Le cercle de centre (a ; b) et de rayon r a pour équation (x − a)² + (y − b)² = r². | cercle,equation,cartesienne,centre,rayon
+Qu'est-ce que l'équation d'une droite passant par deux points ? | Pour A(x_A ; y_A) et B(x_B ; y_B), la droite (AB) a pour équation (x_B − x_A)(y − y_A) − (y_B − y_A)(x − x_A) = 0. | droite,equation,points,vecteur
+Qu'est-ce qu'un vecteur normal à une droite ? | C'est un vecteur non nul orthogonal à la direction de la droite. Pour la droite ax + by + c = 0, le vecteur (a ; b) est normal. | vecteur,normal,droite,orthogonal
+Qu'est-ce que la distance d'un point à une droite ? | Pour la droite ax + by + c = 0 et le point M(x0 ; y0), d = |ax0 + by0 + c| / √(a² + b²). | distance,point,droite,formule
+Qu'est-ce que la représentation paramétrique d'une droite ? | C'est une écriture de la droite à partir d'un point A et d'un vecteur directeur u : M = A + t u, avec t réel. | parametrique,droite,vecteur,directeur
+Qu'est-ce que le produit vectoriel ? | Pour deux vecteurs de l'espace, c'est un vecteur orthogonal à ces deux vecteurs, dont la norme est l'aire du parallélogramme qu'ils forment. | produit,vectoriel,espace,aire
+Qu'est-ce qu'un plan dans l'espace ? | Un plan a une équation de la forme ax + by + cz + d = 0, où (a ; b ; c) est un vecteur normal au plan. | plan,espace,equation,normal
+Qu'est-ce que la forme trigonométrique d'un complexe ? | z = r(cos θ + i sin θ), avec r = |z| le module et θ l'argument. | complexe,trigonometrique,module,argument
+Qu'est-ce qu'un nombre complexe conjugué ? | Le conjugué de z = a + ib est z̄ = a − ib. On a z × z̄ = |z|2. | complexe,conjugue,module
+Comment résoudre une équation complexe du second degré ? | Si le discriminant est négatif, les solutions sont (−b ± i√(−Δ)) / (2a), avec Δ = b² − 4ac. | complexe,second,degre,discriminant,solution

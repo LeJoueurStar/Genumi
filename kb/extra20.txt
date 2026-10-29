@@ -1,0 +1,59 @@
+# ---------- Histoire : XIXe et XXe siècles ----------
+Qu'est-ce que la Restauration ? | C'est le retour de la monarchie des Bourbons en France, de 1814 à 1830, après la chute de Napoléon. | restauration,bourbons,1814,1830,monarchie
+Qu'est-ce que la monarchie de Juillet ? | C'est un régime de 1830 à 1848, dirigé par Louis-Philippe, roi des Français, issu de la révolution de Juillet. | monarchie,juillet,1830,1848,louis,philippe
+Qu'est-ce que la révolution de 1848 ? | Elle renverse la monarchie de Juillet en février 1848 et conduit à la proclamation de la IIe République, avec le suffrage universel masculin. | revolution,1848,deuxieme,republique,suffrage
+Qu'est-ce que le Second Empire ? | C'est le régime de Napoléon III de 1852 à 1870, qui transforme Paris avec le baron Haussmann et développe l'industrie et les chemins de fer. | second,empire,napoleon,1852,1870,haussmann
+Qu'est-ce que la guerre franco-prussienne de 1870 ? | Ce conflit oppose la France à la Prusse. La défaite française conduit à la chute de Napoléon III et à la proclamation de la IIIe République. | guerre,franco,prussienne,1870,defaite
+Qu'est-ce que l'affaire Dreyfus ? | C'est une affaire judiciaire de 1894 à 1906, où le capitaine Alfred Dreyfus est condamné à tort pour espionnage. Émile Zola dénonce l'injustice avec « J'accuse ». | dreyfus,affaire,zola,accuse,1894,1906
+Qu'est-ce que la loi de séparation des Églises et de l'État ? | Adoptée en 1905, elle établit la laïcité en France : l'État ne reconnaît ni ne finance aucun culte. | laicite,1905,separation,eglises,etat
+Qu'est-ce que la Première Guerre mondiale ? | C'est un conflit mondial de 1914 à 1918, opposant notamment la France, le Royaume-Uni et la Russie à l'Allemagne et à l'Autriche-Hongrie. | premiere,guerre,mondiale,1914,1918
+Qu'est-ce que la bataille de Verdun ? | C'est une bataille de la Première Guerre mondiale, qui dure de février à décembre 1916 et fait des centaines de milliers de morts. | verdun,1916,bataille,guerre
+Qu'est-ce que la révolution russe de février 1917 ? | Elle renverse le tsar Nicolas II et conduit à la formation d'un gouvernement provisoire, avant la révolution d'octobre 1917 menée par les bolcheviks. | revolution,russe,1917,tsar,nicolas
+Qu'est-ce que le traité de Versailles ? | Signé en 1919, il impose à l'Allemagne la responsabilité de la guerre, des réparations financières et la perte de territoires. | versailles,1919,allemagne,reparations
+Qu'est-ce que la Seconde Guerre mondiale ? | C'est un conflit mondial de 1939 à 1945, qui oppose les Alliés aux puissances de l'Axe. Il fait environ 60 millions de morts. | seconde,guerre,mondiale,1939,1945,axe,alliés
+Qu'est-ce que l'armistice du 22 juin 1940 ? | La France signe un armistice avec l'Allemagne, qui occupe le nord et l'ouest du pays. Le gouvernement de Vichy s'installe dans le sud. | armistice,1940,vichy,occupation
+Qu'est-ce que le régime de Vichy ? | C'est le régime installé par le maréchal Pétain en 1940, qui collabore avec l'Allemagne nazie et met en place une politique antisémite. | vichy,petain,collaboration,1940
+Qu'est-ce que le débarquement de Normandie ? | Le 6 juin 1944, les Alliés débarquent sur les plages de Normandie pour libérer l'Europe de l'Ouest du contrôle allemand. | debarquement,normandie,1944,alliés,liberation
+Qu'est-ce que la libération de Paris ? | Paris est libérée le 25 août 1944 par les forces alliées et la Résistance française. | paris,liberation,1944,resistance
+Qu'est-ce que la IVe République ? | C'est le régime politique français de 1946 à 1958, caractérisé par un Parlement dominant et des gouvernements instables. | quatrieme,republique,1946,1958,parlement
+Qu'est-ce que la guerre d'Algérie ? | C'est un conflit de 1954 à 1962 entre la France et les indépendantistes algériens du FLN. Il se termine par les accords d'Évian et l'indépendance de l'Algérie. | algerie,guerre,1954,1962,evian,independance
+Qu'est-ce que la Ve République ? | C'est le régime politique français instauré en 1958 par la Constitution, avec un président élu au suffrage universel direct depuis 1962. | cinquieme,republique,1958,constitution,president
+Qu'est-ce que Mai 68 ? | C'est un mouvement de contestation sociale et culturelle en France, avec de grandes grèves et des manifestations étudiantes en mai et juin 1968. | mai,68,contestation,greve,1968
+Qu'est-ce que la construction européenne après 1945 ? | Elle commence avec la CECA en 1951, puis le traité de Rome en 1957 crée la CEE. L'Union européenne est créée par le traité de Maastricht en 1992. | europeenne,ceca,rome,1957,maastricht,1992
+Qu'est-ce que la chute du mur de Berlin ? | Le 9 novembre 1989, le mur qui séparait Berlin-Est et Berlin-Ouest est ouvert, ce qui marque la fin de la division de l'Europe. | mur,berlin,1989,chute
+Qu'est-ce que la dissolution de l'URSS ? | En décembre 1991, l'Union soviétique cesse d'exister, et plusieurs républiques deviennent indépendantes, dont la Russie. | urss,1991,dissolution,independance
+Qu'est-ce que la décolonisation ? | C'est le processus par lequel les colonies obtiennent leur indépendance, surtout après 1945 en Asie et en Afrique. | decolonisation,independance,asie,afrique
+Qu'est-ce que le tiers-monde ? | C'est une expression des années 1950 qui désigne les pays non alignés sur les blocs de la guerre froide, souvent en développement. | tiers,monde,non,aligne,developpement
+# ---------- Géographie : continents et grands ensembles ----------
+Quels sont les continents ? | Il y a six continents : Afrique, Amérique, Antarctique, Asie, Europe et Océanie. Certains comptent l'Amérique comme deux continents : Amérique du Nord et Amérique du Sud. | continent,afrique,amerique,antarctique,asie,europe,oceanie
+Quel est le plus grand océan ? | C'est l'océan Pacifique, qui couvre environ un tiers de la surface de la Terre. | ocean,pacifique,plus,grand
+Quels sont les océans ? | Il y a cinq océans : Pacifique, Atlantique, Indien, Arctique et Austral (ou Antarctique). | ocean,pacifique,atlantique,indien,arctique,austral
+Quelle est la plus haute montagne du monde ? | C'est l'Everest, dans l'Himalaya, qui culmine à environ 8 849 mètres au-dessus du niveau de la mer. | everest,himalaya,montagne,haute,8849
+Quel est le plus long fleuve du monde ? | C'est généralement considéré comme le Nil, d'environ 6 650 km, mais l'Amazone est le plus puissant par son débit. | nil,amazone,fleuve,long
+Quel est le plus grand désert du monde ? | C'est l'Antarctique, un désert froid, avant le Sahara, qui est le plus grand désert chaud. | desert,antarctique,sahara
+Quelle est la plus grande île du monde ? | C'est le Groenland, un territoire autonome rattaché au Danemark, d'environ 2,2 millions de km². | groenland,ile,danemark
+Quel est le plus grand pays du monde ? | C'est la Russie, avec une superficie d'environ 17 millions de km², soit plus de 11 % des terres émergées. | russie,plus,grand,pays,superficie
+Quel est le pays le plus peuplé du monde ? | L'Inde a dépassé la Chine en 2023 et est désormais le pays le plus peuplé du monde. | inde,chine,peuple,plus
+Quel est le plus petit pays du monde ? | C'est le Vatican, avec une superficie d'environ 0,44 km². | vatican,plus,petit,pays
+Qu'est-ce que la mer Méditerranée ? | C'est une mer intérieure entre l'Europe, l'Afrique et l'Asie, reliée à l'océan Atlantique par le détroit de Gibraltar. | mediterranee,mer,gibraltar,atlantique
+Qu'est-ce que la mer Morte ? | C'est un lac salé situé entre Israël, la Jordanie et la Palestine, dont la surface est à environ 430 mètres sous le niveau de la mer. | mer,morte,sel,lac
+Qu'est-ce que le canal de Suez ? | C'est un canal de 193 km en Égypte, inauguré en 1869, qui relie la mer Méditerranée à la mer Rouge. | suez,canal,egypte,1869
+Qu'est-ce que le canal de Panama ? | C'est un canal qui relie l'océan Atlantique et l'océan Pacifique à travers l'isthme de Panama, mis en service en 1914. | panama,canal,1914,atlantique,pacifique
+Qu'est-ce que le détroit de Gibraltar ? | C'est le passage étroit qui sépare l'Europe de l'Afrique et relie la mer Méditerranée à l'océan Atlantique. | gibraltar,detroit,europe,afrique
+Qu'est-ce que la chaîne des Alpes ? | C'est une chaîne de montagnes qui traverse la France, la Suisse, l'Italie, l'Autriche et d'autres pays, avec le mont Blanc comme sommet culminant en Europe occidentale. | alpes,montagne,mont,blanc
+Qu'est-ce que les Pyrénées ? | C'est une chaîne de montagnes qui sépare la France de l'Espagne et de l'Andorre, culminant au pic d'Aneto. | pyrenees,montagne,espagne,france
+Qu'est-ce que le Massif central ? | C'est un vaste ensemble montagneux du centre de la France, formé de roches anciennes et de volcans éteints, comme le Cantal ou le Puy de Dôme. | massif,central,volcan,france
+Qu'est-ce que l'Amazonie ? | C'est la plus grande forêt tropicale du monde, située en grande partie au Brésil, traversée par le fleuve Amazone. | amazonie,foret,tropicale,bresil,amazone
+Qu'est-ce que le Sahara ? | C'est le plus grand désert chaud du monde, qui couvre une grande partie de l'Afrique du Nord. | sahara,desert,chaud,afrique
+Qu'est-ce que le Gange ? | C'est un fleuve sacré de l'Inde et du Bangladesh, qui traverse la plaine indo-gangétique. | gange,fleuve,inde,bangladesh
+# ---------- Sciences de la Terre : compléments ----------
+Qu'est-ce que la croûte terrestre ? | C'est la couche la plus externe de la Terre, mince sous les océans (quelques kilomètres) et plus épaisse sous les continents (jusqu'à 70 km). | croute,terrestre,couche,ocean,continent
+Qu'est-ce que le manteau terrestre ? | C'est la couche située sous la croûte, jusqu'à environ 2 900 km de profondeur, formée de roches chaudes et solides sur de très longues échelles de temps. | manteau,terrestre,couche,roche
+Qu'est-ce que le noyau terrestre ? | C'est la partie centrale de la Terre, formée de fer et de nickel, avec un noyau externe liquide et un noyau interne solide. | noyau,terrestre,fer,nickel
+Qu'est-ce qu'une faille géologique ? | C'est une cassure de la croûte terrestre le long de laquelle les blocs se déplacent. Elle est souvent associée aux séismes. | faille,geologique,cassure,seisme
+Qu'est-ce qu'un volcan actif ? | C'est un volcan qui a eu une éruption récente ou qui peut en avoir une. Le Piton de la Fournaise, à La Réunion, est un volcan très actif. | volcan,actif,eruption,reunion
+Qu'est-ce qu'une éruption volcanique ? | C'est l'émission de lave, de cendres et de gaz à la surface de la Terre, due à la remontée du magma. | eruption,volcanique,lave,cendre,magma
+Qu'est-ce que la dérive des continents ? | C'est le déplacement lent des continents à la surface de la Terre, mis en évidence par Alfred Wegener en 1912. | derive,continents,wegener,1912
+Qu'est-ce qu'une dorsale océanique ? | C'est une chaîne de montagnes sous-marines où la lithosphère se crée par la remontée de magma, comme la dorsale médio-atlantique. | dorsale,oceanique,lithosphere,magma
+Qu'est-ce qu'une fosse océanique ? | C'est une dépression profonde de l'océan où une plaque plonge sous une autre, ce qui recycle la lithosphère. | fosse,oceanique,subduction,plaque
+Qu'est-ce que la subduction ? | C'est le phénomène où une plaque lithosphérique plonge sous une autre et disparaît dans le manteau. | subduction,plaque,manteau

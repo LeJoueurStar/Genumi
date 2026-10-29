@@ -1,0 +1,785 @@
+# ---------- Pays du monde (capitale, langues, monnaie, continent) ----------
+Pays : France. Quelle est sa capitale ? | Pays : France. Capitale : Paris. | france,capitale,pays
+Pays : France. Quelle est sa langue officielle ? | Pays : France. Langues officielles : français. | france,langue,officielle,pays
+Pays : France. Quelle est sa monnaie ? | Pays : France. Monnaie : euro. | france,monnaie,devise,pays
+Pays : France. Sur quel continent se trouve-t-il ? | Pays : France. Continent : Europe. | france,continent,pays,situation
+Pays : Belgique. Quelle est sa capitale ? | Pays : Belgique. Capitale : Bruxelles. | belgique,capitale,pays
+Pays : Belgique. Quelle est sa langue officielle ? | Pays : Belgique. Langues officielles : néerlandais, français, allemand. | belgique,langue,officielle,pays
+Pays : Belgique. Quelle est sa monnaie ? | Pays : Belgique. Monnaie : euro. | belgique,monnaie,devise,pays
+Pays : Belgique. Sur quel continent se trouve-t-il ? | Pays : Belgique. Continent : Europe. | belgique,continent,pays,situation
+Pays : Suisse. Quelle est sa capitale ? | Pays : Suisse. Capitale : Berne. | suisse,capitale,pays
+Pays : Suisse. Quelle est sa langue officielle ? | Pays : Suisse. Langues officielles : allemand, français, italien, romanche. | suisse,langue,officielle,pays
+Pays : Suisse. Quelle est sa monnaie ? | Pays : Suisse. Monnaie : franc suisse. | suisse,monnaie,devise,pays
+Pays : Suisse. Sur quel continent se trouve-t-il ? | Pays : Suisse. Continent : Europe. | suisse,continent,pays,situation
+Pays : Luxembourg. Quelle est sa capitale ? | Pays : Luxembourg. Capitale : Luxembourg. | luxembourg,capitale,pays
+Pays : Luxembourg. Quelle est sa langue officielle ? | Pays : Luxembourg. Langues officielles : luxembourgeois, français, allemand. | luxembourg,langue,officielle,pays
+Pays : Luxembourg. Quelle est sa monnaie ? | Pays : Luxembourg. Monnaie : euro. | luxembourg,monnaie,devise,pays
+Pays : Luxembourg. Sur quel continent se trouve-t-il ? | Pays : Luxembourg. Continent : Europe. | luxembourg,continent,pays,situation
+Pays : Monaco. Quelle est sa capitale ? | Pays : Monaco. Capitale : Monaco. | monaco,capitale,pays
+Pays : Monaco. Quelle est sa langue officielle ? | Pays : Monaco. Langues officielles : français. | monaco,langue,officielle,pays
+Pays : Monaco. Quelle est sa monnaie ? | Pays : Monaco. Monnaie : euro. | monaco,monnaie,devise,pays
+Pays : Monaco. Sur quel continent se trouve-t-il ? | Pays : Monaco. Continent : Europe. | monaco,continent,pays,situation
+Pays : Canada. Quelle est sa capitale ? | Pays : Canada. Capitale : Ottawa. | canada,capitale,pays
+Pays : Canada. Quelle est sa langue officielle ? | Pays : Canada. Langues officielles : anglais, français. | canada,langue,officielle,pays
+Pays : Canada. Quelle est sa monnaie ? | Pays : Canada. Monnaie : dollar canadien. | canada,monnaie,devise,pays
+Pays : Canada. Sur quel continent se trouve-t-il ? | Pays : Canada. Continent : Amérique du Nord. | canada,continent,pays,situation
+Pays : Haïti. Quelle est sa capitale ? | Pays : Haïti. Capitale : Port-au-Prince. | haïti,capitale,pays
+Pays : Haïti. Quelle est sa langue officielle ? | Pays : Haïti. Langues officielles : français, créole haïtien. | haïti,langue,officielle,pays
+Pays : Haïti. Quelle est sa monnaie ? | Pays : Haïti. Monnaie : gourde. | haïti,monnaie,devise,pays
+Pays : Haïti. Sur quel continent se trouve-t-il ? | Pays : Haïti. Continent : Amérique. | haïti,continent,pays,situation
+Pays : Maroc. Quelle est sa capitale ? | Pays : Maroc. Capitale : Rabat. | maroc,capitale,pays
+Pays : Maroc. Quelle est sa langue officielle ? | Pays : Maroc. Langues officielles : arabe, amazigh (berbère), français. | maroc,langue,officielle,pays
+Pays : Maroc. Quelle est sa monnaie ? | Pays : Maroc. Monnaie : dirham marocain. | maroc,monnaie,devise,pays
+Pays : Maroc. Sur quel continent se trouve-t-il ? | Pays : Maroc. Continent : Afrique. | maroc,continent,pays,situation
+Pays : Algérie. Quelle est sa capitale ? | Pays : Algérie. Capitale : Alger. | algérie,capitale,pays
+Pays : Algérie. Quelle est sa langue officielle ? | Pays : Algérie. Langues officielles : arabe, amazigh (berbère), français. | algérie,langue,officielle,pays
+Pays : Algérie. Quelle est sa monnaie ? | Pays : Algérie. Monnaie : dinar algérien. | algérie,monnaie,devise,pays
+Pays : Algérie. Sur quel continent se trouve-t-il ? | Pays : Algérie. Continent : Afrique. | algérie,continent,pays,situation
+Pays : Tunisie. Quelle est sa capitale ? | Pays : Tunisie. Capitale : Tunis. | tunisie,capitale,pays
+Pays : Tunisie. Quelle est sa langue officielle ? | Pays : Tunisie. Langues officielles : arabe, français. | tunisie,langue,officielle,pays
+Pays : Tunisie. Quelle est sa monnaie ? | Pays : Tunisie. Monnaie : dinar tunisien. | tunisie,monnaie,devise,pays
+Pays : Tunisie. Sur quel continent se trouve-t-il ? | Pays : Tunisie. Continent : Afrique. | tunisie,continent,pays,situation
+Pays : Sénégal. Quelle est sa capitale ? | Pays : Sénégal. Capitale : Dakar. | sénégal,capitale,pays
+Pays : Sénégal. Quelle est sa langue officielle ? | Pays : Sénégal. Langues officielles : français. | sénégal,langue,officielle,pays
+Pays : Sénégal. Quelle est sa monnaie ? | Pays : Sénégal. Monnaie : franc CFA (XOF). | sénégal,monnaie,devise,pays
+Pays : Sénégal. Sur quel continent se trouve-t-il ? | Pays : Sénégal. Continent : Afrique. | sénégal,continent,pays,situation
+Pays : Côte d'Ivoire. Quelle est sa capitale ? | Pays : Côte d'Ivoire. Capitale : Yamoussoukro. | côte d'ivoire,capitale,pays
+Pays : Côte d'Ivoire. Quelle est sa langue officielle ? | Pays : Côte d'Ivoire. Langues officielles : français. | côte d'ivoire,langue,officielle,pays
+Pays : Côte d'Ivoire. Quelle est sa monnaie ? | Pays : Côte d'Ivoire. Monnaie : franc CFA (XOF). | côte d'ivoire,monnaie,devise,pays
+Pays : Côte d'Ivoire. Sur quel continent se trouve-t-il ? | Pays : Côte d'Ivoire. Continent : Afrique. | côte d'ivoire,continent,pays,situation
+Pays : Cameroun. Quelle est sa capitale ? | Pays : Cameroun. Capitale : Yaoundé. | cameroun,capitale,pays
+Pays : Cameroun. Quelle est sa langue officielle ? | Pays : Cameroun. Langues officielles : français, anglais. | cameroun,langue,officielle,pays
+Pays : Cameroun. Quelle est sa monnaie ? | Pays : Cameroun. Monnaie : franc CFA (XAF). | cameroun,monnaie,devise,pays
+Pays : Cameroun. Sur quel continent se trouve-t-il ? | Pays : Cameroun. Continent : Afrique. | cameroun,continent,pays,situation
+Pays : Madagascar. Quelle est sa capitale ? | Pays : Madagascar. Capitale : Antananarivo. | madagascar,capitale,pays
+Pays : Madagascar. Quelle est sa langue officielle ? | Pays : Madagascar. Langues officielles : malgache, français. | madagascar,langue,officielle,pays
+Pays : Madagascar. Quelle est sa monnaie ? | Pays : Madagascar. Monnaie : ariary. | madagascar,monnaie,devise,pays
+Pays : Madagascar. Sur quel continent se trouve-t-il ? | Pays : Madagascar. Continent : Afrique. | madagascar,continent,pays,situation
+Pays : Mali. Quelle est sa capitale ? | Pays : Mali. Capitale : Bamako. | mali,capitale,pays
+Pays : Mali. Quelle est sa langue officielle ? | Pays : Mali. Langues officielles : français. | mali,langue,officielle,pays
+Pays : Mali. Quelle est sa monnaie ? | Pays : Mali. Monnaie : franc CFA (XOF). | mali,monnaie,devise,pays
+Pays : Mali. Sur quel continent se trouve-t-il ? | Pays : Mali. Continent : Afrique. | mali,continent,pays,situation
+Pays : Burkina Faso. Quelle est sa capitale ? | Pays : Burkina Faso. Capitale : Ouagadougou. | burkina faso,capitale,pays
+Pays : Burkina Faso. Quelle est sa langue officielle ? | Pays : Burkina Faso. Langues officielles : français. | burkina faso,langue,officielle,pays
+Pays : Burkina Faso. Quelle est sa monnaie ? | Pays : Burkina Faso. Monnaie : franc CFA (XOF). | burkina faso,monnaie,devise,pays
+Pays : Burkina Faso. Sur quel continent se trouve-t-il ? | Pays : Burkina Faso. Continent : Afrique. | burkina faso,continent,pays,situation
+Pays : Niger. Quelle est sa capitale ? | Pays : Niger. Capitale : Niamey. | niger,capitale,pays
+Pays : Niger. Quelle est sa langue officielle ? | Pays : Niger. Langues officielles : français. | niger,langue,officielle,pays
+Pays : Niger. Quelle est sa monnaie ? | Pays : Niger. Monnaie : franc CFA (XOF). | niger,monnaie,devise,pays
+Pays : Niger. Sur quel continent se trouve-t-il ? | Pays : Niger. Continent : Afrique. | niger,continent,pays,situation
+Pays : Tchad. Quelle est sa capitale ? | Pays : Tchad. Capitale : N'Djamena. | tchad,capitale,pays
+Pays : Tchad. Quelle est sa langue officielle ? | Pays : Tchad. Langues officielles : français, arabe. | tchad,langue,officielle,pays
+Pays : Tchad. Quelle est sa monnaie ? | Pays : Tchad. Monnaie : franc CFA (XAF). | tchad,monnaie,devise,pays
+Pays : Tchad. Sur quel continent se trouve-t-il ? | Pays : Tchad. Continent : Afrique. | tchad,continent,pays,situation
+Pays : Gabon. Quelle est sa capitale ? | Pays : Gabon. Capitale : Libreville. | gabon,capitale,pays
+Pays : Gabon. Quelle est sa langue officielle ? | Pays : Gabon. Langues officielles : français. | gabon,langue,officielle,pays
+Pays : Gabon. Quelle est sa monnaie ? | Pays : Gabon. Monnaie : franc CFA (XAF). | gabon,monnaie,devise,pays
+Pays : Gabon. Sur quel continent se trouve-t-il ? | Pays : Gabon. Continent : Afrique. | gabon,continent,pays,situation
+Pays : Congo. Quelle est sa capitale ? | Pays : Congo. Capitale : Brazzaville. | congo,capitale,pays
+Pays : Congo. Quelle est sa langue officielle ? | Pays : Congo. Langues officielles : français. | congo,langue,officielle,pays
+Pays : Congo. Quelle est sa monnaie ? | Pays : Congo. Monnaie : franc CFA (XAF). | congo,monnaie,devise,pays
+Pays : Congo. Sur quel continent se trouve-t-il ? | Pays : Congo. Continent : Afrique. | congo,continent,pays,situation
+Pays : République démocratique du Congo. Quelle est sa capitale ? | Pays : République démocratique du Congo. Capitale : Kinshasa. | république démocratique du congo,capitale,pays
+Pays : République démocratique du Congo. Quelle est sa langue officielle ? | Pays : République démocratique du Congo. Langues officielles : français. | république démocratique du congo,langue,officielle,pays
+Pays : République démocratique du Congo. Quelle est sa monnaie ? | Pays : République démocratique du Congo. Monnaie : franc congolais. | république démocratique du congo,monnaie,devise,pays
+Pays : République démocratique du Congo. Sur quel continent se trouve-t-il ? | Pays : République démocratique du Congo. Continent : Afrique. | république démocratique du congo,continent,pays,situation
+Pays : Guinée. Quelle est sa capitale ? | Pays : Guinée. Capitale : Conakry. | guinée,capitale,pays
+Pays : Guinée. Quelle est sa langue officielle ? | Pays : Guinée. Langues officielles : français. | guinée,langue,officielle,pays
+Pays : Guinée. Quelle est sa monnaie ? | Pays : Guinée. Monnaie : franc guinéen. | guinée,monnaie,devise,pays
+Pays : Guinée. Sur quel continent se trouve-t-il ? | Pays : Guinée. Continent : Afrique. | guinée,continent,pays,situation
+Pays : Bénin. Quelle est sa capitale ? | Pays : Bénin. Capitale : Porto-Novo. | bénin,capitale,pays
+Pays : Bénin. Quelle est sa langue officielle ? | Pays : Bénin. Langues officielles : français. | bénin,langue,officielle,pays
+Pays : Bénin. Quelle est sa monnaie ? | Pays : Bénin. Monnaie : franc CFA (XOF). | bénin,monnaie,devise,pays
+Pays : Bénin. Sur quel continent se trouve-t-il ? | Pays : Bénin. Continent : Afrique. | bénin,continent,pays,situation
+Pays : Togo. Quelle est sa capitale ? | Pays : Togo. Capitale : Lomé. | togo,capitale,pays
+Pays : Togo. Quelle est sa langue officielle ? | Pays : Togo. Langues officielles : français. | togo,langue,officielle,pays
+Pays : Togo. Quelle est sa monnaie ? | Pays : Togo. Monnaie : franc CFA (XOF). | togo,monnaie,devise,pays
+Pays : Togo. Sur quel continent se trouve-t-il ? | Pays : Togo. Continent : Afrique. | togo,continent,pays,situation
+Pays : Mauritanie. Quelle est sa capitale ? | Pays : Mauritanie. Capitale : Nouakchott. | mauritanie,capitale,pays
+Pays : Mauritanie. Quelle est sa langue officielle ? | Pays : Mauritanie. Langues officielles : arabe, français. | mauritanie,langue,officielle,pays
+Pays : Mauritanie. Quelle est sa monnaie ? | Pays : Mauritanie. Monnaie : ouguiya. | mauritanie,monnaie,devise,pays
+Pays : Mauritanie. Sur quel continent se trouve-t-il ? | Pays : Mauritanie. Continent : Afrique. | mauritanie,continent,pays,situation
+Pays : Comores. Quelle est sa capitale ? | Pays : Comores. Capitale : Moroni. | comores,capitale,pays
+Pays : Comores. Quelle est sa langue officielle ? | Pays : Comores. Langues officielles : comorien, arabe, français. | comores,langue,officielle,pays
+Pays : Comores. Quelle est sa monnaie ? | Pays : Comores. Monnaie : franc comorien. | comores,monnaie,devise,pays
+Pays : Comores. Sur quel continent se trouve-t-il ? | Pays : Comores. Continent : Afrique. | comores,continent,pays,situation
+Pays : Djibouti. Quelle est sa capitale ? | Pays : Djibouti. Capitale : Djibouti. | djibouti,capitale,pays
+Pays : Djibouti. Quelle est sa langue officielle ? | Pays : Djibouti. Langues officielles : français, arabe. | djibouti,langue,officielle,pays
+Pays : Djibouti. Quelle est sa monnaie ? | Pays : Djibouti. Monnaie : franc djiboutien. | djibouti,monnaie,devise,pays
+Pays : Djibouti. Sur quel continent se trouve-t-il ? | Pays : Djibouti. Continent : Afrique. | djibouti,continent,pays,situation
+Pays : Rwanda. Quelle est sa capitale ? | Pays : Rwanda. Capitale : Kigali. | rwanda,capitale,pays
+Pays : Rwanda. Quelle est sa langue officielle ? | Pays : Rwanda. Langues officielles : kinyarwanda, français, anglais. | rwanda,langue,officielle,pays
+Pays : Rwanda. Quelle est sa monnaie ? | Pays : Rwanda. Monnaie : franc rwandais. | rwanda,monnaie,devise,pays
+Pays : Rwanda. Sur quel continent se trouve-t-il ? | Pays : Rwanda. Continent : Afrique. | rwanda,continent,pays,situation
+Pays : Burundi. Quelle est sa capitale ? | Pays : Burundi. Capitale : Gitega. | burundi,capitale,pays
+Pays : Burundi. Quelle est sa langue officielle ? | Pays : Burundi. Langues officielles : kirundi, français. | burundi,langue,officielle,pays
+Pays : Burundi. Quelle est sa monnaie ? | Pays : Burundi. Monnaie : franc burundais. | burundi,monnaie,devise,pays
+Pays : Burundi. Sur quel continent se trouve-t-il ? | Pays : Burundi. Continent : Afrique. | burundi,continent,pays,situation
+Pays : Centrafrique. Quelle est sa capitale ? | Pays : Centrafrique. Capitale : Bangui. | centrafrique,capitale,pays
+Pays : Centrafrique. Quelle est sa langue officielle ? | Pays : Centrafrique. Langues officielles : français, sango. | centrafrique,langue,officielle,pays
+Pays : Centrafrique. Quelle est sa monnaie ? | Pays : Centrafrique. Monnaie : franc CFA (XAF). | centrafrique,monnaie,devise,pays
+Pays : Centrafrique. Sur quel continent se trouve-t-il ? | Pays : Centrafrique. Continent : Afrique. | centrafrique,continent,pays,situation
+Pays : Seychelles. Quelle est sa capitale ? | Pays : Seychelles. Capitale : Victoria. | seychelles,capitale,pays
+Pays : Seychelles. Quelle est sa langue officielle ? | Pays : Seychelles. Langues officielles : créole seychellois, anglais, français. | seychelles,langue,officielle,pays
+Pays : Seychelles. Quelle est sa monnaie ? | Pays : Seychelles. Monnaie : roupie seychelloise. | seychelles,monnaie,devise,pays
+Pays : Seychelles. Sur quel continent se trouve-t-il ? | Pays : Seychelles. Continent : Afrique. | seychelles,continent,pays,situation
+Pays : Maurice. Quelle est sa capitale ? | Pays : Maurice. Capitale : Port-Louis. | maurice,capitale,pays
+Pays : Maurice. Quelle est sa langue officielle ? | Pays : Maurice. Langues officielles : anglais (officielle), créole mauricien, français. | maurice,langue,officielle,pays
+Pays : Maurice. Quelle est sa monnaie ? | Pays : Maurice. Monnaie : roupie mauricienne. | maurice,monnaie,devise,pays
+Pays : Maurice. Sur quel continent se trouve-t-il ? | Pays : Maurice. Continent : Afrique. | maurice,continent,pays,situation
+Pays : Royaume-Uni. Quelle est sa capitale ? | Pays : Royaume-Uni. Capitale : Londres. | royaume-uni,capitale,pays
+Pays : Royaume-Uni. Quelle est sa langue officielle ? | Pays : Royaume-Uni. Langues officielles : anglais. | royaume-uni,langue,officielle,pays
+Pays : Royaume-Uni. Quelle est sa monnaie ? | Pays : Royaume-Uni. Monnaie : livre sterling. | royaume-uni,monnaie,devise,pays
+Pays : Royaume-Uni. Sur quel continent se trouve-t-il ? | Pays : Royaume-Uni. Continent : Europe. | royaume-uni,continent,pays,situation
+Pays : Irlande. Quelle est sa capitale ? | Pays : Irlande. Capitale : Dublin. | irlande,capitale,pays
+Pays : Irlande. Quelle est sa langue officielle ? | Pays : Irlande. Langues officielles : irlandais, anglais. | irlande,langue,officielle,pays
+Pays : Irlande. Quelle est sa monnaie ? | Pays : Irlande. Monnaie : euro. | irlande,monnaie,devise,pays
+Pays : Irlande. Sur quel continent se trouve-t-il ? | Pays : Irlande. Continent : Europe. | irlande,continent,pays,situation
+Pays : États-Unis. Quelle est sa capitale ? | Pays : États-Unis. Capitale : Washington. | états-unis,capitale,pays
+Pays : États-Unis. Quelle est sa langue officielle ? | Pays : États-Unis. Langues officielles : anglais. | états-unis,langue,officielle,pays
+Pays : États-Unis. Quelle est sa monnaie ? | Pays : États-Unis. Monnaie : dollar américain. | états-unis,monnaie,devise,pays
+Pays : États-Unis. Sur quel continent se trouve-t-il ? | Pays : États-Unis. Continent : Amérique du Nord. | états-unis,continent,pays,situation
+Pays : Australie. Quelle est sa capitale ? | Pays : Australie. Capitale : Canberra. | australie,capitale,pays
+Pays : Australie. Quelle est sa langue officielle ? | Pays : Australie. Langues officielles : anglais. | australie,langue,officielle,pays
+Pays : Australie. Quelle est sa monnaie ? | Pays : Australie. Monnaie : dollar australien. | australie,monnaie,devise,pays
+Pays : Australie. Sur quel continent se trouve-t-il ? | Pays : Australie. Continent : Océanie. | australie,continent,pays,situation
+Pays : Nouvelle-Zélande. Quelle est sa capitale ? | Pays : Nouvelle-Zélande. Capitale : Wellington. | nouvelle-zélande,capitale,pays
+Pays : Nouvelle-Zélande. Quelle est sa langue officielle ? | Pays : Nouvelle-Zélande. Langues officielles : anglais, maori. | nouvelle-zélande,langue,officielle,pays
+Pays : Nouvelle-Zélande. Quelle est sa monnaie ? | Pays : Nouvelle-Zélande. Monnaie : dollar néo-zélandais. | nouvelle-zélande,monnaie,devise,pays
+Pays : Nouvelle-Zélande. Sur quel continent se trouve-t-il ? | Pays : Nouvelle-Zélande. Continent : Océanie. | nouvelle-zélande,continent,pays,situation
+Pays : Jamaïque. Quelle est sa capitale ? | Pays : Jamaïque. Capitale : Kingston. | jamaïque,capitale,pays
+Pays : Jamaïque. Quelle est sa langue officielle ? | Pays : Jamaïque. Langues officielles : anglais. | jamaïque,langue,officielle,pays
+Pays : Jamaïque. Quelle est sa monnaie ? | Pays : Jamaïque. Monnaie : dollar jamaïcain. | jamaïque,monnaie,devise,pays
+Pays : Jamaïque. Sur quel continent se trouve-t-il ? | Pays : Jamaïque. Continent : Amérique. | jamaïque,continent,pays,situation
+Pays : Trinité-et-Tobago. Quelle est sa capitale ? | Pays : Trinité-et-Tobago. Capitale : Port of Spain. | trinité-et-tobago,capitale,pays
+Pays : Trinité-et-Tobago. Quelle est sa langue officielle ? | Pays : Trinité-et-Tobago. Langues officielles : anglais. | trinité-et-tobago,langue,officielle,pays
+Pays : Trinité-et-Tobago. Quelle est sa monnaie ? | Pays : Trinité-et-Tobago. Monnaie : dollar de Trinité-et-Tobago. | trinité-et-tobago,monnaie,devise,pays
+Pays : Trinité-et-Tobago. Sur quel continent se trouve-t-il ? | Pays : Trinité-et-Tobago. Continent : Amérique. | trinité-et-tobago,continent,pays,situation
+Pays : Barbade. Quelle est sa capitale ? | Pays : Barbade. Capitale : Bridgetown. | barbade,capitale,pays
+Pays : Barbade. Quelle est sa langue officielle ? | Pays : Barbade. Langues officielles : anglais. | barbade,langue,officielle,pays
+Pays : Barbade. Quelle est sa monnaie ? | Pays : Barbade. Monnaie : dollar barbadien. | barbade,monnaie,devise,pays
+Pays : Barbade. Sur quel continent se trouve-t-il ? | Pays : Barbade. Continent : Amérique. | barbade,continent,pays,situation
+Pays : Bahamas. Quelle est sa capitale ? | Pays : Bahamas. Capitale : Nassau. | bahamas,capitale,pays
+Pays : Bahamas. Quelle est sa langue officielle ? | Pays : Bahamas. Langues officielles : anglais. | bahamas,langue,officielle,pays
+Pays : Bahamas. Quelle est sa monnaie ? | Pays : Bahamas. Monnaie : dollar bahaméen. | bahamas,monnaie,devise,pays
+Pays : Bahamas. Sur quel continent se trouve-t-il ? | Pays : Bahamas. Continent : Amérique. | bahamas,continent,pays,situation
+Pays : Belize. Quelle est sa capitale ? | Pays : Belize. Capitale : Belmopan. | belize,capitale,pays
+Pays : Belize. Quelle est sa langue officielle ? | Pays : Belize. Langues officielles : anglais, espagnol. | belize,langue,officielle,pays
+Pays : Belize. Quelle est sa monnaie ? | Pays : Belize. Monnaie : dollar bélizien. | belize,monnaie,devise,pays
+Pays : Belize. Sur quel continent se trouve-t-il ? | Pays : Belize. Continent : Amérique. | belize,continent,pays,situation
+Pays : Guyana. Quelle est sa capitale ? | Pays : Guyana. Capitale : Georgetown. | guyana,capitale,pays
+Pays : Guyana. Quelle est sa langue officielle ? | Pays : Guyana. Langues officielles : anglais. | guyana,langue,officielle,pays
+Pays : Guyana. Quelle est sa monnaie ? | Pays : Guyana. Monnaie : dollar guyanien. | guyana,monnaie,devise,pays
+Pays : Guyana. Sur quel continent se trouve-t-il ? | Pays : Guyana. Continent : Amérique. | guyana,continent,pays,situation
+Pays : Afrique du Sud. Quelle est sa capitale ? | Pays : Afrique du Sud. Capitale : Pretoria (exécutive), Le Cap (législative), Bloemfontein (judiciaire). | afrique du sud,capitale,pays
+Pays : Afrique du Sud. Quelle est sa langue officielle ? | Pays : Afrique du Sud. Langues officielles : onze langues officielles dont anglais et afrikaans. | afrique du sud,langue,officielle,pays
+Pays : Afrique du Sud. Quelle est sa monnaie ? | Pays : Afrique du Sud. Monnaie : rand. | afrique du sud,monnaie,devise,pays
+Pays : Afrique du Sud. Sur quel continent se trouve-t-il ? | Pays : Afrique du Sud. Continent : Afrique. | afrique du sud,continent,pays,situation
+Pays : Nigeria. Quelle est sa capitale ? | Pays : Nigeria. Capitale : Abuja. | nigeria,capitale,pays
+Pays : Nigeria. Quelle est sa langue officielle ? | Pays : Nigeria. Langues officielles : anglais. | nigeria,langue,officielle,pays
+Pays : Nigeria. Quelle est sa monnaie ? | Pays : Nigeria. Monnaie : naira. | nigeria,monnaie,devise,pays
+Pays : Nigeria. Sur quel continent se trouve-t-il ? | Pays : Nigeria. Continent : Afrique. | nigeria,continent,pays,situation
+Pays : Ghana. Quelle est sa capitale ? | Pays : Ghana. Capitale : Accra. | ghana,capitale,pays
+Pays : Ghana. Quelle est sa langue officielle ? | Pays : Ghana. Langues officielles : anglais. | ghana,langue,officielle,pays
+Pays : Ghana. Quelle est sa monnaie ? | Pays : Ghana. Monnaie : cedi. | ghana,monnaie,devise,pays
+Pays : Ghana. Sur quel continent se trouve-t-il ? | Pays : Ghana. Continent : Afrique. | ghana,continent,pays,situation
+Pays : Kenya. Quelle est sa capitale ? | Pays : Kenya. Capitale : Nairobi. | kenya,capitale,pays
+Pays : Kenya. Quelle est sa langue officielle ? | Pays : Kenya. Langues officielles : swahili, anglais. | kenya,langue,officielle,pays
+Pays : Kenya. Quelle est sa monnaie ? | Pays : Kenya. Monnaie : shilling kényan. | kenya,monnaie,devise,pays
+Pays : Kenya. Sur quel continent se trouve-t-il ? | Pays : Kenya. Continent : Afrique. | kenya,continent,pays,situation
+Pays : Ouganda. Quelle est sa capitale ? | Pays : Ouganda. Capitale : Kampala. | ouganda,capitale,pays
+Pays : Ouganda. Quelle est sa langue officielle ? | Pays : Ouganda. Langues officielles : anglais, swahili. | ouganda,langue,officielle,pays
+Pays : Ouganda. Quelle est sa monnaie ? | Pays : Ouganda. Monnaie : shilling ougandais. | ouganda,monnaie,devise,pays
+Pays : Ouganda. Sur quel continent se trouve-t-il ? | Pays : Ouganda. Continent : Afrique. | ouganda,continent,pays,situation
+Pays : Tanzanie. Quelle est sa capitale ? | Pays : Tanzanie. Capitale : Dodoma. | tanzanie,capitale,pays
+Pays : Tanzanie. Quelle est sa langue officielle ? | Pays : Tanzanie. Langues officielles : swahili, anglais. | tanzanie,langue,officielle,pays
+Pays : Tanzanie. Quelle est sa monnaie ? | Pays : Tanzanie. Monnaie : shilling tanzanien. | tanzanie,monnaie,devise,pays
+Pays : Tanzanie. Sur quel continent se trouve-t-il ? | Pays : Tanzanie. Continent : Afrique. | tanzanie,continent,pays,situation
+Pays : Zambie. Quelle est sa capitale ? | Pays : Zambie. Capitale : Lusaka. | zambie,capitale,pays
+Pays : Zambie. Quelle est sa langue officielle ? | Pays : Zambie. Langues officielles : anglais. | zambie,langue,officielle,pays
+Pays : Zambie. Quelle est sa monnaie ? | Pays : Zambie. Monnaie : kwacha zambien. | zambie,monnaie,devise,pays
+Pays : Zambie. Sur quel continent se trouve-t-il ? | Pays : Zambie. Continent : Afrique. | zambie,continent,pays,situation
+Pays : Zimbabwe. Quelle est sa capitale ? | Pays : Zimbabwe. Capitale : Harare. | zimbabwe,capitale,pays
+Pays : Zimbabwe. Quelle est sa langue officielle ? | Pays : Zimbabwe. Langues officielles : anglais. | zimbabwe,langue,officielle,pays
+Pays : Zimbabwe. Quelle est sa monnaie ? | Pays : Zimbabwe. Monnaie : dollar zimbabwéen. | zimbabwe,monnaie,devise,pays
+Pays : Zimbabwe. Sur quel continent se trouve-t-il ? | Pays : Zimbabwe. Continent : Afrique. | zimbabwe,continent,pays,situation
+Pays : Malawi. Quelle est sa capitale ? | Pays : Malawi. Capitale : Lilongwe. | malawi,capitale,pays
+Pays : Malawi. Quelle est sa langue officielle ? | Pays : Malawi. Langues officielles : anglais, chichewa. | malawi,langue,officielle,pays
+Pays : Malawi. Quelle est sa monnaie ? | Pays : Malawi. Monnaie : kwacha malawite. | malawi,monnaie,devise,pays
+Pays : Malawi. Sur quel continent se trouve-t-il ? | Pays : Malawi. Continent : Afrique. | malawi,continent,pays,situation
+Pays : Botswana. Quelle est sa capitale ? | Pays : Botswana. Capitale : Gaborone. | botswana,capitale,pays
+Pays : Botswana. Quelle est sa langue officielle ? | Pays : Botswana. Langues officielles : anglais, setswana. | botswana,langue,officielle,pays
+Pays : Botswana. Quelle est sa monnaie ? | Pays : Botswana. Monnaie : pula. | botswana,monnaie,devise,pays
+Pays : Botswana. Sur quel continent se trouve-t-il ? | Pays : Botswana. Continent : Afrique. | botswana,continent,pays,situation
+Pays : Namibie. Quelle est sa capitale ? | Pays : Namibie. Capitale : Windhoek. | namibie,capitale,pays
+Pays : Namibie. Quelle est sa langue officielle ? | Pays : Namibie. Langues officielles : anglais. | namibie,langue,officielle,pays
+Pays : Namibie. Quelle est sa monnaie ? | Pays : Namibie. Monnaie : dollar namibien. | namibie,monnaie,devise,pays
+Pays : Namibie. Sur quel continent se trouve-t-il ? | Pays : Namibie. Continent : Afrique. | namibie,continent,pays,situation
+Pays : Lesotho. Quelle est sa capitale ? | Pays : Lesotho. Capitale : Maseru. | lesotho,capitale,pays
+Pays : Lesotho. Quelle est sa langue officielle ? | Pays : Lesotho. Langues officielles : sesotho, anglais. | lesotho,langue,officielle,pays
+Pays : Lesotho. Quelle est sa monnaie ? | Pays : Lesotho. Monnaie : loti. | lesotho,monnaie,devise,pays
+Pays : Lesotho. Sur quel continent se trouve-t-il ? | Pays : Lesotho. Continent : Afrique. | lesotho,continent,pays,situation
+Pays : Eswatini. Quelle est sa capitale ? | Pays : Eswatini. Capitale : Mbabane. | eswatini,capitale,pays
+Pays : Eswatini. Quelle est sa langue officielle ? | Pays : Eswatini. Langues officielles : anglais, siswati. | eswatini,langue,officielle,pays
+Pays : Eswatini. Quelle est sa monnaie ? | Pays : Eswatini. Monnaie : lilangeni. | eswatini,monnaie,devise,pays
+Pays : Eswatini. Sur quel continent se trouve-t-il ? | Pays : Eswatini. Continent : Afrique. | eswatini,continent,pays,situation
+Pays : Liberia. Quelle est sa capitale ? | Pays : Liberia. Capitale : Monrovia. | liberia,capitale,pays
+Pays : Liberia. Quelle est sa langue officielle ? | Pays : Liberia. Langues officielles : anglais. | liberia,langue,officielle,pays
+Pays : Liberia. Quelle est sa monnaie ? | Pays : Liberia. Monnaie : dollar libérien. | liberia,monnaie,devise,pays
+Pays : Liberia. Sur quel continent se trouve-t-il ? | Pays : Liberia. Continent : Afrique. | liberia,continent,pays,situation
+Pays : Sierra Leone. Quelle est sa capitale ? | Pays : Sierra Leone. Capitale : Freetown. | sierra leone,capitale,pays
+Pays : Sierra Leone. Quelle est sa langue officielle ? | Pays : Sierra Leone. Langues officielles : anglais. | sierra leone,langue,officielle,pays
+Pays : Sierra Leone. Quelle est sa monnaie ? | Pays : Sierra Leone. Monnaie : leone. | sierra leone,monnaie,devise,pays
+Pays : Sierra Leone. Sur quel continent se trouve-t-il ? | Pays : Sierra Leone. Continent : Afrique. | sierra leone,continent,pays,situation
+Pays : Gambie. Quelle est sa capitale ? | Pays : Gambie. Capitale : Banjul. | gambie,capitale,pays
+Pays : Gambie. Quelle est sa langue officielle ? | Pays : Gambie. Langues officielles : anglais. | gambie,langue,officielle,pays
+Pays : Gambie. Quelle est sa monnaie ? | Pays : Gambie. Monnaie : dalasi. | gambie,monnaie,devise,pays
+Pays : Gambie. Sur quel continent se trouve-t-il ? | Pays : Gambie. Continent : Afrique. | gambie,continent,pays,situation
+Pays : Érythrée. Quelle est sa capitale ? | Pays : Érythrée. Capitale : Asmara. | érythrée,capitale,pays
+Pays : Érythrée. Quelle est sa langue officielle ? | Pays : Érythrée. Langues officielles : tigrigna, arabe, anglais. | érythrée,langue,officielle,pays
+Pays : Érythrée. Quelle est sa monnaie ? | Pays : Érythrée. Monnaie : nakfa. | érythrée,monnaie,devise,pays
+Pays : Érythrée. Sur quel continent se trouve-t-il ? | Pays : Érythrée. Continent : Afrique. | érythrée,continent,pays,situation
+Pays : Éthiopie. Quelle est sa capitale ? | Pays : Éthiopie. Capitale : Addis-Abeba. | éthiopie,capitale,pays
+Pays : Éthiopie. Quelle est sa langue officielle ? | Pays : Éthiopie. Langues officielles : amharique. | éthiopie,langue,officielle,pays
+Pays : Éthiopie. Quelle est sa monnaie ? | Pays : Éthiopie. Monnaie : birr. | éthiopie,monnaie,devise,pays
+Pays : Éthiopie. Sur quel continent se trouve-t-il ? | Pays : Éthiopie. Continent : Afrique. | éthiopie,continent,pays,situation
+Pays : Soudan. Quelle est sa capitale ? | Pays : Soudan. Capitale : Khartoum. | soudan,capitale,pays
+Pays : Soudan. Quelle est sa langue officielle ? | Pays : Soudan. Langues officielles : arabe, anglais. | soudan,langue,officielle,pays
+Pays : Soudan. Quelle est sa monnaie ? | Pays : Soudan. Monnaie : livre soudanaise. | soudan,monnaie,devise,pays
+Pays : Soudan. Sur quel continent se trouve-t-il ? | Pays : Soudan. Continent : Afrique. | soudan,continent,pays,situation
+Pays : Égypte. Quelle est sa capitale ? | Pays : Égypte. Capitale : Le Caire. | égypte,capitale,pays
+Pays : Égypte. Quelle est sa langue officielle ? | Pays : Égypte. Langues officielles : arabe. | égypte,langue,officielle,pays
+Pays : Égypte. Quelle est sa monnaie ? | Pays : Égypte. Monnaie : livre égyptienne. | égypte,monnaie,devise,pays
+Pays : Égypte. Sur quel continent se trouve-t-il ? | Pays : Égypte. Continent : Afrique. | égypte,continent,pays,situation
+Pays : Libye. Quelle est sa capitale ? | Pays : Libye. Capitale : Tripoli. | libye,capitale,pays
+Pays : Libye. Quelle est sa langue officielle ? | Pays : Libye. Langues officielles : arabe. | libye,langue,officielle,pays
+Pays : Libye. Quelle est sa monnaie ? | Pays : Libye. Monnaie : dinar libyen. | libye,monnaie,devise,pays
+Pays : Libye. Sur quel continent se trouve-t-il ? | Pays : Libye. Continent : Afrique. | libye,continent,pays,situation
+Pays : Cap-Vert. Quelle est sa capitale ? | Pays : Cap-Vert. Capitale : Praia. | cap-vert,capitale,pays
+Pays : Cap-Vert. Quelle est sa langue officielle ? | Pays : Cap-Vert. Langues officielles : portugais. | cap-vert,langue,officielle,pays
+Pays : Cap-Vert. Quelle est sa monnaie ? | Pays : Cap-Vert. Monnaie : escudo cap-verdien. | cap-vert,monnaie,devise,pays
+Pays : Cap-Vert. Sur quel continent se trouve-t-il ? | Pays : Cap-Vert. Continent : Afrique. | cap-vert,continent,pays,situation
+Pays : Sao Tomé-et-Principe. Quelle est sa capitale ? | Pays : Sao Tomé-et-Principe. Capitale : São Tomé. | sao tomé-et-principe,capitale,pays
+Pays : Sao Tomé-et-Principe. Quelle est sa langue officielle ? | Pays : Sao Tomé-et-Principe. Langues officielles : portugais. | sao tomé-et-principe,langue,officielle,pays
+Pays : Sao Tomé-et-Principe. Quelle est sa monnaie ? | Pays : Sao Tomé-et-Principe. Monnaie : dobra. | sao tomé-et-principe,monnaie,devise,pays
+Pays : Sao Tomé-et-Principe. Sur quel continent se trouve-t-il ? | Pays : Sao Tomé-et-Principe. Continent : Afrique. | sao tomé-et-principe,continent,pays,situation
+Pays : Guinée-Bissau. Quelle est sa capitale ? | Pays : Guinée-Bissau. Capitale : Bissau. | guinée-bissau,capitale,pays
+Pays : Guinée-Bissau. Quelle est sa langue officielle ? | Pays : Guinée-Bissau. Langues officielles : portugais. | guinée-bissau,langue,officielle,pays
+Pays : Guinée-Bissau. Quelle est sa monnaie ? | Pays : Guinée-Bissau. Monnaie : franc CFA (XOF). | guinée-bissau,monnaie,devise,pays
+Pays : Guinée-Bissau. Sur quel continent se trouve-t-il ? | Pays : Guinée-Bissau. Continent : Afrique. | guinée-bissau,continent,pays,situation
+Pays : Guinée équatoriale. Quelle est sa capitale ? | Pays : Guinée équatoriale. Capitale : Malabo. | guinée équatoriale,capitale,pays
+Pays : Guinée équatoriale. Quelle est sa langue officielle ? | Pays : Guinée équatoriale. Langues officielles : espagnol, français, portugais. | guinée équatoriale,langue,officielle,pays
+Pays : Guinée équatoriale. Quelle est sa monnaie ? | Pays : Guinée équatoriale. Monnaie : franc CFA (XAF). | guinée équatoriale,monnaie,devise,pays
+Pays : Guinée équatoriale. Sur quel continent se trouve-t-il ? | Pays : Guinée équatoriale. Continent : Afrique. | guinée équatoriale,continent,pays,situation
+Pays : Angola. Quelle est sa capitale ? | Pays : Angola. Capitale : Luanda. | angola,capitale,pays
+Pays : Angola. Quelle est sa langue officielle ? | Pays : Angola. Langues officielles : portugais. | angola,langue,officielle,pays
+Pays : Angola. Quelle est sa monnaie ? | Pays : Angola. Monnaie : kwanza. | angola,monnaie,devise,pays
+Pays : Angola. Sur quel continent se trouve-t-il ? | Pays : Angola. Continent : Afrique. | angola,continent,pays,situation
+Pays : Mozambique. Quelle est sa capitale ? | Pays : Mozambique. Capitale : Maputo. | mozambique,capitale,pays
+Pays : Mozambique. Quelle est sa langue officielle ? | Pays : Mozambique. Langues officielles : portugais. | mozambique,langue,officielle,pays
+Pays : Mozambique. Quelle est sa monnaie ? | Pays : Mozambique. Monnaie : metical. | mozambique,monnaie,devise,pays
+Pays : Mozambique. Sur quel continent se trouve-t-il ? | Pays : Mozambique. Continent : Afrique. | mozambique,continent,pays,situation
+Pays : Espagne. Quelle est sa capitale ? | Pays : Espagne. Capitale : Madrid. | espagne,capitale,pays
+Pays : Espagne. Quelle est sa langue officielle ? | Pays : Espagne. Langues officielles : espagnol. | espagne,langue,officielle,pays
+Pays : Espagne. Quelle est sa monnaie ? | Pays : Espagne. Monnaie : euro. | espagne,monnaie,devise,pays
+Pays : Espagne. Sur quel continent se trouve-t-il ? | Pays : Espagne. Continent : Europe. | espagne,continent,pays,situation
+Pays : Portugal. Quelle est sa capitale ? | Pays : Portugal. Capitale : Lisbonne. | portugal,capitale,pays
+Pays : Portugal. Quelle est sa langue officielle ? | Pays : Portugal. Langues officielles : portugais. | portugal,langue,officielle,pays
+Pays : Portugal. Quelle est sa monnaie ? | Pays : Portugal. Monnaie : euro. | portugal,monnaie,devise,pays
+Pays : Portugal. Sur quel continent se trouve-t-il ? | Pays : Portugal. Continent : Europe. | portugal,continent,pays,situation
+Pays : Italie. Quelle est sa capitale ? | Pays : Italie. Capitale : Rome. | italie,capitale,pays
+Pays : Italie. Quelle est sa langue officielle ? | Pays : Italie. Langues officielles : italien. | italie,langue,officielle,pays
+Pays : Italie. Quelle est sa monnaie ? | Pays : Italie. Monnaie : euro. | italie,monnaie,devise,pays
+Pays : Italie. Sur quel continent se trouve-t-il ? | Pays : Italie. Continent : Europe. | italie,continent,pays,situation
+Pays : Allemagne. Quelle est sa capitale ? | Pays : Allemagne. Capitale : Berlin. | allemagne,capitale,pays
+Pays : Allemagne. Quelle est sa langue officielle ? | Pays : Allemagne. Langues officielles : allemand. | allemagne,langue,officielle,pays
+Pays : Allemagne. Quelle est sa monnaie ? | Pays : Allemagne. Monnaie : euro. | allemagne,monnaie,devise,pays
+Pays : Allemagne. Sur quel continent se trouve-t-il ? | Pays : Allemagne. Continent : Europe. | allemagne,continent,pays,situation
+Pays : Autriche. Quelle est sa capitale ? | Pays : Autriche. Capitale : Vienne. | autriche,capitale,pays
+Pays : Autriche. Quelle est sa langue officielle ? | Pays : Autriche. Langues officielles : allemand. | autriche,langue,officielle,pays
+Pays : Autriche. Quelle est sa monnaie ? | Pays : Autriche. Monnaie : euro. | autriche,monnaie,devise,pays
+Pays : Autriche. Sur quel continent se trouve-t-il ? | Pays : Autriche. Continent : Europe. | autriche,continent,pays,situation
+Pays : Pays-Bas. Quelle est sa capitale ? | Pays : Pays-Bas. Capitale : Amsterdam. | pays-bas,capitale,pays
+Pays : Pays-Bas. Quelle est sa langue officielle ? | Pays : Pays-Bas. Langues officielles : néerlandais. | pays-bas,langue,officielle,pays
+Pays : Pays-Bas. Quelle est sa monnaie ? | Pays : Pays-Bas. Monnaie : euro. | pays-bas,monnaie,devise,pays
+Pays : Pays-Bas. Sur quel continent se trouve-t-il ? | Pays : Pays-Bas. Continent : Europe. | pays-bas,continent,pays,situation
+Pays : Grèce. Quelle est sa capitale ? | Pays : Grèce. Capitale : Athènes. | grèce,capitale,pays
+Pays : Grèce. Quelle est sa langue officielle ? | Pays : Grèce. Langues officielles : grec. | grèce,langue,officielle,pays
+Pays : Grèce. Quelle est sa monnaie ? | Pays : Grèce. Monnaie : euro. | grèce,monnaie,devise,pays
+Pays : Grèce. Sur quel continent se trouve-t-il ? | Pays : Grèce. Continent : Europe. | grèce,continent,pays,situation
+Pays : Pologne. Quelle est sa capitale ? | Pays : Pologne. Capitale : Varsovie. | pologne,capitale,pays
+Pays : Pologne. Quelle est sa langue officielle ? | Pays : Pologne. Langues officielles : polonais. | pologne,langue,officielle,pays
+Pays : Pologne. Quelle est sa monnaie ? | Pays : Pologne. Monnaie : zloty. | pologne,monnaie,devise,pays
+Pays : Pologne. Sur quel continent se trouve-t-il ? | Pays : Pologne. Continent : Europe. | pologne,continent,pays,situation
+Pays : Suède. Quelle est sa capitale ? | Pays : Suède. Capitale : Stockholm. | suède,capitale,pays
+Pays : Suède. Quelle est sa langue officielle ? | Pays : Suède. Langues officielles : suédois. | suède,langue,officielle,pays
+Pays : Suède. Quelle est sa monnaie ? | Pays : Suède. Monnaie : couronne suédoise. | suède,monnaie,devise,pays
+Pays : Suède. Sur quel continent se trouve-t-il ? | Pays : Suède. Continent : Europe. | suède,continent,pays,situation
+Pays : Norvège. Quelle est sa capitale ? | Pays : Norvège. Capitale : Oslo. | norvège,capitale,pays
+Pays : Norvège. Quelle est sa langue officielle ? | Pays : Norvège. Langues officielles : norvégien. | norvège,langue,officielle,pays
+Pays : Norvège. Quelle est sa monnaie ? | Pays : Norvège. Monnaie : couronne norvégienne. | norvège,monnaie,devise,pays
+Pays : Norvège. Sur quel continent se trouve-t-il ? | Pays : Norvège. Continent : Europe. | norvège,continent,pays,situation
+Pays : Danemark. Quelle est sa capitale ? | Pays : Danemark. Capitale : Copenhague. | danemark,capitale,pays
+Pays : Danemark. Quelle est sa langue officielle ? | Pays : Danemark. Langues officielles : danois. | danemark,langue,officielle,pays
+Pays : Danemark. Quelle est sa monnaie ? | Pays : Danemark. Monnaie : couronne danoise. | danemark,monnaie,devise,pays
+Pays : Danemark. Sur quel continent se trouve-t-il ? | Pays : Danemark. Continent : Europe. | danemark,continent,pays,situation
+Pays : Finlande. Quelle est sa capitale ? | Pays : Finlande. Capitale : Helsinki. | finlande,capitale,pays
+Pays : Finlande. Quelle est sa langue officielle ? | Pays : Finlande. Langues officielles : finnois, suédois. | finlande,langue,officielle,pays
+Pays : Finlande. Quelle est sa monnaie ? | Pays : Finlande. Monnaie : euro. | finlande,monnaie,devise,pays
+Pays : Finlande. Sur quel continent se trouve-t-il ? | Pays : Finlande. Continent : Europe. | finlande,continent,pays,situation
+Pays : Islande. Quelle est sa capitale ? | Pays : Islande. Capitale : Reykjavik. | islande,capitale,pays
+Pays : Islande. Quelle est sa langue officielle ? | Pays : Islande. Langues officielles : islandais. | islande,langue,officielle,pays
+Pays : Islande. Quelle est sa monnaie ? | Pays : Islande. Monnaie : couronne islandaise. | islande,monnaie,devise,pays
+Pays : Islande. Sur quel continent se trouve-t-il ? | Pays : Islande. Continent : Europe. | islande,continent,pays,situation
+Pays : Russie. Quelle est sa capitale ? | Pays : Russie. Capitale : Moscou. | russie,capitale,pays
+Pays : Russie. Quelle est sa langue officielle ? | Pays : Russie. Langues officielles : russe. | russie,langue,officielle,pays
+Pays : Russie. Quelle est sa monnaie ? | Pays : Russie. Monnaie : rouble. | russie,monnaie,devise,pays
+Pays : Russie. Sur quel continent se trouve-t-il ? | Pays : Russie. Continent : Europe-Asie. | russie,continent,pays,situation
+Pays : Ukraine. Quelle est sa capitale ? | Pays : Ukraine. Capitale : Kiev. | ukraine,capitale,pays
+Pays : Ukraine. Quelle est sa langue officielle ? | Pays : Ukraine. Langues officielles : ukrainien. | ukraine,langue,officielle,pays
+Pays : Ukraine. Quelle est sa monnaie ? | Pays : Ukraine. Monnaie : hryvnia. | ukraine,monnaie,devise,pays
+Pays : Ukraine. Sur quel continent se trouve-t-il ? | Pays : Ukraine. Continent : Europe. | ukraine,continent,pays,situation
+Pays : Roumanie. Quelle est sa capitale ? | Pays : Roumanie. Capitale : Bucarest. | roumanie,capitale,pays
+Pays : Roumanie. Quelle est sa langue officielle ? | Pays : Roumanie. Langues officielles : roumain. | roumanie,langue,officielle,pays
+Pays : Roumanie. Quelle est sa monnaie ? | Pays : Roumanie. Monnaie : leu. | roumanie,monnaie,devise,pays
+Pays : Roumanie. Sur quel continent se trouve-t-il ? | Pays : Roumanie. Continent : Europe. | roumanie,continent,pays,situation
+Pays : Bulgarie. Quelle est sa capitale ? | Pays : Bulgarie. Capitale : Sofia. | bulgarie,capitale,pays
+Pays : Bulgarie. Quelle est sa langue officielle ? | Pays : Bulgarie. Langues officielles : bulgare. | bulgarie,langue,officielle,pays
+Pays : Bulgarie. Quelle est sa monnaie ? | Pays : Bulgarie. Monnaie : lev. | bulgarie,monnaie,devise,pays
+Pays : Bulgarie. Sur quel continent se trouve-t-il ? | Pays : Bulgarie. Continent : Europe. | bulgarie,continent,pays,situation
+Pays : Hongrie. Quelle est sa capitale ? | Pays : Hongrie. Capitale : Budapest. | hongrie,capitale,pays
+Pays : Hongrie. Quelle est sa langue officielle ? | Pays : Hongrie. Langues officielles : hongrois. | hongrie,langue,officielle,pays
+Pays : Hongrie. Quelle est sa monnaie ? | Pays : Hongrie. Monnaie : forint. | hongrie,monnaie,devise,pays
+Pays : Hongrie. Sur quel continent se trouve-t-il ? | Pays : Hongrie. Continent : Europe. | hongrie,continent,pays,situation
+Pays : Tchéquie. Quelle est sa capitale ? | Pays : Tchéquie. Capitale : Prague. | tchéquie,capitale,pays
+Pays : Tchéquie. Quelle est sa langue officielle ? | Pays : Tchéquie. Langues officielles : tchèque. | tchéquie,langue,officielle,pays
+Pays : Tchéquie. Quelle est sa monnaie ? | Pays : Tchéquie. Monnaie : couronne tchèque. | tchéquie,monnaie,devise,pays
+Pays : Tchéquie. Sur quel continent se trouve-t-il ? | Pays : Tchéquie. Continent : Europe. | tchéquie,continent,pays,situation
+Pays : Slovaquie. Quelle est sa capitale ? | Pays : Slovaquie. Capitale : Bratislava. | slovaquie,capitale,pays
+Pays : Slovaquie. Quelle est sa langue officielle ? | Pays : Slovaquie. Langues officielles : slovaque. | slovaquie,langue,officielle,pays
+Pays : Slovaquie. Quelle est sa monnaie ? | Pays : Slovaquie. Monnaie : euro. | slovaquie,monnaie,devise,pays
+Pays : Slovaquie. Sur quel continent se trouve-t-il ? | Pays : Slovaquie. Continent : Europe. | slovaquie,continent,pays,situation
+Pays : Slovénie. Quelle est sa capitale ? | Pays : Slovénie. Capitale : Ljubljana. | slovénie,capitale,pays
+Pays : Slovénie. Quelle est sa langue officielle ? | Pays : Slovénie. Langues officielles : slovène. | slovénie,langue,officielle,pays
+Pays : Slovénie. Quelle est sa monnaie ? | Pays : Slovénie. Monnaie : euro. | slovénie,monnaie,devise,pays
+Pays : Slovénie. Sur quel continent se trouve-t-il ? | Pays : Slovénie. Continent : Europe. | slovénie,continent,pays,situation
+Pays : Croatie. Quelle est sa capitale ? | Pays : Croatie. Capitale : Zagreb. | croatie,capitale,pays
+Pays : Croatie. Quelle est sa langue officielle ? | Pays : Croatie. Langues officielles : croate. | croatie,langue,officielle,pays
+Pays : Croatie. Quelle est sa monnaie ? | Pays : Croatie. Monnaie : euro. | croatie,monnaie,devise,pays
+Pays : Croatie. Sur quel continent se trouve-t-il ? | Pays : Croatie. Continent : Europe. | croatie,continent,pays,situation
+Pays : Serbie. Quelle est sa capitale ? | Pays : Serbie. Capitale : Belgrade. | serbie,capitale,pays
+Pays : Serbie. Quelle est sa langue officielle ? | Pays : Serbie. Langues officielles : serbe. | serbie,langue,officielle,pays
+Pays : Serbie. Quelle est sa monnaie ? | Pays : Serbie. Monnaie : dinar serbe. | serbie,monnaie,devise,pays
+Pays : Serbie. Sur quel continent se trouve-t-il ? | Pays : Serbie. Continent : Europe. | serbie,continent,pays,situation
+Pays : Bosnie-Herzégovine. Quelle est sa capitale ? | Pays : Bosnie-Herzégovine. Capitale : Sarajevo. | bosnie-herzégovine,capitale,pays
+Pays : Bosnie-Herzégovine. Quelle est sa langue officielle ? | Pays : Bosnie-Herzégovine. Langues officielles : bosniaque, croate, serbe. | bosnie-herzégovine,langue,officielle,pays
+Pays : Bosnie-Herzégovine. Quelle est sa monnaie ? | Pays : Bosnie-Herzégovine. Monnaie : mark convertible. | bosnie-herzégovine,monnaie,devise,pays
+Pays : Bosnie-Herzégovine. Sur quel continent se trouve-t-il ? | Pays : Bosnie-Herzégovine. Continent : Europe. | bosnie-herzégovine,continent,pays,situation
+Pays : Albanie. Quelle est sa capitale ? | Pays : Albanie. Capitale : Tirana. | albanie,capitale,pays
+Pays : Albanie. Quelle est sa langue officielle ? | Pays : Albanie. Langues officielles : albanais. | albanie,langue,officielle,pays
+Pays : Albanie. Quelle est sa monnaie ? | Pays : Albanie. Monnaie : lek. | albanie,monnaie,devise,pays
+Pays : Albanie. Sur quel continent se trouve-t-il ? | Pays : Albanie. Continent : Europe. | albanie,continent,pays,situation
+Pays : Macédoine du Nord. Quelle est sa capitale ? | Pays : Macédoine du Nord. Capitale : Skopje. | macédoine du nord,capitale,pays
+Pays : Macédoine du Nord. Quelle est sa langue officielle ? | Pays : Macédoine du Nord. Langues officielles : macédonien, albanais. | macédoine du nord,langue,officielle,pays
+Pays : Macédoine du Nord. Quelle est sa monnaie ? | Pays : Macédoine du Nord. Monnaie : denar. | macédoine du nord,monnaie,devise,pays
+Pays : Macédoine du Nord. Sur quel continent se trouve-t-il ? | Pays : Macédoine du Nord. Continent : Europe. | macédoine du nord,continent,pays,situation
+Pays : Monténégro. Quelle est sa capitale ? | Pays : Monténégro. Capitale : Podgorica. | monténégro,capitale,pays
+Pays : Monténégro. Quelle est sa langue officielle ? | Pays : Monténégro. Langues officielles : monténégrin. | monténégro,langue,officielle,pays
+Pays : Monténégro. Quelle est sa monnaie ? | Pays : Monténégro. Monnaie : euro. | monténégro,monnaie,devise,pays
+Pays : Monténégro. Sur quel continent se trouve-t-il ? | Pays : Monténégro. Continent : Europe. | monténégro,continent,pays,situation
+Pays : Kosovo. Quelle est sa capitale ? | Pays : Kosovo. Capitale : Pristina. | kosovo,capitale,pays
+Pays : Kosovo. Quelle est sa langue officielle ? | Pays : Kosovo. Langues officielles : albanais, serbe. | kosovo,langue,officielle,pays
+Pays : Kosovo. Quelle est sa monnaie ? | Pays : Kosovo. Monnaie : euro. | kosovo,monnaie,devise,pays
+Pays : Kosovo. Sur quel continent se trouve-t-il ? | Pays : Kosovo. Continent : Europe. | kosovo,continent,pays,situation
+Pays : Estonie. Quelle est sa capitale ? | Pays : Estonie. Capitale : Tallinn. | estonie,capitale,pays
+Pays : Estonie. Quelle est sa langue officielle ? | Pays : Estonie. Langues officielles : estonien. | estonie,langue,officielle,pays
+Pays : Estonie. Quelle est sa monnaie ? | Pays : Estonie. Monnaie : euro. | estonie,monnaie,devise,pays
+Pays : Estonie. Sur quel continent se trouve-t-il ? | Pays : Estonie. Continent : Europe. | estonie,continent,pays,situation
+Pays : Lettonie. Quelle est sa capitale ? | Pays : Lettonie. Capitale : Riga. | lettonie,capitale,pays
+Pays : Lettonie. Quelle est sa langue officielle ? | Pays : Lettonie. Langues officielles : letton. | lettonie,langue,officielle,pays
+Pays : Lettonie. Quelle est sa monnaie ? | Pays : Lettonie. Monnaie : euro. | lettonie,monnaie,devise,pays
+Pays : Lettonie. Sur quel continent se trouve-t-il ? | Pays : Lettonie. Continent : Europe. | lettonie,continent,pays,situation
+Pays : Lituanie. Quelle est sa capitale ? | Pays : Lituanie. Capitale : Vilnius. | lituanie,capitale,pays
+Pays : Lituanie. Quelle est sa langue officielle ? | Pays : Lituanie. Langues officielles : lituanien. | lituanie,langue,officielle,pays
+Pays : Lituanie. Quelle est sa monnaie ? | Pays : Lituanie. Monnaie : euro. | lituanie,monnaie,devise,pays
+Pays : Lituanie. Sur quel continent se trouve-t-il ? | Pays : Lituanie. Continent : Europe. | lituanie,continent,pays,situation
+Pays : Biélorussie. Quelle est sa capitale ? | Pays : Biélorussie. Capitale : Minsk. | biélorussie,capitale,pays
+Pays : Biélorussie. Quelle est sa langue officielle ? | Pays : Biélorussie. Langues officielles : biélorusse, russe. | biélorussie,langue,officielle,pays
+Pays : Biélorussie. Quelle est sa monnaie ? | Pays : Biélorussie. Monnaie : rouble biélorusse. | biélorussie,monnaie,devise,pays
+Pays : Biélorussie. Sur quel continent se trouve-t-il ? | Pays : Biélorussie. Continent : Europe. | biélorussie,continent,pays,situation
+Pays : Moldavie. Quelle est sa capitale ? | Pays : Moldavie. Capitale : Chisinau. | moldavie,capitale,pays
+Pays : Moldavie. Quelle est sa langue officielle ? | Pays : Moldavie. Langues officielles : roumain. | moldavie,langue,officielle,pays
+Pays : Moldavie. Quelle est sa monnaie ? | Pays : Moldavie. Monnaie : leu moldave. | moldavie,monnaie,devise,pays
+Pays : Moldavie. Sur quel continent se trouve-t-il ? | Pays : Moldavie. Continent : Europe. | moldavie,continent,pays,situation
+Pays : Malte. Quelle est sa capitale ? | Pays : Malte. Capitale : La Valette. | malte,capitale,pays
+Pays : Malte. Quelle est sa langue officielle ? | Pays : Malte. Langues officielles : maltais, anglais. | malte,langue,officielle,pays
+Pays : Malte. Quelle est sa monnaie ? | Pays : Malte. Monnaie : euro. | malte,monnaie,devise,pays
+Pays : Malte. Sur quel continent se trouve-t-il ? | Pays : Malte. Continent : Europe. | malte,continent,pays,situation
+Pays : Chypre. Quelle est sa capitale ? | Pays : Chypre. Capitale : Nicosie. | chypre,capitale,pays
+Pays : Chypre. Quelle est sa langue officielle ? | Pays : Chypre. Langues officielles : grec, turc. | chypre,langue,officielle,pays
+Pays : Chypre. Quelle est sa monnaie ? | Pays : Chypre. Monnaie : euro. | chypre,monnaie,devise,pays
+Pays : Chypre. Sur quel continent se trouve-t-il ? | Pays : Chypre. Continent : Europe. | chypre,continent,pays,situation
+Pays : Turquie. Quelle est sa capitale ? | Pays : Turquie. Capitale : Ankara. | turquie,capitale,pays
+Pays : Turquie. Quelle est sa langue officielle ? | Pays : Turquie. Langues officielles : turc. | turquie,langue,officielle,pays
+Pays : Turquie. Quelle est sa monnaie ? | Pays : Turquie. Monnaie : livre turque. | turquie,monnaie,devise,pays
+Pays : Turquie. Sur quel continent se trouve-t-il ? | Pays : Turquie. Continent : Europe-Asie. | turquie,continent,pays,situation
+Pays : Géorgie. Quelle est sa capitale ? | Pays : Géorgie. Capitale : Tbilissi. | géorgie,capitale,pays
+Pays : Géorgie. Quelle est sa langue officielle ? | Pays : Géorgie. Langues officielles : géorgien. | géorgie,langue,officielle,pays
+Pays : Géorgie. Quelle est sa monnaie ? | Pays : Géorgie. Monnaie : lari. | géorgie,monnaie,devise,pays
+Pays : Géorgie. Sur quel continent se trouve-t-il ? | Pays : Géorgie. Continent : Asie. | géorgie,continent,pays,situation
+Pays : Arménie. Quelle est sa capitale ? | Pays : Arménie. Capitale : Erevan. | arménie,capitale,pays
+Pays : Arménie. Quelle est sa langue officielle ? | Pays : Arménie. Langues officielles : arménien. | arménie,langue,officielle,pays
+Pays : Arménie. Quelle est sa monnaie ? | Pays : Arménie. Monnaie : dram. | arménie,monnaie,devise,pays
+Pays : Arménie. Sur quel continent se trouve-t-il ? | Pays : Arménie. Continent : Asie. | arménie,continent,pays,situation
+Pays : Azerbaïdjan. Quelle est sa capitale ? | Pays : Azerbaïdjan. Capitale : Bakou. | azerbaïdjan,capitale,pays
+Pays : Azerbaïdjan. Quelle est sa langue officielle ? | Pays : Azerbaïdjan. Langues officielles : azerbaïdjanais. | azerbaïdjan,langue,officielle,pays
+Pays : Azerbaïdjan. Quelle est sa monnaie ? | Pays : Azerbaïdjan. Monnaie : manat. | azerbaïdjan,monnaie,devise,pays
+Pays : Azerbaïdjan. Sur quel continent se trouve-t-il ? | Pays : Azerbaïdjan. Continent : Asie. | azerbaïdjan,continent,pays,situation
+Pays : Kazakhstan. Quelle est sa capitale ? | Pays : Kazakhstan. Capitale : Astana. | kazakhstan,capitale,pays
+Pays : Kazakhstan. Quelle est sa langue officielle ? | Pays : Kazakhstan. Langues officielles : kazakh, russe. | kazakhstan,langue,officielle,pays
+Pays : Kazakhstan. Quelle est sa monnaie ? | Pays : Kazakhstan. Monnaie : tenge. | kazakhstan,monnaie,devise,pays
+Pays : Kazakhstan. Sur quel continent se trouve-t-il ? | Pays : Kazakhstan. Continent : Asie. | kazakhstan,continent,pays,situation
+Pays : Ouzbékistan. Quelle est sa capitale ? | Pays : Ouzbékistan. Capitale : Tachkent. | ouzbékistan,capitale,pays
+Pays : Ouzbékistan. Quelle est sa langue officielle ? | Pays : Ouzbékistan. Langues officielles : ouzbek. | ouzbékistan,langue,officielle,pays
+Pays : Ouzbékistan. Quelle est sa monnaie ? | Pays : Ouzbékistan. Monnaie : sum. | ouzbékistan,monnaie,devise,pays
+Pays : Ouzbékistan. Sur quel continent se trouve-t-il ? | Pays : Ouzbékistan. Continent : Asie. | ouzbékistan,continent,pays,situation
+Pays : Turkménistan. Quelle est sa capitale ? | Pays : Turkménistan. Capitale : Achgabat. | turkménistan,capitale,pays
+Pays : Turkménistan. Quelle est sa langue officielle ? | Pays : Turkménistan. Langues officielles : turkmène. | turkménistan,langue,officielle,pays
+Pays : Turkménistan. Quelle est sa monnaie ? | Pays : Turkménistan. Monnaie : manat turkmène. | turkménistan,monnaie,devise,pays
+Pays : Turkménistan. Sur quel continent se trouve-t-il ? | Pays : Turkménistan. Continent : Asie. | turkménistan,continent,pays,situation
+Pays : Kirghizistan. Quelle est sa capitale ? | Pays : Kirghizistan. Capitale : Bichkek. | kirghizistan,capitale,pays
+Pays : Kirghizistan. Quelle est sa langue officielle ? | Pays : Kirghizistan. Langues officielles : kirghiz, russe. | kirghizistan,langue,officielle,pays
+Pays : Kirghizistan. Quelle est sa monnaie ? | Pays : Kirghizistan. Monnaie : som. | kirghizistan,monnaie,devise,pays
+Pays : Kirghizistan. Sur quel continent se trouve-t-il ? | Pays : Kirghizistan. Continent : Asie. | kirghizistan,continent,pays,situation
+Pays : Tadjikistan. Quelle est sa capitale ? | Pays : Tadjikistan. Capitale : Douchanbé. | tadjikistan,capitale,pays
+Pays : Tadjikistan. Quelle est sa langue officielle ? | Pays : Tadjikistan. Langues officielles : tadjik. | tadjikistan,langue,officielle,pays
+Pays : Tadjikistan. Quelle est sa monnaie ? | Pays : Tadjikistan. Monnaie : somoni. | tadjikistan,monnaie,devise,pays
+Pays : Tadjikistan. Sur quel continent se trouve-t-il ? | Pays : Tadjikistan. Continent : Asie. | tadjikistan,continent,pays,situation
+Pays : Afghanistan. Quelle est sa capitale ? | Pays : Afghanistan. Capitale : Kaboul. | afghanistan,capitale,pays
+Pays : Afghanistan. Quelle est sa langue officielle ? | Pays : Afghanistan. Langues officielles : pachto, dari. | afghanistan,langue,officielle,pays
+Pays : Afghanistan. Quelle est sa monnaie ? | Pays : Afghanistan. Monnaie : afghani. | afghanistan,monnaie,devise,pays
+Pays : Afghanistan. Sur quel continent se trouve-t-il ? | Pays : Afghanistan. Continent : Asie. | afghanistan,continent,pays,situation
+Pays : Pakistan. Quelle est sa capitale ? | Pays : Pakistan. Capitale : Islamabad. | pakistan,capitale,pays
+Pays : Pakistan. Quelle est sa langue officielle ? | Pays : Pakistan. Langues officielles : ourdou, anglais. | pakistan,langue,officielle,pays
+Pays : Pakistan. Quelle est sa monnaie ? | Pays : Pakistan. Monnaie : roupie pakistanaise. | pakistan,monnaie,devise,pays
+Pays : Pakistan. Sur quel continent se trouve-t-il ? | Pays : Pakistan. Continent : Asie. | pakistan,continent,pays,situation
+Pays : Inde. Quelle est sa capitale ? | Pays : Inde. Capitale : New Delhi. | inde,capitale,pays
+Pays : Inde. Quelle est sa langue officielle ? | Pays : Inde. Langues officielles : hindi, anglais (langues officielles). | inde,langue,officielle,pays
+Pays : Inde. Quelle est sa monnaie ? | Pays : Inde. Monnaie : roupie indienne. | inde,monnaie,devise,pays
+Pays : Inde. Sur quel continent se trouve-t-il ? | Pays : Inde. Continent : Asie. | inde,continent,pays,situation
+Pays : Népal. Quelle est sa capitale ? | Pays : Népal. Capitale : Katmandou. | népal,capitale,pays
+Pays : Népal. Quelle est sa langue officielle ? | Pays : Népal. Langues officielles : népalais. | népal,langue,officielle,pays
+Pays : Népal. Quelle est sa monnaie ? | Pays : Népal. Monnaie : roupie népalaise. | népal,monnaie,devise,pays
+Pays : Népal. Sur quel continent se trouve-t-il ? | Pays : Népal. Continent : Asie. | népal,continent,pays,situation
+Pays : Bhoutan. Quelle est sa capitale ? | Pays : Bhoutan. Capitale : Thimphou. | bhoutan,capitale,pays
+Pays : Bhoutan. Quelle est sa langue officielle ? | Pays : Bhoutan. Langues officielles : dzongkha. | bhoutan,langue,officielle,pays
+Pays : Bhoutan. Quelle est sa monnaie ? | Pays : Bhoutan. Monnaie : ngultrum. | bhoutan,monnaie,devise,pays
+Pays : Bhoutan. Sur quel continent se trouve-t-il ? | Pays : Bhoutan. Continent : Asie. | bhoutan,continent,pays,situation
+Pays : Bangladesh. Quelle est sa capitale ? | Pays : Bangladesh. Capitale : Dhaka. | bangladesh,capitale,pays
+Pays : Bangladesh. Quelle est sa langue officielle ? | Pays : Bangladesh. Langues officielles : bengali. | bangladesh,langue,officielle,pays
+Pays : Bangladesh. Quelle est sa monnaie ? | Pays : Bangladesh. Monnaie : taka. | bangladesh,monnaie,devise,pays
+Pays : Bangladesh. Sur quel continent se trouve-t-il ? | Pays : Bangladesh. Continent : Asie. | bangladesh,continent,pays,situation
+Pays : Sri Lanka. Quelle est sa capitale ? | Pays : Sri Lanka. Capitale : Sri Jayawardenepura Kotte. | sri lanka,capitale,pays
+Pays : Sri Lanka. Quelle est sa langue officielle ? | Pays : Sri Lanka. Langues officielles : cingalais, tamoul. | sri lanka,langue,officielle,pays
+Pays : Sri Lanka. Quelle est sa monnaie ? | Pays : Sri Lanka. Monnaie : roupie srilankaise. | sri lanka,monnaie,devise,pays
+Pays : Sri Lanka. Sur quel continent se trouve-t-il ? | Pays : Sri Lanka. Continent : Asie. | sri lanka,continent,pays,situation
+Pays : Maldives. Quelle est sa capitale ? | Pays : Maldives. Capitale : Malé. | maldives,capitale,pays
+Pays : Maldives. Quelle est sa langue officielle ? | Pays : Maldives. Langues officielles : dhivehi. | maldives,langue,officielle,pays
+Pays : Maldives. Quelle est sa monnaie ? | Pays : Maldives. Monnaie : rufiyaa. | maldives,monnaie,devise,pays
+Pays : Maldives. Sur quel continent se trouve-t-il ? | Pays : Maldives. Continent : Asie. | maldives,continent,pays,situation
+Pays : Chine. Quelle est sa capitale ? | Pays : Chine. Capitale : Pékin. | chine,capitale,pays
+Pays : Chine. Quelle est sa langue officielle ? | Pays : Chine. Langues officielles : chinois mandarin. | chine,langue,officielle,pays
+Pays : Chine. Quelle est sa monnaie ? | Pays : Chine. Monnaie : yuan. | chine,monnaie,devise,pays
+Pays : Chine. Sur quel continent se trouve-t-il ? | Pays : Chine. Continent : Asie. | chine,continent,pays,situation
+Pays : Mongolie. Quelle est sa capitale ? | Pays : Mongolie. Capitale : Oulan-Bator. | mongolie,capitale,pays
+Pays : Mongolie. Quelle est sa langue officielle ? | Pays : Mongolie. Langues officielles : mongol. | mongolie,langue,officielle,pays
+Pays : Mongolie. Quelle est sa monnaie ? | Pays : Mongolie. Monnaie : tugrik. | mongolie,monnaie,devise,pays
+Pays : Mongolie. Sur quel continent se trouve-t-il ? | Pays : Mongolie. Continent : Asie. | mongolie,continent,pays,situation
+Pays : Japon. Quelle est sa capitale ? | Pays : Japon. Capitale : Tokyo. | japon,capitale,pays
+Pays : Japon. Quelle est sa langue officielle ? | Pays : Japon. Langues officielles : japonais. | japon,langue,officielle,pays
+Pays : Japon. Quelle est sa monnaie ? | Pays : Japon. Monnaie : yen. | japon,monnaie,devise,pays
+Pays : Japon. Sur quel continent se trouve-t-il ? | Pays : Japon. Continent : Asie. | japon,continent,pays,situation
+Pays : Corée du Sud. Quelle est sa capitale ? | Pays : Corée du Sud. Capitale : Séoul. | corée du sud,capitale,pays
+Pays : Corée du Sud. Quelle est sa langue officielle ? | Pays : Corée du Sud. Langues officielles : coréen. | corée du sud,langue,officielle,pays
+Pays : Corée du Sud. Quelle est sa monnaie ? | Pays : Corée du Sud. Monnaie : won. | corée du sud,monnaie,devise,pays
+Pays : Corée du Sud. Sur quel continent se trouve-t-il ? | Pays : Corée du Sud. Continent : Asie. | corée du sud,continent,pays,situation
+Pays : Corée du Nord. Quelle est sa capitale ? | Pays : Corée du Nord. Capitale : Pyongyang. | corée du nord,capitale,pays
+Pays : Corée du Nord. Quelle est sa langue officielle ? | Pays : Corée du Nord. Langues officielles : coréen. | corée du nord,langue,officielle,pays
+Pays : Corée du Nord. Quelle est sa monnaie ? | Pays : Corée du Nord. Monnaie : won nord-coréen. | corée du nord,monnaie,devise,pays
+Pays : Corée du Nord. Sur quel continent se trouve-t-il ? | Pays : Corée du Nord. Continent : Asie. | corée du nord,continent,pays,situation
+Pays : Taïwan. Quelle est sa capitale ? | Pays : Taïwan. Capitale : Taipei. | taïwan,capitale,pays
+Pays : Taïwan. Quelle est sa langue officielle ? | Pays : Taïwan. Langues officielles : chinois mandarin. | taïwan,langue,officielle,pays
+Pays : Taïwan. Quelle est sa monnaie ? | Pays : Taïwan. Monnaie : dollar taïwanais. | taïwan,monnaie,devise,pays
+Pays : Taïwan. Sur quel continent se trouve-t-il ? | Pays : Taïwan. Continent : Asie. | taïwan,continent,pays,situation
+Pays : Viêt Nam. Quelle est sa capitale ? | Pays : Viêt Nam. Capitale : Hanoï. | viêt nam,capitale,pays
+Pays : Viêt Nam. Quelle est sa langue officielle ? | Pays : Viêt Nam. Langues officielles : vietnamien. | viêt nam,langue,officielle,pays
+Pays : Viêt Nam. Quelle est sa monnaie ? | Pays : Viêt Nam. Monnaie : dong. | viêt nam,monnaie,devise,pays
+Pays : Viêt Nam. Sur quel continent se trouve-t-il ? | Pays : Viêt Nam. Continent : Asie. | viêt nam,continent,pays,situation
+Pays : Laos. Quelle est sa capitale ? | Pays : Laos. Capitale : Vientiane. | laos,capitale,pays
+Pays : Laos. Quelle est sa langue officielle ? | Pays : Laos. Langues officielles : lao. | laos,langue,officielle,pays
+Pays : Laos. Quelle est sa monnaie ? | Pays : Laos. Monnaie : kip. | laos,monnaie,devise,pays
+Pays : Laos. Sur quel continent se trouve-t-il ? | Pays : Laos. Continent : Asie. | laos,continent,pays,situation
+Pays : Cambodge. Quelle est sa capitale ? | Pays : Cambodge. Capitale : Phnom Penh. | cambodge,capitale,pays
+Pays : Cambodge. Quelle est sa langue officielle ? | Pays : Cambodge. Langues officielles : khmer. | cambodge,langue,officielle,pays
+Pays : Cambodge. Quelle est sa monnaie ? | Pays : Cambodge. Monnaie : riel. | cambodge,monnaie,devise,pays
+Pays : Cambodge. Sur quel continent se trouve-t-il ? | Pays : Cambodge. Continent : Asie. | cambodge,continent,pays,situation
+Pays : Thaïlande. Quelle est sa capitale ? | Pays : Thaïlande. Capitale : Bangkok. | thaïlande,capitale,pays
+Pays : Thaïlande. Quelle est sa langue officielle ? | Pays : Thaïlande. Langues officielles : thaï. | thaïlande,langue,officielle,pays
+Pays : Thaïlande. Quelle est sa monnaie ? | Pays : Thaïlande. Monnaie : baht. | thaïlande,monnaie,devise,pays
+Pays : Thaïlande. Sur quel continent se trouve-t-il ? | Pays : Thaïlande. Continent : Asie. | thaïlande,continent,pays,situation
+Pays : Birmanie. Quelle est sa capitale ? | Pays : Birmanie. Capitale : Naypyidaw. | birmanie,capitale,pays
+Pays : Birmanie. Quelle est sa langue officielle ? | Pays : Birmanie. Langues officielles : birman. | birmanie,langue,officielle,pays
+Pays : Birmanie. Quelle est sa monnaie ? | Pays : Birmanie. Monnaie : kyat. | birmanie,monnaie,devise,pays
+Pays : Birmanie. Sur quel continent se trouve-t-il ? | Pays : Birmanie. Continent : Asie. | birmanie,continent,pays,situation
+Pays : Malaisie. Quelle est sa capitale ? | Pays : Malaisie. Capitale : Kuala Lumpur. | malaisie,capitale,pays
+Pays : Malaisie. Quelle est sa langue officielle ? | Pays : Malaisie. Langues officielles : malais, anglais. | malaisie,langue,officielle,pays
+Pays : Malaisie. Quelle est sa monnaie ? | Pays : Malaisie. Monnaie : ringgit. | malaisie,monnaie,devise,pays
+Pays : Malaisie. Sur quel continent se trouve-t-il ? | Pays : Malaisie. Continent : Asie. | malaisie,continent,pays,situation
+Pays : Singapour. Quelle est sa capitale ? | Pays : Singapour. Capitale : Singapour. | singapour,capitale,pays
+Pays : Singapour. Quelle est sa langue officielle ? | Pays : Singapour. Langues officielles : anglais, malais, mandarin, tamoul. | singapour,langue,officielle,pays
+Pays : Singapour. Quelle est sa monnaie ? | Pays : Singapour. Monnaie : dollar singapourien. | singapour,monnaie,devise,pays
+Pays : Singapour. Sur quel continent se trouve-t-il ? | Pays : Singapour. Continent : Asie. | singapour,continent,pays,situation
+Pays : Indonésie. Quelle est sa capitale ? | Pays : Indonésie. Capitale : Jakarta. | indonésie,capitale,pays
+Pays : Indonésie. Quelle est sa langue officielle ? | Pays : Indonésie. Langues officielles : indonésien. | indonésie,langue,officielle,pays
+Pays : Indonésie. Quelle est sa monnaie ? | Pays : Indonésie. Monnaie : roupie indonésienne. | indonésie,monnaie,devise,pays
+Pays : Indonésie. Sur quel continent se trouve-t-il ? | Pays : Indonésie. Continent : Asie. | indonésie,continent,pays,situation
+Pays : Philippines. Quelle est sa capitale ? | Pays : Philippines. Capitale : Manille. | philippines,capitale,pays
+Pays : Philippines. Quelle est sa langue officielle ? | Pays : Philippines. Langues officielles : filipino, anglais. | philippines,langue,officielle,pays
+Pays : Philippines. Quelle est sa monnaie ? | Pays : Philippines. Monnaie : peso philippin. | philippines,monnaie,devise,pays
+Pays : Philippines. Sur quel continent se trouve-t-il ? | Pays : Philippines. Continent : Asie. | philippines,continent,pays,situation
+Pays : Brunei. Quelle est sa capitale ? | Pays : Brunei. Capitale : Bandar Seri Begawan. | brunei,capitale,pays
+Pays : Brunei. Quelle est sa langue officielle ? | Pays : Brunei. Langues officielles : malais, anglais. | brunei,langue,officielle,pays
+Pays : Brunei. Quelle est sa monnaie ? | Pays : Brunei. Monnaie : dollar bruneien. | brunei,monnaie,devise,pays
+Pays : Brunei. Sur quel continent se trouve-t-il ? | Pays : Brunei. Continent : Asie. | brunei,continent,pays,situation
+Pays : Timor oriental. Quelle est sa capitale ? | Pays : Timor oriental. Capitale : Dili. | timor oriental,capitale,pays
+Pays : Timor oriental. Quelle est sa langue officielle ? | Pays : Timor oriental. Langues officielles : tetum, portugais. | timor oriental,langue,officielle,pays
+Pays : Timor oriental. Quelle est sa monnaie ? | Pays : Timor oriental. Monnaie : dollar américain. | timor oriental,monnaie,devise,pays
+Pays : Timor oriental. Sur quel continent se trouve-t-il ? | Pays : Timor oriental. Continent : Asie. | timor oriental,continent,pays,situation
+Pays : Israël. Quelle est sa capitale ? | Pays : Israël. Capitale : Jérusalem. | israël,capitale,pays
+Pays : Israël. Quelle est sa langue officielle ? | Pays : Israël. Langues officielles : hébreu, arabe. | israël,langue,officielle,pays
+Pays : Israël. Quelle est sa monnaie ? | Pays : Israël. Monnaie : nouveau shekel. | israël,monnaie,devise,pays
+Pays : Israël. Sur quel continent se trouve-t-il ? | Pays : Israël. Continent : Asie. | israël,continent,pays,situation
+Pays : Jordanie. Quelle est sa capitale ? | Pays : Jordanie. Capitale : Amman. | jordanie,capitale,pays
+Pays : Jordanie. Quelle est sa langue officielle ? | Pays : Jordanie. Langues officielles : arabe. | jordanie,langue,officielle,pays
+Pays : Jordanie. Quelle est sa monnaie ? | Pays : Jordanie. Monnaie : dinar jordanien. | jordanie,monnaie,devise,pays
+Pays : Jordanie. Sur quel continent se trouve-t-il ? | Pays : Jordanie. Continent : Asie. | jordanie,continent,pays,situation
+Pays : Liban. Quelle est sa capitale ? | Pays : Liban. Capitale : Beyrouth. | liban,capitale,pays
+Pays : Liban. Quelle est sa langue officielle ? | Pays : Liban. Langues officielles : arabe. | liban,langue,officielle,pays
+Pays : Liban. Quelle est sa monnaie ? | Pays : Liban. Monnaie : livre libanaise. | liban,monnaie,devise,pays
+Pays : Liban. Sur quel continent se trouve-t-il ? | Pays : Liban. Continent : Asie. | liban,continent,pays,situation
+Pays : Syrie. Quelle est sa capitale ? | Pays : Syrie. Capitale : Damas. | syrie,capitale,pays
+Pays : Syrie. Quelle est sa langue officielle ? | Pays : Syrie. Langues officielles : arabe. | syrie,langue,officielle,pays
+Pays : Syrie. Quelle est sa monnaie ? | Pays : Syrie. Monnaie : livre syrienne. | syrie,monnaie,devise,pays
+Pays : Syrie. Sur quel continent se trouve-t-il ? | Pays : Syrie. Continent : Asie. | syrie,continent,pays,situation
+Pays : Irak. Quelle est sa capitale ? | Pays : Irak. Capitale : Bagdad. | irak,capitale,pays
+Pays : Irak. Quelle est sa langue officielle ? | Pays : Irak. Langues officielles : arabe, kurde. | irak,langue,officielle,pays
+Pays : Irak. Quelle est sa monnaie ? | Pays : Irak. Monnaie : dinar irakien. | irak,monnaie,devise,pays
+Pays : Irak. Sur quel continent se trouve-t-il ? | Pays : Irak. Continent : Asie. | irak,continent,pays,situation
+Pays : Iran. Quelle est sa capitale ? | Pays : Iran. Capitale : Téhéran. | iran,capitale,pays
+Pays : Iran. Quelle est sa langue officielle ? | Pays : Iran. Langues officielles : persan. | iran,langue,officielle,pays
+Pays : Iran. Quelle est sa monnaie ? | Pays : Iran. Monnaie : rial iranien. | iran,monnaie,devise,pays
+Pays : Iran. Sur quel continent se trouve-t-il ? | Pays : Iran. Continent : Asie. | iran,continent,pays,situation
+Pays : Arabie saoudite. Quelle est sa capitale ? | Pays : Arabie saoudite. Capitale : Riyad. | arabie saoudite,capitale,pays
+Pays : Arabie saoudite. Quelle est sa langue officielle ? | Pays : Arabie saoudite. Langues officielles : arabe. | arabie saoudite,langue,officielle,pays
+Pays : Arabie saoudite. Quelle est sa monnaie ? | Pays : Arabie saoudite. Monnaie : riyal saoudien. | arabie saoudite,monnaie,devise,pays
+Pays : Arabie saoudite. Sur quel continent se trouve-t-il ? | Pays : Arabie saoudite. Continent : Asie. | arabie saoudite,continent,pays,situation
+Pays : Yémen. Quelle est sa capitale ? | Pays : Yémen. Capitale : Sanaa. | yémen,capitale,pays
+Pays : Yémen. Quelle est sa langue officielle ? | Pays : Yémen. Langues officielles : arabe. | yémen,langue,officielle,pays
+Pays : Yémen. Quelle est sa monnaie ? | Pays : Yémen. Monnaie : rial yéménite. | yémen,monnaie,devise,pays
+Pays : Yémen. Sur quel continent se trouve-t-il ? | Pays : Yémen. Continent : Asie. | yémen,continent,pays,situation
+Pays : Oman. Quelle est sa capitale ? | Pays : Oman. Capitale : Mascate. | oman,capitale,pays
+Pays : Oman. Quelle est sa langue officielle ? | Pays : Oman. Langues officielles : arabe. | oman,langue,officielle,pays
+Pays : Oman. Quelle est sa monnaie ? | Pays : Oman. Monnaie : rial omanais. | oman,monnaie,devise,pays
+Pays : Oman. Sur quel continent se trouve-t-il ? | Pays : Oman. Continent : Asie. | oman,continent,pays,situation
+Pays : Émirats arabes unis. Quelle est sa capitale ? | Pays : Émirats arabes unis. Capitale : Abou Dhabi. | émirats arabes unis,capitale,pays
+Pays : Émirats arabes unis. Quelle est sa langue officielle ? | Pays : Émirats arabes unis. Langues officielles : arabe. | émirats arabes unis,langue,officielle,pays
+Pays : Émirats arabes unis. Quelle est sa monnaie ? | Pays : Émirats arabes unis. Monnaie : dirham. | émirats arabes unis,monnaie,devise,pays
+Pays : Émirats arabes unis. Sur quel continent se trouve-t-il ? | Pays : Émirats arabes unis. Continent : Asie. | émirats arabes unis,continent,pays,situation
+Pays : Qatar. Quelle est sa capitale ? | Pays : Qatar. Capitale : Doha. | qatar,capitale,pays
+Pays : Qatar. Quelle est sa langue officielle ? | Pays : Qatar. Langues officielles : arabe. | qatar,langue,officielle,pays
+Pays : Qatar. Quelle est sa monnaie ? | Pays : Qatar. Monnaie : riyal qatari. | qatar,monnaie,devise,pays
+Pays : Qatar. Sur quel continent se trouve-t-il ? | Pays : Qatar. Continent : Asie. | qatar,continent,pays,situation
+Pays : Bahreïn. Quelle est sa capitale ? | Pays : Bahreïn. Capitale : Manama. | bahreïn,capitale,pays
+Pays : Bahreïn. Quelle est sa langue officielle ? | Pays : Bahreïn. Langues officielles : arabe. | bahreïn,langue,officielle,pays
+Pays : Bahreïn. Quelle est sa monnaie ? | Pays : Bahreïn. Monnaie : dinar bahreïni. | bahreïn,monnaie,devise,pays
+Pays : Bahreïn. Sur quel continent se trouve-t-il ? | Pays : Bahreïn. Continent : Asie. | bahreïn,continent,pays,situation
+Pays : Koweït. Quelle est sa capitale ? | Pays : Koweït. Capitale : Koweït. | koweït,capitale,pays
+Pays : Koweït. Quelle est sa langue officielle ? | Pays : Koweït. Langues officielles : arabe. | koweït,langue,officielle,pays
+Pays : Koweït. Quelle est sa monnaie ? | Pays : Koweït. Monnaie : dinar koweïtien. | koweït,monnaie,devise,pays
+Pays : Koweït. Sur quel continent se trouve-t-il ? | Pays : Koweït. Continent : Asie. | koweït,continent,pays,situation
+Pays : Mexique. Quelle est sa capitale ? | Pays : Mexique. Capitale : Mexico. | mexique,capitale,pays
+Pays : Mexique. Quelle est sa langue officielle ? | Pays : Mexique. Langues officielles : espagnol. | mexique,langue,officielle,pays
+Pays : Mexique. Quelle est sa monnaie ? | Pays : Mexique. Monnaie : peso mexicain. | mexique,monnaie,devise,pays
+Pays : Mexique. Sur quel continent se trouve-t-il ? | Pays : Mexique. Continent : Amérique du Nord. | mexique,continent,pays,situation
+Pays : Guatemala. Quelle est sa capitale ? | Pays : Guatemala. Capitale : Guatemala. | guatemala,capitale,pays
+Pays : Guatemala. Quelle est sa langue officielle ? | Pays : Guatemala. Langues officielles : espagnol. | guatemala,langue,officielle,pays
+Pays : Guatemala. Quelle est sa monnaie ? | Pays : Guatemala. Monnaie : quetzal. | guatemala,monnaie,devise,pays
+Pays : Guatemala. Sur quel continent se trouve-t-il ? | Pays : Guatemala. Continent : Amérique. | guatemala,continent,pays,situation
+Pays : Honduras. Quelle est sa capitale ? | Pays : Honduras. Capitale : Tegucigalpa. | honduras,capitale,pays
+Pays : Honduras. Quelle est sa langue officielle ? | Pays : Honduras. Langues officielles : espagnol. | honduras,langue,officielle,pays
+Pays : Honduras. Quelle est sa monnaie ? | Pays : Honduras. Monnaie : lempira. | honduras,monnaie,devise,pays
+Pays : Honduras. Sur quel continent se trouve-t-il ? | Pays : Honduras. Continent : Amérique. | honduras,continent,pays,situation
+Pays : Salvador. Quelle est sa capitale ? | Pays : Salvador. Capitale : San Salvador. | salvador,capitale,pays
+Pays : Salvador. Quelle est sa langue officielle ? | Pays : Salvador. Langues officielles : espagnol. | salvador,langue,officielle,pays
+Pays : Salvador. Quelle est sa monnaie ? | Pays : Salvador. Monnaie : dollar américain. | salvador,monnaie,devise,pays
+Pays : Salvador. Sur quel continent se trouve-t-il ? | Pays : Salvador. Continent : Amérique. | salvador,continent,pays,situation
+Pays : Nicaragua. Quelle est sa capitale ? | Pays : Nicaragua. Capitale : Managua. | nicaragua,capitale,pays
+Pays : Nicaragua. Quelle est sa langue officielle ? | Pays : Nicaragua. Langues officielles : espagnol. | nicaragua,langue,officielle,pays
+Pays : Nicaragua. Quelle est sa monnaie ? | Pays : Nicaragua. Monnaie : cordoba. | nicaragua,monnaie,devise,pays
+Pays : Nicaragua. Sur quel continent se trouve-t-il ? | Pays : Nicaragua. Continent : Amérique. | nicaragua,continent,pays,situation
+Pays : Costa Rica. Quelle est sa capitale ? | Pays : Costa Rica. Capitale : San José. | costa rica,capitale,pays
+Pays : Costa Rica. Quelle est sa langue officielle ? | Pays : Costa Rica. Langues officielles : espagnol. | costa rica,langue,officielle,pays
+Pays : Costa Rica. Quelle est sa monnaie ? | Pays : Costa Rica. Monnaie : colon. | costa rica,monnaie,devise,pays
+Pays : Costa Rica. Sur quel continent se trouve-t-il ? | Pays : Costa Rica. Continent : Amérique. | costa rica,continent,pays,situation
+Pays : Panama. Quelle est sa capitale ? | Pays : Panama. Capitale : Panama. | panama,capitale,pays
+Pays : Panama. Quelle est sa langue officielle ? | Pays : Panama. Langues officielles : espagnol. | panama,langue,officielle,pays
+Pays : Panama. Quelle est sa monnaie ? | Pays : Panama. Monnaie : balboa et dollar américain. | panama,monnaie,devise,pays
+Pays : Panama. Sur quel continent se trouve-t-il ? | Pays : Panama. Continent : Amérique. | panama,continent,pays,situation
+Pays : Cuba. Quelle est sa capitale ? | Pays : Cuba. Capitale : La Havane. | cuba,capitale,pays
+Pays : Cuba. Quelle est sa langue officielle ? | Pays : Cuba. Langues officielles : espagnol. | cuba,langue,officielle,pays
+Pays : Cuba. Quelle est sa monnaie ? | Pays : Cuba. Monnaie : peso cubain. | cuba,monnaie,devise,pays
+Pays : Cuba. Sur quel continent se trouve-t-il ? | Pays : Cuba. Continent : Amérique. | cuba,continent,pays,situation
+Pays : République dominicaine. Quelle est sa capitale ? | Pays : République dominicaine. Capitale : Saint-Domingue. | république dominicaine,capitale,pays
+Pays : République dominicaine. Quelle est sa langue officielle ? | Pays : République dominicaine. Langues officielles : espagnol. | république dominicaine,langue,officielle,pays
+Pays : République dominicaine. Quelle est sa monnaie ? | Pays : République dominicaine. Monnaie : peso dominicain. | république dominicaine,monnaie,devise,pays
+Pays : République dominicaine. Sur quel continent se trouve-t-il ? | Pays : République dominicaine. Continent : Amérique. | république dominicaine,continent,pays,situation
+Pays : Colombie. Quelle est sa capitale ? | Pays : Colombie. Capitale : Bogota. | colombie,capitale,pays
+Pays : Colombie. Quelle est sa langue officielle ? | Pays : Colombie. Langues officielles : espagnol. | colombie,langue,officielle,pays
+Pays : Colombie. Quelle est sa monnaie ? | Pays : Colombie. Monnaie : peso colombien. | colombie,monnaie,devise,pays
+Pays : Colombie. Sur quel continent se trouve-t-il ? | Pays : Colombie. Continent : Amérique du Sud. | colombie,continent,pays,situation
+Pays : Venezuela. Quelle est sa capitale ? | Pays : Venezuela. Capitale : Caracas. | venezuela,capitale,pays
+Pays : Venezuela. Quelle est sa langue officielle ? | Pays : Venezuela. Langues officielles : espagnol. | venezuela,langue,officielle,pays
+Pays : Venezuela. Quelle est sa monnaie ? | Pays : Venezuela. Monnaie : bolivar. | venezuela,monnaie,devise,pays
+Pays : Venezuela. Sur quel continent se trouve-t-il ? | Pays : Venezuela. Continent : Amérique du Sud. | venezuela,continent,pays,situation
+Pays : Équateur. Quelle est sa capitale ? | Pays : Équateur. Capitale : Quito. | équateur,capitale,pays
+Pays : Équateur. Quelle est sa langue officielle ? | Pays : Équateur. Langues officielles : espagnol, quechua. | équateur,langue,officielle,pays
+Pays : Équateur. Quelle est sa monnaie ? | Pays : Équateur. Monnaie : dollar américain. | équateur,monnaie,devise,pays
+Pays : Équateur. Sur quel continent se trouve-t-il ? | Pays : Équateur. Continent : Amérique du Sud. | équateur,continent,pays,situation
+Pays : Pérou. Quelle est sa capitale ? | Pays : Pérou. Capitale : Lima. | pérou,capitale,pays
+Pays : Pérou. Quelle est sa langue officielle ? | Pays : Pérou. Langues officielles : espagnol, quechua. | pérou,langue,officielle,pays
+Pays : Pérou. Quelle est sa monnaie ? | Pays : Pérou. Monnaie : sol. | pérou,monnaie,devise,pays
+Pays : Pérou. Sur quel continent se trouve-t-il ? | Pays : Pérou. Continent : Amérique du Sud. | pérou,continent,pays,situation
+Pays : Bolivie. Quelle est sa capitale ? | Pays : Bolivie. Capitale : Sucre (constitutionnelle), La Paz (siège du gouvernement). | bolivie,capitale,pays
+Pays : Bolivie. Quelle est sa langue officielle ? | Pays : Bolivie. Langues officielles : espagnol, quechua, aymara. | bolivie,langue,officielle,pays
+Pays : Bolivie. Quelle est sa monnaie ? | Pays : Bolivie. Monnaie : boliviano. | bolivie,monnaie,devise,pays
+Pays : Bolivie. Sur quel continent se trouve-t-il ? | Pays : Bolivie. Continent : Amérique du Sud. | bolivie,continent,pays,situation
+Pays : Chili. Quelle est sa capitale ? | Pays : Chili. Capitale : Santiago. | chili,capitale,pays
+Pays : Chili. Quelle est sa langue officielle ? | Pays : Chili. Langues officielles : espagnol. | chili,langue,officielle,pays
+Pays : Chili. Quelle est sa monnaie ? | Pays : Chili. Monnaie : peso chilien. | chili,monnaie,devise,pays
+Pays : Chili. Sur quel continent se trouve-t-il ? | Pays : Chili. Continent : Amérique du Sud. | chili,continent,pays,situation
+Pays : Argentine. Quelle est sa capitale ? | Pays : Argentine. Capitale : Buenos Aires. | argentine,capitale,pays
+Pays : Argentine. Quelle est sa langue officielle ? | Pays : Argentine. Langues officielles : espagnol. | argentine,langue,officielle,pays
+Pays : Argentine. Quelle est sa monnaie ? | Pays : Argentine. Monnaie : peso argentin. | argentine,monnaie,devise,pays
+Pays : Argentine. Sur quel continent se trouve-t-il ? | Pays : Argentine. Continent : Amérique du Sud. | argentine,continent,pays,situation
+Pays : Uruguay. Quelle est sa capitale ? | Pays : Uruguay. Capitale : Montevideo. | uruguay,capitale,pays
+Pays : Uruguay. Quelle est sa langue officielle ? | Pays : Uruguay. Langues officielles : espagnol. | uruguay,langue,officielle,pays
+Pays : Uruguay. Quelle est sa monnaie ? | Pays : Uruguay. Monnaie : peso uruguayen. | uruguay,monnaie,devise,pays
+Pays : Uruguay. Sur quel continent se trouve-t-il ? | Pays : Uruguay. Continent : Amérique du Sud. | uruguay,continent,pays,situation
+Pays : Paraguay. Quelle est sa capitale ? | Pays : Paraguay. Capitale : Asunción. | paraguay,capitale,pays
+Pays : Paraguay. Quelle est sa langue officielle ? | Pays : Paraguay. Langues officielles : espagnol, guarani. | paraguay,langue,officielle,pays
+Pays : Paraguay. Quelle est sa monnaie ? | Pays : Paraguay. Monnaie : guarani. | paraguay,monnaie,devise,pays
+Pays : Paraguay. Sur quel continent se trouve-t-il ? | Pays : Paraguay. Continent : Amérique du Sud. | paraguay,continent,pays,situation
+Pays : Brésil. Quelle est sa capitale ? | Pays : Brésil. Capitale : Brasília. | brésil,capitale,pays
+Pays : Brésil. Quelle est sa langue officielle ? | Pays : Brésil. Langues officielles : portugais. | brésil,langue,officielle,pays
+Pays : Brésil. Quelle est sa monnaie ? | Pays : Brésil. Monnaie : real. | brésil,monnaie,devise,pays
+Pays : Brésil. Sur quel continent se trouve-t-il ? | Pays : Brésil. Continent : Amérique du Sud. | brésil,continent,pays,situation
+Pays : Suriname. Quelle est sa capitale ? | Pays : Suriname. Capitale : Paramaribo. | suriname,capitale,pays
+Pays : Suriname. Quelle est sa langue officielle ? | Pays : Suriname. Langues officielles : néerlandais. | suriname,langue,officielle,pays
+Pays : Suriname. Quelle est sa monnaie ? | Pays : Suriname. Monnaie : dollar surinamien. | suriname,monnaie,devise,pays
+Pays : Suriname. Sur quel continent se trouve-t-il ? | Pays : Suriname. Continent : Amérique du Sud. | suriname,continent,pays,situation
+Pays : Fidji. Quelle est sa capitale ? | Pays : Fidji. Capitale : Suva. | fidji,capitale,pays
+Pays : Fidji. Quelle est sa langue officielle ? | Pays : Fidji. Langues officielles : anglais, fidjien, hindi. | fidji,langue,officielle,pays
+Pays : Fidji. Quelle est sa monnaie ? | Pays : Fidji. Monnaie : dollar fidjien. | fidji,monnaie,devise,pays
+Pays : Fidji. Sur quel continent se trouve-t-il ? | Pays : Fidji. Continent : Océanie. | fidji,continent,pays,situation
+Pays : Papouasie-Nouvelle-Guinée. Quelle est sa capitale ? | Pays : Papouasie-Nouvelle-Guinée. Capitale : Port Moresby. | papouasie-nouvelle-guinée,capitale,pays
+Pays : Papouasie-Nouvelle-Guinée. Quelle est sa langue officielle ? | Pays : Papouasie-Nouvelle-Guinée. Langues officielles : anglais, tok pisin. | papouasie-nouvelle-guinée,langue,officielle,pays
+Pays : Papouasie-Nouvelle-Guinée. Quelle est sa monnaie ? | Pays : Papouasie-Nouvelle-Guinée. Monnaie : kina. | papouasie-nouvelle-guinée,monnaie,devise,pays
+Pays : Papouasie-Nouvelle-Guinée. Sur quel continent se trouve-t-il ? | Pays : Papouasie-Nouvelle-Guinée. Continent : Océanie. | papouasie-nouvelle-guinée,continent,pays,situation
+Pays : Samoa. Quelle est sa capitale ? | Pays : Samoa. Capitale : Apia. | samoa,capitale,pays
+Pays : Samoa. Quelle est sa langue officielle ? | Pays : Samoa. Langues officielles : samoan, anglais. | samoa,langue,officielle,pays
+Pays : Samoa. Quelle est sa monnaie ? | Pays : Samoa. Monnaie : tala. | samoa,monnaie,devise,pays
+Pays : Samoa. Sur quel continent se trouve-t-il ? | Pays : Samoa. Continent : Océanie. | samoa,continent,pays,situation
+Pays : Tonga. Quelle est sa capitale ? | Pays : Tonga. Capitale : Nuku'alofa. | tonga,capitale,pays
+Pays : Tonga. Quelle est sa langue officielle ? | Pays : Tonga. Langues officielles : tongien, anglais. | tonga,langue,officielle,pays
+Pays : Tonga. Quelle est sa monnaie ? | Pays : Tonga. Monnaie : pa'anga. | tonga,monnaie,devise,pays
+Pays : Tonga. Sur quel continent se trouve-t-il ? | Pays : Tonga. Continent : Océanie. | tonga,continent,pays,situation
+Pays : Vanuatu. Quelle est sa capitale ? | Pays : Vanuatu. Capitale : Port-Vila. | vanuatu,capitale,pays
+Pays : Vanuatu. Quelle est sa langue officielle ? | Pays : Vanuatu. Langues officielles : bichelamar, anglais, français. | vanuatu,langue,officielle,pays
+Pays : Vanuatu. Quelle est sa monnaie ? | Pays : Vanuatu. Monnaie : vatu. | vanuatu,monnaie,devise,pays
+Pays : Vanuatu. Sur quel continent se trouve-t-il ? | Pays : Vanuatu. Continent : Océanie. | vanuatu,continent,pays,situation
+Pays : Nauru. Quelle est sa capitale ? | Pays : Nauru. Capitale : Yaren. | nauru,capitale,pays
+Pays : Nauru. Quelle est sa langue officielle ? | Pays : Nauru. Langues officielles : nauruan, anglais. | nauru,langue,officielle,pays
+Pays : Nauru. Quelle est sa monnaie ? | Pays : Nauru. Monnaie : dollar australien. | nauru,monnaie,devise,pays
+Pays : Nauru. Sur quel continent se trouve-t-il ? | Pays : Nauru. Continent : Océanie. | nauru,continent,pays,situation
+Pays : Palaos. Quelle est sa capitale ? | Pays : Palaos. Capitale : Ngerulmud. | palaos,capitale,pays
+Pays : Palaos. Quelle est sa langue officielle ? | Pays : Palaos. Langues officielles : palauan, anglais. | palaos,langue,officielle,pays
+Pays : Palaos. Quelle est sa monnaie ? | Pays : Palaos. Monnaie : dollar américain. | palaos,monnaie,devise,pays
+Pays : Palaos. Sur quel continent se trouve-t-il ? | Pays : Palaos. Continent : Océanie. | palaos,continent,pays,situation
+Pays : Kiribati. Quelle est sa capitale ? | Pays : Kiribati. Capitale : Tarawa Sud. | kiribati,capitale,pays
+Pays : Kiribati. Quelle est sa langue officielle ? | Pays : Kiribati. Langues officielles : gilbertin, anglais. | kiribati,langue,officielle,pays
+Pays : Kiribati. Quelle est sa monnaie ? | Pays : Kiribati. Monnaie : dollar australien. | kiribati,monnaie,devise,pays
+Pays : Kiribati. Sur quel continent se trouve-t-il ? | Pays : Kiribati. Continent : Océanie. | kiribati,continent,pays,situation
+Pays : Îles Salomon. Quelle est sa capitale ? | Pays : Îles Salomon. Capitale : Honiara. | îles salomon,capitale,pays
+Pays : Îles Salomon. Quelle est sa langue officielle ? | Pays : Îles Salomon. Langues officielles : anglais. | îles salomon,langue,officielle,pays
+Pays : Îles Salomon. Quelle est sa monnaie ? | Pays : Îles Salomon. Monnaie : dollar des îles Salomon. | îles salomon,monnaie,devise,pays
+Pays : Îles Salomon. Sur quel continent se trouve-t-il ? | Pays : Îles Salomon. Continent : Océanie. | îles salomon,continent,pays,situation
+Pays : Tuvalu. Quelle est sa capitale ? | Pays : Tuvalu. Capitale : Funafuti. | tuvalu,capitale,pays
+Pays : Tuvalu. Quelle est sa langue officielle ? | Pays : Tuvalu. Langues officielles : tuvaluan, anglais. | tuvalu,langue,officielle,pays
+Pays : Tuvalu. Quelle est sa monnaie ? | Pays : Tuvalu. Monnaie : dollar australien. | tuvalu,monnaie,devise,pays
+Pays : Tuvalu. Sur quel continent se trouve-t-il ? | Pays : Tuvalu. Continent : Océanie. | tuvalu,continent,pays,situation
+Pays : Micronésie. Quelle est sa capitale ? | Pays : Micronésie. Capitale : Palikir. | micronésie,capitale,pays
+Pays : Micronésie. Quelle est sa langue officielle ? | Pays : Micronésie. Langues officielles : anglais. | micronésie,langue,officielle,pays
+Pays : Micronésie. Quelle est sa monnaie ? | Pays : Micronésie. Monnaie : dollar américain. | micronésie,monnaie,devise,pays
+Pays : Micronésie. Sur quel continent se trouve-t-il ? | Pays : Micronésie. Continent : Océanie. | micronésie,continent,pays,situation
+Pays : Îles Marshall. Quelle est sa capitale ? | Pays : Îles Marshall. Capitale : Majuro. | îles marshall,capitale,pays
+Pays : Îles Marshall. Quelle est sa langue officielle ? | Pays : Îles Marshall. Langues officielles : marshallais, anglais. | îles marshall,langue,officielle,pays
+Pays : Îles Marshall. Quelle est sa monnaie ? | Pays : Îles Marshall. Monnaie : dollar américain. | îles marshall,monnaie,devise,pays
+Pays : Îles Marshall. Sur quel continent se trouve-t-il ? | Pays : Îles Marshall. Continent : Océanie. | îles marshall,continent,pays,situation
+Pays : Andorre. Quelle est sa capitale ? | Pays : Andorre. Capitale : Andorre-la-Vieille. | andorre,capitale,pays
+Pays : Andorre. Quelle est sa langue officielle ? | Pays : Andorre. Langues officielles : catalan. | andorre,langue,officielle,pays
+Pays : Andorre. Quelle est sa monnaie ? | Pays : Andorre. Monnaie : euro. | andorre,monnaie,devise,pays
+Pays : Andorre. Sur quel continent se trouve-t-il ? | Pays : Andorre. Continent : Europe. | andorre,continent,pays,situation
+Pays : Liechtenstein. Quelle est sa capitale ? | Pays : Liechtenstein. Capitale : Vaduz. | liechtenstein,capitale,pays
+Pays : Liechtenstein. Quelle est sa langue officielle ? | Pays : Liechtenstein. Langues officielles : allemand. | liechtenstein,langue,officielle,pays
+Pays : Liechtenstein. Quelle est sa monnaie ? | Pays : Liechtenstein. Monnaie : franc suisse. | liechtenstein,monnaie,devise,pays
+Pays : Liechtenstein. Sur quel continent se trouve-t-il ? | Pays : Liechtenstein. Continent : Europe. | liechtenstein,continent,pays,situation
+Pays : Saint-Marin. Quelle est sa capitale ? | Pays : Saint-Marin. Capitale : Saint-Marin. | saint-marin,capitale,pays
+Pays : Saint-Marin. Quelle est sa langue officielle ? | Pays : Saint-Marin. Langues officielles : italien. | saint-marin,langue,officielle,pays
+Pays : Saint-Marin. Quelle est sa monnaie ? | Pays : Saint-Marin. Monnaie : euro. | saint-marin,monnaie,devise,pays
+Pays : Saint-Marin. Sur quel continent se trouve-t-il ? | Pays : Saint-Marin. Continent : Europe. | saint-marin,continent,pays,situation
+Pays : Vatican. Quelle est sa capitale ? | Pays : Vatican. Capitale : Cité du Vatican. | vatican,capitale,pays
+Pays : Vatican. Quelle est sa langue officielle ? | Pays : Vatican. Langues officielles : latin, italien. | vatican,langue,officielle,pays
+Pays : Vatican. Quelle est sa monnaie ? | Pays : Vatican. Monnaie : euro. | vatican,monnaie,devise,pays
+Pays : Vatican. Sur quel continent se trouve-t-il ? | Pays : Vatican. Continent : Europe. | vatican,continent,pays,situation
+Pays : Somalie. Quelle est sa capitale ? | Pays : Somalie. Capitale : Mogadiscio. | somalie,capitale,pays
+Pays : Somalie. Quelle est sa langue officielle ? | Pays : Somalie. Langues officielles : somali, arabe. | somalie,langue,officielle,pays
+Pays : Somalie. Quelle est sa monnaie ? | Pays : Somalie. Monnaie : shilling somalien. | somalie,monnaie,devise,pays
+Pays : Somalie. Sur quel continent se trouve-t-il ? | Pays : Somalie. Continent : Afrique. | somalie,continent,pays,situation
+Pays : Soudan du Sud. Quelle est sa capitale ? | Pays : Soudan du Sud. Capitale : Juba. | soudan du sud,capitale,pays
+Pays : Soudan du Sud. Quelle est sa langue officielle ? | Pays : Soudan du Sud. Langues officielles : anglais. | soudan du sud,langue,officielle,pays
+Pays : Soudan du Sud. Quelle est sa monnaie ? | Pays : Soudan du Sud. Monnaie : livre sud-soudanaise. | soudan du sud,monnaie,devise,pays
+Pays : Soudan du Sud. Sur quel continent se trouve-t-il ? | Pays : Soudan du Sud. Continent : Afrique. | soudan du sud,continent,pays,situation
+Pays : Antigua-et-Barbuda. Quelle est sa capitale ? | Pays : Antigua-et-Barbuda. Capitale : Saint John's. | antigua-et-barbuda,capitale,pays
+Pays : Antigua-et-Barbuda. Quelle est sa langue officielle ? | Pays : Antigua-et-Barbuda. Langues officielles : anglais. | antigua-et-barbuda,langue,officielle,pays
+Pays : Antigua-et-Barbuda. Quelle est sa monnaie ? | Pays : Antigua-et-Barbuda. Monnaie : dollar des Caraïbes orientales. | antigua-et-barbuda,monnaie,devise,pays
+Pays : Antigua-et-Barbuda. Sur quel continent se trouve-t-il ? | Pays : Antigua-et-Barbuda. Continent : Amérique. | antigua-et-barbuda,continent,pays,situation
+Pays : Saint-Kitts-et-Nevis. Quelle est sa capitale ? | Pays : Saint-Kitts-et-Nevis. Capitale : Basseterre. | saint-kitts-et-nevis,capitale,pays
+Pays : Saint-Kitts-et-Nevis. Quelle est sa langue officielle ? | Pays : Saint-Kitts-et-Nevis. Langues officielles : anglais. | saint-kitts-et-nevis,langue,officielle,pays
+Pays : Saint-Kitts-et-Nevis. Quelle est sa monnaie ? | Pays : Saint-Kitts-et-Nevis. Monnaie : dollar des Caraïbes orientales. | saint-kitts-et-nevis,monnaie,devise,pays
+Pays : Saint-Kitts-et-Nevis. Sur quel continent se trouve-t-il ? | Pays : Saint-Kitts-et-Nevis. Continent : Amérique. | saint-kitts-et-nevis,continent,pays,situation
+Pays : Sainte-Lucie. Quelle est sa capitale ? | Pays : Sainte-Lucie. Capitale : Castries. | sainte-lucie,capitale,pays
+Pays : Sainte-Lucie. Quelle est sa langue officielle ? | Pays : Sainte-Lucie. Langues officielles : anglais, créole français. | sainte-lucie,langue,officielle,pays
+Pays : Sainte-Lucie. Quelle est sa monnaie ? | Pays : Sainte-Lucie. Monnaie : dollar des Caraïbes orientales. | sainte-lucie,monnaie,devise,pays
+Pays : Sainte-Lucie. Sur quel continent se trouve-t-il ? | Pays : Sainte-Lucie. Continent : Amérique. | sainte-lucie,continent,pays,situation
+Pays : Dominique. Quelle est sa capitale ? | Pays : Dominique. Capitale : Roseau. | dominique,capitale,pays
+Pays : Dominique. Quelle est sa langue officielle ? | Pays : Dominique. Langues officielles : anglais, créole français. | dominique,langue,officielle,pays
+Pays : Dominique. Quelle est sa monnaie ? | Pays : Dominique. Monnaie : dollar des Caraïbes orientales. | dominique,monnaie,devise,pays
+Pays : Dominique. Sur quel continent se trouve-t-il ? | Pays : Dominique. Continent : Amérique. | dominique,continent,pays,situation
+Pays : Saint-Vincent-et-les-Grenadines. Quelle est sa capitale ? | Pays : Saint-Vincent-et-les-Grenadines. Capitale : Kingstown. | saint-vincent-et-les-grenadines,capitale,pays
+Pays : Saint-Vincent-et-les-Grenadines. Quelle est sa langue officielle ? | Pays : Saint-Vincent-et-les-Grenadines. Langues officielles : anglais. | saint-vincent-et-les-grenadines,langue,officielle,pays
+Pays : Saint-Vincent-et-les-Grenadines. Quelle est sa monnaie ? | Pays : Saint-Vincent-et-les-Grenadines. Monnaie : dollar des Caraïbes orientales. | saint-vincent-et-les-grenadines,monnaie,devise,pays
+Pays : Saint-Vincent-et-les-Grenadines. Sur quel continent se trouve-t-il ? | Pays : Saint-Vincent-et-les-Grenadines. Continent : Amérique. | saint-vincent-et-les-grenadines,continent,pays,situation
+Pays : Grenade. Quelle est sa capitale ? | Pays : Grenade. Capitale : Saint-Georges. | grenade,capitale,pays
+Pays : Grenade. Quelle est sa langue officielle ? | Pays : Grenade. Langues officielles : anglais. | grenade,langue,officielle,pays
+Pays : Grenade. Quelle est sa monnaie ? | Pays : Grenade. Monnaie : dollar des Caraïbes orientales. | grenade,monnaie,devise,pays
+Pays : Grenade. Sur quel continent se trouve-t-il ? | Pays : Grenade. Continent : Amérique. | grenade,continent,pays,situation

@@ -1,0 +1,46 @@
+# ---------- Histoire : Antiquité et Moyen Âge ----------
+Qu'est-ce que la Préhistoire ? | C'est la période qui précède l'apparition de l'écriture, vers 3300 av. J.-C. en Mésopotamie. Elle comprend le Paléolithique, le Néolithique et l'âge des métaux. | prehistoire,ecriture,paleolithique,neolithique
+Qu'est-ce que le Néolithique ? | C'est la période où les humains deviennent sédentaires et pratiquent l'agriculture et l'élevage, vers 10 000 ans av. J.-C. | neolithique,agriculture,elevage,sedentaire
+Qu'est-ce que l'Égypte ancienne ? | C'est une civilisation qui se développe le long du Nil pendant plusieurs millénaires, connue pour ses pharaons, ses pyramides et ses hiéroglyphes. | egypte,ancienne,nil,pharaon,pyramide
+Qu'est-ce qu'un pharaon ? | C'est le souverain de l'Égypte ancienne, considéré comme un intermédiaire entre les dieux et les hommes. | pharaon,egypte,souverain
+Qu'est-ce que les hiéroglyphes ? | C'est une écriture égyptienne ancienne, qui combine des signes figuratifs et phonétiques. Champollion la déchiffre en 1822. | hieroglyphe,ecriture,champollion,1822
+Qu'est-ce que la Mésopotamie ? | C'est une région située entre le Tigre et l'Euphrate, berceau de l'écriture cunéiforme et des premières cités. | mesopotamie,tigre,euphrate,cuneiforme
+Qu'est-ce que la démocratie athénienne ? | C'est un régime où les citoyens hommes libres participent directement aux décisions, dans l'assemblée, au Ve siècle av. J.-C. | democratie,athenes,citoyen,assemblee
+Qu'est-ce que l'Empire romain ? | C'est un État qui domine le bassin méditerranéen. Il est fondé en 27 av. J.-C. par Auguste, et sa partie occidentale tombe en 476. | empire,romain,auguste,476
+Qu'est-ce que la chute de l'Empire romain d'Occident ? | En 476, le dernier empereur d'Occident, Romulus Augustule, est déposé par le chef germain Odoacre. | chute,empire,occident,476,odoacre
+Qu'est-ce que la bataille de Poitiers ? | En 732, Charles Martel arrête l'avance musulmane près de Poitiers, ce qui est souvent présenté comme un tournant de l'histoire de l'Europe. | poitiers,732,charles,martel
+Qu'est-ce que le baptême de Clovis ? | Vers 496, Clovis, roi des Francs, se convertit au christianisme, ce qui favorise son alliance avec l'Église. | clovis,bapteme,francs,christianisme
+Qu'est-ce que le système féodal ? | C'est une organisation sociale du Moyen Âge fondée sur les liens entre seigneurs et vassaux, avec la terre comme base de la richesse. | feodal,feodalite,seigneur,vassal,terre
+Qu'est-ce qu'un seigneur ? | C'est un personnage qui possède une terre et exerce un pouvoir sur les paysans qui y vivent, en échange d'une protection militaire. | seigneur,terre,pouvoir,protection
+Qu'est-ce qu'un serf ? | C'est un paysan attaché à la terre d'un seigneur, qui doit lui verser des redevances et effectuer des corvées. | serf,paysan,terre,redevance,corvee
+Qu'est-ce que les croisades ? | Ce sont des expéditions militaires menées par les chrétiens d'Occident, à partir de 1096, pour reprendre Jérusalem et les lieux saints. | croisade,1096,jerusalem,chretiens
+Qu'est-ce que la peste noire ? | C'est une épidémie de peste qui frappe l'Europe entre 1347 et 1352 et tue environ un tiers de la population. | peste,noire,1347,epidemie
+Qu'est-ce que la guerre de Cent Ans ? | C'est un long conflit entre la France et l'Angleterre, de 1337 à 1453, marqué par la bataille d'Azincourt en 1415 et la victoire française finale. | cent,ans,guerre,azincourt,1337,1453
+Qu'est-ce que la Magna Carta ? | Signée en 1215 par le roi Jean sans Terre, elle limite le pouvoir royal en Angleterre et pose les bases de certaines libertés juridiques. | magna,carta,1215,jean,angleterre
+Qu'est-ce que la cathédrale gothique ? | C'est un édifice religieux du Moyen Âge, caractérisé par des voûtes sur croisées d'ogives, des arcs-boutants et de grands vitraux. | cathedrale,gothique,vitrail,arc,boutant
+Qu'est-ce que l'Université médiévale ? | C'est une corporation de maîtres et d'étudiants apparue au XIIe siècle, comme l'Université de Paris, qui enseigne la théologie, le droit, la médecine et les arts. | universite,medievale,paris,xiie
+Qu'est-ce que l'Empire byzantin ? | C'est la partie orientale de l'Empire romain, avec pour capitale Constantinople, qui tombe face aux Ottomans en 1453. | byzantin,constantinople,ottomans,1453
+Qu'est-ce que la chute de Constantinople ? | En 1453, la ville tombe aux mains de l'Empire ottoman de Mehmed II, ce qui met fin à l'Empire byzantin. | constantinople,1453,ottoman,mehmed
+# ---------- Histoire : époque moderne ----------
+Qu'est-ce que la Renaissance italienne ? | C'est un mouvement culturel né en Italie au XVe siècle, qui redécouvre les textes antiques et valorise l'homme, l'art et les sciences. | renaissance,italie,humanisme,antiquite
+Qu'est-ce que l'imprimerie de Gutenberg ? | Vers 1450, Johannes Gutenberg met au point l'impression avec des caractères mobiles, ce qui permet de diffuser les livres beaucoup plus vite. | gutenberg,imprimerie,livre,1450
+Qu'est-ce que les grandes découvertes ? | Ce sont les voyages européens du XVe et XVIe siècle, comme ceux de Christophe Colomb en 1492 vers l'Amérique, ou de Vasco de Gama vers l'Inde. | decouvertes,colomb,1492,amerique,vasco,gama
+Qu'est-ce que le traité de Tordesillas ? | Signé en 1494, il partage le monde non européen entre l'Espagne et le Portugal, selon une ligne au large du Cap-Vert. | tordesillas,traite,1494,espagne,portugal
+Qu'est-ce que la traite négrière ? | C'est le commerce forcé d'êtres humains d'Afrique vers les Amériques et l'Europe, principalement entre le XVIe et le XIXe siècle. | traite,negriere,afrique,amerique,esclavage
+Qu'est-ce que la Réforme protestante ? | Lancée par Martin Luther en 1517, elle conteste l'autorité du pape et conduit à la création de nouvelles Églises chrétiennes. | reforme,protestante,luther,1517
+Qu'est-ce que la Contre-Réforme ? | C'est la réaction de l'Église catholique à la Réforme, marquée par le concile de Trente (1545-1563) et la création de nouveaux ordres religieux. | contre,reforme,trente,catholique,jesuites
+Qu'est-ce que la nuit de la Saint-Barthélemy ? | Dans la nuit du 23 au 24 août 1572, des milliers de protestants sont massacrés à Paris et dans plusieurs villes de France. | saint,barthelemy,1572,protestants
+Qu'est-ce que l'édit de Nantes ? | Signé par Henri IV en 1598, il accorde aux protestants la liberté de culte dans certaines villes. Il est révoqué par Louis XIV en 1685. | edit,nantes,henri,1598,1685
+Qu'est-ce que la Fronde ? | C'est une série de révoltes en France entre 1648 et 1653, contre l'autorité royale pendant la minorité de Louis XIV. | fronde,revolte,1648,1653,louis
+Qu'est-ce que la révocation de l'édit de Nantes ? | En 1685, Louis XIV révoque l'édit de Nantes, ce qui conduit de nombreux protestants à quitter la France. | revocation,edit,nantes,1685,protestants
+Qu'est-ce que le Siècle des Lumières ? | C'est le XVIIIe siècle européen, marqué par la défense de la raison, de la tolérance et de la liberté, avec Voltaire, Montesquieu, Rousseau et Diderot. | lumieres,xviiie,raison,voltaire,diderot
+Qu'est-ce que l'Encyclopédie de Diderot et d'Alembert ? | C'est un ouvrage collectif publié à partir de 1751, qui rassemble et diffuse les connaissances de son époque, et qui défend les idées des Lumières. | encyclopedie,diderot,alembert,1751,savoir
+Qu'est-ce que le despotisme éclairé ? | C'est un régime monarchique qui applique certaines réformes inspirées des Lumières, sans remettre en cause le pouvoir absolu du souverain. | despotisme,eclaire,monarchie,reforme
+Qu'est-ce que la Révolution française ? | C'est une période de bouleversement politique et social commencée en 1789, qui abolit la monarchie absolue et les privilèges de l'Ancien Régime. | revolution,francaise,1789,monarchie,privilege
+Qu'est-ce que l'Ancien Régime ? | C'est l'organisation politique et sociale de la France avant 1789, fondée sur la monarchie absolue et une société divisée en trois ordres. | ancien,regime,monarchie,ordres
+Qu'est-ce que les trois ordres ? | Dans l'Ancien Régime, la société est divisée en trois ordres : le clergé (premier ordre), la noblesse (deuxième ordre) et le tiers état (le reste de la population). | ordres,clerge,noblesse,tiers,etat
+Qu'est-ce que la nuit du 4 août 1789 ? | Lors de cette séance de l'Assemblée nationale, les privilèges féodaux et les droits seigneuriaux sont abolis. | nuit,4,aout,1789,privilege,feodal
+Qu'est-ce que la Terreur ? | C'est une période de la Révolution française, de 1793 à 1794, marquée par une répression violente contre les opposants, sous la direction du Comité de salut public. | terreur,1793,1794,revolution,robespierre
+Qu'est-ce que le Directoire ? | C'est le régime qui gouverne la France de 1795 à 1799, avant le coup d'État de Bonaparte le 18 brumaire an VIII. | directoire,1795,1799,bonaparte,brumaire
+Qu'est-ce que le coup d'État du 18 brumaire ? | Le 9 novembre 1799, Napoléon Bonaparte renverse le Directoire et prend le pouvoir, ce qui met fin à la Révolution. | brumaire,1799,bonaparte,directoire,coup,etat
+Qu'est-ce que le Code civil ? | Promulgué en 1804, il rassemble les lois civiles françaises : égalité devant la loi, propriété, famille. Il influence de nombreux pays. | code,civil,1804,napoleon,loi

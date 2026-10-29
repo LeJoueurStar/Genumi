@@ -1,0 +1,32 @@
+# ---------- Pays francophones : villes et repères ----------
+Quelle est la plus grande ville du Canada ? | Toronto est la ville la plus peuplée du Canada, suivie de Montréal et de Vancouver. | canada,ville,toronto,montreal,vancouver
+Quelle est la ville de Québec ? | La ville de Québec est la capitale de la province du Québec, classée au patrimoine mondial de l'UNESCO. | quebec,ville,capitale,unesco
+Quelle est la plus grande ville de Belgique ? | Bruxelles est la plus grande agglomération de Belgique. Anvers est la ville la plus peuplée de la région flamande. | belgique,bruxelles,anvers,ville
+Quelle est la plus grande ville de Suisse ? | Zurich est la plus grande ville de Suisse, mais Berne est la capitale fédérale. | suisse,zurich,berne,ville
+Quelle est la plus grande ville du Maroc ? | Casablanca est la plus grande ville du Maroc, et Marrakech est une ville touristique majeure. | maroc,casablanca,marrakech,ville
+Quelle est la plus grande ville d'Algérie ? | Alger est la plus grande ville d'Algérie et sa capitale. | algerie,alger,ville
+Quelle est la plus grande ville du Sénégal ? | Dakar est la plus grande ville du Sénégal et sa capitale. | senegal,dakar,ville
+Quelle est la plus grande ville de Côte d'Ivoire ? | Abidjan est la plus grande ville de Côte d'Ivoire, et Yamoussoukro en est la capitale politique. | cote,ivoire,abidjan,ville
+Quelle est la plus grande ville de Madagascar ? | Antananarivo est la plus grande ville de Madagascar et sa capitale. | madagascar,antananarivo,ville
+Quelle est la plus grande ville d'Haïti ? | Port-au-Prince est la plus grande ville d'Haïti et sa capitale. | haiti,port,prince,ville
+# ---------- Pays anglophones : villes et repères ----------
+Quelle est la plus grande ville des États-Unis ? | New York est la ville la plus peuplée des États-Unis. Washington D.C. en est la capitale fédérale. | etats,unis,new,york,washington,ville
+Quelle est la plus grande ville du Royaume-Uni ? | Londres est la plus grande ville du Royaume-Uni et sa capitale. | royaume,uni,londres,ville
+Quelle est la plus grande ville d'Australie ? | Sydney est la plus grande ville d'Australie, et Canberra en est la capitale. | australie,sydney,canberra,ville
+Quelle est la plus grande ville de Nouvelle-Zélande ? | Auckland est la plus grande ville de Nouvelle-Zélande, et Wellington en est la capitale. | nouvelle,zelande,auckland,wellington,ville
+Quelle est la plus grande ville d'Inde ? | Mumbai est la ville la plus peuplée d'Inde, et New Delhi en est la capitale. | inde,mumbai,delhi,ville
+Quelle est la plus grande ville du Nigeria ? | Lagos est la plus grande ville du Nigeria, et Abuja en est la capitale. | nigeria,lagos,abuja,ville
+Quelle est la plus grande ville d'Afrique du Sud ? | Johannesburg est la plus grande ville d'Afrique du Sud, et Le Cap en est la capitale législative. | afrique,sud,johannesburg,ville
+Quelle est la plus grande ville du Kenya ? | Nairobi est la plus grande ville du Kenya et sa capitale. | kenya,nairobi,ville
+# ---------- Culture générale : repères ----------
+Qui était Napoléon Bonaparte ? | Napoléon Ier (1769-1821) est un militaire et homme d'État français, empereur des Français de 1804 à 1814 puis en 1815. Il a créé le Code civil. | napoleon,bonaparte,empereur,1804,code,civil
+Qui était Jules César ? | Jules César (100-44 av. J.-C.) est un général et homme politique romain, qui a conquis la Gaule. | jules,cesar,rome,gaule
+Qui était Charlemagne ? | Charlemagne (742-814) est roi des Francs puis empereur d'Occident en 800. Son empire couvre une grande partie de l'Europe occidentale. | charlemagne,empereur,800,francs
+Qui était Louis XIV ? | Louis XIV (1638-1715), dit le Roi-Soleil, règne de 1643 à 1715. Il installe la cour à Versailles et renforce l'absolutisme. | louis,xiv,roi,soleil,versailles
+Qui était Jeanne d'Arc ? | Jeanne d'Arc (vers 1412-1431) est une héroïne française qui combat pendant la guerre de Cent Ans. Elle est brûlée à Rouen en 1431. | jeanne,arc,guerre,cent,ans,rouen
+Qui était Marie Curie ? | Marie Curie (1867-1934) est une physicienne et chimiste polonaise naturalisée française. Elle est la première femme à obtenir un prix Nobel et la seule à en obtenir dans deux disciplines. | curie,nobel,physique,chimie,radioactivite
+Qui était Albert Einstein ? | Albert Einstein (1879-1955) est un physicien allemand, auteur de la théorie de la relativité. Il reçoit le prix Nobel de physique en 1921 pour l'effet photoélectrique. | einstein,relativite,nobel,1921
+Qui était Isaac Newton ? | Isaac Newton (1643-1727) est un savant anglais qui formule les lois du mouvement et la gravitation universelle. | newton,gravitation,lois,mouvement
+Qui était Galilée ? | Galilée (1564-1642) est un astronome et physicien italien qui défend le modèle héliocentrique et améliore la lunette astronomique. | galilee,astronome,heliocentrisme,lunette
+Qui était Léonard de Vinci ? | Léonard de Vinci (1452-1519) est un peintre, scientifique et ingénieur italien, auteur de la Joconde et de la Cène. | vinci,joconde,cene,renaissance,italie
+Qu'est-ce que la Joconde ? | La Joconde est un tableau de Léonard de Vinci peint au début du XVIe siècle. Elle est conservée au musée du Louvre à Paris. | joconde,vinci,louvre,tableau

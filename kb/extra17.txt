@@ -1,0 +1,23 @@
+# ---------- Repères culturels francophones ----------
+Qu'est-ce que la Francophonie ? | La Francophonie désigne l'ensemble des personnes et des pays qui utilisent le français. Elle compte plus de 300 millions de locuteurs dans le monde. | francophonie,francais,locuteur,monde
+Quelle est la langue la plus parlée dans les pays francophones d'Afrique ? | Le français est langue officielle dans de nombreux pays africains, mais il coexiste avec les langues locales comme le wolof, le swahili ou le lingala. | afrique,francophone,langues,locales
+Qu'est-ce que le wolof ? | Le wolof est une langue parlée au Sénégal et en Gambie, très répandue dans la vie quotidienne et les échanges. | wolof,senegal,gambie,langue
+Qu'est-ce que le créole haïtien ? | C'est une langue issue du français et de langues africaines, parlée par la quasi-totalité de la population d'Haïti. | creole,haitien,haiti,langue
+Qu'est-ce que le québécois ? | C'est la variété du français parlée au Québec, avec un vocabulaire et une prononciation propres. | quebecois,francais,quebec,variete
+Qu'est-ce que le français de Belgique ? | Le français parlé en Belgique a des particularités, comme les mots « septante » et « nonante » pour soixante-dix et quatre-vingt-dix. | belge,francais,septante,nonante
+Qu'est-ce que le français de Suisse ? | En Suisse romande, on utilise « septante » et « nonante », et « octante » pour quatre-vingts. | suisse,francais,septante,octante
+Qu'est-ce que la Fête de la musique ? | C'est une fête qui a lieu chaque 21 juin en France, avec des concerts gratuits dans les rues. Elle a été lancée en 1982. | fete,musique,21,juin,1982
+Qu'est-ce que la Coupe du monde de football ? | C'est la compétition internationale de football masculin organisée tous les quatre ans par la FIFA. La France l'a remportée en 1998 et en 2018. | coupe,monde,football,fifa,1998,2018
+Qu'est-ce que les Jeux de la Francophonie ? | Ce sont des jeux sportifs et culturels réunissant les pays de la Francophonie, organisés tous les quatre ans. | jeux,francophonie,sport,culture
+# ---------- Repères culturels anglophones ----------
+Qu'est-ce que la Common Law ? | C'est le système juridique de droit coutumier, fondé sur la jurisprudence, qui est utilisé au Royaume-Uni, aux États-Unis et dans d'autres pays anglophones. | common,law,droit,jurisprudence,royaume,uni
+Qu'est-ce que le Commonwealth ? | C'est une association de 56 États, dont la plupart ont été rattachés à l'Empire britannique, qui partagent des liens historiques et culturels. | commonwealth,royaume,uni,etats,association
+Qu'est-ce que le Thanksgiving ? | C'est une fête américaine célébrée le quatrième jeudi de novembre, en souvenir des récoltes partagées entre colons et Amérindiens. | thanksgiving,fete,etats,unis,novembre
+Qu'est-ce que le Super Bowl ? | C'est la finale annuelle du championnat de football américain de la NFL, un événement sportif et culturel majeur aux États-Unis. | super,bowl,football,americain,nfl
+Qu'est-ce que le cricket ? | C'est un sport de bâton et de balle très populaire en Inde, en Angleterre, en Australie et dans d'autres pays du Commonwealth. | cricket,sport,inde,angleterre,australie
+Qu'est-ce que l'Aboriginal Australia ? | Ce sont les peuples autochtones d'Australie, présents sur le continent depuis plus de 50 000 ans. | aborigene,australie,autochtone,peuple
+Qu'est-ce que le Brexit ? | C'est la sortie du Royaume-Uni de l'Union européenne, effective le 31 janvier 2020. | brexit,royaume,uni,union,europeenne,2020
+Qu'est-ce que l'indépendance des États-Unis ? | Les États-Unis ont proclamé leur indépendance le 4 juillet 1776, après la révolte des treize colonies britanniques. | independance,etats,unis,1776,colonies
+Qu'est-ce que la Magna Carta ? | C'est une charte signée en 1215 par le roi Jean sans Terre, qui limite le pouvoir royal et pose les bases des libertés individuelles en Angleterre. | magna,carta,1215,jean,liberte
+Qu'est-ce que le Shakespeare ? | William Shakespeare (1564-1616) est un dramaturge anglais, auteur de « Roméo et Juliette », « Hamlet » et « Macbeth ». | shakespeare,theatre,hamlet,roméo,macbeth
+Qu'est-ce que la Renaissance anglaise ? | C'est une période de grande création littéraire en Angleterre, au XVIe et au début du XVIIe siècle, dont Shakespeare est l'une des figures majeures. | renaissance,anglaise,shakespeare,litterature

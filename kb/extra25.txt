@@ -1,0 +1,39 @@
+# ---------- Religions et cultures du monde ----------
+Qu'est-ce que le christianisme ? | C'est une religion monothéiste fondée sur la figure de Jésus de Nazareth, reconnu comme le Christ. Elle compte environ 2,3 milliards de fidèles. | christianisme,jesus,christ,monotheiste
+Qu'est-ce que l'islam ? | C'est une religion monothéiste fondée au VIIe siècle par le prophète Mahomet, dont le livre sacré est le Coran. | islam,mahomet,coran,monotheiste
+Qu'est-ce que le judaïsme ? | C'est une religion monothéiste très ancienne, dont le texte fondateur est la Torah et dont le lieu saint est Jérusalem. | judaisme,torah,jerusalem,monotheiste
+Qu'est-ce que le bouddhisme ? | C'est une religion et une philosophie née en Inde au Ve siècle av. J.-C. avec Siddhartha Gautama, le Bouddha, qui enseigne la voie vers la fin de la souffrance. | bouddhisme,bouddha,inde,souffrance
+Qu'est-ce que l'hindouisme ? | C'est une tradition religieuse née en Inde, fondée sur de nombreux dieux et sur le cycle des réincarnations (samsara). | hindouisme,inde,dieux,samsara
+Qu'est-ce que le shintoïsme ? | C'est la religion traditionnelle du Japon, fondée sur le culte des kami, des esprits présents dans la nature. | shintoisme,japon,kami,nature
+Qu'est-ce que le sikhisme ? | C'est une religion monothéiste née au XVe siècle dans le Pendjab, fondée par Guru Nanak, et qui rejette les castes. | sikhisme,nanak,pendjab,monotheiste
+Qu'est-ce que la laïcité en France ? | C'est le principe de séparation des Églises et de l'État, fixé par la loi de 1905, qui garantit la liberté de conscience et de culte. | laicite,france,1905,eglise,etat
+Qu'est-ce que le ramadan ? | C'est le neuvième mois du calendrier musulman, pendant lequel les croyants jeûnent du lever au coucher du soleil. | ramadan,jeune,musulman,calendrier
+Qu'est-ce que Noël ? | C'est une fête chrétienne célébrant la naissance de Jésus, fêtée le 25 décembre dans la plupart des pays chrétiens. | noel,fete,christianisme,25,decembre
+Qu'est-ce que Pâques ? | C'est la principale fête chrétienne, célébrant la résurrection de Jésus. Sa date varie chaque année selon le calendrier lunaire. | paques,fete,christianisme,resurrection
+Qu'est-ce que le Nouvel An chinois ? | C'est une fête traditionnelle qui marque le début de l'année lunaire chinoise, entre fin janvier et mi-février. | nouvel,an,chinois,lunaire,fete
+Qu'est-ce que Diwali ? | C'est une fête hindoue de la lumière, célébrée en Inde et dans le monde, qui symbolise la victoire du bien sur le mal. | diwali,fete,hindoue,lumiere
+Qu'est-ce que le Yom Kippour ? | C'est la fête juive la plus sainte, consacrée au jeûne et au repentir, célébrée en automne. | yom,kippour,fete,juive,jeune
+Qu'est-ce que l'Aïd al-Adha ? | C'est une fête musulmane qui commémore le sacrifice d'Abraham, célébrée après le pèlerinage à La Mecque. | aid,adha,fete,musulmane,mecque
+Qu'est-ce que le pèlerinage à La Mecque ? | C'est le hajj, un pèlerinage obligatoire une fois dans la vie pour les musulmans qui en ont les moyens. | hajj,pelerinage,mecque,musulman
+# ---------- Mythologie et symboles ----------
+Qui était Zeus ? | Zeus est le roi des dieux de la mythologie grecque, maître de la foudre et du ciel. | zeus,grece,roi,dieux,foudre
+Qui était Athéna ? | Athéna est la déesse grecque de la sagesse, de la stratégie et de l'artisanat, protectrice d'Athènes. | athena,grece,sagesse,athenes
+Qui était Poséidon ? | Poséidon est le dieu grec de la mer et des tremblements de terre. | poseidon,grece,mer,dieu
+Qui était Hadès ? | Hadès est le dieu grec des enfers et des morts, frère de Zeus et de Poséidon. | hades,enfers,morts,grece
+Qui était Apollon ? | Apollon est le dieu grec de la lumière, de la musique, de la poésie et de la médecine. | apollon,grece,lumiere,musique,poesie
+Qui était Aphrodite ? | Aphrodite est la déesse grecque de l'amour et de la beauté. | aphrodite,grece,amour,beaute
+Qui était Ulysse ? | Ulysse est le héros de l'Odyssée d'Homère, roi d'Ithaque, qui met dix ans à rentrer chez lui après la guerre de Troie. | ulysse,odyssee,ithaque,troie
+Qui était Achille ? | Achille est le héros de l'Iliade d'Homère, guerrier invincible sauf au talon, qui combat devant Troie. | achille,iliade,talon,troie
+Qui était Thor ? | Thor est le dieu nordique du tonnerre, armé du marteau Mjöllnir. | thor,nordique,tonnerre,marteau
+Qui était Odin ? | Odin est le dieu principal de la mythologie nordique, dieu de la sagesse, de la guerre et de la poésie. | odin,nordique,sagesse,guerre
+Qui était Ra ? | Rê, ou Ra, est le dieu soleil de la mythologie égyptienne, dieu créateur et souverain du ciel. | ra,re,egypte,soleil,dieu
+Qu'est-ce que la pyramide de Khéops ? | C'est la plus grande des pyramides de Gizeh, construite vers 2560 av. J.-C. pour le pharaon Khéops. Elle était la plus haute construction humaine pendant plus de 3 800 ans. | khéops,pyramide,gizeh,egypte
+Qu'est-ce que la Grande Muraille de Chine ? | C'est un ensemble de fortifications construit sur plusieurs siècles pour protéger l'empire chinois des invasions, sur plus de 20 000 km. | grande,muraille,chine,fortification
+Qu'est-ce que la tour Eiffel ? | C'est une tour en fer construite par Gustave Eiffel pour l'Exposition universelle de 1889, à Paris. Elle mesure environ 330 mètres. | tour,eiffel,1889,paris,exposition
+Qu'est-ce que le Taj Mahal ? | C'est un mausolée de marbre blanc construit en Inde à Agra au XVIIe siècle, par l'empereur moghol Shah Jahan pour son épouse. | taj,mahal,agra,inde,marbre
+Qu'est-ce que Machu Picchu ? | C'est une cité inca construite au XVe siècle dans les Andes péruviennes, abandonnée au XVIe siècle. | machu,picchu,inca,perou,andes
+Qu'est-ce que le Colisée ? | C'est un amphithéâtre romain construit à Rome vers 70-80 apr. J.-C., qui accueillait des combats de gladiateurs et des spectacles. | colisee,rome,amphitheatre,gladiateur
+Qu'est-ce que le Parthénon ? | C'est un temple dorique construit sur l'Acropole d'Athènes au Ve siècle av. J.-C., dédié à la déesse Athéna. | parthenon,acropole,athenes,athena
+Qu'est-ce que la cathédrale Notre-Dame de Paris ? | C'est une cathédrale gothique construite entre le XIIe et le XIVe siècle, sur l'île de la Cité, à Paris. | notre,dame,paris,gothique,cathedrale
+Qu'est-ce que le château de Versailles ? | C'est un château royal construit à partir de 1661 sous Louis XIV, qui y installe la cour et le gouvernement en 1682. | versailles,chateau,louis,xiv,1682
+Qu'est-ce que le Louvre ? | C'est un ancien palais royal transformé en musée en 1793, qui abrite des collections d'art de l'Antiquité au XIXe siècle, dont la Joconde. | louvre,musee,palais,joconde

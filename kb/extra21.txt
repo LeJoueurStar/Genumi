@@ -1,0 +1,65 @@
+# ---------- Littérature : œuvres et auteurs ----------
+Qui a écrit « Les Misérables » ? | Victor Hugo, publié en 1862. Le roman suit Jean Valjean dans la France du XIXe siècle. | hugo,miserables,1862,valjean
+Qui a écrit « Le Petit Prince » ? | Antoine de Saint-Exupéry, publié en 1943. Le livre raconte la rencontre d'un aviateur avec un petit garçon venu d'une autre planète. | saint,exupery,petit,prince,1943
+Qui a écrit « L'Étranger » ? | Albert Camus, publié en 1942. Le roman suit Meursault, un homme indifférent aux conventions sociales. | camus,etranger,1942,meursault
+Qui a écrit « Madame Bovary » ? | Gustave Flaubert, publié en 1857. Le roman raconte la vie d'Emma Bovary, déçue par son mariage et ses rêves. | flaubert,bovary,1857,emma
+Qui a écrit « Le Rouge et le Noir » ? | Stendhal, publié en 1830. Le roman suit Julien Sorel, un jeune homme ambitieux dans la France de la Restauration. | stendhal,rouge,noir,1830,julien
+Qui a écrit « Germinal » ? | Émile Zola, publié en 1885. Le roman décrit la vie et la grève des mineurs du Nord. | zola,germinal,1885,mineurs,greve
+Qui a écrit « Candide » ? | Voltaire, publié en 1759. C'est un conte philosophique satirique qui se moque de l'optimisme naïf. | voltaire,candide,1759,conte
+Qui a écrit « Les Liaisons dangereuses » ? | Choderlos de Laclos, publié en 1782. C'est un roman épistolaire qui met en scène les intrigues de la haute société. | laclos,liaisons,dangereuses,1782,epistolaire
+Qui a écrit « Le Comte de Monte-Cristo » ? | Alexandre Dumas, publié en 1844 et 1845. C'est un roman d'aventures sur la vengeance d'Edmond Dantès. | dumas,monte,cristo,1844,vengeance
+Qui a écrit « Les Trois Mousquetaires » ? | Alexandre Dumas, publié en 1844. Le roman suit d'Artagnan et ses trois compagnons, Athos, Porthos et Aramis. | dumas,mousquetaires,1844,artagnan
+Qui a écrit « Le Malade imaginaire » ? | Molière, créé en 1673. C'est une comédie où Argan, persuadé d'être malade, est critiqué pour sa crédulité. | moliere,malade,imaginaire,1673
+Qui a écrit « Phèdre » ? | Jean Racine, représentée en 1677. C'est une tragédie sur la passion interdite de Phèdre pour son beau-fils Hippolyte. | racine,phedre,1677,tragedie
+Qui a écrit « Cyrano de Bergerac » ? | Edmond Rostand, créé en 1897. C'est une pièce en vers où le héros, Cyrano, aime en secret la belle Roxane. | rostand,cyrano,1897,vers
+Qui a écrit « Le Horla » ? | Guy de Maupassant, publié en 1887. C'est une nouvelle fantastique sur une présence invisible qui tourmente le narrateur. | maupassant,horla,1887,nouvelle,fantastique
+Qui a écrit « Vingt mille lieues sous les mers » ? | Jules Verne, publié en 1870. C'est un roman d'aventures sous-marines qui suit le capitaine Nemo à bord du Nautilus. | verne,vingt,mille,lieues,nemo,nautilus
+Qui a écrit « Le Comte de Monte-Cristo » et « Les Trois Mousquetaires » ? | Ces deux romans sont d'Alexandre Dumas, un écrivain français du XIXe siècle. | dumas,auteur,xixe
+Qui a écrit « Les Fleurs du mal » ? | Charles Baudelaire, publié en 1857. C'est un recueil de poèmes sur la beauté, le mal et le spleen. | baudelaire,fleurs,mal,1857,poeme
+Qui a écrit « Le Rouge et le Noir » ? | Stendhal (Henri Beyle), publié en 1830. | stendhal,rouge,noir,auteur
+Qui a écrit « Notre-Dame de Paris » ? | Victor Hugo, publié en 1831. Le roman se déroule à Paris au XVe siècle, autour de la cathédrale. | hugo,notre,dame,paris,1831
+Qui a écrit « Antigone » ? | Sophocle, tragédie grecque du Ve siècle av. J.-C. Antigone défie l'ordre de Créon pour enterrer son frère. | sophocle,antigone,tragedie,creon
+Qui a écrit « L'Odyssée » ? | Homère, épopée grecque qui raconte le retour d'Ulysse après la guerre de Troie. | homere,odyssee,ulysse,troie,epopee
+Qui a écrit « L'Iliade » ? | Homère, épopée grecque qui raconte la guerre de Troie et la colère d'Achille. | homere,iliade,troie,achille
+Qui a écrit « Le Lys dans la vallée » ? | Honoré de Balzac, publié en 1836. C'est un roman sur un amour impossible en Touraine. | balzac,lys,vallee,1836
+Qui a écrit « Le Père Goriot » ? | Honoré de Balzac, publié en 1835. Le roman suit Rastignac dans le Paris de la Restauration. | balzac,goriot,1835,rastignac
+Qui a écrit « Les Fourberies de Scapin » ? | Molière, créé en 1671. C'est une farce où le valet Scapin manipule ses maîtres. | moliere,scapin,1671,farce
+Qui a écrit « Le Bourgeois gentilhomme » ? | Molière, créé en 1670. Monsieur Jourdain veut devenir noble et apprendre les belles manières. | moliere,bourgeois,gentilhomme,1670
+Qui a écrit « Le Malade imaginaire » ? | Molière, dernière pièce de l'auteur, jouée en 1673 alors qu'il est sur scène. | moliere,malade,1673,auteur
+Qui a écrit « Les Contemplations » ? | Victor Hugo, publié en 1856. Ce recueil de poèmes évoque le deuil de sa fille Léopoldine. | hugo,contemplations,1856,poeme
+Qui a écrit « Le Dernier Jour d'un condamné » ? | Victor Hugo, publié en 1829. Le roman raconte les dernières heures d'un condamné à mort, avec une critique de la peine capitale. | hugo,dernier,jour,condamne,1829
+Qui a écrit « Ubu roi » ? | Alfred Jarry, créé en 1896. C'est une pièce absurde qui annonce le théâtre de l'absurde. | jarry,ubu,roi,1896,absurde
+Qui a écrit « En attendant Godot » ? | Samuel Beckett, créé en 1953. Deux personnages attendent un certain Godot qui ne vient jamais. | beckett,godot,1953,absurde
+Qui a écrit « La Cantatrice chauve » ? | Eugène Ionesco, créé en 1950. C'est une pièce de l'absurde où les dialogues deviennent incohérents. | ionesco,cantatrice,chauve,1950,absurde
+Qui a écrit « Le Grand Meaulnes » ? | Alain-Fournier, publié en 1913. C'est un roman sur la quête d'un amour et d'un domaine mystérieux. | fournier,meaulnes,1913
+Qui a écrit « Le Ravissement de Lol V. Stein » ? | Marguerite Duras, publié en 1964. Le roman explore le désir et la folie à travers la jeune Lol. | duras,ravissement,stein,1964
+Qui a écrit « Les Mots » ? | Jean-Paul Sartre, publié en 1964. C'est une autobiographie où l'auteur revient sur son enfance et sa vocation d'écrivain. | sartre,mots,1964,autobiographie
+Qui a écrit « La Nausée » ? | Jean-Paul Sartre, publié en 1938. C'est un roman philosophique sur l'existence et la contingence. | sartre,nausee,1938,existence
+Qui a écrit « L'Écume des jours » ? | Boris Vian, publié en 1947. C'est un roman poétique et tragique sur l'amour et la maladie. | vian,ecume,jours,1947
+Qui a écrit « Le Petit Nicolas » ? | René Goscinny et Jean-Jacques Sempé, à partir de 1959. Ce sont des histoires drôles d'un écolier français. | goscinny,sempe,petit,nicolas,1959
+Qui a écrit « Astérix le Gaulois » ? | René Goscinny et Albert Uderzo, publié en 1961. Les aventures d'un village gaulois qui résiste aux Romains. | goscinny,uderzo,asterix,gaulois,1961
+Qui a écrit « Tintin » ? | Hergé, auteur belge de la bande dessinée « Les Aventures de Tintin », publiées à partir de 1929. | herge,tintin,bande,dessinee,1929
+# ---------- Arts et musique ----------
+Qu'est-ce que l'impressionnisme ? | C'est un courant artistique français de la fin du XIXe siècle, qui peint la lumière et le mouvement sur le motif, avec des touches visibles. Monet et Renoir en sont des figures. | impressionnisme,monet,renoir,lumiere
+Qu'est-ce que le cubisme ? | C'est un mouvement artistique du début du XXe siècle, fondé par Picasso et Braque, qui représente les objets sous plusieurs points de vue à la fois. | cubisme,picasso,braque,point,vue
+Qu'est-ce que l'art abstrait ? | C'est un art qui ne représente pas de sujet reconnaissable, mais utilise les couleurs, les formes et les lignes pour exprimer une idée. | abstrait,art,couleur,forme
+Qui a peint « La Nuit étoilée » ? | Vincent van Gogh, en 1889. Le tableau montre le ciel nocturne au-dessus de Saint-Rémy-de-Provence. | van,gogh,nuit,etoilee,1889
+Qui a peint « Les Nymphéas » ? | Claude Monet, série de tableaux du jardin de Giverny, exposée notamment à l'Orangerie à Paris. | monet,nympheas,giverny,orangerie
+Qui a peint « Guernica » ? | Pablo Picasso, en 1937, après le bombardement de la ville basque de Guernica pendant la guerre d'Espagne. | picasso,guernica,1937,espagne
+Qui a peint « Le Radeau de la Méduse » ? | Théodore Géricault, en 1818-1819. Le tableau évoque un naufrage et la survie de l'équipage. | gericault,radeau,meduse,1819
+Qui a peint « La Liberté guidant le peuple » ? | Eugène Delacroix, en 1830, en hommage à la révolution de Juillet. | delacroix,liberte,peuple,1830
+Qu'est-ce que la musique baroque ? | C'est la musique européenne du XVIIe et du début du XVIIIe siècle, avec des compositeurs comme Bach, Vivaldi ou Lully. | baroque,musique,bach,vivaldi,lully
+Qu'est-ce que la musique classique ? | C'est la musique européenne de la seconde moitié du XVIIIe siècle, avec Mozart, Haydn et Beethoven. | classique,musique,mozart,haydn,beethoven
+Qu'est-ce que la musique romantique ? | C'est la musique du XIXe siècle qui valorise l'émotion et la liberté, avec Chopin, Schubert et Berlioz. | romantique,musique,chopin,schubert,berlioz
+Qu'est-ce que le jazz ? | C'est un genre musical né aux États-Unis au début du XXe siècle, issu des traditions afro-américaines, fondé sur l'improvisation et le swing. | jazz,musique,etats,unis,improvisation,swing
+Qu'est-ce que le blues ? | C'est un genre musical afro-américain né dans le sud des États-Unis, basé sur des douleurs personnelles et une forme de répétition musicale. | blues,musique,afro,americain
+Qu'est-ce que le rock ? | C'est un genre musical né aux États-Unis dans les années 1950, fondé sur une guitare électrique, une basse et une batterie. | rock,musique,guitare,electrique
+Qu'est-ce que le rap ? | C'est un genre musical né dans les années 1970 aux États-Unis, caractérisé par la parole rythmée sur une instrumentale. | rap,musique,parole,rythme
+Qu'est-ce que la chanson française ? | C'est un genre musical qui valorise le texte et la voix, avec des artistes comme Édith Piaf, Georges Brassens et Jacques Brel. | chanson,francaise,piaf,brassens,brel
+Qu'est-ce que la musique électronique ? | C'est une musique produite avec des instruments et des logiciels électroniques, comme les synthétiseurs et les boîtes à rythmes. | electronique,musique,synthetiseur
+Qu'est-ce que la photographie ? | C'est l'art et la technique de fixer une image par l'action de la lumière sur un support sensible ou un capteur numérique. | photographie,image,lumiere,capteur
+Qu'est-ce que le cinéma ? | C'est l'art de raconter une histoire par une suite d'images animées, projetées sur un écran. Les frères Lumière en font la première projection publique payante en 1895. | cinema,lumiere,1895,projection
+Qu'est-ce que la Nouvelle Vague ? | C'est un mouvement cinématographique français des années 1950 et 1960, avec Godard, Truffaut et Chabrol, qui renouvelle la mise en scène. | nouvelle,vague,godard,truffaut,chabrol
+Qu'est-ce que le théâtre ? | C'est un art vivant où des acteurs jouent devant un public un texte écrit, appelé pièce, sur une scène. | theatre,art,acteur,pièce,scene
+Qu'est-ce qu'une tragédie ? | C'est une pièce de théâtre qui met en scène un héros confronté à un destin, et qui se termine souvent par une fin malheureuse. | tragedie,theatre,heros,destin
+Qu'est-ce qu'une comédie ? | C'est une pièce de théâtre à visée comique, qui se termine souvent bien et critique les défauts humains. | comedie,theatre,comique

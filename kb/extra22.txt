@@ -1,0 +1,66 @@
+# ---------- Économie et gestion (lycée technologique STMG, bac pro commerce) ----------
+Qu'est-ce qu'une entreprise ? | C'est une organisation qui produit des biens ou des services pour les vendre, en combinant des capitaux, du travail et des moyens techniques. | entreprise,production,service,capital,travail
+Qu'est-ce qu'une société ? | C'est une entreprise dotée d'une personnalité juridique distincte de celle de ses associés, comme une SARL ou une SA. | societe,personnalite,juridique,sarl,sa
+Qu'est-ce qu'une SARL ? | C'est une société à responsabilité limitée, où les associés ne sont responsables des dettes qu'à hauteur de leur apport. | sarl,societe,responsabilite,limitee
+Qu'est-ce qu'une SAS ? | C'est une société par actions simplifiée, très souple dans son organisation, qui peut avoir un seul associé. | sas,societe,actions,simplifiee
+Qu'est-ce qu'un entrepreneur individuel ? | C'est une personne qui exerce une activité en son nom propre, sans créer de société distincte. | entrepreneur,individuel,activite,nom,propre
+Qu'est-ce qu'un chiffre d'affaires ? | C'est le montant total des ventes de biens ou de services réalisées par une entreprise sur une période donnée, hors taxes. | chiffre,affaires,vente,hors,taxes
+Qu'est-ce qu'un bénéfice ? | C'est la différence positive entre les produits et les charges d'une entreprise sur une période. | benefice,produit,charge,resultat
+Qu'est-ce qu'une charge ? | C'est une dépense supportée par l'entreprise pour son activité, comme les salaires, les loyers ou les achats de matières premières. | charge,depense,salaire,loyer
+Qu'est-ce que le seuil de rentabilité ? | C'est le chiffre d'affaires minimal à partir duquel l'entreprise couvre ses charges et ne perd plus d'argent. | seuil,rentabilite,chiffre,affaires,charges
+Qu'est-ce qu'une marge commerciale ? | C'est la différence entre le prix de vente hors taxes et le prix d'achat d'une marchandise. Exemple : achat 60 €, vente 100 € donne une marge de 40 €. | marge,commerciale,achat,vente
+Qu'est-ce que le taux de marque ? | C'est le rapport entre la marge commerciale et le prix de vente hors taxes, exprimé en pourcentage. | taux,marque,marge,prix,vente
+Qu'est-ce que la TVA ? | La taxe sur la valeur ajoutée est un impôt sur la consommation, collecté par les entreprises pour l'État. Le taux normal en France est de 20 %. | tva,taxe,valeur,ajoutee,20
+Qu'est-ce qu'un devis ? | C'est une proposition commerciale écrite qui détaille les prix et les conditions d'une prestation, avant la commande. | devis,proposition,commerciale,prix
+Qu'est-ce qu'une facture ? | C'est un document qui atteste d'une vente et précise le montant dû, la TVA et les conditions de paiement. | facture,vente,montant,tva
+Qu'est-ce qu'un bon de commande ? | C'est un document par lequel un client commande des produits ou des services à un fournisseur, aux conditions acceptées. | bon,commande,client,fournisseur
+Qu'est-ce qu'un bulletin de salaire ? | C'est un document remis chaque mois au salarié, qui détaille le salaire brut, les cotisations sociales et le salaire net. | bulletin,salaire,brut,net,cotisation
+Qu'est-ce que le salaire brut et le salaire net ? | Le salaire brut est la rémunération avant cotisations. Le salaire net est ce qui reste à percevoir après les cotisations salariales et l'impôt à la source. | salaire,brut,net,cotisation
+Qu'est-ce qu'un CDI ? | C'est un contrat de travail à durée indéterminée, la forme la plus courante de l'emploi en France. | cdi,contrat,duree,indeterminee,travail
+Qu'est-ce qu'un CDD ? | C'est un contrat de travail à durée déterminée, conclu pour une période précise ou pour un motif particulier. | cdd,contrat,duree,determinee
+Qu'est-ce que le SMIC ? | C'est le salaire minimum de croissance, le salaire minimum légal en France. Il est revalorisé chaque année. | smic,salaire,minimum,legal
+Qu'est-ce que le marketing ? | C'est l'ensemble des actions qui visent à connaître les besoins des clients et à leur proposer des produits adaptés, grâce aux quatre P : produit, prix, place, promotion. | marketing,produit,prix,place,promotion
+Qu'est-ce que le marketing mix ? | C'est la combinaison des quatre éléments de la stratégie commerciale : produit, prix, distribution (place) et communication (promotion). | marketing,mix,produit,prix,distribution,communication
+Qu'est-ce qu'une étude de marché ? | C'est une analyse des clients, des concurrents et des tendances, qui permet à l'entreprise de décider si son projet est viable. | etude,marche,client,concurrent
+Qu'est-ce qu'un business plan ? | C'est un document qui présente un projet d'entreprise : marché, stratégie, prévisions financières et besoins de financement. | business,plan,projet,previsions,financement
+Qu'est-ce que la fidélisation client ? | C'est l'ensemble des actions qui incitent un client à revenir acheter régulièrement, comme les programmes de points ou un service après-vente de qualité. | fidelisation,client,service,apres,vente
+Qu'est-ce que la vente en ligne ? | C'est la vente de produits ou de services sur internet, via un site web ou une plateforme, avec un paiement en ligne. | vente,ligne,internet,site,paiement
+Qu'est-ce que le e-commerce ? | C'est le commerce électronique, qui regroupe les achats et les ventes réalisés par internet. | commerce,electronique,internet,achat
+Qu'est-ce qu'un stock ? | C'est l'ensemble des marchandises ou des matières qu'une entreprise garde en réserve pour répondre à la demande. | stock,marchandise,reserve,demande
+Qu'est-ce que la gestion des stocks ? | C'est l'organisation des approvisionnements et des réserves pour éviter les ruptures tout en limitant les coûts de stockage. | gestion,stock,approvisionnement,rupture
+Qu'est-ce qu'un fournisseur ? | C'est une entreprise ou une personne qui vend des marchandises ou des services à une autre entreprise. | fournisseur,vente,entreprise
+Qu'est-ce qu'un client ? | C'est une personne ou une entreprise qui achète les produits ou les services d'une entreprise. | client,achat,produit,service
+Qu'est-ce que le service après-vente ? | C'est l'ensemble des prestations proposées après la vente : garantie, réparation, conseil, échange. | service,apres,vente,garantie,reparation
+Qu'est-ce qu'une garantie ? | C'est un engagement du vendeur à réparer ou remplacer un produit défectueux pendant une durée donnée. En France, la garantie légale de conformité dure deux ans. | garantie,vendeur,deux,ans,conformite
+Qu'est-ce que le droit de rétractation ? | C'est le droit du consommateur de renoncer à un achat à distance dans un délai de 14 jours, sans justification. | retractation,consommateur,14,jours,distance
+Qu'est-ce qu'un contrat de vente ? | C'est un accord par lequel un vendeur s'engage à livrer un bien et un acheteur à le payer au prix convenu. | contrat,vente,vendeur,acheteur,prix
+Qu'est-ce qu'un titre de transport ? | C'est un document qui autorise un voyageur à utiliser un moyen de transport sur un trajet et pour une durée donnés. | titre,transport,voyageur,trajet
+Qu'est-ce que l'accueil téléphonique ? | C'est la première relation avec le client par téléphone. Il faut se présenter, écouter, répondre clairement et proposer une solution. | accueil,telephonique,client,ecoute
+Qu'est-ce que la vente conseil ? | C'est une méthode de vente où le vendeur analyse le besoin du client et lui propose le produit le plus adapté. | vente,conseil,besoin,client
+Qu'est-ce qu'un tableau de bord commercial ? | C'est un outil qui regroupe les indicateurs de l'activité : chiffre d'affaires, nombre de ventes, panier moyen, taux de satisfaction. | tableau,bord,commercial,indicateur,chiffre
+Qu'est-ce que le panier moyen ? | C'est le montant moyen dépensé par client lors d'un achat, calculé en divisant le chiffre d'affaires par le nombre de ventes. | panier,moyen,client,chiffre,affaires
+Qu'est-ce que l'inflation pour une entreprise ? | C'est la hausse générale des prix qui augmente les coûts d'achat et peut conduire l'entreprise à revoir ses prix de vente. | inflation,prix,cout,entreprise
+# ---------- Droit et citoyenneté (France) ----------
+Qu'est-ce que la majorité civile ? | En France, la majorité est fixée à 18 ans. À cet âge, une personne peut voter et exercer tous ses droits civils. | majorite,18,ans,civile,vote
+Qu'est-ce que la Constitution ? | C'est la loi fondamentale d'un État, qui organise les pouvoirs publics et garantit les droits des citoyens. La Constitution française actuelle date de 1958. | constitution,loi,fondamentale,1958
+Qu'est-ce que le suffrage universel ? | C'est le droit de vote accordé à tous les citoyens, sans condition de fortune ni de sexe. En France, il est devenu universel masculin en 1848 et féminin en 1944. | suffrage,universel,vote,1848,1944
+Qu'est-ce que le Parlement ? | C'est l'assemblée qui vote les lois en France. Il est composé de l'Assemblée nationale et du Sénat. | parlement,assemblee,senat,loi
+Qu'est-ce que l'Assemblée nationale ? | C'est la chambre basse du Parlement français, dont les 577 députés sont élus au suffrage universel direct pour cinq ans. | assemblee,nationale,deputes,577
+Qu'est-ce que le Sénat ? | C'est la chambre haute du Parlement français, composée de 348 sénateurs élus indirectement par des grands électeurs. | senat,chambre,senateurs,348
+Qu'est-ce que le Conseil constitutionnel ? | C'est l'institution qui veille à la conformité des lois à la Constitution. | conseil,constitutionnel,loi,constitution
+Qu'est-ce que le président de la République ? | C'est le chef de l'État français. Il est élu au suffrage universel direct pour cinq ans depuis 2002. | president,republique,chef,etat,elu,cinq,ans
+Qu'est-ce que le Premier ministre ? | C'est le chef du gouvernement, nommé par le président de la République, qui conduit la politique de la nation. | premier,ministre,gouvernement,chef
+Qu'est-ce que la séparation des pouvoirs ? | C'est la répartition du pouvoir entre le législatif (faire les lois), l'exécutif (les appliquer) et le judiciaire (juger). | separation,pouvoirs,legislatif,executif,judiciaire
+Qu'est-ce que la Déclaration des droits de l'homme et du citoyen ? | Adoptée en 1789, elle affirme la liberté, l'égalité, la propriété, la sûreté et la résistance à l'oppression comme droits naturels et imprescriptibles. | declaration,droits,homme,citoyen,1789
+Qu'est-ce que la présomption d'innocence ? | C'est le principe selon lequel toute personne est considérée comme innocente tant que sa culpabilité n'a pas été établie par un jugement définitif. | presomption,innocence,jugement,culpabilite
+Qu'est-ce qu'un procès pénal ? | C'est une procédure judiciaire qui détermine la culpabilité d'une personne accusée d'une infraction et, le cas échéant, la peine. | proces,penal,infraction,peine
+Qu'est-ce qu'un tribunal ? | C'est un organe juridictionnel chargé de rendre la justice. Les tribunaux se distinguent selon la nature des affaires : civile, pénale ou administrative. | tribunal,justice,juridiction
+Qu'est-ce que la Cour de cassation ? | C'est la plus haute juridiction de l'ordre judiciaire français, qui vérifie que les lois ont été correctement appliquées. | cour,cassation,juridiction,judiciaire
+Qu'est-ce que l'impôt sur le revenu ? | C'est un impôt direct prélevé sur les revenus des personnes physiques, selon un barème progressif. | impot,revenu,direct,progressif
+Qu'est-ce qu'un impôt direct ? | C'est un impôt payé directement par le contribuable sur ses revenus ou son patrimoine, comme l'impôt sur le revenu. | impot,direct,contribuable
+Qu'est-ce qu'un impôt indirect ? | C'est un impôt inclus dans le prix des biens et des services, comme la TVA. | impot,indirect,tva,prix
+Qu'est-ce que la sécurité sociale ? | C'est le système de protection qui couvre les risques de santé, de vieillesse, de famille et d'accidents du travail, financé par les cotisations. | securite,sociale,sante,vieillesse,cotisation
+Qu'est-ce que la retraite par répartition ? | C'est un système où les cotisations des actifs financent immédiatement les pensions des retraités. | retraite,repartition,cotisation,pension
+Qu'est-ce que le chômage indemnisé ? | C'est une allocation versée par Pôle emploi, France Travail, aux personnes qui ont perdu leur emploi et remplissent les conditions. | chomage,allocation,indemnisation,france,travail
+Qu'est-ce que la laïcité ? | C'est le principe de séparation de l'État et des religions. Il garantit la liberté de conscience et la neutralité de l'État. | laicite,separation,etat,religion,neutralite
+Qu'est-ce que la liberté d'expression ? | C'est le droit d'exprimer ses opinions par la parole, l'écrit ou l'image, dans les limites fixées par la loi pour protéger les autres. | liberte,expression,opinion,loi

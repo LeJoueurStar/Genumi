@@ -44,9 +44,9 @@ static const KeyDef KEYS[] = {
   { eadk_key_two,               'x', 'X', '2', "", "" },
   { eadk_key_three, 'y', 'Y', '3', "yÿ", "YŸ" },
   { eadk_key_plus,              'z', 'Z', '+', "", "" },
-  { eadk_key_minus,             ' ', ' ', '-', "", "" },
+  { eadk_key_minus,             ' ', ' ', '-', " @#%&*+/=<>^~$€°²³√π≤≥≈∞_|\\[]{}", "" },
   { eadk_key_zero,              '?', '?', '0', "", "" },
-  { eadk_key_dot,               '.', '!', '.', "", "" },
+  { eadk_key_dot,               '.', '!', '.', ".,;:!?'\"()-…", "" },
   { eadk_key_ee,                '\'', '"', 0,  "", "" },
   { eadk_key_ans,               ',', ';', ',', "", "" },
 };

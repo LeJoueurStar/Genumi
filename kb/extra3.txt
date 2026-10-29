@@ -1,0 +1,97 @@
+# ---------- Sciences de la vie et de la Terre ----------
+Qu'est-ce qu'une cellule ? | La cellule est l'unité de base du vivant : elle est entourée d'une membrane et contient le cytoplasme et, chez les eucaryotes, un noyau. | cellule,vivant,membrane,cytoplasme,noyau
+Quelle est la différence entre cellule animale et végétale ? | La cellule végétale possède en plus une paroi cellulosique, des chloroplastes et souvent une grande vacuole. | cellule,vegetale,animale,paroi,chloroplaste
+Qu'est-ce que l'ADN ? | L'ADN est une molécule en double hélice qui porte l'information génétique. Il est formé de nucléotides : A, T, C et G. | adn,genetique,nucleotide,helice,information
+Qu'est-ce qu'un gène ? | Un gène est une portion d'ADN qui code pour une protéine ou un ARN fonctionnel. | gene,adn,proteine,information
+Qu'est-ce qu'un chromosome ? | C'est une structure formée d'ADN et de protéines, qui porte les gènes. L'espèce humaine a 46 chromosomes, soit 23 paires. | chromosome,adn,gene,paire
+Qu'est-ce que la mitose ? | C'est la division cellulaire qui donne deux cellules filles identiques à la cellule mère, avec le même nombre de chromosomes. | mitose,division,cellulaire,cellule
+Qu'est-ce que la méiose ? | C'est la division qui forme les gamètes : elle divise par deux le nombre de chromosomes, ce qui permet de garder un nombre constant à chaque génération. | meiose,gamete,division,chromosome
+Qu'est-ce qu'un allèle ? | C'est une version d'un gène. Un individu possède deux allèles pour chaque gène, un de chaque parent. | allele,gene,version,parent
+Qu'est-ce que le génotype et le phénotype ? | Le génotype est l'ensemble des allèles d'un individu. Le phénotype est l'ensemble des caractères observables qui en découlent. | genotype,phenotype,allele,caractere
+Qu'est-ce qu'un allèle dominant ? | C'est un allèle qui s'exprime dès qu'il est présent, même avec un allèle récessif. | dominant,recessif,allele,phenotype
+Comment fonctionne la transmission des caractères ? | Les lois de Mendel décrivent la transmission des caractères héréditaires : chaque parent transmet un allèle au hasard à ses descendants. | mendel,heredite,transmission,caractere
+Qu'est-ce que la synthèse des protéines ? | C'est la fabrication d'une protéine à partir de l'ADN : transcription de l'ADN en ARN messager, puis traduction de l'ARN en chaîne d'acides aminés. | proteine,transcription,traduction,arn
+Qu'est-ce qu'une mutation ? | C'est une modification accidentelle de la séquence de l'ADN. Elle peut être sans effet, bénéfique ou nocive. | mutation,adn,modification,genetique
+Qu'est-ce que la sélection naturelle ? | C'est le mécanisme par lequel les individus les mieux adaptés à leur milieu se reproduisent davantage, et transmettent leurs caractères. | selection,naturelle,evolution,adaptation
+Qu'est-ce que l'évolution des espèces ? | C'est la modification progressive des caractères héréditaires des populations au fil des générations, sous l'effet des mutations et de la sélection naturelle. | evolution,espece,population,generation
+Qu'est-ce que la photosynthèse ? | C'est le processus par lequel les plantes utilisent l'énergie lumineuse pour transformer l'eau et le dioxyde de carbone en glucose et en dioxygène. | photosynthese,plante,lumiere,glucose,oxygene
+Qu'est-ce que la respiration cellulaire ? | C'est la dégradation du glucose en présence de dioxygène, qui libère l'énergie nécessaire aux cellules sous forme d'ATP. | respiration,cellulaire,glucose,energie,atp
+Qu'est-ce que l'ATP ? | L'ATP (adénosine triphosphate) est la molécule qui stocke et transporte l'énergie utilisable par la cellule. | atp,energie,cellule,molecule
+Qu'est-ce qu'un écosystème ? | C'est l'ensemble formé par une communauté d'êtres vivants (biocénose) et son milieu physique (biotope), qui interagissent. | ecosysteme,biocenose,biotope,milieu
+Qu'est-ce qu'un producteur primaire ? | C'est un organisme qui produit sa matière organique à partir de matière minérale, grâce à la photosynthèse. Les plantes en sont l'exemple. | producteur,primaire,photosynthese,matiere
+Qu'est-ce qu'un réseau trophique ? | C'est l'ensemble des relations alimentaires entre les espèces d'un écosystème, représentées par des chaînes alimentaires interconnectées. | reseau,trophique,chaine,alimentaire
+Qu'est-ce qu'un décomposeur ? | C'est un organisme, comme une bactérie ou un champignon, qui dégrade la matière organique morte et la recycle en matière minérale. | decomposeur,bacterie,champignon,recyclage
+Qu'est-ce que la tectonique des plaques ? | C'est la théorie selon laquelle la lithosphère est découpée en plaques qui se déplacent sur l'asthénosphère, provoquant séismes et volcanisme. | tectonique,plaque,lithosphere,asthenosphere
+Qu'est-ce qu'un séisme ? | C'est une libération brutale d'énergie accumulée dans la croûte terrestre, qui produit des ondes sismiques. Son intensité se mesure sur l'échelle de Richter ou de Mercalli. | seisme,sismique,ondes,richter
+Qu'est-ce qu'un magma ? | C'est une roche fondue, située sous la surface, qui contient du gaz dissous. Quand il sort en surface, il devient de la lave. | magma,roche,fondue,lave
+Qu'est-ce qu'une roche sédimentaire ? | C'est une roche formée par l'accumulation et la consolidation de sédiments, souvent au fond des mers. | roche,sedimentaire,sediment,consolidation
+Qu'est-ce qu'une roche métamorphique ? | C'est une roche transformée par la chaleur et la pression, sans fusion complète. | roche,metamorphique,pression,chaleur
+Qu'est-ce que le cycle de l'eau ? | C'est la circulation permanente de l'eau entre l'océan, l'atmosphère, les continents et les êtres vivants : évaporation, condensation, précipitations, ruissellement. | cycle,eau,evaporation,precipitation
+Qu'est-ce qu'un système immunitaire ? | C'est l'ensemble des défenses de l'organisme contre les agents pathogènes : barrières naturelles, cellules immunitaires et anticorps. | immunitaire,defense,anticorps,pathogene
+Qu'est-ce qu'un anticorps ? | C'est une protéine produite par les lymphocytes B, qui se fixe spécifiquement à un antigène pour le neutraliser. | anticorps,antigene,lymphocyte,proteine
+Qu'est-ce qu'un vaccin ? | C'est une préparation qui présente un antigène inoffensif à l'organisme, pour qu'il produise des anticorps et une mémoire immunitaire. | vaccin,antigene,immunite,memoire
+Qu'est-ce qu'un antibiotique ? | C'est une substance qui détruit ou bloque la croissance des bactéries. Il n'agit pas contre les virus. | antibiotique,bacterie,virus,infection
+Qu'est-ce que le système nerveux ? | C'est le système qui reçoit, traite et transmet les informations : il est formé du système nerveux central (encéphale, moelle épinière) et périphérique. | nerveux,encephale,moelle,information
+Qu'est-ce qu'un neurone ? | C'est une cellule nerveuse qui transmet des messages électriques (influx nerveux) grâce à ses prolongements, les dendrites et l'axone. | neurone,influx,nerveux,axone,dendrite
+Qu'est-ce qu'une synapse ? | C'est la zone de contact entre deux neurones, où le message passe par des neurotransmetteurs chimiques. | synapse,neurotransmetteur,neurone,message
+Qu'est-ce que la digestion ? | C'est la transformation mécanique et chimique des aliments en nutriments assimilables, grâce aux enzymes digestives. | digestion,aliment,nutriment,enzyme
+Qu'est-ce qu'une enzyme ? | C'est une protéine qui accélère une réaction chimique dans l'organisme sans être modifiée. | enzyme,proteine,catalyseur,reaction
+Qu'est-ce que la circulation sanguine ? | Le sang est propulsé par le cœur dans les artères, puis revient au cœur par les veines. Les échanges se font dans les capillaires. | sang,coeur,artere,veine,capillaire
+Qu'est-ce que l'hématose ? | C'est l'échange gazeux au niveau des poumons : le sang charge du dioxygène et rejette du dioxyde de carbone. | hematose,poumon,dioxygene,sang
+Qu'est-ce qu'une hormone ? | C'est une substance chimique sécrétée par une glande endocrine, qui agit à distance sur des organes cibles via le sang. | hormone,glande,endocrine,sang
+Qu'est-ce que l'homéostasie ? | C'est la capacité de l'organisme à maintenir ses paramètres internes constants (température, glycémie, pH) malgré les variations du milieu. | homeostasie,equilibre,temperature,glycemie
+Qu'est-ce que la glycémie ? | C'est la concentration de glucose dans le sang. Elle est régulée par l'insuline et le glucagon. | glycemie,glucose,insuline,glucagon
+# ---------- Histoire et géographie ----------
+Quelles sont les grandes périodes de l'histoire ? | L'Antiquité (jusqu'en 476), le Moyen Âge (476-1492), l'époque moderne (1492-1789), l'époque contemporaine (depuis 1789). | periode,antiquite,moyen,age,moderne,contemporaine
+Quand a commencé la Révolution française ? | La Révolution française commence en 1789 : prise de la Bastille le 14 juillet, puis abolition des privilèges. | revolution,francaise,1789,bastille
+Quand a eu lieu la Première Guerre mondiale ? | Elle dure de 1914 à 1918, avec l'armistice du 11 novembre 1918. | guerre,mondiale,1914,1918,armistice
+Quand a eu lieu la Seconde Guerre mondiale ? | Elle dure de 1939 à 1945, avec la capitulation allemande en mai 1945 et la fin de la guerre contre le Japon en septembre 1945. | guerre,mondiale,1939,1945
+Qu'est-ce que la Déclaration des droits de l'homme et du citoyen ? | C'est un texte adopté en 1789 qui affirme la liberté, l'égalité et la souveraineté de la nation. | declaration,droits,homme,citoyen,1789
+Qu'est-ce que la laïcité ? | C'est le principe de séparation entre l'État et les religions, qui garantit la liberté de conscience. En France, elle est fixée par la loi de 1905. | laicite,etat,religion,1905
+Qu'est-ce que la décolonisation ? | C'est le processus par lequel les colonies ont obtenu leur indépendance, surtout après 1945. | decolonisation,colonie,independance
+Qu'est-ce que la guerre froide ? | C'est la rivalité entre les États-Unis et l'URSS, de 1947 à 1991, sans affrontement militaire direct entre les deux superpuissances. | guerre,froide,urss,etats,unis
+Qu'est-ce que l'Union européenne ? | C'est une union économique et politique de pays européens, créée à partir de la Communauté économique européenne. Elle compte 27 États membres. | union,europeenne,ue,pays,membres
+Qu'est-ce que le mercantilisme ? | C'est une doctrine économique du XVIIe siècle qui vise à enrichir l'État par l'accumulation de métaux précieux et un excédent commercial. | mercantilisme,economie,commerce,xviie
+Qu'est-ce que la révolution industrielle ? | C'est la transformation économique et sociale du XVIIIe et du XIXe siècle, marquée par la machine à vapeur, les usines et l'essor des villes. | revolution,industrielle,machine,vapeur,usine
+Qu'est-ce qu'un régime totalitaire ? | C'est un régime qui contrôle tous les aspects de la vie sociale et politique, par un parti unique et une idéologie d'État. | totalitaire,regime,parti,ideologie
+Qu'est-ce qu'une démocratie ? | C'est un régime où le pouvoir appartient au peuple, qui le exerce par des représentants élus, avec des libertés et une séparation des pouvoirs. | democratie,regime,peuple,elections,liberte
+Qu'est-ce que la séparation des pouvoirs ? | C'est la répartition du pouvoir entre trois institutions : le législatif (faire les lois), l'exécutif (les appliquer) et le judiciaire (juger). | separation,pouvoirs,legislatif,executif,judiciaire
+Qu'est-ce que la Constitution de la Ve République ? | C'est la constitution française adoptée en 1958, qui établit un régime semi-présidentiel. | constitution,cinquieme,republique,1958
+Qu'est-ce que le climat ? | C'est l'ensemble des conditions météorologiques moyennes d'une région sur une longue période (au moins 30 ans). | climat,meteorologie,moyenne,region
+Qu'est-ce que l'effet de serre ? | C'est le phénomène par lequel certains gaz de l'atmosphère (vapeur d'eau, CO2, méthane) retiennent une partie de la chaleur émise par la Terre. | effet,serre,gaz,co2,chaleur
+Qu'est-ce que la mondialisation ? | C'est l'intensification des échanges de biens, de capitaux, d'informations et de personnes à l'échelle de la planète. | mondialisation,echanges,globalisation
+Qu'est-ce qu'une métropole ? | C'est une grande ville qui exerce une influence économique, culturelle et politique sur un vaste espace environnant. | metropole,ville,influence,territoire
+Qu'est-ce que l'urbanisation ? | C'est la croissance de la population des villes par rapport à celle des campagnes. | urbanisation,ville,population,campagne
+Qu'est-ce qu'un désert ? | C'est une zone où les précipitations sont très faibles (moins de 250 mm par an environ), et où l'évaporation dépasse largement les pluies. | desert,precipitation,aridite
+Qu'est-ce que la démographie ? | C'est l'étude statistique des populations : natalité, mortalité, migrations, structure par âge. | demographie,population,natalite,mortalite
+Qu'est-ce que l'IDH ? | L'indice de développement humain combine espérance de vie, niveau d'éducation et revenu. Il varie entre 0 et 1. | idh,developpement,humain,indice
+# ---------- Français et philosophie ----------
+Qu'est-ce qu'une métaphore ? | C'est une figure de style qui désigne une chose par le nom d'une autre, sans outil de comparaison. Exemple : « Cet homme est un lion ». | metaphore,figure,style,comparaison
+Qu'est-ce qu'une comparaison ? | C'est une figure de style qui rapproche deux éléments grâce à un outil comme « comme », « tel », « semblable à ». | comparaison,figure,style
+Qu'est-ce qu'une personnification ? | C'est une figure de style qui donne des caractères humains à un objet, un animal ou une idée. | personnification,figure,style,humain
+Qu'est-ce qu'une antithèse ? | C'est une figure de style qui oppose deux termes ou deux idées. Exemple : « Petit à petit, l'oiseau fait son nid ». | antithese,opposition,figure,style
+Qu'est-ce qu'un oxymore ? | C'est une figure de style qui associe deux termes contradictoires. Exemple : « une obscure clarté ». | oxymore,contradiction,figure,style
+Qu'est-ce qu'une hyperbole ? | C'est une figure de style qui exagère la réalité pour produire un effet. Exemple : « Je meurs de faim ». | hyperbole,exageration,figure,style
+Qu'est-ce qu'une anaphore ? | C'est la répétition d'un mot ou d'un groupe de mots en début de phrases ou de vers successifs. | anaphore,repetition,figure,style
+Qu'est-ce qu'un registre ? | C'est la tonalité d'un texte : tragique, comique, lyrique, épique, satirique, polémique, didactique. | registre,tonalite,texte,litterature
+Qu'est-ce qu'un narrateur ? | C'est celui qui raconte l'histoire. Il peut être interne (il participe à l'histoire) ou externe (il ne participe pas). | narrateur,recit,interne,externe
+Qu'est-ce qu'un récit à la première personne ? | Le narrateur est un personnage de l'histoire et utilise « je ». | recit,premiere,personne,narrateur
+Qu'est-ce que le discours indirect ? | C'est la reprise des paroles de quelqu'un en les intégrant à la phrase, sans guillemets, avec des changements de temps et de pronoms. | discours,indirect,paroles,phrase
+Qu'est-ce que le discours direct ? | C'est la reproduction exacte des paroles de quelqu'un, généralement entre guillemets ou introduite par un tiret. | discours,direct,paroles,guillemets
+Qu'est-ce qu'un sujet grammatical ? | C'est le mot ou groupe de mots qui fait l'action ou dont on dit quelque chose. Il s'accorde avec le verbe. | sujet,grammaire,verbe,accord
+Qu'est-ce qu'une proposition subordonnée ? | C'est une proposition qui dépend d'une autre, la principale, et qui ne peut pas s'employer seule. | subordonnee,proposition,principale,grammaire
+Qu'est-ce que le mode subjonctif ? | C'est un mode verbal utilisé notamment après certaines expressions de doute, de volonté ou d'émotion. Exemple : « Il faut que tu viennes ». | subjonctif,mode,verbe,doute
+Qu'est-ce qu'un complément d'objet direct ? | C'est le complément qui se rattache directement au verbe, sans préposition. Exemple : « Il mange une pomme ». | complement,objet,direct,verbe
+Qu'est-ce que la philosophie ? | C'est la recherche rationnelle sur les grandes questions : la connaissance, la morale, la politique, l'existence, la liberté. | philosophie,recherche,question,raison
+Qu'est-ce que la liberté selon Kant ? | Kant définit la liberté comme l'autonomie : obéir à la loi que l'on se donne à soi-même par la raison. | kant,liberte,autonomie,raison,loi
+Qu'est-ce que le doute méthodique de Descartes ? | C'est la méthode qui consiste à rejeter toute connaissance qui peut être mise en doute, pour atteindre une vérité certaine. | descartes,doute,methode,verite
+Qu'est-ce que la conscience selon Freud ? | Freud distingue le conscient, le préconscient et l'inconscient, qui influence nos pensées et nos actes sans que nous le sachions. | freud,conscience,inconscient
+Qu'est-ce que le contrat social selon Rousseau ? | C'est l'accord par lequel les individus abandonnent une partie de leur liberté naturelle pour former une volonté générale qui garantit leur liberté civile. | rousseau,contrat,social,volonte,generale
+Qu'est-ce que le relativisme ? | C'est la thèse selon laquelle les valeurs, les vérités ou les croyances dépendent d'un contexte culturel, historique ou personnel. | relativisme,valeurs,verite,culture
+# ---------- Anglais (vocabulaire de base) ----------
+Comment dit-on « bonjour » en anglais ? | On dit « hello » ou « good morning » le matin, « good afternoon » l'après-midi, « good evening » le soir. | anglais,bonjour,hello,salutation
+Comment dit-on « merci » en anglais ? | On dit « thank you » ou « thanks ». Pour répondre : « you're welcome ». | anglais,merci,thank,you,remerciement
+Comment dit-on « je ne sais pas » en anglais ? | On dit « I don't know ». | anglais,savoir,know,negation
+Comment dit-on « je m'appelle » en anglais ? | On dit « my name is » ou « I'm ». Exemple : « My name is Tom ». | anglais,nom,appelle,name
+Comment dit-on « aujourd'hui » en anglais ? | On dit « today ». « Yesterday » veut dire hier et « tomorrow » veut dire demain. | anglais,aujourd,hui,today,yesterday,tomorrow
+Comment dit-on « une maison » en anglais ? | On dit « a house ». Le pluriel est « houses ». | anglais,maison,house,vocabulaire

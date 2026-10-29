@@ -1,0 +1,93 @@
+# ---------- Lycée général : sciences économiques et sociales (SES) ----------
+Qu'est-ce que l'économie ? | C'est la science qui étudie la façon dont les sociétés produisent, répartissent et consomment des biens et des services face à la rareté des ressources. | economie,rarete,production,consommation
+Qu'est-ce que la rareté ? | C'est le fait que les ressources sont limitées alors que les besoins sont illimités, ce qui oblige à faire des choix. | rarete,ressource,besoin,choix
+Qu'est-ce que le coût d'opportunité ? | C'est la valeur de l'option la plus avantageuse à laquelle on renonce quand on fait un choix. | cout,opportunite,choix,renoncement
+Qu'est-ce que le PIB ? | Le produit intérieur brut mesure la valeur de la production de biens et services réalisée sur un territoire pendant une période donnée, généralement un an. | pib,produit,interieur,brut,production
+Qu'est-ce que l'inflation ? | C'est une hausse générale et durable des prix. Elle réduit le pouvoir d'achat de la monnaie. | inflation,prix,hausse,pouvoir,achat
+Qu'est-ce que le chômage au sens du BIT ? | Est chômeur une personne sans emploi, disponible immédiatement pour travailler, et qui cherche activement un emploi. | chomage,bit,emploi,recherche
+Qu'est-ce que le taux de chômage ? | C'est la part des chômeurs dans la population active : (nombre de chômeurs / population active) × 100. | taux,chomage,population,active
+Qu'est-ce que la croissance économique ? | C'est l'augmentation du PIB d'une année sur l'autre, souvent exprimée en pourcentage. | croissance,economique,pib,pourcentage
+Qu'est-ce que la monnaie ? | C'est un moyen d'échange, une unité de compte et une réserve de valeur, acceptée par tous dans une économie. | monnaie,echange,unite,compte,valeur
+Qu'est-ce qu'une banque centrale ? | C'est l'institution qui émet la monnaie et met en oeuvre la politique monétaire pour contrôler l'inflation. En zone euro, c'est la Banque centrale européenne. | banque,centrale,monetaire,inflation,bce
+Qu'est-ce que la politique budgétaire ? | C'est l'utilisation des dépenses et des recettes publiques pour influencer l'activité économique. | politique,budgetaire,depenses,recettes
+Qu'est-ce que le multiplicateur keynésien ? | C'est l'effet multiplicateur d'une dépense publique sur le revenu : une hausse des dépenses augmente la demande et donc la production. | keynes,multiplicateur,depense,demande
+Qu'est-ce que le marché ? | C'est le lieu, réel ou virtuel, où se rencontrent l'offre et la demande pour fixer un prix et une quantité échangée. | marche,offre,demande,prix
+Qu'est-ce que l'équilibre de marché ? | C'est la situation où l'offre et la demande sont égales, ce qui fixe le prix d'équilibre et la quantité échangée. | equilibre,marche,offre,demande,prix
+Qu'est-ce que la loi de l'offre et de la demande ? | Quand le prix d'un bien augmente, la demande diminue et l'offre augmente. Le marché tend vers un prix d'équilibre. | loi,offre,demande,prix
+Qu'est-ce qu'une externalité ? | C'est un effet d'une activité sur des tiers, sans compensation : externalité positive (vaccination) ou négative (pollution). | externalite,effet,pollution,tiers
+Qu'est-ce qu'un monopole ? | C'est une situation de marché où une seule entreprise est présente et peut fixer ses prix plus haut que dans un marché concurrentiel. | monopole,entreprise,concurrence,prix
+Qu'est-ce que la concurrence parfaite ? | C'est un marché avec de nombreux acheteurs et vendeurs, des produits identiques et une information parfaite, où aucun acteur ne fixe seul le prix. | concurrence,parfaite,marche,prix
+Qu'est-ce que la mondialisation économique ? | C'est l'intégration croissante des économies nationales par le commerce, les investissements et la circulation des capitaux. | mondialisation,economie,commerce,capitaux
+Qu'est-ce qu'un avantage comparatif ? | C'est la capacité d'un pays à produire un bien à un coût d'opportunité plus faible que les autres, ce qui justifie sa spécialisation. | avantage,comparatif,specialisation,commerce
+Qu'est-ce que le protectionnisme ? | C'est la politique qui protège la production nationale par des droits de douane, des quotas ou des subventions. | protectionnisme,douane,quota,subvention
+Qu'est-ce qu'un inégalité de revenus ? | C'est une différence dans la répartition du revenu entre les ménages. Elle se mesure notamment par le coefficient de Gini. | inegalite,revenu,gini,repartition
+Qu'est-ce que le coefficient de Gini ? | C'est un indicateur entre 0 et 1 qui mesure les inégalités : 0 signifie égalité parfaite, 1 signifie inégalité extrême. | gini,coefficient,inegalite
+Qu'est-ce que la pauvreté monétaire ? | C'est la situation d'un ménage dont le revenu est inférieur à 60 % du revenu médian du pays. | pauvrete,monetaire,revenu,mediane
+Qu'est-ce que la sociologie ? | C'est la science qui étudie les faits sociaux, les groupes, les institutions et les comportements collectifs. | sociologie,social,groupe,institution
+Qu'est-ce que la socialisation ? | C'est le processus par lequel un individu intègre les normes, valeurs et comportements de la société, notamment par la famille, l'école et les pairs. | socialisation,norme,valeur,famille,ecole
+Qu'est-ce qu'une catégorie socioprofessionnelle (CSP) ? | C'est une classification de la population active selon la profession exercée et le statut dans l'emploi, utilisée par l'INSEE. | categorie,socioprofessionnelle,csp,insee
+Qu'est-ce que la mobilité sociale ? | C'est le changement de position sociale d'un individu ou d'un groupe par rapport à celle de ses parents. | mobilite,sociale,position,parents
+Qu'est-ce que la reproduction sociale selon Bourdieu ? | C'est la transmission des inégalités d'une génération à l'autre, notamment par le capital culturel, qui favorise la réussite scolaire des enfants les plus dotés. | bourdieu,reproduction,sociale,capital,culturel
+Qu'est-ce qu'un capital culturel ? | C'est l'ensemble des savoirs, diplômes, goûts et manières d'être acquis par la famille et l'école, qui facilitent la réussite sociale. | capital,culturel,savoir,diplome
+Qu'est-ce que l'anomie selon Durkheim ? | C'est un état de la société où les normes sont affaiblies ou absentes, ce qui conduit à une crise et à une augmentation des comportements déviants. | durkheim,anomie,norme,societe
+Qu'est-ce que le suicide selon Durkheim ? | Durkheim montre que le taux de suicide est un fait social qui dépend de l'intégration et de la régulation de la société, et non seulement de causes individuelles. | durkheim,suicide,fait,social,integration
+Qu'est-ce que la méthode weberienne ? | Weber propose la compréhension : il faut comprendre les motifs et le sens que les individus donnent à leurs actions, grâce à l'idéal-type. | weber,comprehension,idealtype,action
+Qu'est-ce qu'un idéal-type ? | C'est un modèle construit par le chercheur qui accentue les traits essentiels d'un phénomène social, pour en faciliter l'analyse. | ideal,type,weber,modele
+# ---------- Lycée général : histoire, géographie, géopolitique (HGGSP) ----------
+Qu'est-ce que la géopolitique ? | C'est l'étude des rapports de pouvoir entre États et acteurs, en lien avec l'espace, les ressources et les frontières. | geopolitique,pouvoir,etat,espace,ressource
+Qu'est-ce qu'une frontière ? | C'est une ligne qui délimite le territoire d'un État, avec une valeur juridique et politique. | frontiere,territoire,etat,limite
+Qu'est-ce que la souveraineté ? | C'est le pouvoir d'un État de décider lui-même, sans contrainte extérieure, sur son territoire et sa population. | souverainete,etat,pouvoir,territoire
+Qu'est-ce qu'une organisation internationale ? | C'est une structure formée par plusieurs États pour coopérer sur un domaine : ONU, OTAN, OMC, Union africaine. | organisation,internationale,onu,otan,omc
+Qu'est-ce que l'ONU ? | L'Organisation des Nations unies, créée en 1945, vise à maintenir la paix et la sécurité internationales. Son Conseil de sécurité compte cinq membres permanents. | onu,nations,unies,1945,securite
+Qu'est-ce que le Conseil de sécurité de l'ONU ? | C'est l'organe de l'ONU chargé de la paix : il compte quinze membres, dont cinq permanents (États-Unis, Russie, Chine, France, Royaume-Uni) disposant d'un droit de veto. | conseil,securite,onu,veto,permanent
+Qu'est-ce que la guerre froide ? | C'est la rivalité entre les États-Unis et l'URSS de 1947 à 1991, sans affrontement militaire direct, mais avec une course aux armements. | guerre,froide,usa,urss,rivalite
+Qu'est-ce que le rideau de fer ? | C'est la frontière idéologique et physique qui séparait l'Europe de l'Ouest des pays communistes d'Europe de l'Est pendant la guerre froide. | rideau,fer,europe,communisme
+Qu'est-ce que la mondialisation géopolitique ? | C'est l'interdépendance croissante des États, des marchés et des sociétés, qui modifie les rapports de puissance. | mondialisation,interdependance,puissance
+Qu'est-ce qu'une puissance émergente ? | C'est un pays dont la croissance économique et l'influence internationale augmentent rapidement, comme la Chine, l'Inde ou le Brésil. | puissance,emergente,croissance,influence
+Qu'est-ce que le développement durable ? | C'est un développement qui répond aux besoins du présent sans compromettre la capacité des générations futures à répondre aux leurs. | developpement,durable,generation,besoin
+Qu'est-ce que le sous-développement ? | C'est une situation où le niveau de vie, l'éducation, la santé et les infrastructures restent faibles par rapport aux pays développés. | sous,developpement,niveau,vie,sante
+Qu'est-ce que la francophonie ? | C'est l'ensemble des personnes et des pays qui utilisent le français, avec une organisation internationale, l'OIF. | francophonie,francais,oif,pays
+Qu'est-ce que la dissuasion nucléaire ? | C'est une stratégie militaire qui vise à empêcher une agression en menaçant de riposter avec des armes nucléaires. | dissuasion,nucleaire,strategie,riposte
+# ---------- Lycée général : humanités et philosophie (terminale) ----------
+Qu'est-ce que la conscience morale ? | C'est la capacité à distinguer le bien du mal et à juger nos actes selon des principes moraux. | conscience,morale,bien,mal,jugement
+Qu'est-ce que l'éthique ? | C'est la réflexion sur la morale : elle cherche à déterminer ce qui est bon à faire et sur quels principes fonder nos décisions. | ethique,morale,reflexion,principe
+Qu'est-ce que l'utilitarisme ? | C'est la doctrine selon laquelle l'action juste est celle qui produit le plus grand bonheur pour le plus grand nombre (Bentham, Mill). | utilitarisme,bonheur,bentham,mill
+Qu'est-ce que le devoir selon Kant ? | Kant définit le devoir comme l'obligation d'agir par respect pour la loi morale, indépendamment des conséquences et des désirs. | kant,devoir,loi,morale,respect
+Qu'est-ce que l'impératif catégorique ? | C'est le principe moral de Kant : agis seulement d'après la maxime qui peut être érigée en loi universelle. | imperatif,categorique,kant,universel
+Qu'est-ce que l'État selon Hobbes ? | Hobbes soutient que, à l'état de nature, l'homme est un loup pour l'homme. Il faut un pouvoir souverain pour garantir la paix et la sécurité. | hobbes,etat,nature,souverain,paix
+Qu'est-ce que la liberté selon Sartre ? | Sartre affirme que l'homme est condamné à être libre : il n'a pas de nature prédéfinie et doit assumer la responsabilité de ses choix. | sartre,liberte,responsabilite,choix
+Qu'est-ce que l'existentialisme ? | C'est un courant philosophique qui affirme que l'existence précède l'essence : l'homme se définit par ses actes et sa liberté. | existentialisme,existence,essence,liberte
+Qu'est-ce que la vérité selon Platon ? | Platon oppose le monde sensible, changeant et trompeur, au monde des Idées, stable et vrai, accessible par la raison. | platon,verite,idee,sensible,raison
+Qu'est-ce que l'allégorie de la caverne ? | C'est un récit de Platon où des prisonniers voient seulement des ombres sur un mur. Le philosophe est celui qui sort de la caverne pour accéder au vrai. | allegorie,caverne,platon,ombre,verite
+Qu'est-ce que la raison selon Descartes ? | C'est la faculté de juger et de distinguer le vrai du faux, qui est la chose du monde la mieux partagée. | descartes,raison,verite,jugement
+Qu'est-ce que la science selon Popper ? | Popper affirme qu'une théorie est scientifique si elle est réfutable, c'est-à-dire si on peut imaginer une expérience qui la contredirait. | popper,science,refutable,theorie
+Qu'est-ce que le travail selon Marx ? | Marx analyse le travail comme une activité qui transforme la nature, mais qui devient aliénante quand le travailleur ne maîtrise ni le produit ni son temps. | marx,travail,aliene,production
+Qu'est-ce que l'aliénation ? | C'est la perte de maîtrise de soi ou de son activité, quand l'individu se sent étranger à ce qu'il produit ou à ce qu'il fait. | alienation,perte,maitrise,travail
+Qu'est-ce que le désir selon Spinoza ? | Spinoza définit le désir comme l'effort pour persévérer dans son être, conscient de cet effort. Connaître les causes de ses désirs permet de les comprendre et de gagner en liberté. | spinoza,desir,liberte,connaissance
+Qu'est-ce que la justice ? | C'est la vertu qui consiste à donner à chacun ce qui lui est dû. Les philosophes distinguent la justice légale, distributive et commutative. | justice,vertu,droit,equite
+Qu'est-ce que le bonheur selon Aristote ? | Pour Aristote, le bonheur (eudaimonia) est l'accomplissement de la fonction propre de l'homme, par une vie vertueuse et raisonnable. | aristote,bonheur,eudaimonia,vertu
+Qu'est-ce que la technique selon Heidegger ? | Heidegger montre que la technique transforme notre rapport au monde en le réduisant à une ressource disponible. | heidegger,technique,monde,ressource
+Qu'est-ce que la culture ? | C'est l'ensemble des savoirs, croyances, arts, coutumes et valeurs qui caractérisent une société et se transmettent entre ses membres. | culture,savoir,croyance,coutume,valeur
+Qu'est-ce que l'ethnocentrisme ? | C'est la tendance à juger les autres cultures à partir des critères de sa propre culture, considérée comme la norme. | ethnocentrisme,culture,jugement,norme
+Qu'est-ce que la tolérance ? | C'est l'acceptation de l'existence et de la différence des opinions, des croyances et des modes de vie des autres, dans le respect de la loi. | tolerance,acceptation,difference,respect
+# ---------- Lycée général : numérique et sciences informatiques (NSI) ----------
+Qu'est-ce qu'une fonction récursive ? | C'est une fonction qui s'appelle elle-même, avec un cas de base qui arrête les appels. Exemple : factorielle(n) = n × factorielle(n − 1). | recursive,recursivite,fonction,cas,base
+Qu'est-ce que la pile d'appels ? | C'est la structure qui mémorise les appels de fonctions en cours d'exécution. Une récursion trop profonde peut la saturer. | pile,appel,fonction,recursion
+Qu'est-ce qu'un arbre binaire ? | C'est une structure hiérarchique où chaque noeud a au plus deux enfants, appelés fils gauche et fils droit. | arbre,binaire,noeud,enfant
+Qu'est-ce qu'un graphe ? | C'est un ensemble de sommets reliés par des arêtes (ou arcs s'ils sont orientés). Il modélise des réseaux, des routes ou des relations. | graphe,sommet,arete,reseau
+Qu'est-ce qu'un parcours en largeur ? | C'est un parcours d'un graphe qui visite d'abord tous les sommets à distance 1, puis 2, etc., en utilisant une file. | parcours,largeur,graphe,file
+Qu'est-ce qu'un parcours en profondeur ? | C'est un parcours qui explore un chemin jusqu'au bout avant de revenir en arrière, en utilisant une pile ou la récursion. | parcours,profondeur,graphe,pile
+Qu'est-ce que l'algorithme de Dijkstra ? | C'est un algorithme qui calcule le plus court chemin depuis un sommet vers tous les autres, dans un graphe à arêtes de poids positifs. | dijkstra,plus,court,chemin,graphe
+Qu'est-ce que la notion de poids d'une arête ? | C'est une valeur associée à une arête, par exemple une distance ou un coût, utilisée dans les calculs de chemin optimal. | poids,arete,graphe,cout
+Qu'est-ce qu'un type abstrait de données ? | C'est la description des opérations possibles sur une structure (ajouter, supprimer, consulter), indépendamment de son implémentation. | type,abstrait,donnees,operation
+Qu'est-ce qu'une classe en programmation orientée objet ? | C'est un modèle qui décrit les attributs et les méthodes d'un ensemble d'objets. Un objet est une instance de cette classe. | classe,objet,instance,attribut,methode
+Qu'est-ce que l'héritage en POO ? | C'est un mécanisme par lequel une classe fille reprend les attributs et méthodes d'une classe mère, en pouvant les compléter. | heritage,classe,mere,fille,poo
+Qu'est-ce que l'encapsulation ? | C'est le regroupement des données et des méthodes dans un objet, avec une protection de l'accès aux données internes. | encapsulation,donnees,methode,objet
+Qu'est-ce qu'un fichier CSV ? | C'est un fichier texte où les valeurs sont séparées par des virgules ou des points-virgules, une ligne par enregistrement. | csv,fichier,texte,separateur
+Qu'est-ce que le format JSON ? | C'est un format texte d'échange de données structuré en paires clé-valeur et en listes, très utilisé sur le web. | json,format,donnees,cle,valeur
+Qu'est-ce qu'une API ? | C'est une interface qui permet à deux logiciels de communiquer, en exposant des fonctions ou des données selon des règles définies. | api,interface,logiciel,communication
+Qu'est-ce que la programmation par événements ? | C'est un style de programmation où le programme réagit aux événements (clic, saisie, réception de données) par des fonctions appelées gestionnaires. | evenement,programmation,gestionnaire,clic
+Qu'est-ce qu'un algorithme glouton ? | C'est un algorithme qui fait à chaque étape le choix localement optimal, sans revenir sur ses décisions. | glouton,algorithme,choix,optimal
+Qu'est-ce que la programmation dynamique ? | C'est une méthode qui résout un problème en découpant en sous-problèmes et en mémorisant leurs résultats pour ne pas les recalculer. | dynamique,programmation,sous,probleme,memoire
+Qu'est-ce que la notion de machine de Turing ? | C'est un modèle abstrait de calcul, formé d'un ruban, d'une tête de lecture-écriture et d'une table d'états, qui définit la notion de calculable. | turing,machine,calcul,calculable
+Qu'est-ce qu'un problème NP-complet ? | C'est un problème dont une solution peut être vérifiée rapidement, mais pour lequel on ne connaît pas d'algorithme rapide qui la trouve dans tous les cas. | np,complet,probleme,verification

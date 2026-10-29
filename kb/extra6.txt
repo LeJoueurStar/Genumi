@@ -1,0 +1,83 @@
+# ---------- Bac professionnel : électrotechnique et énergie ----------
+Qu'est-ce que la tension alternative triphasée ? | C'est un système de trois tensions sinusoïdales décalées de 120°. En France, le réseau triphasé est en 400 V entre phases et 230 V entre phase et neutre. | triphase,tension,alternative,400,230
+Qu'est-ce qu'un régime de neutre ? | C'est la façon dont le neutre du réseau est relié à la terre : TT, TN ou IT. Il détermine les règles de protection des personnes. | neutre,regime,terre,protection,tt,tn,it
+Qu'est-ce qu'un différentiel ? | C'est un dispositif qui coupe le courant lorsqu'il détecte une fuite entre phase et terre, généralement pour 30 mA, pour protéger les personnes. | differentiel,fuite,terre,30,ma,protection
+Qu'est-ce que la puissance active, réactive et apparente ? | La puissance active P (en watts) est celle qui produit un travail. La puissance apparente S (en VA) est P/cos φ. La puissance réactive Q (en var) est liée au déphasage. | puissance,active,reactive,apparente,cos,phi
+Qu'est-ce que le facteur de puissance ? | C'est le rapport entre la puissance active et la puissance apparente : cos φ = P / S. Un facteur proche de 1 est souhaitable. | facteur,puissance,cos,phi
+Qu'est-ce qu'un moteur asynchrone triphasé ? | C'est le moteur le plus courant dans l'industrie. Le rotor tourne légèrement moins vite que le champ tournant du stator, ce qui crée le glissement. | moteur,asynchrone,triphase,rotor,stator,glissement
+Qu'est-ce que la vitesse de synchronisme d'un moteur ? | C'est la vitesse du champ tournant du stator : n = 60 × f / p, avec f la fréquence en hertz et p le nombre de paires de pôles. | synchronisme,vitesse,frequence,paires,poles
+Qu'est-ce qu'un variateur de vitesse ? | C'est un appareil électronique qui fait varier la fréquence et la tension d'alimentation d'un moteur, pour régler sa vitesse. | variateur,vitesse,frequence,moteur
+Qu'est-ce qu'un démarreur progressif ? | C'est un appareil qui augmente progressivement la tension d'un moteur au démarrage, pour limiter l'appel de courant et les chocs mécaniques. | demarreur,progressif,courant,choc
+Qu'est-ce qu'un contacteur ? | C'est un interrupteur commandé à distance par une bobine électromagnétique, capable de couper des courants importants. | contacteur,interrupteur,bobine,commande
+Qu'est-ce qu'un relais thermique ? | C'est un dispositif qui protège un moteur contre les surcharges, en coupant le circuit si l'intensité dépasse une valeur réglée pendant un certain temps. | relais,thermique,surcharge,protection,moteur
+Qu'est-ce qu'un schéma de câblage ? | C'est un plan qui montre les connexions réelles entre les appareils d'une installation, avec les numéros de borne et les couleurs des fils. | schema,cablage,connexion,borne
+Qu'est-ce qu'une installation électrique domestique ? | C'est l'ensemble des circuits, protections et prises qui distribuent l'électricité dans un logement, depuis le tableau électrique. | installation,electrique,domestique,tableau,circuit
+Qu'est-ce qu'un tableau électrique ? | C'est le coffret qui regroupe les protections (disjoncteurs, différentiels) et répartit l'électricité vers les circuits. | tableau,electrique,disjoncteur,differentiel
+Qu'est-ce que l'habilitation électrique ? | C'est l'autorisation délivrée à une personne formée pour intervenir sur des installations électriques, selon son niveau de risque (B, H, BR, BC). | habilitation,electrique,securite,risque
+Qu'est-ce que la consignation d'une installation ? | C'est la séquence de sécurité qui coupe, verrouille et vérifie l'absence de tension avant une intervention sur un circuit. | consignation,securite,verrouillage,tension
+Qu'est-ce qu'un câble de section 2,5 mm² ? | C'est un câble dont la surface de cuivre est de 2,5 mm². Cette section permet typiquement un circuit de prises de 16 A. | cable,section,mm2,cuivre,circuit
+Qu'est-ce qu'un câble de puissance ? | C'est un câble conçu pour transporter un courant important, avec une isolation adaptée à la tension et à la température. | cable,puissance,isolation,courant
+Qu'est-ce que l'éclairage LED ? | C'est un éclairage qui utilise des diodes électroluminescentes : il consomme peu, dure longtemps et ne chauffe pas beaucoup. | led,eclairage,diode,consommation
+Qu'est-ce qu'un onduleur photovoltaïque ? | C'est un appareil qui transforme le courant continu produit par les panneaux solaires en courant alternatif utilisable sur le réseau. | onduleur,photovoltaique,continu,alternatif
+Qu'est-ce qu'une borne de recharge pour véhicule électrique ? | C'est un appareil qui fournit l'énergie électrique pour recharger la batterie d'un véhicule, en courant alternatif (recharge lente ou accélérée) ou continu (recharge rapide). | borne,recharge,vehicule,electrique
+# ---------- Bac professionnel : maintenance et mécanique ----------
+Qu'est-ce que la maintenance conditionnelle ? | C'est une maintenance déclenchée par la mesure de l'état réel de l'équipement (vibrations, température, usure), pour n'intervenir qu'au bon moment. | maintenance,conditionnelle,etat,mesure
+Qu'est-ce que la maintenance systématique ? | C'est une maintenance réalisée à intervalles fixes, en fonction du temps ou du nombre de cycles, selon un plan établi. | maintenance,systematique,intervalle,plan
+Qu'est-ce qu'un plan de maintenance ? | C'est le document qui liste les opérations, leur périodicité, les outils et les pièces à prévoir pour assurer le bon fonctionnement d'un équipement. | plan,maintenance,periodicite,operation
+Qu'est-ce qu'un lubrifiant ? | C'est un produit (huile ou graisse) qui réduit les frottements entre les pièces en mouvement et limite l'usure et l'échauffement. | lubrifiant,huile,graisse,frottement,usure
+Qu'est-ce que la lubrification ? | C'est l'action d'apporter un lubrifiant entre des surfaces en contact pour réduire le frottement et l'usure. | lubrification,lubrifiant,frottement
+Qu'est-ce que l'usure d'une pièce mécanique ? | C'est la perte progressive de matière d'une surface, due aux frottements, aux chocs ou à la corrosion. | usure,piece,frottement,corrosion
+Qu'est-ce que la corrosion ? | C'est la dégradation d'un métal par réaction chimique avec son environnement, comme l'oxydation du fer en rouille. | corrosion,oxydation,rouille,metal
+Qu'est-ce qu'une courroie trapézoïdale ? | C'est une courroie à section en trapèze qui s'enfonce dans la gorge de la poulie, ce qui augmente l'adhérence et la transmission de puissance. | courroie,trapezoidale,poulie,adherence
+Qu'est-ce qu'un joint d'étanchéité ? | C'est une pièce souple placée entre deux surfaces pour empêcher le passage d'un fluide ou de poussières. | joint,etancheite,fluide,surface
+Qu'est-ce qu'un palier lisse ? | C'est un support de rotation d'un arbre sans éléments roulants, avec un film d'huile qui sépare l'arbre du coussinet. | palier,lisse,arbre,coussinet
+Qu'est-ce qu'un ressort de compression ? | C'est un ressort qui se raccourcit sous l'effet d'une force et restitue cette énergie en revenant à sa longueur initiale. | ressort,compression,force,energie
+Qu'est-ce qu'une clavette ? | C'est une petite pièce mécanique qui assure la liaison en rotation entre un arbre et un moyeu. | clavette,arbre,moyeu,liaison
+Qu'est-ce qu'un circlips ? | C'est un anneau élastique qui se place dans une gorge pour bloquer axialement une pièce sur un arbre ou dans un alésage. | circlips,anneau,gorge,blocage
+Qu'est-ce qu'un vis à tête hexagonale ? | C'est une vis dont la tête est à six pans, serrée avec une clé plate ou une douille. Elle sert à assembler deux pièces par serrage. | vis,hexagonale,tete,serrage
+Qu'est-ce que le couple de serrage ? | C'est le moment de force appliqué pour serrer un écrou ou une vis. Il s'exprime en newton-mètres (N·m) et se règle à la clé dynamométrique. | couple,serrage,newton,metre,cle
+Qu'est-ce qu'un moment de force ? | C'est le produit de la force par la distance au point de rotation : M = F × d, en newton-mètres. | moment,force,distance,rotation
+Qu'est-ce qu'une liaison pivot en mécanique ? | C'est une liaison qui autorise une seule rotation entre deux pièces autour d'un axe. | liaison,pivot,rotation,axe
+Qu'est-ce qu'une liaison glissière ? | C'est une liaison qui autorise une seule translation entre deux pièces, le long d'un axe. | liaison,glissiere,translation,axe
+Qu'est-ce qu'un schéma cinématique ? | C'est une représentation simplifiée d'un mécanisme avec des symboles normalisés pour les liaisons, qui montre comment les pièces se déplacent. | schema,cinematique,liaison,mecanisme
+Qu'est-ce qu'une chaîne cinématique ? | C'est l'ensemble des solides et liaisons qui transmettent un mouvement d'un moteur vers un organe de sortie. | chaine,cinematique,mouvement,moteur
+Qu'est-ce qu'un rapport de transmission ? | C'est le rapport entre la vitesse de sortie et la vitesse d'entrée : i = n_sortie / n_entree. Pour un engrenage, i = Z_entree / Z_sortie. | rapport,transmission,vitesse,engrenage
+Qu'est-ce que la puissance mécanique ? | C'est le produit du couple par la vitesse angulaire : P = C × oméga, en watts, avec oméga en radians par seconde. | puissance,mecanique,couple,vitesse,watt
+# ---------- Bac professionnel : systèmes numériques ----------
+Qu'est-ce qu'un bus informatique ? | C'est un ensemble de conducteurs partagés qui transportent les données, les adresses et les commandes entre les composants d'un ordinateur. | bus,informatique,donnees,adresse,commande
+Qu'est-ce qu'un bus de terrain industriel ? | C'est un réseau de communication qui relie capteurs, actionneurs et automates dans une installation, comme Profibus, Modbus ou CAN. | bus,terrain,industriel,profibus,modbus,can
+Qu'est-ce que la conversion binaire-décimal ? | Chaque bit a un poids égal à une puissance de 2. La valeur décimale est la somme des poids des bits à 1. Exemple : 10110 = 16 + 4 + 2 = 22. | conversion,binaire,decimal,poids
+Qu'est-ce qu'une addition binaire ? | On additionne bit à bit en propageant la retenue, comme en décimal. Exemple : 101 + 011 = 1000 (5 + 3 = 8). | addition,binaire,retenue
+Qu'est-ce que le complément à deux ? | C'est la façon de représenter un nombre négatif sur n bits : on inverse tous les bits puis on ajoute 1. Exemple : sur 8 bits, −5 vaut 11111011. | complement,deux,negatif,binaire
+Qu'est-ce qu'un registre dans un processeur ? | C'est une petite mémoire très rapide située dans le processeur, qui stocke temporairement une donnée ou une instruction. | registre,processeur,memoire,donnee
+Qu'est-ce qu'un compteur binaire ? | C'est un circuit logique qui compte en binaire à chaque impulsion d'horloge, sur un nombre de bits donné. | compteur,binaire,horloge,impulsion
+Qu'est-ce qu'une bascule ? | C'est un circuit logique à deux états stables, capable de mémoriser un bit à partir d'un signal d'entrée. | bascule,memoire,bit,logique
+Qu'est-ce qu'une horloge dans un circuit numérique ? | C'est un signal périodique qui cadence les opérations d'un circuit synchrone. La fréquence de l'horloge fixe la vitesse de traitement. | horloge,signal,periodique,frequence
+Qu'est-ce qu'un multiplexeur ? | C'est un circuit qui choisit une entrée parmi plusieurs et la transmet vers une sortie, selon des signaux de sélection. | multiplexeur,selection,entree,sortie
+Qu'est-ce qu'un codeur ? | C'est un circuit qui convertit une entrée codée sur une ligne active en un code binaire plus court. | codeur,code,binaire,ligne
+Qu'est-ce qu'un afficheur 7 segments ? | C'est un afficheur formé de sept segments lumineux qui, allumés selon une combinaison, affichent les chiffres de 0 à 9. | afficheur,segment,chiffre,led
+# ---------- Collège : bases générales ----------
+Qu'est-ce qu'un nombre premier ? | C'est un entier supérieur à 1 qui n'a que deux diviseurs : 1 et lui-même. Exemples : 2, 3, 5, 7, 11. | premier,diviseur,entier
+Qu'est-ce qu'un nombre relatif ? | C'est un nombre positif ou négatif, comme +5 ou −3. | relatif,positif,negatif,entier
+Comment calculer avec des nombres négatifs ? | Moins par moins donne plus, moins par plus donne moins. Exemple : (−3) × (−4) = 12 et (−3) × 4 = −12. | negatif,multiplication,signe,relatif
+Qu'est-ce qu'une puissance de dix ? | C'est un produit de facteurs égaux à 10. Exemple : 10³ = 1 000 et 10⁻² = 0,01. | puissance,dix,nombre
+Qu'est-ce que la priorité des opérations ? | On calcule d'abord les parenthèses, puis les puissances, puis les multiplications et divisions, et enfin les additions et soustractions. | priorite,operation,calcul,ordre
+Qu'est-ce qu'une fraction égale ? | Deux fractions sont égales si on multiplie le numérateur et le dénominateur par le même nombre. Exemple : 2/3 = 4/6. | fraction,egale,equivalente,simplifier
+Qu'est-ce qu'un nombre décimal ? | C'est un nombre qui peut s'écrire avec un nombre fini de chiffres après la virgule. Exemple : 0,75 = 3/4. | decimal,virgule,nombre
+Qu'est-ce qu'un périmètre ? | C'est la longueur du contour d'une figure. Le périmètre d'un rectangle de côtés L et l est 2 × (L + l). | perimetre,contour,rectangle,figure
+Qu'est-ce que l'aire d'un carré ? | C'est le produit du côté par lui-même : A = c × c = c². Exemple : un carré de 4 cm de côté a une aire de 16 cm². | aire,carre,surface,cote
+Qu'est-ce qu'un angle droit ? | C'est un angle qui mesure 90°, comme celui formé par deux côtés perpendiculaires. | angle,droit,90,perpendiculaire
+Qu'est-ce que la somme des angles d'un triangle ? | Elle est toujours égale à 180°. | triangle,angle,somme,180
+Qu'est-ce qu'un triangle isocèle ? | C'est un triangle qui a deux côtés de même longueur, et donc deux angles de même mesure. | triangle,isocele,cote,angle
+Qu'est-ce qu'un triangle équilatéral ? | C'est un triangle qui a ses trois côtés de même longueur et ses trois angles de 60°. | triangle,equilateral,60,cote
+Qu'est-ce qu'un cercle ? | C'est l'ensemble des points situés à la même distance (le rayon) d'un point appelé centre. | cercle,centre,rayon,diametre
+Qu'est-ce que le diamètre d'un cercle ? | C'est le segment qui passe par le centre et relie deux points du cercle. Il vaut deux fois le rayon. | diametre,cercle,rayon,centre
+Qu'est-ce qu'une médiane d'un triangle ? | C'est la droite qui relie un sommet au milieu du côté opposé. Les trois médianes se coupent en un point appelé centre de gravité. | mediane,triangle,sommet,milieu
+Qu'est-ce qu'une hauteur d'un triangle ? | C'est la droite passant par un sommet et perpendiculaire au côté opposé. | hauteur,triangle,sommet,perpendiculaire
+Qu'est-ce qu'une symétrie axiale ? | C'est une transformation qui donne l'image d'une figure par rapport à une droite, appelée axe de symétrie. Chaque point et son image sont à égale distance de l'axe. | symetrie,axiale,axe,image
+Qu'est-ce qu'une translation ? | C'est une transformation qui déplace tous les points d'une figure dans la même direction, sur la même distance, sans la tourner. | translation,deplacement,figure
+Qu'est-ce qu'une rotation ? | C'est une transformation qui fait tourner une figure autour d'un point fixe, appelé centre, d'un angle donné. | rotation,centre,angle,figure
+Qu'est-ce qu'une proportionnalité ? | Deux grandeurs sont proportionnelles si leur rapport est constant. Exemple : 3 cahiers coûtent 6 € ; 5 cahiers coûteront 10 €. | proportionnalite,rapport,constant
+Qu'est-ce qu'une vitesse moyenne ? | C'est la distance parcourue divisée par la durée : v = d / t. Exemple : 120 km en 2 h donne 60 km/h. | vitesse,moyenne,distance,duree
+Qu'est-ce qu'une moyenne arithmétique ? | C'est la somme des valeurs divisée par leur nombre. Exemple : la moyenne de 10, 12 et 14 est 12. | moyenne,arithmetique,somme
+Qu'est-ce qu'une médiane en statistique ? | C'est la valeur centrale d'une série ordonnée : la moitié des valeurs lui est inférieure et l'autre moitié supérieure. | mediane,statistique,serie,ordonnee

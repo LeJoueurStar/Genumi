@@ -5,6 +5,7 @@
 #include <stdint.h>
 #include "engine.h"
 #include "kb.h"
+#include "dict.h"
 
 #define Q_MAX 160
 
@@ -623,6 +624,38 @@ static void answer_core(const char *raw, char *out, int cap, bool art) {
     return;
   }
   if (math_answer(q, out, cap)) return;
+
+  {
+    /* Traduction français <-> anglais : « traduis bonjour en anglais », « traduction de chat » */
+    static const char *const MK[] = {" traduis ", " traduire ", " traduction de ", " traduction ", " traduit "};
+    const char *p = NULL;
+    for (unsigned i = 0; i < sizeof MK / sizeof MK[0] && !p; i++) {
+      const char *f = strstr(q, MK[i]);
+      if (f) p = f + strlen(MK[i]);
+    }
+    if (p) {
+      bool to_en = !(has(q, " en francais") || has(q, " en french") || has(q, " to french"));
+      if (has(q, " en anglais") || has(q, " to english")) to_en = true;
+      char text[200];
+      int n = 0;
+      const char *end = strstr(p, " en ");
+      while (*p == ' ') p++;
+      if (!strncmp(p, "de ", 3)) p += 3;
+      const char *stop = end ? end : p + strlen(p);
+      while (p < stop && n < 190) text[n++] = *p++;
+      text[n] = 0;
+      while (n > 0 && text[n - 1] == ' ') text[--n] = 0;
+      if (n > 0) {
+        char tr[300];
+        if (dict_translate(text, to_en, tr, sizeof tr)) {
+          put(out, cap, "Traduction : ");
+          add(out, cap, tr);
+          add(out, cap, ".");
+          return;
+        }
+      }
+    }
+  }
 
   {
     /* « table de 9 », « table de 6 jusqu à 100 », puis « suite » */

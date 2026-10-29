@@ -1,0 +1,58 @@
+# ---------- Santé et corps humain ----------
+Qu'est-ce que le squelette ? | C'est l'ensemble des os du corps humain, qui soutient le corps, protège les organes et permet les mouvements. L'adulte en a 206. | squelette,os,206,soutien
+Qu'est-ce qu'un os ? | C'est un organe rigide, formé de tissu osseux, qui contient la moelle osseuse où se fabriquent les cellules du sang. | os,tissu,osseux,moelle
+Qu'est-ce que les muscles ? | Ce sont des tissus capables de se contracter pour produire des mouvements. Il existe des muscles squelettiques, lisses et cardiaques. | muscle,contraction,mouvement,squelettique
+Qu'est-ce qu'une articulation ? | C'est une zone de contact entre deux os, qui permet un mouvement plus ou moins libre, comme le genou ou l'épaule. | articulation,os,mouvement,genou,epaule
+Qu'est-ce que le cœur ? | C'est un muscle creux qui pompe le sang dans tout le corps. Il comporte quatre cavités : deux oreillettes et deux ventricules. | coeur,muscle,sang,oreillette,ventricule
+Qu'est-ce que la tension artérielle ? | C'est la pression exercée par le sang sur la paroi des artères. Une valeur normale est proche de 12/8 (en cmHg) ou de 120/80 mmHg. | tension,arterielle,pression,mmhg
+Qu'est-ce que les globules rouges ? | Ce sont des cellules du sang qui transportent le dioxygène grâce à l'hémoglobine. | globule,rouge,sang,hemoglobine,dioxygene
+Qu'est-ce que les globules blancs ? | Ce sont des cellules du sang qui participent à la défense de l'organisme contre les infections. | globule,blanc,sang,defense,infection
+Qu'est-ce que les plaquettes ? | Ce sont de petites cellules du sang qui participent à la coagulation et à la cicatrisation. | plaquette,sang,coagulation,cicatrisation
+Qu'est-ce que le plasma sanguin ? | C'est la partie liquide du sang, dans laquelle flottent les cellules, et qui transporte les nutriments et les déchets. | plasma,sang,liquide,nutriment
+Qu'est-ce que le système digestif ? | C'est l'ensemble des organes qui transforment les aliments en nutriments : bouche, œsophage, estomac, intestin grêle, gros intestin. | digestif,estomac,intestin,oesophage,nutriment
+Qu'est-ce que le foie ? | C'est un organe qui produit la bile, stocke le glycogène et élimine de nombreuses substances toxiques du sang. | foie,bile,glycogene,toxique
+Qu'est-ce que le pancréas ? | C'est un organe qui produit des enzymes digestives et des hormones, dont l'insuline, qui régulent la glycémie. | pancreas,enzyme,insuline,glycemie
+Qu'est-ce que les reins ? | Ce sont des organes qui filtrent le sang pour produire l'urine et éliminer les déchets, tout en régulant l'eau et les sels. | rein,filtre,urine,dechet
+Qu'est-ce que le système respiratoire ? | C'est l'ensemble des organes qui assurent les échanges gazeux : nez, pharynx, trachée, bronches et poumons. | respiratoire,poumon,trachee,bronche,gazeux
+Qu'est-ce que le diaphragme ? | C'est un muscle situé sous les poumons, qui se contracte pour faire entrer l'air dans les poumons pendant l'inspiration. | diaphragme,muscle,inspiration,poumon
+Qu'est-ce qu'un vaccin ? | C'est une préparation qui présente un antigène inoffensif à l'organisme, pour qu'il produise des anticorps et une mémoire immunitaire. | vaccin,antigene,immunite,anticorps
+Qu'est-ce que la grippe ? | C'est une infection respiratoire causée par le virus de la grippe, avec fièvre, courbatures et fatigue. Le vaccin antigrippal est recommandé à certaines personnes. | grippe,virus,fievre,vaccin
+Qu'est-ce que le rhume ? | C'est une infection virale bénigne des voies respiratoires supérieures, avec écoulement nasal, mal de gorge et toux. | rhume,virus,nez,gorge,toux
+Qu'est-ce qu'une bactérie ? | C'est un micro-organisme unicellulaire sans noyau, présent partout. Certaines sont utiles, d'autres sont pathogènes. | bacterie,micro,organisme,unicellulaire,pathogene
+Qu'est-ce qu'un virus ? | C'est un agent infectieux très simple, qui ne peut se reproduire qu'à l'intérieur d'une cellule hôte. Les antibiotiques n'agissent pas contre les virus. | virus,infectieux,cellule,antibiotique
+Qu'est-ce qu'un champignon microscopique ? | C'est un organisme eucaryote qui se développe sous forme de filaments (hyphes) ou de levures, comme la levure de boulanger. | champignon,microscopique,levure,hyphe
+Qu'est-ce que la fièvre ? | C'est une élévation de la température corporelle au-dessus de 38 °C, souvent signe d'une infection ou d'une inflammation. | fievre,temperature,infection
+Qu'est-ce qu'une maladie chronique ? | C'est une maladie de longue durée, qui nécessite souvent un suivi régulier, comme le diabète ou l'asthme. | maladie,chronique,duree,suivi,diabete,asthme
+Qu'est-ce que le diabète ? | C'est une maladie où la glycémie reste trop élevée, par manque d'insuline (type 1) ou par résistance à celle-ci (type 2). | diabete,glycemie,insuline,type
+Qu'est-ce que l'hypertension ? | C'est une élévation durable de la tension artérielle, qui augmente le risque cardiovasculaire et doit être surveillée. | hypertension,tension,arterielle,cardiovasculaire
+Qu'est-ce que l'asthme ? | C'est une maladie inflammatoire chronique des bronches, qui provoque des crises de toux, de sifflements et d'essoufflement. | asthme,bronche,inflammation,crise
+Qu'est-ce que le sommeil ? | C'est un état naturel de repos, indispensable à la récupération du corps et du cerveau. Un adulte a besoin d'environ 7 à 9 heures par nuit. | sommeil,repos,nuit,heure
+Qu'est-ce qu'une alimentation équilibrée ? | C'est une alimentation qui apporte les nutriments en quantités adaptées : glucides, lipides, protéines, vitamines et minéraux, avec beaucoup de fruits et légumes. | alimentation,equilibre,nutriment,glucide,lipide,proteine
+Qu'est-ce que les glucides ? | Ce sont des nutriments qui fournissent l'énergie rapidement, comme le sucre, l'amidon et les fibres. | glucide,nutriment,energie,sucre,amidon
+Qu'est-ce que les lipides ? | Ce sont des nutriments qui fournissent beaucoup d'énergie et sont nécessaires à certaines vitamines et membranes cellulaires. | lipide,nutriment,energie,graisse
+Qu'est-ce que les protéines ? | Ce sont des nutriments indispensables à la construction et au renouvellement des tissus. Elles sont formées d'acides aminés. | proteine,nutriment,tissu,acide,amine
+Qu'est-ce que les vitamines ? | Ce sont des micronutriments indispensables en petites quantités, qui participent au fonctionnement de l'organisme. Exemple : la vitamine C. | vitamine,micronutriment,organisme
+Qu'est-ce que les minéraux ? | Ce sont des micronutriments indispensables, comme le calcium, le fer, le potassium ou le magnésium. | mineral,micronutriment,calcium,fer,potassium
+Qu'est-ce que l'IMC ? | L'indice de masse corporelle est le rapport entre la masse en kilogrammes et le carré de la taille en mètres : IMC = m / t². | imc,indice,masse,corporelle,taille
+Qu'est-ce qu'une activité physique régulière ? | C'est une activité qui sollicite le corps, comme la marche rapide, le vélo ou la natation, pratiquée régulièrement pour la santé. | activite,physique,marche,velo,natation
+Qu'est-ce que les premiers secours ? | Ce sont les gestes immédiats à réaliser en attendant les secours : protéger, alerter, secourir. En cas d'urgence, on appelle le 15 (SAMU) ou le 112. | secours,urgence,samu,112,15
+Qu'est-ce que le 112 ? | C'est le numéro d'urgence européen, valable en France et dans les pays de l'Union européenne, pour joindre les secours. | 112,urgence,europe,secours
+Qu'est-ce que le 15 ? | C'est le numéro du SAMU, service d'aide médicale urgente, pour les urgences médicales en France. | 15,samu,urgence,medicale
+Qu'est-ce que le 18 ? | C'est le numéro des sapeurs-pompiers en France, pour les incendies, les accidents et les secours. | 18,pompiers,incendie,secours
+Qu'est-ce que le 17 ? | C'est le numéro de la police nationale en France, pour les situations de sécurité publique. | 17,police,securite
+Qu'est-ce que la réanimation cardio-pulmonaire ? | C'est une technique de secours qui combine massage cardiaque et insufflations pour maintenir la circulation et la respiration d'une personne en arrêt cardiaque. | reanimation,cardio,pulmonaire,massage,cardiaque
+Qu'est-ce qu'un défibrillateur ? | C'est un appareil qui envoie une décharge électrique au cœur en arrêt cardiaque, pour rétablir un rythme efficace. Il est utilisé avec un massage cardiaque. | defibrillateur,coeur,arret,cardiaque,decharge
+# ---------- Sport ----------
+Qu'est-ce que l'athlétisme ? | C'est un ensemble d'épreuves de course, de saut et de lancer, comme le 100 mètres, le saut en longueur ou le lancer de javelot. | athletisme,course,saut,lancer
+Qu'est-ce que le marathon ? | C'est une course à pied de 42,195 km, initialement inspirée de la légende du messager de Marathon. | marathon,course,42,195,km
+Qu'est-ce que les Jeux olympiques ? | Ce sont des compétitions sportives internationales, organisées tous les quatre ans, dont les origines remontent à la Grèce antique. | jeux,olympiques,grece,quatre,ans
+Qu'est-ce que le Tour de France ? | C'est une course cycliste par étapes, organisée chaque été depuis 1903, qui dure environ trois semaines. | tour,france,cyclisme,1903,etapes
+Qu'est-ce que le rugby ? | C'est un sport d'équipe de contact, où le ballon ovale se joue à la main et au pied, avec des essais marqués en touchant le ballon derrière la ligne. | rugby,equipe,ballon,ovale,essai
+Qu'est-ce que le handball ? | C'est un sport collectif où deux équipes de sept joueurs (dont le gardien) se disputent un ballon, qu'il faut lancer dans le but adverse. | handball,equipe,ballon,but
+Qu'est-ce que le volley-ball ? | C'est un sport collectif où deux équipes de six joueurs se séparent par un filet et doivent envoyer le ballon dans le camp adverse. | volley,ball,filet,equipe
+Qu'est-ce que le basket-ball ? | C'est un sport collectif où deux équipes de cinq joueurs marquent des paniers en envoyant le ballon dans un cerceau. | basket,ball,panier,equipe
+Qu'est-ce que la natation ? | C'est un sport qui consiste à se déplacer dans l'eau par des mouvements des bras et des jambes, selon quatre nages : crawl, dos, brasse et papillon. | natation,nage,crawl,brasse,papillon
+Qu'est-ce que le judo ? | C'est un art martial japonais, fondé sur la projection et l'immobilisation de l'adversaire, pratiqué dans un tapis appelé tatami. | judo,art,martial,japon,tatami
+Qu'est-ce que le tennis ? | C'est un sport de raquette où deux joueurs ou deux équipes s'échangent une balle au-dessus d'un filet. Les tournois majeurs sont Roland-Garros, Wimbledon, l'US Open et l'Open d'Australie. | tennis,raquette,filet,roland,garros,wimbledon
+Qu'est-ce que la Coupe du monde de rugby ? | C'est la compétition mondiale de rugby à XV, organisée tous les quatre ans. La France l'a organisée en 2023. | coupe,monde,rugby,2023
+Qu'est-ce que le fair-play ? | C'est un ensemble de règles morales qui guident le comportement des sportifs : respect des règles, de l'adversaire et des arbitres. | fair,play,respect,regle,sport

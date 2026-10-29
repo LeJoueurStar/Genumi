@@ -1,0 +1,66 @@
+# ---------- Histoire : repères du lycée ----------
+Qu'est-ce que la Renaissance ? | C'est un mouvement culturel né en Italie au XVe siècle, qui redécouvre les textes antiques et valorise l'homme, l'art et les sciences. | renaissance,humanisme,italie,antiquite
+Qu'est-ce que la Réforme protestante ? | C'est un mouvement religieux lancé par Luther en 1517, qui conteste l'autorité du pape et conduit à la création de nouvelles Églises. | reforme,protestante,luther,1517,eglise
+Qu'est-ce que l'édit de Nantes ? | C'est un édit signé par Henri IV en 1598, qui accorde aux protestants la liberté de culte dans certaines villes. Il est révoqué par Louis XIV en 1685. | edit,nantes,henri,protestants,1598
+Qu'est-ce que l'absolutisme ? | C'est une forme de monarchie où le roi concentre tous les pouvoirs, comme sous Louis XIV, qui affirme « L'État, c'est moi ». | absolutisme,monarchie,louis,roi
+Qu'est-ce que les Lumières ? | C'est un mouvement intellectuel du XVIIIe siècle qui défend la raison, la tolérance, la liberté et l'esprit critique. Voltaire, Montesquieu et Rousseau en sont des figures. | lumieres,raison,tolerance,voltaire,montesquieu
+Qu'est-ce que la Déclaration d'indépendance américaine ? | Adoptée en 1776, elle proclame l'indépendance des treize colonies britanniques d'Amérique et affirme des droits naturels. | independance,americaine,1776,colonies
+Qu'est-ce que le Premier Empire ? | C'est le régime de Napoléon Ier, proclamé empereur en 1804, qui réforme l'administration et le droit avec le Code civil. | premier,empire,napoleon,1804,code,civil
+Qu'est-ce que le congrès de Vienne ? | C'est une réunion de 1814-1815 qui réorganise l'Europe après la chute de Napoléon, selon le principe de l'équilibre entre les grandes puissances. | congres,vienne,1815,europe,equilibre
+Qu'est-ce que la Commune de Paris ? | C'est un gouvernement révolutionnaire installé à Paris en 1871, réprimé dans le sang par l'armée en mai 1871. | commune,paris,1871,revolution
+Qu'est-ce que la IIIe République ? | C'est le régime politique qui s'installe en France de 1870 à 1940, avec un Parlement élu et des lois sur l'école laïque et gratuite. | troisieme,republique,1870,1940,parlement
+Qu'est-ce que la loi de 1881 sur l'école ? | Elle rend l'enseignement primaire public gratuit, et la loi de 1882 le rend obligatoire et laïque. | ecole,gratuite,obligatoire,laique,1882
+Qu'est-ce que l'impérialisme colonial ? | C'est la domination politique et économique de grandes puissances sur d'autres territoires, notamment en Afrique et en Asie au XIXe siècle. | imperialisme,colonial,afrique,asie
+Qu'est-ce que la Conférence de Berlin de 1884-1885 ? | Elle organise le partage de l'Afrique entre les puissances européennes, sans aucun représentant africain. | conference,berlin,afrique,partage
+Qu'est-ce que l'Entente et la Triple-Alliance ? | Avant 1914, deux systèmes d'alliances s'opposent en Europe : la Triple-Alliance (Allemagne, Autriche-Hongrie, Italie) et la Triple-Entente (France, Royaume-Uni, Russie). | alliance,entente,europe,1914
+Qu'est-ce que le traité de Versailles ? | Signé en 1919, il impose à l'Allemagne la responsabilité de la guerre, des réparations et des pertes territoriales. | versailles,traite,1919,allemagne,reparations
+Qu'est-ce que la Société des Nations (SDN) ? | C'est une organisation internationale créée en 1920 pour maintenir la paix, qui n'a pas réussi à empêcher la Seconde Guerre mondiale. | societe,nations,sdn,1920
+Qu'est-ce que la crise de 1929 ? | C'est une crise économique mondiale déclenchée par le krach boursier de Wall Street en 1929, qui entraîne chômage et faillites. | crise,1929,krach,wall,street,chomage
+Qu'est-ce que le New Deal ? | C'est un ensemble de réformes économiques et sociales menées par Franklin Roosevelt aux États-Unis à partir de 1933 pour sortir de la crise. | new,deal,roosevelt,1933,reforme
+Qu'est-ce que le Front populaire ? | C'est une coalition de gauche qui gagne les élections de 1936 en France et adopte les congés payés et la semaine de 40 heures. | front,populaire,1936,conges,payes
+Qu'est-ce que la Shoah ? | C'est le génocide des Juifs d'Europe par le régime nazi pendant la Seconde Guerre mondiale, qui a causé la mort de six millions de personnes. | shoah,genocide,juifs,nazi
+Qu'est-ce que la Résistance française ? | C'est l'ensemble des mouvements qui combattent l'occupation allemande et le régime de Vichy pendant la Seconde Guerre mondiale. | resistance,occupation,vichy,guerre
+Qu'est-ce que le général de Gaulle appel du 18 juin ? | Le 18 juin 1940, depuis Londres, il appelle les Français à poursuivre le combat contre l'Allemagne. | gaulle,appel,18,juin,1940,londres
+Qu'est-ce que la Déclaration universelle des droits de l'homme ? | Adoptée par l'ONU le 10 décembre 1948, elle proclame des droits fondamentaux reconnus à tous les êtres humains. | declaration,universelle,onu,1948
+Qu'est-ce que le rideau de fer ? | C'est la frontière politique et idéologique qui sépare l'Europe de l'Ouest et de l'Est pendant la guerre froide. | rideau,fer,europe,guerre,froide
+Qu'est-ce que le mur de Berlin ? | Construit en 1961, il sépare Berlin-Est et Berlin-Ouest. Il tombe le 9 novembre 1989. | mur,berlin,1961,1989,chute
+Qu'est-ce que la chute de l'URSS ? | En 1991, l'Union soviétique se dissout, ce qui met fin à la guerre froide et à la division de l'Europe. | urss,1991,dissolution,guerre,froide
+Qu'est-ce que la construction européenne ? | C'est le processus d'intégration politique et économique des pays européens, depuis la CECA de 1951 jusqu'à l'Union européenne créée en 1993 par le traité de Maastricht. | europeenne,ceca,maastricht,1993,integration
+Qu'est-ce que la décolonisation de l'Afrique ? | Après 1945, de nombreux pays africains accèdent à l'indépendance, souvent en 1960 pour une grande partie d'entre eux. | decolonisation,afrique,independance,1960
+Qu'est-ce que l'apartheid ? | C'est un régime de ségrégation raciale mis en place en Afrique du Sud, aboli progressivement à partir de 1990. | apartheid,segregation,afrique,sud
+Qu'est-ce que la révolution russe de 1917 ? | C'est la prise du pouvoir par les bolcheviks dirigés par Lénine, qui instaurent le communisme en Russie puis en URSS. | revolution,russe,1917,lenine,bolcheviks
+# ---------- Géographie : repères du lycée ----------
+Qu'est-ce qu'une mégapole ? | C'est une très grande agglomération de plus de 10 millions d'habitants, comme Tokyo, Delhi ou Shanghai. | megapole,agglomeration,habitants
+Qu'est-ce que la littoralisation ? | C'est la concentration des populations et des activités économiques sur les littoraux. | littoralisation,population,littoral,activite
+Qu'est-ce qu'un bassin versant ? | C'est la surface de terrain dont les eaux de pluie convergent vers un même cours d'eau ou un même lac. | bassin,versant,eau,riviere
+Qu'est-ce qu'un fleuve ? | C'est un cours d'eau important qui se jette dans la mer ou dans un autre cours d'eau. Exemples : la Seine, le Rhône, le Nil. | fleuve,cours,eau,mer
+Qu'est-ce que l'érosion ? | C'est l'usure des reliefs et des roches par les agents naturels comme l'eau, le vent, la glace ou la gravité. | erosion,relief,roche,vent,eau
+Qu'est-ce qu'une plaine alluviale ? | C'est une plaine formée par les dépôts de sédiments (alluvions) d'un cours d'eau lors de ses crues. | plaine,alluviale,alluvions,sediment,crue
+Qu'est-ce que la désertification ? | C'est la dégradation des terres en zone aride, sèche ou semi-aride, due aux activités humaines et au climat. | desertification,degradation,terre,aride
+Qu'est-ce qu'un espace touristique ? | C'est un territoire attractif pour les visiteurs, où les activités touristiques transforment les paysages et l'économie locale. | espace,touristique,tourisme,territoire
+Qu'est-ce que le tourisme durable ? | C'est une forme de tourisme qui limite ses impacts négatifs sur l'environnement et soutient les populations locales. | tourisme,durable,environnement,local
+Qu'est-ce qu'une zone industrielle ? | C'est un espace spécialisé dans l'implantation des usines et des entreprises, souvent aménagé avec des infrastructures de transport. | zone,industrielle,usine,entreprise
+Qu'est-ce que la délocalisation ? | C'est le transfert d'une activité de production d'un pays vers un autre, souvent pour réduire les coûts de main-d'œuvre. | delocalisation,production,pays,cout
+Qu'est-ce que le développement d'un pays émergent ? | C'est une phase où un pays connaît une forte croissance économique et une industrialisation rapide, comme la Chine ou l'Inde depuis les années 1980-1990. | emergent,croissance,industrialisation
+Qu'est-ce que l'Union européenne en géographie ? | C'est un espace de 27 États membres, avec une libre circulation des personnes, des biens et des capitaux, et une monnaie commune pour 20 pays. | union,europeenne,espace,monnaie
+Qu'est-ce qu'un climat méditerranéen ? | C'est un climat avec des étés chauds et secs et des hivers doux et pluvieux, typique du pourtour de la Méditerranée. | climat,mediterraneen,ete,hiver
+Qu'est-ce qu'un climat tropical ? | C'est un climat chaud toute l'année, avec une saison sèche et une saison des pluies marquées. | climat,tropical,chaud,saison,pluie
+Qu'est-ce que l'agriculture intensive ? | C'est une agriculture qui maximise les rendements par l'emploi d'engrais, de pesticides, de machines et de l'irrigation, souvent au prix d'impacts environnementaux. | agriculture,intensive,rendement,engrais,pesticide
+Qu'est-ce que l'agriculture biologique ? | C'est une agriculture qui exclut les pesticides et engrais chimiques de synthèse, et qui respecte les cycles naturels. | agriculture,biologique,pesticide,engrais
+Qu'est-ce que la sécurité alimentaire ? | C'est la situation où toute la population a accès à une nourriture suffisante, saine et nutritive, en quantité et en qualité. | securite,alimentaire,nourriture,acces
+# ---------- Littérature et culture générale ----------
+Qui est Molière ? | Molière (1622-1673) est un auteur de théâtre français, connu pour ses comédies comme « Le Misanthrope », « Tartuffe » et « L'Avare ». | moliere,theatre,comedie,tartuffe
+Qui est Racine ? | Jean Racine (1639-1699) est un dramaturge français, auteur de tragédies comme « Phèdre » et « Andromaque ». | racine,tragedie,phedre,andromaque
+Qui est Victor Hugo ? | Victor Hugo (1802-1885) est un écrivain romantique français, auteur de « Les Misérables » et de « Notre-Dame de Paris ». | hugo,romantique,miserables,notre,dame
+Qui est Émile Zola ? | Émile Zola (1840-1902) est un écrivain naturaliste, auteur de la série des Rougon-Macquart et de « J'accuse ». | zola,naturalisme,rougon,macquart,accuse
+Qui est Albert Camus ? | Albert Camus (1913-1960) est un écrivain et philosophe français, auteur de « L'Étranger » et de « La Peste ». | camus,etranger,peste,absurde
+Qu'est-ce que l'absurde selon Camus ? | C'est le conflit entre le désir humain de sens et le silence du monde. Camus propose de vivre en assumant cette absurdité avec lucidité et révolte. | absurde,camus,sens,monde,revolte
+Qui est Baudelaire ? | Charles Baudelaire (1821-1867) est un poète français, auteur des « Fleurs du mal ». Il est un précurseur de la poésie moderne. | baudelaire,poete,fleurs,mal
+Qu'est-ce que le romantisme ? | C'est un mouvement littéraire et artistique du XIXe siècle, qui valorise l'émotion, l'imagination, la nature et la liberté individuelle. | romantisme,emotion,imagination,nature
+Qu'est-ce que le classicisme ? | C'est un courant du XVIIe siècle qui valorise la raison, l'équilibre, la règle et l'imitation des Anciens. | classicisme,raison,regle,xviie
+Qu'est-ce que le surréalisme ? | C'est un mouvement artistique et littéraire du XXe siècle, fondé par André Breton, qui explore l'inconscient et le rêve. | surrealisme,breton,inconscient,reve
+Qui est Marguerite Duras ? | Marguerite Duras (1914-1996) est une romancière et dramaturge française, auteure de « L'Amant ». | duras,amant,roman,theatre
+Qu'est-ce qu'un roman épistolaire ? | C'est un roman composé de lettres échangées entre les personnages. Exemple : « Les Liaisons dangereuses » de Laclos. | epistolaire,roman,lettre,laclos
+Qu'est-ce que la poésie lyrique ? | C'est une poésie qui exprime les sentiments personnels du poète, comme l'amour, la nature ou la mélancolie. | poesie,lyrique,sentiment,poete
+Qu'est-ce que la tragédie classique ? | C'est une pièce de théâtre qui met en scène des héros confrontés à un destin ou à une passion, dans le respect des règles des trois unités : temps, lieu et action. | tragedie,classique,unites,theatre
+Qu'est-ce que les trois unités au théâtre ? | Ce sont l'unité de temps (une journée), l'unité de lieu (un seul lieu) et l'unité d'action (une seule intrigue principale). | unites,theatre,temps,lieu,action

@@ -1,0 +1,59 @@
+# ---------- Physique-chimie : compléments de lycée ----------
+Qu'est-ce que la quantité de matière ? | C'est le nombre de particules d'un échantillon, exprimé en moles. Une mole contient 6,02 × 10^23 particules (nombre d'Avogadro). | quantite,matiere,mole,avogadro
+Qu'est-ce que la masse molaire ? | C'est la masse d'une mole de substance, en g/mol. Exemple : la masse molaire de l'eau est 18 g/mol. | masse,molaire,mole,eau
+Comment calculer une quantité de matière à partir d'une masse ? | n = m / M, avec m en grammes et M en g/mol. Exemple : 36 g d'eau donnent n = 36 / 18 = 2 mol. | quantite,matiere,masse,molaire,calcul
+Qu'est-ce que le volume molaire d'un gaz ? | C'est le volume occupé par une mole de gaz dans les mêmes conditions, environ 24 L/mol à 25 °C et à pression atmosphérique. | volume,molaire,gaz,litre
+Qu'est-ce que la concentration massique ? | C'est la masse de soluté par litre de solution, en g/L : Cm = m / V. | concentration,massique,solution,soluté
+Qu'est-ce que la dilution ? | C'est l'ajout de solvant à une solution, qui réduit sa concentration sans changer la quantité de soluté. On a C1 × V1 = C2 × V2. | dilution,concentration,solution,solvant
+Qu'est-ce qu'une réaction d'oxydo-réduction ? | C'est une réaction avec transfert d'électrons : l'oxydant capte des électrons et se réduit, le réducteur en cède et s'oxyde. | oxydoreduction,oxydant,reducteur,electron
+Qu'est-ce que le nombre d'oxydation ? | C'est une charge fictive attribuée à un atome dans un composé, qui permet de suivre les transferts d'électrons. | oxydation,nombre,charge,electron
+Qu'est-ce qu'une pile ? | C'est un générateur qui transforme l'énergie chimique en énergie électrique grâce à une réaction d'oxydo-réduction dont les deux demi-réactions sont séparées. | pile,generateur,chimique,electrique
+Qu'est-ce qu'une électrolyse ? | C'est une réaction chimique forcée par un générateur, qui transforme l'énergie électrique en énergie chimique. | electrolyse,generateur,energie,chimique
+Qu'est-ce que la corrosion d'un métal ? | C'est l'oxydation spontanée d'un métal au contact de l'air et de l'eau. Le fer forme de la rouille. | corrosion,metal,oxydation,rouille
+Qu'est-ce qu'une réaction de précipitation ? | C'est une réaction qui forme un solide insoluble, le précipité, quand on mélange deux solutions. Exemple : Ag+ + Cl- donne AgCl. | precipitation,solide,insoluble,argent
+Qu'est-ce que l'électronégativité ? | C'est la capacité d'un atome à attirer vers lui les électrons d'une liaison covalente. Elle augmente de gauche à droite dans une période. | electronegativite,liaison,atome,electron
+Qu'est-ce qu'une liaison polarisée ? | C'est une liaison covalente dans laquelle les électrons sont attirés davantage par l'atome le plus électronégatif, créant deux pôles de charges opposées. | liaison,polarisee,electronegativite,pole
+Qu'est-ce qu'une molécule polaire ? | C'est une molécule dont les liaisons polarisées ne se compensent pas, ce qui crée un moment dipolaire. Exemple : l'eau. | molecule,polaire,dipole,eau
+Qu'est-ce que la règle de l'octet ? | Les atomes tendent à avoir huit électrons sur leur couche externe, comme les gaz nobles, pour être stables. | octet,stable,gaz,noble,electron
+Qu'est-ce que le schéma de Lewis ? | C'est une représentation d'une molécule qui montre les électrons de valence sous forme de points ou de traits, avec les liaisons et les doublets non liants. | lewis,schema,molecule,doublet
+Qu'est-ce qu'un doublet non liant ? | C'est une paire d'électrons de valence qui n'est pas partagée avec un autre atome, portée par un seul atome. | doublet,non,liant,electron
+Qu'est-ce que la théorie VSEPR ? | Elle prédit la géométrie d'une molécule en plaçant les doublets autour de l'atome central le plus loin possible les uns des autres. | vsepr,geometrie,molecule,doublet
+Qu'est-ce que la géométrie tétraédrique ? | C'est une géométrie où l'atome central est au centre et les quatre liaisons pointent vers les sommets d'un tétraèdre, avec des angles de 109,5°. | tetraedrique,geometrie,angle,methane
+Qu'est-ce qu'une chaîne carbonée ? | C'est une succession d'atomes de carbone liés entre eux, qui forme le squelette d'une molécule organique. | chaine,carbone,molecule,organique
+Qu'est-ce qu'un hydrocarbure ? | C'est une molécule organique formée uniquement de carbone et d'hydrogène, comme le méthane ou l'éthylène. | hydrocarbure,carbone,hydrogene,organique
+Qu'est-ce qu'un alcane ? | C'est un hydrocarbure saturé, avec seulement des liaisons simples C-C et C-H, de formule générale CnH2n+2. | alcane,hydrocarbure,sature
+Qu'est-ce qu'un alcène ? | C'est un hydrocarbure insaturé qui contient une double liaison C=C, de formule générale CnH2n. | alcene,insature,double,liaison
+Qu'est-ce qu'un alcool ? | C'est une molécule organique qui contient le groupe hydroxyle -OH fixé sur un atome de carbone. Exemple : l'éthanol. | alcool,hydroxyle,ethanol
+Qu'est-ce qu'un acide carboxylique ? | C'est une molécule organique qui contient le groupe -COOH. Exemple : l'acide éthanoïque, présent dans le vinaigre. | acide,carboxylique,cooh,vinaigre
+Qu'est-ce qu'un ester ? | C'est une molécule organique formée par la réaction d'un acide carboxylique et d'un alcool. Les esters donnent souvent des odeurs fruitées. | ester,acide,alcool,odeur
+Qu'est-ce qu'une amine ? | C'est une molécule organique dérivée de l'ammoniac, qui contient un atome d'azote lié à des atomes de carbone ou d'hydrogène. | amine,azote,ammoniac
+Qu'est-ce qu'un isomère ? | Ce sont des molécules qui ont la même formule brute mais des formules développées différentes. | isomere,formule,brute,developpee
+Qu'est-ce que la chiralité ? | C'est la propriété d'une molécule qui n'est pas superposable à son image dans un miroir. Elle possède un carbone asymétrique. | chiralite,miroir,carbone,asymetrique
+Qu'est-ce qu'un carbone asymétrique ? | C'est un atome de carbone lié à quatre groupes d'atomes différents. Il est à l'origine de la chiralité. | carbone,asymetrique,chiralite,groupe
+Qu'est-ce qu'un polymère ? | C'est une macromolécule formée par la répétition de nombreux motifs identiques, appelés monomères. Exemple : le polyéthylène. | polymere,macromolecule,monomere,polyethylene
+Qu'est-ce que la polymérisation ? | C'est la réaction qui relie des monomères pour former un polymère. Exemple : l'éthylène donne le polyéthylène. | polymerisation,monomere,polymere,ethylene
+Qu'est-ce qu'un médicament ? | C'est une substance ou une association de substances qui prévient, soigne ou soulage une maladie, en agissant sur l'organisme. | medicament,substance,maladie,soin
+Qu'est-ce qu'un produit d'entretien ? | C'est une substance utilisée pour nettoyer ou désinfecter, dont les propriétés chimiques, comme le pH, déterminent l'efficacité. | produit,entretien,nettoyer,ph
+Qu'est-ce que la chimie verte ? | C'est un ensemble de principes qui visent à réduire les déchets et l'utilisation de substances dangereuses dans les procédés chimiques. | chimie,verte,dechet,dangereux
+Qu'est-ce qu'une énergie chimique ? | C'est l'énergie stockée dans les liaisons des molécules, qui peut être libérée lors d'une réaction chimique. | energie,chimique,liaison,molecule
+# ---------- Mécanique et sciences de l'ingénieur ----------
+Qu'est-ce qu'une liaison encastrement ? | C'est une liaison qui bloque tous les mouvements relatifs entre deux pièces : aucune rotation ni translation n'est possible. | liaison,encastrement,blocage
+Qu'est-ce qu'une liaison sphère-plan ? | C'est une liaison qui autorise trois rotations et deux translations dans le plan de contact, mais bloque la translation perpendiculaire. | liaison,sphere,plan,rotation
+Qu'est-ce qu'une liaison hélicoïdale ? | C'est une liaison qui combine une rotation et une translation proportionnelles autour du même axe, comme dans une vis et un écrou. | liaison,helicoidale,vis,ecrou
+Qu'est-ce que l'équilibre d'un solide ? | Un solide est en équilibre si la somme des forces extérieures et la somme des moments en un point sont nulles. | equilibre,solide,force,moment
+Qu'est-ce que le principe fondamental de la statique ? | Un solide en équilibre soumis à des forces extérieures a une somme nulle de ces forces et une somme nulle de leurs moments. | principe,statique,equilibre,force,moment
+Qu'est-ce qu'un torseur ? | C'est un outil mathématique qui regroupe la résultante et le moment d'un ensemble de forces en un point, pour décrire leur effet mécanique. | torseur,resultante,moment,force
+Qu'est-ce que le moment d'une force par rapport à un point ? | C'est le produit vectoriel du vecteur position par la force, qui mesure sa tendance à faire tourner le solide autour de ce point. | moment,force,point,rotation
+Qu'est-ce que la résistance à la traction ? | C'est la contrainte maximale qu'un matériau peut supporter en traction avant rupture, mesurée en MPa. | resistance,traction,contrainte,rupture
+Qu'est-ce que la limite élastique ? | C'est la contrainte au-delà de laquelle un matériau subit une déformation permanente, qui ne disparaît pas quand on relâche l'effort. | limite,elastique,contrainte,deformation
+Qu'est-ce qu'une déformation élastique ? | C'est une déformation réversible : la pièce reprend sa forme initiale quand on supprime l'effort. | deformation,elastique,reversible,effort
+Qu'est-ce que le flambement ? | C'est une instabilité qui se produit dans une pièce longue et élancée soumise à une compression, qui se courbe brutalement sous une charge inférieure à sa résistance. | flambement,compression,instabilite,piece
+Qu'est-ce que le cisaillement ? | C'est une sollicitation où deux parties d'une pièce glissent l'une sur l'autre, sous l'effet de forces parallèles et opposées. | cisaillement,force,glissement,piece
+Qu'est-ce que la torsion ? | C'est une sollicitation où une pièce est soumise à un couple qui la tord autour de son axe, comme un arbre de transmission. | torsion,couple,arbre,axe
+Qu'est-ce que la flexion ? | C'est une sollicitation où une poutre se courbe sous l'effet de charges transversales, avec une zone comprimée et une zone tendue. | flexion,poutre,courbure,charge
+Qu'est-ce que la fatigue d'un matériau ? | C'est la rupture progressive d'une pièce sous des efforts répétés, même inférieurs à sa résistance statique. | fatigue,materiau,rupture,repete
+Qu'est-ce que la dureté d'un matériau ? | C'est sa résistance à la pénétration ou à la rayure par un autre corps plus dur. | durete,materiau,penetration,rayure
+Qu'est-ce qu'un acier inoxydable ? | C'est un acier allié au chrome, qui forme une couche protectrice qui le rend résistant à la corrosion. | acier,inoxydable,chrome,corrosion
+Qu'est-ce qu'un alliage ? | C'est un matériau métallique formé de plusieurs éléments, qui présente des propriétés différentes de ses constituants. Exemple : le bronze (cuivre et étain). | alliage,metal,bronze,cuivre,etain
+Qu'est-ce que la fonte ? | C'est un alliage de fer et de carbone, contenant plus de 2 % de carbone, fragile mais facile à couler. | fonte,fer,carbone,alliage
+Qu'est-ce que l'aluminium comme matériau ? | C'est un métal léger, bon conducteur de la chaleur et de l'électricité, résistant à la corrosion et très recyclable. | aluminium,metal,leger,recyclable
