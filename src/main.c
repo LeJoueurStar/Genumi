@@ -94,6 +94,10 @@ static bool upper = false, digits = false;
 static uint32_t press_ms[KEY_COUNT];
 static bool armed[KEY_COUNT];
 static bool popup_on = false;
+static const char *TICKER = "GitHub : LeJoueurStar          YouTube : @Le_joueur_star          TikTok : @le_joueur_star          ";
+static bool tk_on = false, tk_block = false;
+static int tk_x = 320;
+static uint32_t tk_last = 0, tk_block_t = 0;
 static const char *popup_opts = "";
 static int popup_n = 0, popup_sel = 0;
 static uint32_t last_sig = 0xFFFFFFFFu;
@@ -593,6 +597,35 @@ static void sline(int x0, int y0, int x1, int y1, eadk_color_t c) {
   }
 }
 
+static void sglyph(const char *s, int n, int x, int y, eadk_color_t fg, eadk_color_t bg);
+
+static uint32_t think_dots_last = 0;
+
+/* Trois points qui se relèvent l'un après l'autre, à une place fixe sous la conversation. */
+static void draw_think_dots(uint32_t now) {
+  sy0 = 116;
+  sh = 16;
+  sfill_zone();
+  for (int k = 0; k < 3; k++) {
+    uint32_t ph = (now + (uint32_t)k * 300u) % 900u;
+    int lift = ph < 450u ? (int)(ph * 3u / 450u) : (int)((900u - ph) * 3u / 450u);
+    sfill_rect(16 + k * 5, 124 - lift, 3, 3, INK);
+  }
+  sflush(116, 16);
+}
+
+static void draw_ticker(void) {
+  sy0 = 0;
+  sh = 24;
+  sfill_zone();
+  int len = (int)strlen(TICKER);
+  for (int i = 0; i < len; i++) {
+    int x = tk_x + i * FNT_W;
+    if (x > -FNT_W && x < 320) sglyph(TICKER + i, 1, x, 4, GREYTXT, BG_ZONE);
+  }
+  sflush(0, 24);
+}
+
 static void sglyph(const char *s, int n, int x, int y, eadk_color_t fg, eadk_color_t bg) {
   const char *hex = glyph_lookup(s, n);
   for (int r = 0; r < FNT_H; r++) {
@@ -828,8 +861,7 @@ static void ch_build(void) {
       lastk = 1;
     }
   }
-  if (thinking) ch_add(4, "", 18);
-  else if (!revealing && lastk == 1) ch_add(3, "", 22);
+  if (!thinking && !revealing && lastk == 1) ch_add(3, "", 22);
 }
 
 static void ring(int cx, int cy, eadk_color_t c) {
@@ -910,12 +942,6 @@ static void chat_draw(void) {
       stext(ch_txt[i], 16, y, fg, BG_ZONE);
     } else if (ch_kind[i] == 3) {
       draw_actions(y);
-    } else if (ch_kind[i] == 4) {
-      for (int k = 0; k < 3; k++) {
-        uint32_t ph = (now_c + (uint32_t)k * 300u) % 900u;
-        int lift = ph < 450u ? (int)(ph * 3u / 450u) : (int)((900u - ph) * 3u / 450u);
-        sfill_rect(16 + k * 5, y + 4 - lift, 3, 3, INK);
-      }
     }
   }
   if (menu_on) draw_menu();
@@ -1744,6 +1770,33 @@ int main(int argc, char *argv[]) {
     }
     if (sugg_sel >= sugg_n) sugg_sel = 0;
 
+    if (s != prev) {
+      tk_block = true;
+      tk_block_t = now;
+    }
+    if (tk_block && now - tk_block_t > 5000) tk_block = false;
+    {
+      bool want = !sent_in_session && input_len == 0 && !plus_on && !menu_on && !reason_on && !popup_on && !tk_block && !anim_on && !asking_name && !wash_active && !thinking && !revealing;
+      if (want != tk_on) {
+        tk_on = want;
+        if (!tk_on) {
+          sy0 = 0;
+          sh = 24;
+          sfill_zone();
+          sflush(0, 24);
+        } else {
+          tk_x = 320;
+          tk_last = 0;
+        }
+      }
+      if (tk_on && now - tk_last >= 60) {
+        tk_last = now;
+        tk_x--;
+        int total = (int)strlen(TICKER) * FNT_W;
+        if (tk_x < -total) tk_x = 320;
+        draw_ticker();
+      }
+    }
     prev = s;
     bool woke = !anim_on && (now - last_frame) > 300;
     if (woke) {
@@ -1751,6 +1804,10 @@ int main(int argc, char *argv[]) {
       eadk_display_push_rect_uniform(eadk_screen_rect, eadk_color_white);
       top_sig = sug_sig = in_sig = 0xFFFFFFFFu;
       help_drawn = false; bg_dirty = true;
+    }
+    if (thinking && !anim_on && now - think_dots_last >= 80) {
+      think_dots_last = now;
+      draw_think_dots(now);
     }
     if (wash_active) {
       wash_t = (int)(now - bub_t0);
