@@ -485,6 +485,21 @@ static eadk_color_t conv_bg(int x, int y) {
   return (eadk_color_t)((248 >> 3) << 11 | (248 >> 2) << 5 | (248 >> 3));
 }
 
+static void unpack565(uint16_t c, int *r, int *g, int *b) {
+  *r = ((c >> 11) & 31) * 255 / 31;
+  *g = ((c >> 5) & 63) * 255 / 63;
+  *b = (c & 31) * 255 / 31;
+}
+
+static eadk_color_t pack_dither(int r, int g, int b, int x, int y) {
+  int d = ANIM_BAYER[(y & 3) * 4 + (x & 3)];
+  int r5 = (r * 31 * 16 / 255 + d) / 16, g6 = (g * 63 * 16 / 255 + d) / 16, b5 = (b * 31 * 16 / 255 + d) / 16;
+  if (r5 > 31) r5 = 31;
+  if (g6 > 63) g6 = 63;
+  if (b5 > 31) b5 = 31;
+  return (eadk_color_t)((r5 << 11) | (g6 << 5) | b5);
+}
+
 static eadk_color_t zone_color(int x, int y) {
   if (asking_name) return eadk_color_white;
   if (anim_on) return anim_pixel(x, y);
@@ -492,8 +507,10 @@ static eadk_color_t zone_color(int x, int y) {
     int w = (170 - y) * 255 / 120;
     if (w < 0) w = 0;
     if (w > 255) w = 255;
-    eadk_color_t base = sent_in_session ? conv_bg(x, y) : fixed_bg(x, y);
-    return (eadk_color_t)mix565((uint16_t)base, wash565(wash_t), w);
+    int r0, g0, b0, r1, g1, b1;
+    unpack565((uint16_t)(sent_in_session ? conv_bg(x, y) : fixed_bg(x, y)), &r0, &g0, &b0);
+    unpack565(wash565(wash_t), &r1, &g1, &b1);
+    return pack_dither((r0 * (255 - w) + r1 * w) / 255, (g0 * (255 - w) + g1 * w) / 255, (b0 * (255 - w) + b1 * w) / 255, x, y);
   }
   if (sent_in_session) return conv_bg(x, y);
   return fixed_bg(x, y);
@@ -1499,6 +1516,12 @@ static void new_conversation(void) {
   top_sig = sug_sig = in_sig = bot_sig = 0xFFFFFFFFu;
   help_drawn = false;
   sheet_drawn = false;
+  wash_active = false;
+  wash_k = 0;
+  for (int y = 0; y < 240; y++) {
+    for (int x = 0; x < 320; x++) rowbuf[x] = zone_color(x, y);
+    eadk_display_push_rect((eadk_rect_t){ 0, (uint16_t)y, 320, 1 }, rowbuf);
+  }
 }
 
 /* ---------- Boucle principale ---------- */
