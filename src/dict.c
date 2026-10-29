@@ -31,7 +31,15 @@ bool dict_translate(const char *text, bool to_en, char *out, int cap) {
   int n = 0;
   strncpy(buf, text, sizeof buf - 1);
   buf[sizeof buf - 1] = 0;
-  for (char *tok = strtok(buf, " "); tok && n < 64; tok = strtok(NULL, " ")) words[n++] = tok;
+  /* découpage manuel par espaces (sans strtok, pour éviter les dépendances de la libc) */
+  char *q = buf;
+  while (*q && n < 64) {
+    while (*q == ' ') q++;
+    if (!*q) break;
+    words[n++] = q;
+    while (*q && *q != ' ') q++;
+    if (*q) *q++ = 0;
+  }
   out[0] = 0;
   if (n == 0) return false;
   int p = 0;
