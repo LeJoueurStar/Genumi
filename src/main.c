@@ -94,7 +94,7 @@ static bool upper = false, digits = false;
 static uint32_t press_ms[KEY_COUNT];
 static bool armed[KEY_COUNT];
 static bool popup_on = false;
-static const char *TICKER = "GitHub : LeJoueurStar          YouTube : @Le_joueur_star          TikTok : @le_joueur_star          ";
+static const char *TICKER = "GitHub : LeJoueurStar    YouTube : @Le_joueur_star    TikTok : @le_joueur_star    ";
 static bool tk_on = false, tk_block = false;
 static int tk_x = 320;
 static uint32_t tk_last = 0, tk_block_t = 0;
@@ -252,7 +252,7 @@ static void submit(void) {
   conv_append(line);
   answer_for(input, pend, sizeof pend, art_mode);
   bub_t0 = think_t0 = (uint32_t)eadk_timing_millis();
-  wash_active = true;
+  wash_active = !sent_in_session;
   wash_last = 0;
   think_len = 1200 + (uint32_t)((strlen(input) * 97u) % 1800u);
   thinking = true;
@@ -619,9 +619,12 @@ static void draw_ticker(void) {
   sh = 24;
   sfill_zone();
   int len = (int)strlen(TICKER);
-  for (int i = 0; i < len; i++) {
+  int i0 = tk_x < 0 ? (-tk_x) / FNT_W - 1 : 0;
+  if (i0 < 0) i0 = 0;
+  for (int i = i0; ; i++) {
     int x = tk_x + i * FNT_W;
-    if (x > -FNT_W && x < 320) sglyph(TICKER + i, 1, x, 4, GREYTXT, BG_ZONE);
+    if (x >= 320) break;
+    if (x > -FNT_W) sglyph(TICKER + (i % len), 1, x, 4, GREYTXT, BG_ZONE);
   }
   sflush(0, 24);
 }
@@ -1776,7 +1779,7 @@ int main(int argc, char *argv[]) {
     }
     if (tk_block && now - tk_block_t > 5000) tk_block = false;
     {
-      bool want = !sent_in_session && input_len == 0 && !plus_on && !menu_on && !reason_on && !popup_on && !tk_block && !anim_on && !asking_name && !wash_active && !thinking && !revealing;
+      bool want = !anim_on && !asking_name;
       if (want != tk_on) {
         tk_on = want;
         if (!tk_on) {
@@ -1789,11 +1792,11 @@ int main(int argc, char *argv[]) {
           tk_last = 0;
         }
       }
-      if (tk_on && now - tk_last >= 60) {
+      if (tk_on && now - tk_last >= 50) {
         tk_last = now;
-        tk_x--;
+        tk_x -= 2;
         int total = (int)strlen(TICKER) * FNT_W;
-        if (tk_x < -total) tk_x = 320;
+        if (tk_x <= -total) tk_x += total;
         draw_ticker();
       }
     }
@@ -1820,8 +1823,9 @@ int main(int argc, char *argv[]) {
         wash_k = 255;
         if (now - wash_last >= 120) {
           wash_last = now;
-          draw_overlays(now, true);
-          for (int y = 0; y < 240; y++) {
+          comp_center(56, 42);
+          comp_center(98, 42);
+          for (int y = 24; y < 240; y++) {
             if ((y >= 26 && y < 166) || (y >= 167 && y < 216) || (y >= 220)) continue;
             for (int x = 0; x < 320; x++) rowbuf[x] = zone_color(x, y);
             eadk_display_push_rect((eadk_rect_t){ 0, (uint16_t)y, 320, 1 }, rowbuf);
