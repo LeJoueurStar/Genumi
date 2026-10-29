@@ -1,32 +1,45 @@
 name: build-nwa
 on:
   push:
-  pull_request:
   workflow_dispatch:
 jobs:
   build:
     runs-on: ubuntu-24.04
+    timeout-minutes: 25
     steps:
       - uses: actions/checkout@v4
+
+      - name: Outils ARM
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y gcc-arm-none-eabi binutils-arm-none-eabi libnewlib-arm-none-eabi libnewlib-dev python3
+
       - uses: actions/setup-node@v4
         with:
           node-version: 22
-      - name: Outils
+
+      - name: Cache nwlink
+        id: nwcache
+        uses: actions/cache@v4
+        with:
+          path: ~/nwtools
+          key: nwlink-0.0.16
+
+      - name: Installer nwlink
+        if: steps.nwcache.outputs.cache-hit != 'true'
         run: |
-          sudo apt-get update
-          sudo apt-get install -y gcc-arm-none-eabi python3 python3-pil
-          mkdir -p $HOME/nwtools && cd $HOME/nwtools && npm install nwlink@0.0.16
+          mkdir -p $HOME/nwtools
+          cd $HOME/nwtools && npm init -y > /dev/null && npm install nwlink@0.0.16
+
+      - name: Préparer nwpre
+        run: |
           echo 'Object.defineProperty(globalThis,"navigator",{value:{userAgent:"node"},writable:true,configurable:true});' > $HOME/nwpre.js
-      - name: Icône
-        run: |
-          python3 -c "from PIL import Image; im=Image.open('genumi.png').convert('RGBA'); bg=Image.new('RGBA', im.size, (255,255,255,255)); bg.alpha_composite(im); bg.convert('RGB').save('genumi_flat.png')"
-          mkdir -p output
-          node -r $HOME/nwpre.js $HOME/nwtools/node_modules/nwlink/bin/nwlink png-icon-o genumi_flat.png output/icon.o
-      - name: Base de connaissances et compilation
+
+      - name: Base et compilation
         run: |
           python3 tools/build_kb.py kb/qa.txt
-          touch src/kb.c src/engine.c
           make
+
       - uses: actions/upload-artifact@v4
         with:
           name: Genumi
