@@ -75,7 +75,20 @@ static void norm(const char *in, char *out, int cap) {
       else if (d == 0xB1) r = 'n';
       else if (d >= 0xB2 && d <= 0xB8) r = 'o';
       else if (d >= 0xB9 && d <= 0xBC) r = 'u';
+      if (d == 0x97) r = '*';
+      else if (d == 0xB7) r = '/';
       out[o++] = r;
+    } else if (c == 0xC2 && (unsigned char)in[i + 1] == 0xB2) {
+      i++;
+      out[o++] = '^';
+      out[o++] = '2';
+    } else if (c == 0xC2 && (unsigned char)in[i + 1] == 0xB3) {
+      i++;
+      out[o++] = '^';
+      out[o++] = '3';
+    } else if (c == 0xE2 && (unsigned char)in[i + 1] == 0x88 && (unsigned char)in[i + 2] == 0x92) {
+      i += 2;
+      out[o++] = '-';
     } else if (c == 0xC5 && in[i + 1]) {
       i++;
       out[o++] = 'o';
@@ -319,6 +332,19 @@ static int extract_expr(const char *q, char *e, int cap) {
       }
     }
     if (ok) {
+      if (c == ' ' && !started) continue;
+      if (c != ' ') {
+        /* multiplication implicite : 2(3+4), (2)(3), (2)3 */
+        int last = n - 1;
+        while (last >= 0 && e[last] == ' ') last--;
+        if (last >= 0) {
+          char lc = e[last];
+          bool lastnum = (lc >= '0' && lc <= '9') || lc == ')';
+          bool cnum = c >= '0' && c <= '9';
+          bool implicit = (c == '(' && lastnum) || (cnum && lc == ')');
+          if (implicit && n < cap - 3) e[n++] = '*';
+        }
+      }
       if (c != ' ' || started) {
         e[n++] = c;
         if (c != ' ') started = true;
@@ -336,7 +362,7 @@ static bool math_answer(const char *q, char *out, int cap) {
   bool digit = false, op = false;
   for (const char *p = q; *p; p++) {
     if (*p >= '0' && *p <= '9') digit = true;
-    if (*p == '+' || *p == '-' || *p == '*' || *p == '/' || *p == '^' || *p == 'x') op = true;
+    if (*p == '+' || *p == '-' || *p == '*' || *p == '/' || *p == '^' || *p == 'x' || *p == '(') op = true;
   }
   if (!digit || !op) return false;
   char e[160];

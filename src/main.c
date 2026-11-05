@@ -252,8 +252,10 @@ static void submit(void) {
   conv_append(line);
   answer_for(input, pend, sizeof pend, art_mode);
   bub_t0 = think_t0 = (uint32_t)eadk_timing_millis();
-  wash_active = false;
+  wash_active = !sent_in_session;
   wash_last = 0;
+  help_drawn = false;
+  top_sig = 0xFFFFFFFFu;
   think_len = 1200 + (uint32_t)((strlen(input) * 97u) % 1800u);
   thinking = true;
   revealing = false;
@@ -467,7 +469,7 @@ static const uint16_t WASH_T[16] = {0, 300, 500, 800, 1200, 1500, 1800, 2100, 24
 static const uint8_t WASH_RGB[16][3] = {
   {242, 246, 251}, {228, 237, 253}, {211, 228, 253}, {197, 228, 250}, {207, 234, 237}, {203, 239, 224},
   {214, 242, 211}, {229, 244, 204}, {241, 244, 195}, {253, 237, 200}, {244, 209, 235}, {223, 207, 246},
-  {220, 222, 251}, {243, 244, 253}, {248, 248, 248}, {248, 248, 248}};
+  {220, 222, 251}, {243, 244, 253}, {255, 255, 255}, {255, 255, 255}};
 
 static uint16_t wash565(int t) {
   int i = 0;
@@ -486,7 +488,7 @@ static uint16_t wash565(int t) {
 static eadk_color_t conv_bg(int x, int y) {
   (void)x;
   (void)y;
-  return (eadk_color_t)((248 >> 3) << 11 | (248 >> 2) << 5 | (248 >> 3));
+  return (eadk_color_t)0xFFFF;
 }
 
 static void unpack565(uint16_t c, int *r, int *g, int *b) {
@@ -779,25 +781,26 @@ static void dots3(int cx, int cy) {
 }
 
 static void comp_header(void) {
-  sy0 = 26;
+  int oy = sent_in_session ? -24 : 0;
+  sy0 = 26 + oy;
   sh = 30;
   sfill_zone();
-  sfill_circle(17, 39, 12, 0xE71C);
-  sfill_circle(17, 39, 11, eadk_color_white);
-  sfill_rect(10, 36, 14, 2, INK);
-  sfill_rect(10, 41, 14, 2, INK);
-  stext("V0.1.0", 38, 32, INK, BG_ZONE);
-  sline(92, 36, 96, 40, INK);
-  sline(96, 40, 100, 36, INK);
-  spill(262, 28, 52, 28, 14, eadk_color_white);
+  sfill_circle(17, 39 + oy, 12, 0xE71C);
+  sfill_circle(17, 39 + oy, 11, eadk_color_white);
+  sfill_rect(10, 36 + oy, 14, 2, INK);
+  sfill_rect(10, 41 + oy, 14, 2, INK);
+  stext("V0.1.0", 38, 32 + oy, INK, BG_ZONE);
+  sline(92, 36 + oy, 96, 40 + oy, INK);
+  sline(96, 40 + oy, 100, 36 + oy, INK);
+  spill(262, 28 + oy, 52, 28, 14, eadk_color_white);
   if (sent_in_session) {
-    newchat_icon(282, 42);
-    dots3(302, 42);
+    newchat_icon(282, 42 + oy);
+    dots3(302, 42 + oy);
   } else {
     crayon(282, 42);
     profile_icon(302, 42);
   }
-  sflush(26, 30);
+  sflush(26 + oy, 30);
 }
 
 /* Zone de conversation / accueil : logo et phrase au centre, réponse en haut. */
@@ -974,6 +977,7 @@ static void comp_center(int y0, int h) {
     }
   }
   sflush(y0, h);
+  if (thinking && !anim_on) draw_think_dots(now_c);
 }
 
 static bool plus_on = false, img_chip = false, sheet_drawn = false, chip_focus = false;
@@ -990,8 +994,11 @@ static void comp_sug(void) {
   sfill_zone();
   if (popup_on) {
     sfill_rect(20, SUG_Y, 280, SUG_H, 0x8410);
+    int win = popup_sel - 4;
+    if (win > popup_n - 8) win = popup_n - 8;
+    if (win < 0) win = 0;
     int x = 36;
-    for (int i = 0; i < popup_n; i++) {
+    for (int i = win; i < popup_n && i < win + 8; i++) {
       int n;
       const char *g = u8_at(popup_opts, i, &n);
       bool sel = (i == popup_sel);
@@ -1789,7 +1796,7 @@ int main(int argc, char *argv[]) {
     }
     if (tk_block && now - tk_block_t > 5000) tk_block = false;
     {
-      bool want = !anim_on && !asking_name;
+      bool want = !sent_in_session && !anim_on && !asking_name;
       if (want != tk_on) {
         tk_on = want;
         if (!tk_on) {
@@ -1802,7 +1809,7 @@ int main(int argc, char *argv[]) {
           tk_last = 0;
         }
       }
-      if (tk_on && now - tk_last >= 70) {
+      if (tk_on && now - tk_last >= 50) {
         tk_last = now;
         tk_x -= 1;
         int total = (int)strlen(TICKER) * FNT_W;
