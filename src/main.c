@@ -252,7 +252,7 @@ static void submit(void) {
   conv_append(line);
   answer_for(input, pend, sizeof pend, art_mode);
   bub_t0 = think_t0 = (uint32_t)eadk_timing_millis();
-  wash_active = !sent_in_session;
+  wash_active = false;
   wash_last = 0;
   think_len = 1200 + (uint32_t)((strlen(input) * 97u) % 1800u);
   thinking = true;
@@ -603,15 +603,25 @@ static uint32_t think_dots_last = 0;
 
 /* Trois points qui se relèvent l'un après l'autre, à une place fixe sous la conversation. */
 static void draw_think_dots(uint32_t now) {
-  sy0 = 116;
-  sh = 16;
-  sfill_zone();
+  static const int DX[3] = {0, 5, 10};
+  int lift[3];
   for (int k = 0; k < 3; k++) {
     uint32_t ph = (now + (uint32_t)k * 300u) % 900u;
-    int lift = ph < 450u ? (int)(ph * 3u / 450u) : (int)((900u - ph) * 3u / 450u);
-    sfill_rect(16 + k * 5, 124 - lift, 3, 3, INK);
+    lift[k] = ph < 450u ? (int)(ph * 3u / 450u) : (int)((900u - ph) * 3u / 450u);
   }
-  sflush(116, 16);
+  eadk_color_t row[28];
+  for (int y = 116; y < 132; y++) {
+    for (int x = 0; x < 28; x++) {
+      int px = 12 + x;
+      eadk_color_t c = zone_color(px, y);
+      for (int k = 0; k < 3; k++) {
+        int dy = 124 - lift[k];
+        if (px >= 16 + DX[k] && px < 19 + DX[k] && y >= dy && y < dy + 3) c = INK;
+      }
+      row[x] = c;
+    }
+    eadk_display_push_rect((eadk_rect_t){ 12, (uint16_t)y, 28, 1 }, row);
+  }
 }
 
 static void draw_ticker(void) {
@@ -1792,9 +1802,9 @@ int main(int argc, char *argv[]) {
           tk_last = 0;
         }
       }
-      if (tk_on && now - tk_last >= 50) {
+      if (tk_on && now - tk_last >= 70) {
         tk_last = now;
-        tk_x -= 2;
+        tk_x -= 1;
         int total = (int)strlen(TICKER) * FNT_W;
         if (tk_x <= -total) tk_x += total;
         draw_ticker();
@@ -1821,10 +1831,12 @@ int main(int argc, char *argv[]) {
         bg_dirty = true;
       } else {
         wash_k = 255;
-        if (now - wash_last >= 120) {
+        if (now - wash_last >= 250) {
           wash_last = now;
           comp_center(56, 42);
           comp_center(98, 42);
+          comp_sug();
+          comp_bottom();
           for (int y = 24; y < 240; y++) {
             if ((y >= 26 && y < 166) || (y >= 167 && y < 216) || (y >= 220)) continue;
             for (int x = 0; x < 320; x++) rowbuf[x] = zone_color(x, y);
