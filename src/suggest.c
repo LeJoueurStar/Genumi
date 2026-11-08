@@ -131,6 +131,7 @@ static int add_cand(char out[][WORD_MAX], bool *flag, int n, int max,
     if (strcmp(out[i], w) == 0) return n;
   strncpy(out[n], w, WORD_MAX - 1);
   out[n][WORD_MAX - 1] = 0;
+  if (prefix[0] >= 'A' && prefix[0] <= 'Z' && out[n][0] >= 'a' && out[n][0] <= 'z') out[n][0] = (char)(out[n][0] - 32);
   flag[n] = is_learned;
   return n + 1;
 }

@@ -103,6 +103,8 @@ static int popup_n = 0, popup_sel = 0;
 static uint32_t last_sig = 0xFFFFFFFFu;
 static uint32_t blink_t0 = 0;
 static bool bg_dirty = true, sent_in_session = false, ph_done = false, asked_drawn = false, center_shown = false;
+static uint32_t top_sig = 0xFFFFFFFFu, sug_sig = 0xFFFFFFFFu, in_sig = 0xFFFFFFFFu, bot_sig = 0xFFFFFFFFu;
+static bool help_drawn = false, bot_drawn = false;
 static int splash_edge = -1;
 static uint32_t ph_start = 0;
 static char welcome[120] = "";
@@ -295,8 +297,6 @@ static eadk_color_t tbuf[320 * FNT_H];
 #define SUG_H 26
 #define CHAT_Y 56
 
-static uint32_t top_sig = 0xFFFFFFFFu, sug_sig = 0xFFFFFFFFu, in_sig = 0xFFFFFFFFu, bot_sig = 0xFFFFFFFFu;
-static bool help_drawn = false, bot_drawn = false;
 static eadk_color_t sbuf[320 * 80];
 static int sy0 = 0, sh = 0;
 static eadk_color_t rowbuf[320];

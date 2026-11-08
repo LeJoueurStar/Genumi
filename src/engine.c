@@ -15,7 +15,8 @@ static char g_last[200] = "";      /* dernière réponse donnée */
 static int g_tab_k = 0, g_tab_next = 1, g_tab_max = 10;   /* table en cours */
 static bool g_art = false;
 static char g_q[48] = "";         /* dernière question (pour le raisonnement) */
-static char g_src[16] = "";       /* type de réponse : calcul, table, base, règle, précision */
+static char g_src[16] = "";
+static char g_def_term[48] = "";  /* mot défini par la question en cours */       /* type de réponse : calcul, table, base, règle, précision */
 
 void engine_set_name(const char *n) {
   strncpy(g_name, n, sizeof g_name - 1);
@@ -778,7 +779,13 @@ static void answer_core(const char *raw, char *out, int cap, bool art) {
         }
       }
     }
-    if (words == 1 && kb_find_question(one, out, cap)) return;
+    if (words == 1 && kb_find_question(one, out, cap)) {
+      if (has(q, " c est quoi ") || has(q, " qu est ce que ")) {
+        strncpy(g_def_term, one, sizeof g_def_term - 1);
+        g_def_term[sizeof g_def_term - 1] = 0;
+      }
+      return;
+    }
   }
 
   if (has(q, " ca va ") && (has(q, " bonjour ") || has(q, " salut ") || has(q, " bonsoir ") || has(q, " hello "))) {
@@ -799,6 +806,8 @@ static void answer_core(const char *raw, char *out, int cap, bool art) {
   if (it == I_DEFINE) {
     char term[48];
     if (extract_term(q, term, sizeof term)) {
+      strncpy(g_def_term, term, sizeof g_def_term - 1);
+      g_def_term[sizeof g_def_term - 1] = 0;
       const char *d = find_def(term);
       if (d) {
         put(out, cap, d);
@@ -870,7 +879,17 @@ void answer_for(const char *question, char *out, int cap, bool art) {
   g_art = art;
   strncpy(g_q, question, sizeof g_q - 1);
   g_q[sizeof g_q - 1] = 0;
+  g_def_term[0] = 0;
   answer_core(question, out, cap, art);
+  if (g_def_term[0] && !art) {
+    char t[220];
+    put(t, sizeof t, "« ");
+    add(t, sizeof t, g_def_term);
+    add(t, sizeof t, " » : ");
+    add(t, sizeof t, out);
+    strncpy(out, t, cap - 1);
+    out[cap - 1] = 0;
+  }
   if (strstr(out, "Résultat")) strcpy(g_src, "calcul");
   else if (strstr(out, "Table de")) strcpy(g_src, "table");
   else if (strstr(out, "Peux-tu") || strstr(out, "Tu peux")) strcpy(g_src, "precision");
