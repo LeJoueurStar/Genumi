@@ -396,6 +396,105 @@ static bool math_answer(const char *q, char *out, int cap) {
   return true;
 }
 
+
+/* ---------- pourcentages ---------- */
+/* Nombre décimal avec 2 chiffres après la virgule, sans zéros inutiles. */
+static void fmt_dec2(num_t q, num_t frac100, char *s) {
+  char a[24], b[8];
+  st_fmt(q, a);
+  strcpy(s, a);
+  if (frac100 > 0) {
+    b[0] = (char)('0' + (int)(frac100 / 10));
+    b[1] = (char)('0' + (int)(frac100 % 10));
+    b[2] = 0;
+    if (b[1] == '0') b[1] = 0;
+    strcat(s, ",");
+    strcat(s, b);
+  }
+}
+
+static bool percent_answer(const char *q, char *out, int cap) {
+  const char *pc = strchr(q, '%');
+  if (!pc) {
+    /* « 36 sur 240 » */
+    const char *sur = strstr(q, " sur ");
+    if (!sur) return false;
+    const char *p = sur;
+    while (p > q && *(p - 1) == ' ') p--;
+    num_t x = 0, y = 0;
+    int nd = 0, mul = 1;
+    const char *d = p;
+    while (d > q && *(d - 1) >= '0' && *(d - 1) <= '9' && nd < 9) { d--; nd++; }
+    mul = 1;
+    for (const char *k = d; k < p; k++) x = x * 10 + (*k - '0');
+    (void)mul;
+    const char *yy = sur + 5;
+    while (*yy == ' ') yy++;
+    nd = 0;
+    while (yy[nd] >= '0' && yy[nd] <= '9' && nd < 9) nd++;
+    for (int k = 0; k < nd; k++) y = y * 10 + (yy[k] - '0');
+    if (nd == 0 || y == 0 || x == 0 || d == p) return false;
+    num_t q1 = x * 100 / y, r1 = x * 100 % y;
+    num_t frac = r1 * 100 / y;
+    char rs[32];
+    fmt_dec2(q1, frac, rs);
+    char xs[24], ys[24];
+    st_fmt(x, xs);
+    st_fmt(y, ys);
+    out[0] = 0;
+    add(out, cap, "Étapes :|");
+    add(out, cap, xs);
+    add(out, cap, " ÷ ");
+    add(out, cap, ys);
+    add(out, cap, " × 100 = ");
+    add(out, cap, rs);
+    add(out, cap, "|Résultat : ");
+    add(out, cap, rs);
+    add(out, cap, " %.");
+    return true;
+  }
+  /* « 15 % de 240 » */
+  const char *p = pc;
+  while (p > q && *(p - 1) == ' ') p--;
+  const char *d = p;
+  while (d > q && *(d - 1) >= '0' && *(d - 1) <= '9') d--;
+  if (d == p) return false;
+  num_t pct = 0;
+  for (const char *k = d; k < p; k++) pct = pct * 10 + (*k - '0');
+  const char *after = pc + 1;
+  while (*after == ' ') after++;
+  if (strncmp(after, "de ", 3) != 0) return false;
+  after += 3;
+  while (*after == ' ') after++;
+  num_t base = 0;
+  int nb = 0;
+  while (after[nb] >= '0' && after[nb] <= '9' && nb < 9) nb++;
+  if (nb == 0) return false;
+  for (int k = 0; k < nb; k++) base = base * 10 + (after[k] - '0');
+  num_t prod = pct * base;
+  num_t q2 = prod / 100, r2 = prod % 100;
+  char rs[32], ps[24], bs[24], prs[24];
+  fmt_dec2(q2, r2, rs);
+  st_fmt(pct, ps);
+  st_fmt(base, bs);
+  st_fmt(prod, prs);
+  out[0] = 0;
+  add(out, cap, "Étapes :|");
+  add(out, cap, ps);
+  add(out, cap, " × ");
+  add(out, cap, bs);
+  add(out, cap, " = ");
+  add(out, cap, prs);
+  add(out, cap, "|");
+  add(out, cap, prs);
+  add(out, cap, " ÷ 100 = ");
+  add(out, cap, rs);
+  add(out, cap, "|Résultat : ");
+  add(out, cap, rs);
+  add(out, cap, ".");
+  return true;
+}
+
 /* ---------- données ---------- */
 
 typedef struct { const char *key; const char *art; } Art;
@@ -650,6 +749,7 @@ static void answer_core(const char *raw, char *out, int cap, bool art) {
     put(out, cap, "Je n'ai pas bien compris ce message. Peux-tu le reformuler avec des mots simples ?");
     return;
   }
+  if (percent_answer(q, out, cap)) return;
   if (math_answer(q, out, cap)) return;
 
   {

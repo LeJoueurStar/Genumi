@@ -102,6 +102,25 @@ static const char *popup_opts = "";
 static int popup_n = 0, popup_sel = 0;
 static uint32_t last_sig = 0xFFFFFFFFu;
 static uint32_t blink_t0 = 0;
+#ifndef PR_KEY
+#define PR_KEY eadk_key_ee
+#endif
+static bool pr_on = false;
+static int pr_idx = 0, pr_ok = 0, pr_tot = 0;
+static char pr_msg[64] = "";
+static const char *PR_LIST[] = {
+  "Le chat dort sur le canapé.",
+  "Je vais à l'école à pied.",
+  "Il fait beau aujourd'hui, allons au parc.",
+  "Les élèves écrivent une lettre à leur professeur.",
+  "Nous avons mangé une pomme et un pain.",
+  "La calculatrice affiche le résultat du calcul.",
+  "Demain, je pars en voyage avec mes amis.",
+  "Le train arrive à la gare à huit heures.",
+  "J'aime lire des livres d'aventure le soir.",
+  "Un bon café le matin donne de l'énergie.",
+};
+#define PR_COUNT 10
 static bool bg_dirty = true, sent_in_session = false, ph_done = false, asked_drawn = false, center_shown = false;
 static uint32_t top_sig = 0xFFFFFFFFu, sug_sig = 0xFFFFFFFFu, in_sig = 0xFFFFFFFFu, bot_sig = 0xFFFFFFFFu;
 static bool help_drawn = false, bot_drawn = false;
@@ -782,8 +801,8 @@ static void dots3(int cx, int cy) {
 
 static void comp_header(void) {
   int oy = sent_in_session ? -24 : 0;
-  sy0 = 26 + oy;
-  sh = 30;
+  sy0 = sent_in_session ? 0 : 26;
+  sh = sent_in_session ? 56 : 30;
   sfill_zone();
   sfill_circle(17, 39 + oy, 12, 0xE71C);
   sfill_circle(17, 39 + oy, 11, eadk_color_white);
@@ -800,7 +819,7 @@ static void comp_header(void) {
     crayon(282, 42);
     profile_icon(302, 42);
   }
-  sflush(26 + oy, 30);
+  sflush(sy0, sh);
 }
 
 /* Zone de conversation / accueil : logo et phrase au centre, réponse en haut. */
@@ -963,11 +982,57 @@ static void chat_draw(void) {
   if (menu_on) draw_menu();
 }
 
+static void pr_draw_centered(const char *s, int y, eadk_color_t fg) {
+  int w = u8_count(s) * FNT_W;
+  int x = (320 - w) / 2;
+  const char *p = s;
+  while (*p) {
+    int n = u8len((unsigned char)*p);
+    sglyph(p, n, x, y, fg, BG_ZONE);
+    x += FNT_W;
+    p += n;
+  }
+}
+
+/* Ce que tu tapes : vert si la lettre est juste, rouge sinon. */
+static void pr_draw_typed(int y) {
+  const char *want = PR_LIST[pr_idx];
+  int w = u8_count(input) * FNT_W;
+  int x = (320 - w) / 2;
+  int i = 0;
+  const char *p = input;
+  while (*p) {
+    int n = u8len((unsigned char)*p);
+    bool ok = want[i] == *p;
+    sglyph(p, n, x, y, ok ? 0x07E0 : 0xF800, BG_ZONE);
+    x += FNT_W;
+    p += n;
+    i++;
+  }
+}
+
 static void comp_center(int y0, int h) {
   sy0 = y0;
   sh = h;
   sfill_zone();
-  if (sent_in_session || thinking || revealing) {
+  if (pr_on) {
+    pr_draw_centered("Tape la phrase, puis EXE :", 60, GREYTXT);
+    pr_draw_centered(PR_LIST[pr_idx], 80, GREYTXT);
+    pr_draw_typed(96);
+    char sc[40] = "Reussies : ";
+    char nb[12];
+    int k = 0;
+    nb[k++] = (char)('0' + pr_ok % 10);
+    nb[k] = 0;
+    strcat(sc, nb);
+    strcat(sc, " / ");
+    k = 0;
+    nb[k++] = (char)('0' + pr_tot % 10);
+    nb[k] = 0;
+    strcat(sc, nb);
+    pr_draw_centered(sc, 112, INK);
+    if (pr_msg[0]) pr_draw_centered(pr_msg, 124, GREYTXT);
+  } else if (sent_in_session || thinking || revealing) {
     chat_draw();
   } else {
     bool welcome_on = asking_name || (!sent_in_session && input_len == 0);
@@ -1279,6 +1344,8 @@ static void draw(uint32_t now) {
   c = sig_u(c, (uint32_t)scroll_px);
   c = sig_u(c, (thinking || revealing || (now_c - bub_t0) < 400) ? (now_c / 120) : 0u);
   c = sig_u(c, (uint32_t)ch_n);
+  c = sig_u(c, (uint32_t)(pr_on ? 1000 + pr_idx * 100 + pr_ok + pr_tot : 0));
+  c = sig_u(c, (uint32_t)strlen(pr_msg));
   if (c != top_sig) {
     top_sig = c;
     comp_center(56, 42);
@@ -1708,7 +1775,38 @@ int main(int argc, char *argv[]) {
           art_mode = false;
         } else input_clear();
       }
-      if (PRESSED(s, prev, eadk_key_exe)) submit();
+      if (pr_on && PRESSED(s, prev, eadk_key_exe)) {
+        char typed[INPUT_MAX + 1];
+        memcpy(typed, input, input_len);
+        typed[input_len] = 0;
+        const char *want = PR_LIST[pr_idx];
+        pr_tot++;
+        if (strcmp(typed, want) == 0) {
+          pr_ok++;
+          strcpy(pr_msg, "Bravo, c'est exact !");
+        } else {
+          int diff = 0;
+          for (int k = 0; want[k] || typed[k]; k++)
+            if (want[k] != typed[k]) diff++;
+          strcpy(pr_msg, diff == 1 ? "Presque : 1 erreur." : "Presque : plusieurs erreurs.");
+        }
+        pr_idx = (pr_idx + 1) % PR_COUNT;
+        input_clear();
+        bg_dirty = true;
+      } else if (PRESSED(s, prev, eadk_key_exe)) {
+        submit();
+      }
+      if (!pr_on && input_len == 0 && PRESSED(s, prev, PR_KEY) && !plus_on && !menu_on && !reason_on && !popup_on && !sent_in_session) {
+        pr_on = true;
+        pr_idx = (int)((now / 1000u) % PR_COUNT);
+        pr_msg[0] = 0;
+        pr_ok = 0;
+        pr_tot = 0;
+      }
+      if (pr_on && input_len == 0 && PRESSED(s, prev, eadk_key_back)) {
+        pr_on = false;
+        bg_dirty = true;
+      }
 
       if (sugg_n > 0) {
         if (f_down) { sugg_active = true; sugg_sel = (sugg_sel + 1) % sugg_n; }

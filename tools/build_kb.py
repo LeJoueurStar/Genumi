@@ -8,7 +8,7 @@ import re
 import sys
 import unicodedata
 
-FILES = [f for f in ['kb/qa.txt', 'kb/extra.txt', 'kb/extra2.txt', 'kb/extra3.txt', 'kb/extra4.txt', 'kb/extra5.txt', 'kb/extra6.txt', 'kb/extra7.txt', 'kb/extra8.txt', 'kb/extra9.txt', 'kb/extra10.txt', 'kb/extra11.txt', 'kb/extra12.txt', 'kb/extra13.txt', 'kb/extra14.txt', 'kb/extra15.txt', 'kb/extra16.txt', 'kb/extra17.txt', 'kb/extra18.txt', 'kb/extra19.txt', 'kb/extra20.txt', 'kb/extra21.txt', 'kb/extra22.txt', 'kb/extra23.txt', 'kb/extra24.txt', 'kb/extra25.txt'] if os.path.exists(f)]
+FILES = [f for f in ['kb/qa.txt', 'kb/extra.txt', 'kb/extra2.txt', 'kb/extra3.txt', 'kb/extra4.txt', 'kb/extra5.txt', 'kb/extra6.txt', 'kb/extra7.txt', 'kb/extra8.txt', 'kb/extra9.txt', 'kb/extra10.txt', 'kb/extra11.txt', 'kb/extra12.txt', 'kb/extra13.txt', 'kb/extra14.txt', 'kb/extra15.txt', 'kb/extra16.txt', 'kb/extra17.txt', 'kb/extra18.txt', 'kb/extra19.txt', 'kb/extra20.txt', 'kb/extra21.txt', 'kb/extra22.txt', 'kb/extra23.txt', 'kb/extra24.txt', 'kb/extra25.txt', 'kb/extra26.txt', 'kb/extra27.txt'] if os.path.exists(f)]
 OUT = 'src/kb_data.h'
 WORDS_OUT = 'src/kb_words.h'
 STOP = set('les des une est que qui quoi pour dans sur avec par ce cet cette son sa ses ils elle vous tu je il en au aux du de la le un et ou'.split())
