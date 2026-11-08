@@ -8,8 +8,8 @@
 #include "anim_bg.h"
 static bool art_mode = false;
 #define CH_MAX 48
-#define CH_VIEW_Y 56
-#define CH_VIEW_H 84
+#define CH_VIEW_Y 60
+#define CH_VIEW_H 80
 #define BUBBLE 0xD73F
 static char ch_txt[CH_MAX][80];
 static int ch_kind[CH_MAX], ch_y[CH_MAX], ch_h[CH_MAX], ch_n = 0, ch_last_user = -1;
@@ -982,33 +982,30 @@ static void chat_draw(void) {
   if (menu_on) draw_menu();
 }
 
-static void pr_draw_centered(const char *s, int y, eadk_color_t fg) {
-  int w = u8_count(s) * FNT_W;
-  int x = (320 - w) / 2;
+/* Dessine un texte à partir de la colonne 4 : une ligne toutes les 36 lettres, pas de coupure. */
+static void pr_draw_wrapped(const char *s, int y0, eadk_color_t fg, bool typed) {
+  const char *want = PR_LIST[pr_idx];
+  int col = 0, row = 0;
+  int i = 0;
   const char *p = s;
   while (*p) {
     int n = u8len((unsigned char)*p);
-    sglyph(p, n, x, y, fg, BG_ZONE);
-    x += FNT_W;
-    p += n;
-  }
-}
-
-/* Ce que tu tapes : vert si la lettre est juste, rouge sinon. */
-static void pr_draw_typed(int y) {
-  const char *want = PR_LIST[pr_idx];
-  int w = u8_count(input) * FNT_W;
-  int x = (320 - w) / 2;
-  int i = 0;
-  const char *p = input;
-  while (*p) {
-    int n = u8len((unsigned char)*p);
-    bool ok = want[i] == *p;
-    sglyph(p, n, x, y, ok ? 0x07E0 : 0xF800, BG_ZONE);
-    x += FNT_W;
+    eadk_color_t c = fg;
+    if (typed) c = (want[i] == *p) ? 0x07E0 : 0xF800;
+    if (col >= 36) {
+      col = 0;
+      row++;
+    }
+    sglyph(p, n, 4 + col * FNT_W, y0 + row * 18, c, BG_ZONE);
+    col++;
     p += n;
     i++;
   }
+}
+
+static void chat_band(void) {
+  comp_center(56, 40);
+  comp_center(96, 40);
 }
 
 static void comp_center(int y0, int h) {
@@ -1017,8 +1014,8 @@ static void comp_center(int y0, int h) {
   sfill_zone();
   if (pr_on) {
     pr_draw_centered("Tape la phrase, puis EXE :", 60, GREYTXT);
-    pr_draw_centered(PR_LIST[pr_idx], 80, GREYTXT);
-    pr_draw_typed(96);
+    pr_draw_wrapped(PR_LIST[pr_idx], 78, GREYTXT, false);
+    pr_draw_wrapped(input, 78, INK, true);
     char sc[40] = "Reussies : ";
     char nb[12];
     int k = 0;
@@ -1348,8 +1345,7 @@ static void draw(uint32_t now) {
   c = sig_u(c, (uint32_t)strlen(pr_msg));
   if (c != top_sig) {
     top_sig = c;
-    comp_center(56, 42);
-    comp_center(98, 42);
+    chat_band();
   }
 
   int k = ph_index(now);
@@ -1523,8 +1519,7 @@ static void draw_sheet(int y0) {
 static void draw_overlays(uint32_t now, bool center) {
   comp_header();
   if (center) {
-    comp_center(56, 42);
-    comp_center(98, 42);
+    chat_band();
   }
   comp_sug();
   draw_input_full(now);
@@ -1803,6 +1798,11 @@ int main(int argc, char *argv[]) {
         pr_ok = 0;
         pr_tot = 0;
       }
+      if (pr_on && PRESSED(s, prev, PR_KEY)) {
+        pr_on = false;
+        input_clear();
+        bg_dirty = true;
+      }
       if (pr_on && input_len == 0 && PRESSED(s, prev, eadk_key_back)) {
         pr_on = false;
         bg_dirty = true;
@@ -1886,6 +1886,7 @@ int main(int argc, char *argv[]) {
         sugg_learned[i] = sugg_all_flag[sugg_off + i];
       }
     }
+    if (pr_on) sugg_n = 0;
     if (sugg_sel >= sugg_n) sugg_sel = 0;
 
     if (s != prev) {
@@ -1938,12 +1939,12 @@ int main(int argc, char *argv[]) {
         wash_k = 255;
         if (now - wash_last >= 250) {
           wash_last = now;
-          comp_center(56, 42);
-          comp_center(98, 42);
+          chat_band();
+          comp_header();
           comp_sug();
           comp_bottom();
-          for (int y = 24; y < 240; y++) {
-            if ((y >= 26 && y < 166) || (y >= 167 && y < 216) || (y >= 220)) continue;
+          for (int y = 0; y < 240; y++) {
+            if ((y < 56 && sent_in_session) || (y >= 26 && y < 166) || (y >= 167 && y < 216) || (y >= 220)) continue;
             for (int x = 0; x < 320; x++) rowbuf[x] = zone_color(x, y);
             eadk_display_push_rect((eadk_rect_t){ 0, (uint16_t)y, 320, 1 }, rowbuf);
           }
