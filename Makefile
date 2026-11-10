@@ -18,7 +18,7 @@ CFLAGS = -std=gnu99
 CFLAGS += $(EADK_CFLAGS)
 CFLAGS += -O2 -Wall
 CFLAGS += -DPLATFORM_DEVICE=1 -Isrc -Isrc/common
-CFLAGS += -DNW_APP_NAME=\" \"
+CFLAGS += -DNW_APP_NAME=\"-\"
 CFLAGS += -fdata-sections -ffunction-sections
 
 LDFLAGS = -Wl,--relocatable
