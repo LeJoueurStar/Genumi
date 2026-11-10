@@ -1003,6 +1003,18 @@ static void pr_draw_wrapped(const char *s, int y0, eadk_color_t fg, bool typed) 
   }
 }
 
+static void pr_draw_centered(const char *s, int y, eadk_color_t fg) {
+  int w = u8_count(s) * FNT_W;
+  int x = (320 - w) / 2;
+  const char *p = s;
+  while (*p) {
+    int n = u8len((unsigned char)*p);
+    sglyph(p, n, x, y, fg, BG_ZONE);
+    x += FNT_W;
+    p += n;
+  }
+}
+
 static void chat_band(void) {
   comp_center(56, 40);
   comp_center(96, 40);
