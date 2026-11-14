@@ -1,0 +1,51 @@
+# ---------- Mathématiques avancées : analyse ----------
+Qu'est-ce qu'une limite ? | lim(x→a) f(x) = L signifie que f(x) se rapproche de L autant qu'on veut quand x se rapproche de a. | limite,fonction,approche,tend
+Qu'est-ce qu'une forme indéterminée ? | Ce sont des formes comme 0/0, ∞/∞, ∞−∞, 0×∞, 1^∞ ou 0^0, qui ne donnent pas directement la limite et demandent une transformation. | indeterminee,forme,limite,zero,infini
+Comment lever une indétermination 0/0 ? | On factorise ou on utilise la quantité conjuguée, ou la règle de L'Hôpital : si f et g tendent vers 0, la limite de f/g est celle de f'/g'. | indetermination,zero,factorisation,hopital
+Qu'est-ce que la règle de L'Hôpital ? | Si f et g tendent toutes deux vers 0 (ou l'infini) et si la limite de f'/g' existe, alors la limite de f/g est la même. | hopital,regle,limite,derivee
+Qu'est-ce que le développement limité ? | C'est l'écriture d'une fonction au voisinage de 0 sous forme de polynôme plus un reste négligeable. Exemple : e^x = 1 + x + x²/2 + o(x²). | developpement,limite,taylor,voisinage
+Qu'est-ce que la formule de Taylor-Young ? | f(x) = f(a) + f'(a)(x−a) + f''(a)/2! (x−a)² + ... + reste négligeable devant (x−a)^n. | taylor,young,formule,derivees
+Qu'est-ce que le théorème de Rolle ? | Si f est continue sur [a ; b], dérivable sur ]a ; b[ et f(a) = f(b), alors il existe c dans ]a ; b[ tel que f'(c) = 0. | rolle,theoreme,derivee,nulle
+Qu'est-ce que le théorème des accroissements finis ? | Il existe c dans ]a ; b[ tel que f(b) − f(a) = f'(c)(b − a), sous des hypothèses de continuité et de dérivabilité. | accroissements,finis,theoreme,pente
+Qu'est-ce qu'une primitive ? | F est une primitive de f sur un intervalle si F' = f. Deux primitives diffèrent d'une constante. | primitive,derivee,constante,integrale
+Qu'est-ce que le théorème fondamental de l'analyse ? | Si f est continue sur [a ; b] et F une primitive de f, alors integrale de a à b de f(x) dx = F(b) − F(a). | fondamental,integrale,primitive,theoreme
+Qu'est-ce que le changement de variable en intégrale ? | Pour u = φ(x), integrale  f(φ(x)) φ'(x) dx = integrale  f(u) du. Il sert à simplifier une intégrale. | changement,variable,integrale,substitution
+Qu'est-ce qu'une équation différentielle linéaire du premier ordre ? | y' + a(x) y = b(x). Sa solution générale est la somme d'une solution particulière et de C × e^(−integrale a). | equation,differentielle,lineaire,premier,ordre
+Qu'est-ce qu'une équation différentielle du second ordre à coefficients constants ? | ay'' + by' + cy = 0. On résout l'équation caractéristique ar² + br + c = 0 : selon le discriminant, la solution est exponentielle, ou sinusoïdale amortie, ou de la forme (A + Bx) e^(rx). | second,ordre,caracteristique,discriminant
+Qu'est-ce que la série de Taylor ? | C'est la série f(x) = Σ f^(n)(a)/n! (x−a)^n, qui représente la fonction au voisinage de a quand elle converge. | serie,taylor,somme,derivees
+Qu'est-ce qu'une série convergente ? | Une série Σ un converge si la suite de ses sommes partielles a une limite finie. Une condition nécessaire est que un tende vers 0. | serie,convergence,somme,partielle
+Qu'est-ce que la règle de d'Alembert ? | Si la limite de |u(n+1)/un| est strictement inférieure à 1, la série converge absolument ; si elle est strictement supérieure à 1, elle diverge. | alembert,regle,serie,convergence
+Qu'est-ce qu'une série de Riemann ? | La série Σ 1/n^α converge si et seulement si α > 1. | riemann,serie,alpha,convergence
+# ---------- Mathématiques avancées : algèbre linéaire ----------
+Qu'est-ce qu'une matrice ? | C'est un tableau de nombres à lignes et colonnes. Une matrice carrée a autant de lignes que de colonnes. | matrice,tableau,lignes,colonnes
+Comment multiplier deux matrices ? | Le coefficient (i ; j) du produit AB est la somme des produits de la ligne i de A par la colonne j de B. Le produit n'est pas commutatif. | produit,matrice,multiplication,commutatif
+Qu'est-ce que le déterminant d'une matrice 2×2 ? | Pour A = [a b ; c d], det(A) = ad − bc. La matrice est inversible si et seulement si det(A) est non nul. | determinant,matrice,inversible,ad,bc
+Comment inverser une matrice 2×2 ? | Pour A = [a b ; c d] avec ad − bc non nul, A^(−1) = (1 / (ad − bc)) × [d −b ; −c a]. | inverse,matrice,determinant
+Qu'est-ce qu'une valeur propre ? | Un réel λ est valeur propre de A s'il existe un vecteur non nul v tel que Av = λv. Les valeurs propres sont les racines de det(A − λI) = 0. | valeur,propre,vecteur,diagonalisation
+Qu'est-ce qu'un vecteur propre ? | C'est un vecteur non nul v tel que Av soit proportionnel à v. Le coefficient de proportionnalité est la valeur propre associée. | vecteur,propre,valeur,proportionnel
+Qu'est-ce que la diagonalisation ? | C'est l'écriture A = P D P^(−1), où D est diagonale avec les valeurs propres et P a pour colonnes des vecteurs propres. Elle simplifie les puissances de A. | diagonalisation,matrice,puissance,diagonale
+Qu'est-ce qu'un espace vectoriel ? | C'est un ensemble muni d'une addition et d'une multiplication par un scalaire, qui vérifie des règles comme l'associativité et l'existence d'un vecteur nul. | espace,vectoriel,scalaire,addition
+Qu'est-ce qu'une base d'un espace vectoriel ? | C'est une famille libre et génératrice : tout vecteur s'écrit de manière unique comme combinaison linéaire des vecteurs de la base. | base,famille,libre,generatrice
+Qu'est-ce que le rang d'une matrice ? | C'est le nombre maximal de colonnes (ou de lignes) linéairement indépendantes. Une matrice carrée n × n est inversible si et seulement si son rang vaut n. | rang,matrice,independant,inversible
+Qu'est-ce qu'un système linéaire ? | C'est un ensemble d'équations linéaires à plusieurs inconnues, qu'on écrit AX = B. Il a une solution unique si A est inversible. | systeme,lineaire,equations,inconnues
+# ---------- Mathématiques avancées : complexes, probabilités, statistiques ----------
+Qu'est-ce que la formule d'Euler ? | e^(iθ) = cos θ + i sin θ. Pour θ = π, on obtient la relation e^(iπ) + 1 = 0. | euler,formule,complexe,exponentielle,cos,sin
+Qu'est-ce qu'une racine n-ième de l'unité ? | Ce sont les n nombres complexes z tels que z^n = 1, qui sont répartis régulièrement sur le cercle unité. | racine,unite,complexe,cercle
+Qu'est-ce que le théorème de Bayes ? | P(A|B) = P(B|A) × P(A) / P(B), avec P(B) calculée par la formule des probabilités totales. | bayes,theoreme,conditionnelle,totales
+Qu'est-ce que la loi normale ? | C'est une loi continue en forme de cloche, de moyenne μ et d'écart-type σ. Environ 68 % des valeurs sont dans [μ − σ ; μ + σ], et 95 % dans [μ − 2σ ; μ + 2σ]. | loi,normale,gauss,cloche,ecart,type
+Qu'est-ce que le théorème central limite ? | Pour un grand nombre d'échantillons indépendants et identiquement distribués, la moyenne suit approximativement une loi normale, quelle que soit la loi de départ. | central,limite,theoreme,moyenne,normale
+Qu'est-ce qu'un intervalle de confiance ? | C'est un intervalle qui contient le paramètre inconnu avec une probabilité donnée, souvent 95 %. Pour une proportion, il est proche de f ± 1/√n dans le cas le plus large. | intervalle,confiance,estimation,proportion
+Qu'est-ce qu'une régression linéaire ? | C'est la droite y = ax + b qui ajuste au mieux un nuage de points, au sens des moindres carrés : elle minimise la somme des carrés des écarts. | regression,lineaire,moindres,carres,droite
+Qu'est-ce que la covariance ? | C'est la moyenne des produits des écarts à la moyenne : cov(X ; Y) = E(XY) − E(X)E(Y). Elle mesure le lien linéaire entre deux variables. | covariance,lien,variables,esperance
+Qu'est-ce que le coefficient de corrélation ? | C'est r = cov(X ; Y) / (σX × σY), compris entre −1 et 1. Une valeur proche de ±1 indique une forte liaison linéaire. | correlation,coefficient,linéaire,covariance
+# ---------- Mathématiques avancées : analyse de fonctions à plusieurs variables et nombres ----------
+Qu'est-ce qu'une dérivée partielle ? | C'est la dérivée d'une fonction de plusieurs variables par rapport à une seule variable, les autres étant gardées constantes. | derivee,partielle,variables,constant
+Qu'est-ce que le gradient ? | C'est le vecteur des dérivées partielles, qui indique la direction de la plus forte augmentation d'une fonction. | gradient,vecteur,derivee,partielle,augmentation
+Qu'est-ce que la transformée de Fourier ? | C'est une opération qui décompose un signal en une somme de sinusoïdes de différentes fréquences. | fourier,transformee,signal,frequence,sinusoide
+Qu'est-ce que la transformée de Laplace ? | C'est une transformation qui ramène une équation différentielle linéaire à une équation algébrique, très utilisée en automatique et en électricité. | laplace,transformee,differentielle,automatique
+Qu'est-ce qu'un nombre premier de Mersenne ? | C'est un nombre premier de la forme 2^p − 1, où p est un nombre premier. Exemple : 2^3 − 1 = 7. | mersenne,premier,2,p
+Qu'est-ce que l'indicatrice d'Euler ? | φ(n) est le nombre d'entiers entre 1 et n premiers avec n. Exemple : φ(12) = 4. | indicatrice,euler,phi,entiers
+Qu'est-ce que le théorème de Fermat-Euler ? | Si a et n sont premiers entre eux, alors a^φ(n) ≡ 1 (mod n). | fermat,euler,theoreme,congruence
+Qu'est-ce qu'un groupe en algèbre ? | C'est un ensemble muni d'une loi interne associative, qui possède un élément neutre et où chaque élément a un inverse. | groupe,algebre,loi,neutre,inverse
+Qu'est-ce qu'un anneau ? | C'est un ensemble muni de deux lois, une addition qui forme un groupe commutatif, et une multiplication associative et distributive. | anneau,algebre,addition,multiplication
+Qu'est-ce qu'un corps ? | C'est un anneau commutatif dans lequel tout élément non nul est inversible. Les réels et les complexes forment des corps. | corps,algebre,inversible,reels,complexes

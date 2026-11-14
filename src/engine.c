@@ -66,6 +66,10 @@ static void norm(const char *in, char *out, int cap) {
   int o = 0;
   for (int i = 0; in[i] && o < cap - 3; i++) {
     unsigned char c = (unsigned char)in[i];
+    if (c == ',' && i > 0 && in[i - 1] >= '0' && in[i - 1] <= '9' && in[i + 1] >= '0' && in[i + 1] <= '9') {
+      out[o++] = '.';
+      continue;
+    }
     if (c == 0xC3 && in[i + 1]) {
       unsigned char d = (unsigned char)in[++i];
       char r = ' ';
@@ -149,7 +153,7 @@ static char pe_err[64];
 static char st_buf[640];
 static int st_n;
 
-static void st_fmt(num_t v, char *s) {
+static void raw_fmt(num_t v, char *s) {
   char t[24];
   int k = 0, n = 0;
   num_t a = v < 0 ? -v : v;
@@ -160,6 +164,41 @@ static void st_fmt(num_t v, char *s) {
   if (v < 0) s[n++] = '-';
   while (k) s[n++] = t[--k];
   s[n] = 0;
+}
+
+#define NSCALE 1000000LL
+/* Affiche une valeur à virgule (multipliée par 10^6), avec une virgule française et sans zéros inutiles. */
+static void st_fmt(num_t v, char *s) {
+  char ib[24];
+  int k = 0, n = 0;
+  num_t a = v < 0 ? -v : v;
+  num_t ip = a / NSCALE, fp = a % NSCALE;
+  do {
+    ib[k++] = (char)('0' + (int)(ip % 10));
+    ip /= 10;
+  } while (ip);
+  if (v < 0) s[n++] = '-';
+  while (k) s[n++] = ib[--k];
+  if (fp) {
+    char fb[6];
+    for (int i = 5; i >= 0; i--) {
+      fb[i] = (char)('0' + (int)(fp % 10));
+      fp /= 10;
+    }
+    int d = 6;
+    while (d > 0 && fb[d - 1] == '0') d--;
+    s[n++] = ',';
+    for (int i = 0; i < d; i++) s[n++] = fb[i];
+  }
+  s[n] = 0;
+}
+
+static num_t smul(num_t a, num_t b) {
+  return (a / NSCALE) * b + (a % NSCALE) * b / NSCALE;
+}
+
+static num_t sdiv(num_t a, num_t b) {
+  return (a / b) * NSCALE + (a % b) * NSCALE / b;
 }
 
 static void st_rec(const char *line) {
@@ -213,16 +252,34 @@ static num_t pe_atom(void) {
     pe_p++;
     return -pe_atom();
   }
-  if (*pe_p >= '0' && *pe_p <= '9') {
+  if ((*pe_p >= '0' && *pe_p <= '9') || *pe_p == '.' || *pe_p == ',') {
     num_t v = 0;
     int nd = 0;
     while (*pe_p >= '0' && *pe_p <= '9') {
-      if (++nd > 15) {
+      if (++nd > 9) {
         pe_fail("Nombre trop grand pour la calculatrice.");
         return 0;
       }
       v = v * 10 + (*pe_p - '0');
       pe_p++;
+    }
+    v *= NSCALE;
+    if (*pe_p == '.' || *pe_p == ',') {
+      pe_p++;
+      num_t f = 0;
+      int fd = 0;
+      while (*pe_p >= '0' && *pe_p <= '9') {
+        if (fd < 6) {
+          f = f * 10 + (*pe_p - '0');
+          fd++;
+        }
+        pe_p++;
+      }
+      while (fd < 6) {
+        f *= 10;
+        fd++;
+      }
+      v += f;
     }
     return v;
   }
@@ -235,14 +292,14 @@ static num_t pe_power(void) {
   pe_sp();
   if (*pe_p == '^') {
     pe_p++;
-    num_t e = pe_power();
+    num_t e = pe_power() / NSCALE;
     if (e < 0 || e > 62) {
       pe_fail("Puissance trop grande.");
       return 0;
     }
-    num_t r = 1;
-    for (num_t i = 0; i < e; i++) r *= base;
-    st_add(base, '^', e, r);
+    num_t r = NSCALE;
+    for (num_t i = 0; i < e; i++) r = smul(r, base);
+    st_add(base, '^', e * NSCALE, r);
     return r;
   }
   return base;
@@ -255,7 +312,7 @@ static num_t pe_term(void) {
     if (*pe_p == '*') {
       pe_p++;
       num_t b = pe_power();
-      num_t r = v * b;
+      num_t r = smul(v, b);
       st_add(v, '*', b, r);
       v = r;
     } else if (*pe_p == '/') {
@@ -265,25 +322,8 @@ static num_t pe_term(void) {
         pe_fail("Impossible : on ne peut pas diviser par zéro.");
         return 0;
       }
-      num_t q = v / b, rem = v % b;
-      if (rem == 0) {
-        st_add(v, '/', b, q);
-      } else {
-        char sa[24], sb[24], sq[24], sr[24], line[80];
-        st_fmt(v, sa);
-        st_fmt(b, sb);
-        st_fmt(q, sq);
-        st_fmt(rem < 0 ? -rem : rem, sr);
-        line[0] = 0;
-        strcat(line, sa);
-        strcat(line, " \xC3\xB7 ");
-        strcat(line, sb);
-        strcat(line, " = ");
-        strcat(line, sq);
-        strcat(line, " reste ");
-        strcat(line, sr);
-        st_rec(line);
-      }
+      num_t q = sdiv(v, b);
+      st_add(v, '/', b, q);
       v = q;
     } else {
       return v;
@@ -319,7 +359,7 @@ static int extract_expr(const char *q, char *e, int cap) {
   bool started = false;
   for (const char *p = q; *p && n < cap - 2; p++) {
     char c = *p;
-    bool ok = (c >= '0' && c <= '9') || c == '+' || c == '-' || c == '*' || c == '/' || c == '^' || c == '(' || c == ')' || c == ' ';
+    bool ok = (c >= '0' && c <= '9') || c == '+' || c == '-' || c == '*' || c == '/' || c == '^' || c == '(' || c == ')' || c == ' ' || c == '.' || c == ',';
     if (!ok && c == 'x' && started) {
       const char *before = p - 1;
       while (before > q && *before == ' ') before--;
@@ -401,7 +441,7 @@ static bool math_answer(const char *q, char *out, int cap) {
 /* Nombre décimal avec 2 chiffres après la virgule, sans zéros inutiles. */
 static void fmt_dec2(num_t q, num_t frac100, char *s) {
   char a[24], b[8];
-  st_fmt(q, a);
+  raw_fmt(q, a);
   strcpy(s, a);
   if (frac100 > 0) {
     b[0] = (char)('0' + (int)(frac100 / 10));
@@ -439,8 +479,8 @@ static bool percent_answer(const char *q, char *out, int cap) {
     char rs[32];
     fmt_dec2(q1, frac, rs);
     char xs[24], ys[24];
-    st_fmt(x, xs);
-    st_fmt(y, ys);
+    raw_fmt(x, xs);
+    raw_fmt(y, ys);
     out[0] = 0;
     add(out, cap, "Étapes :|");
     add(out, cap, xs);
@@ -475,9 +515,9 @@ static bool percent_answer(const char *q, char *out, int cap) {
   num_t q2 = prod / 100, r2 = prod % 100;
   char rs[32], ps[24], bs[24], prs[24];
   fmt_dec2(q2, r2, rs);
-  st_fmt(pct, ps);
-  st_fmt(base, bs);
-  st_fmt(prod, prs);
+  raw_fmt(pct, ps);
+  raw_fmt(base, bs);
+  raw_fmt(prod, prs);
   out[0] = 0;
   add(out, cap, "Étapes :|");
   add(out, cap, ps);

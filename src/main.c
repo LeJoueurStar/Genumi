@@ -464,7 +464,7 @@ static void anim_frame(uint32_t now) {
   /* Les bandes d'interface sont recomposées une fois par image, avec le fond animé
    * (zone_color). On ne peint à part que les lignes hors bandes : pas de scintillement. */
   for (int y = 0; y < 240; y++) {
-    bool in_band = (y >= 26 && y < 166) || (y >= 167 && y < 216) || (y >= 220);
+    bool in_band = (y >= 26 && y < 140) || (y >= 167 && y < 216) || (y >= 220);
     if (in_band) continue;
     uint32_t h = 2166136261u;
     for (int k = 0; k < 4; k++) h = (h ^ anim_pixel(k * 80, y)) * 16777619u;
@@ -1803,7 +1803,7 @@ int main(int argc, char *argv[]) {
       } else if (PRESSED(s, prev, eadk_key_exe)) {
         submit();
       }
-      if (!pr_on && input_len == 0 && PRESSED(s, prev, PR_KEY) && !plus_on && !menu_on && !reason_on && !popup_on && !sent_in_session) {
+      if (!pr_on && input_len == 0 && PRESSED(s, prev, PR_KEY) && !plus_on && !menu_on && !reason_on && !popup_on) {
         pr_on = true;
         pr_idx = (int)((now / 1000u) % PR_COUNT);
         pr_msg[0] = 0;

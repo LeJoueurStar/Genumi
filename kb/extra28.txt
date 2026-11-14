@@ -1,0 +1,76 @@
+# ---------- Rois de France (liste complète, de Hugues Capet à Louis-Philippe) ----------
+Qui est le roi de France 987 à 996 ? | Hugues Capet a régné de 987 à 996. Il est fondateur de la dynastie capétienne. | roi,france,nom,comment,appelle,hugues,capet,hugues
+Comment s'appelle le roi de France qui a régné de 987 à 996 ? | Il s'appelle Hugues Capet. Il a régné de 987 à 996 et il est fondateur de la dynastie capétienne. | roi,france,nom,comment,appelle,hugues,capet
+Qui est le roi de France 996 à 1031 ? | Robert II le Pieux a régné de 996 à 1031. Il est fils d'Hugues Capet. | roi,france,nom,comment,appelle,robert,ii,le,pieux,robert
+Comment s'appelle le roi de France qui a régné de 996 à 1031 ? | Il s'appelle Robert II le Pieux. Il a régné de 996 à 1031 et il est fils d'Hugues Capet. | roi,france,nom,comment,appelle,robert,ii,le,pieux
+Qui est le roi de France 1031 à 1060 ? | Henri Ier a régné de 1031 à 1060. Il est roi capétien. | roi,france,nom,comment,appelle,henri,ier,henri
+Comment s'appelle le roi de France qui a régné de 1031 à 1060 ? | Il s'appelle Henri Ier. Il a régné de 1031 à 1060 et il est roi capétien. | roi,france,nom,comment,appelle,henri,ier
+Qui est le roi de France 1060 à 1108 ? | Philippe Ier a régné de 1060 à 1108. Il est roi capétien. | roi,france,nom,comment,appelle,philippe,ier,philippe
+Comment s'appelle le roi de France qui a régné de 1060 à 1108 ? | Il s'appelle Philippe Ier. Il a régné de 1060 à 1108 et il est roi capétien. | roi,france,nom,comment,appelle,philippe,ier
+Qui est le roi de France 1108 à 1137 ? | Louis VI le Gros a régné de 1108 à 1137. Il est roi capétien. | roi,france,nom,comment,appelle,louis,vi,le,gros,louis
+Comment s'appelle le roi de France qui a régné de 1108 à 1137 ? | Il s'appelle Louis VI le Gros. Il a régné de 1108 à 1137 et il est roi capétien. | roi,france,nom,comment,appelle,louis,vi,le,gros
+Qui est le roi de France 1137 à 1180 ? | Louis VII le Jeune a régné de 1137 à 1180. Il est roi capétien, croisé. | roi,france,nom,comment,appelle,louis,vii,le,jeune,louis
+Comment s'appelle le roi de France qui a régné de 1137 à 1180 ? | Il s'appelle Louis VII le Jeune. Il a régné de 1137 à 1180 et il est roi capétien, croisé. | roi,france,nom,comment,appelle,louis,vii,le,jeune
+Qui est le roi de France 1180 à 1223 ? | Philippe II Auguste a régné de 1180 à 1223. Il est agrandit le domaine royal, bat les Anglais à Bouvines en 1214. | roi,france,nom,comment,appelle,philippe,ii,auguste,philippe
+Comment s'appelle le roi de France qui a régné de 1180 à 1223 ? | Il s'appelle Philippe II Auguste. Il a régné de 1180 à 1223 et il est agrandit le domaine royal, bat les Anglais à Bouvines en 1214. | roi,france,nom,comment,appelle,philippe,ii,auguste
+Qui est le roi de France 1223 à 1226 ? | Louis VIII le Lion a régné de 1223 à 1226. Il est roi capétien. | roi,france,nom,comment,appelle,louis,viii,le,lion,louis
+Comment s'appelle le roi de France qui a régné de 1223 à 1226 ? | Il s'appelle Louis VIII le Lion. Il a régné de 1223 à 1226 et il est roi capétien. | roi,france,nom,comment,appelle,louis,viii,le,lion
+Qui est le roi de France 1226 à 1270 ? | Louis IX, saint Louis a régné de 1226 à 1270. Il est roi capétien, mort lors de la huitième croisade. | roi,france,nom,comment,appelle,louis,ix,saint,louis,louis
+Comment s'appelle le roi de France qui a régné de 1226 à 1270 ? | Il s'appelle Louis IX, saint Louis. Il a régné de 1226 à 1270 et il est roi capétien, mort lors de la huitième croisade. | roi,france,nom,comment,appelle,louis,ix,saint,louis
+Qui est le roi de France 1270 à 1285 ? | Philippe III le Hardi a régné de 1270 à 1285. Il est roi capétien. | roi,france,nom,comment,appelle,philippe,iii,le,hardi,philippe
+Comment s'appelle le roi de France qui a régné de 1270 à 1285 ? | Il s'appelle Philippe III le Hardi. Il a régné de 1270 à 1285 et il est roi capétien. | roi,france,nom,comment,appelle,philippe,iii,le,hardi
+Qui est le roi de France 1285 à 1314 ? | Philippe IV le Bel a régné de 1285 à 1314. Il est roi capétien, conflit avec le pape Boniface VIII. | roi,france,nom,comment,appelle,philippe,iv,le,bel,philippe
+Comment s'appelle le roi de France qui a régné de 1285 à 1314 ? | Il s'appelle Philippe IV le Bel. Il a régné de 1285 à 1314 et il est roi capétien, conflit avec le pape Boniface VIII. | roi,france,nom,comment,appelle,philippe,iv,le,bel
+Qui est le roi de France 1314 à 1316 ? | Louis X le Hutin a régné de 1314 à 1316. Il est roi capétien. | roi,france,nom,comment,appelle,louis,x,le,hutin,louis
+Comment s'appelle le roi de France qui a régné de 1314 à 1316 ? | Il s'appelle Louis X le Hutin. Il a régné de 1314 à 1316 et il est roi capétien. | roi,france,nom,comment,appelle,louis,x,le,hutin
+Qui est le roi de France 1316 ? | Jean Ier le Posthume a régné de 1316. Il est roi de quelques jours. | roi,france,nom,comment,appelle,jean,ier,le,posthume,jean
+Comment s'appelle le roi de France qui a régné de 1316 ? | Il s'appelle Jean Ier le Posthume. Il a régné de 1316 et il est roi de quelques jours. | roi,france,nom,comment,appelle,jean,ier,le,posthume
+Qui est le roi de France 1316 à 1322 ? | Philippe V le Long a régné de 1316 à 1322. Il est roi capétien. | roi,france,nom,comment,appelle,philippe,v,le,long,philippe
+Comment s'appelle le roi de France qui a régné de 1316 à 1322 ? | Il s'appelle Philippe V le Long. Il a régné de 1316 à 1322 et il est roi capétien. | roi,france,nom,comment,appelle,philippe,v,le,long
+Qui est le roi de France 1322 à 1328 ? | Charles IV le Bel a régné de 1322 à 1328. Il est dernier roi capétien direct. | roi,france,nom,comment,appelle,charles,iv,le,bel,charles
+Comment s'appelle le roi de France qui a régné de 1322 à 1328 ? | Il s'appelle Charles IV le Bel. Il a régné de 1322 à 1328 et il est dernier roi capétien direct. | roi,france,nom,comment,appelle,charles,iv,le,bel
+Qui est le roi de France 1328 à 1350 ? | Philippe VI de Valois a régné de 1328 à 1350. Il est premier roi de la branche des Valois. | roi,france,nom,comment,appelle,philippe,vi,de,valois,philippe
+Comment s'appelle le roi de France qui a régné de 1328 à 1350 ? | Il s'appelle Philippe VI de Valois. Il a régné de 1328 à 1350 et il est premier roi de la branche des Valois. | roi,france,nom,comment,appelle,philippe,vi,de,valois
+Qui est le roi de France 1350 à 1364 ? | Jean II le Bon a régné de 1350 à 1364. Il est roi pendant la guerre de Cent Ans. | roi,france,nom,comment,appelle,jean,ii,le,bon,jean
+Comment s'appelle le roi de France qui a régné de 1350 à 1364 ? | Il s'appelle Jean II le Bon. Il a régné de 1350 à 1364 et il est roi pendant la guerre de Cent Ans. | roi,france,nom,comment,appelle,jean,ii,le,bon
+Qui est le roi de France 1364 à 1380 ? | Charles V le Sage a régné de 1364 à 1380. Il est roi capétien. | roi,france,nom,comment,appelle,charles,v,le,sage,charles
+Comment s'appelle le roi de France qui a régné de 1364 à 1380 ? | Il s'appelle Charles V le Sage. Il a régné de 1364 à 1380 et il est roi capétien. | roi,france,nom,comment,appelle,charles,v,le,sage
+Qui est le roi de France 1380 à 1422 ? | Charles VI le Bien-Aimé a régné de 1380 à 1422. Il est roi, période de la guerre de Cent Ans. | roi,france,nom,comment,appelle,charles,vi,le,bien-aimé,charles
+Comment s'appelle le roi de France qui a régné de 1380 à 1422 ? | Il s'appelle Charles VI le Bien-Aimé. Il a régné de 1380 à 1422 et il est roi, période de la guerre de Cent Ans. | roi,france,nom,comment,appelle,charles,vi,le,bien-aimé
+Qui est le roi de France 1422 à 1461 ? | Charles VII le Victorieux a régné de 1422 à 1461. Il est roi, Jeanne d'Arc le fait sacrer à Reims en 1429. | roi,france,nom,comment,appelle,charles,vii,le,victorieux,charles
+Comment s'appelle le roi de France qui a régné de 1422 à 1461 ? | Il s'appelle Charles VII le Victorieux. Il a régné de 1422 à 1461 et il est roi, Jeanne d'Arc le fait sacrer à Reims en 1429. | roi,france,nom,comment,appelle,charles,vii,le,victorieux
+Qui est le roi de France 1461 à 1483 ? | Louis XI a régné de 1461 à 1483. Il est roi, unifie le royaume. | roi,france,nom,comment,appelle,louis,xi,louis
+Comment s'appelle le roi de France qui a régné de 1461 à 1483 ? | Il s'appelle Louis XI. Il a régné de 1461 à 1483 et il est roi, unifie le royaume. | roi,france,nom,comment,appelle,louis,xi
+Qui est le roi de France 1483 à 1498 ? | Charles VIII a régné de 1483 à 1498. Il est roi, débuts des guerres d'Italie. | roi,france,nom,comment,appelle,charles,viii,charles
+Comment s'appelle le roi de France qui a régné de 1483 à 1498 ? | Il s'appelle Charles VIII. Il a régné de 1483 à 1498 et il est roi, débuts des guerres d'Italie. | roi,france,nom,comment,appelle,charles,viii
+Qui est le roi de France 1498 à 1515 ? | Louis XII a régné de 1498 à 1515. Il est roi, surnommé le père du peuple. | roi,france,nom,comment,appelle,louis,xii,louis
+Comment s'appelle le roi de France qui a régné de 1498 à 1515 ? | Il s'appelle Louis XII. Il a régné de 1498 à 1515 et il est roi, surnommé le père du peuple. | roi,france,nom,comment,appelle,louis,xii
+Qui est le roi de France 1515 à 1547 ? | François Ier a régné de 1515 à 1547. Il est roi de la Renaissance, bat les Suisses à Marignan en 1515. | roi,france,nom,comment,appelle,françois,ier,françois
+Comment s'appelle le roi de France qui a régné de 1515 à 1547 ? | Il s'appelle François Ier. Il a régné de 1515 à 1547 et il est roi de la Renaissance, bat les Suisses à Marignan en 1515. | roi,france,nom,comment,appelle,françois,ier
+Qui est le roi de France 1547 à 1559 ? | Henri II a régné de 1547 à 1559. Il est roi, mort lors d'un tournoi. | roi,france,nom,comment,appelle,henri,ii,henri
+Comment s'appelle le roi de France qui a régné de 1547 à 1559 ? | Il s'appelle Henri II. Il a régné de 1547 à 1559 et il est roi, mort lors d'un tournoi. | roi,france,nom,comment,appelle,henri,ii
+Qui est le roi de France 1559 à 1560 ? | François II a régné de 1559 à 1560. Il est roi, mari de Marie Stuart. | roi,france,nom,comment,appelle,françois,ii,françois
+Comment s'appelle le roi de France qui a régné de 1559 à 1560 ? | Il s'appelle François II. Il a régné de 1559 à 1560 et il est roi, mari de Marie Stuart. | roi,france,nom,comment,appelle,françois,ii
+Qui est le roi de France 1560 à 1574 ? | Charles IX a régné de 1560 à 1574. Il est roi, massacre de la Saint-Barthélemy en 1572. | roi,france,nom,comment,appelle,charles,ix,charles
+Comment s'appelle le roi de France qui a régné de 1560 à 1574 ? | Il s'appelle Charles IX. Il a régné de 1560 à 1574 et il est roi, massacre de la Saint-Barthélemy en 1572. | roi,france,nom,comment,appelle,charles,ix
+Qui est le roi de France 1574 à 1589 ? | Henri III a régné de 1574 à 1589. Il est dernier roi de la branche des Valois, assassiné en 1589. | roi,france,nom,comment,appelle,henri,iii,henri
+Comment s'appelle le roi de France qui a régné de 1574 à 1589 ? | Il s'appelle Henri III. Il a régné de 1574 à 1589 et il est dernier roi de la branche des Valois, assassiné en 1589. | roi,france,nom,comment,appelle,henri,iii
+Qui est le roi de France 1589 à 1610 ? | Henri IV a régné de 1589 à 1610. Il est premier roi de la branche des Bourbons, édit de Nantes en 1598. | roi,france,nom,comment,appelle,henri,iv,henri
+Comment s'appelle le roi de France qui a régné de 1589 à 1610 ? | Il s'appelle Henri IV. Il a régné de 1589 à 1610 et il est premier roi de la branche des Bourbons, édit de Nantes en 1598. | roi,france,nom,comment,appelle,henri,iv
+Qui est le roi de France 1610 à 1643 ? | Louis XIII a régné de 1610 à 1643. Il est roi, son ministre est Richelieu. | roi,france,nom,comment,appelle,louis,xiii,louis
+Comment s'appelle le roi de France qui a régné de 1610 à 1643 ? | Il s'appelle Louis XIII. Il a régné de 1610 à 1643 et il est roi, son ministre est Richelieu. | roi,france,nom,comment,appelle,louis,xiii
+Qui est le roi de France 1643 à 1715 ? | Louis XIV a régné de 1643 à 1715. Il est le Roi-Soleil, règne le plus long, château de Versailles. | roi,france,nom,comment,appelle,louis,xiv,louis
+Comment s'appelle le roi de France qui a régné de 1643 à 1715 ? | Il s'appelle Louis XIV. Il a régné de 1643 à 1715 et il est le Roi-Soleil, règne le plus long, château de Versailles. | roi,france,nom,comment,appelle,louis,xiv
+Qui est le roi de France 1715 à 1774 ? | Louis XV a régné de 1715 à 1774. Il est le Bien-Aimé, petit-fils de Louis XIV. | roi,france,nom,comment,appelle,louis,xv,louis
+Comment s'appelle le roi de France qui a régné de 1715 à 1774 ? | Il s'appelle Louis XV. Il a régné de 1715 à 1774 et il est le Bien-Aimé, petit-fils de Louis XIV. | roi,france,nom,comment,appelle,louis,xv
+Qui est le roi de France 1774 à 1792 ? | Louis XVI a régné de 1774 à 1792. Il est roi guillotiné en 1793. | roi,france,nom,comment,appelle,louis,xvi,louis
+Comment s'appelle le roi de France qui a régné de 1774 à 1792 ? | Il s'appelle Louis XVI. Il a régné de 1774 à 1792 et il est roi guillotiné en 1793. | roi,france,nom,comment,appelle,louis,xvi
+Qui est le roi de France 1814 à 1824 ? | Louis XVIII a régné de 1814 à 1824. Il est roi de la Restauration. | roi,france,nom,comment,appelle,louis,xviii,louis
+Comment s'appelle le roi de France qui a régné de 1814 à 1824 ? | Il s'appelle Louis XVIII. Il a régné de 1814 à 1824 et il est roi de la Restauration. | roi,france,nom,comment,appelle,louis,xviii
+Qui est le roi de France 1824 à 1830 ? | Charles X a régné de 1824 à 1830. Il est dernier roi de la branche aînée des Bourbons. | roi,france,nom,comment,appelle,charles,x,charles
+Comment s'appelle le roi de France qui a régné de 1824 à 1830 ? | Il s'appelle Charles X. Il a régné de 1824 à 1830 et il est dernier roi de la branche aînée des Bourbons. | roi,france,nom,comment,appelle,charles,x
+Qui est le roi de France 1830 à 1848 ? | Louis-Philippe Ier a régné de 1830 à 1848. Il est roi des Français, monarchie de Juillet. | roi,france,nom,comment,appelle,louis-philippe,ier,louis-philippe
+Comment s'appelle le roi de France qui a régné de 1830 à 1848 ? | Il s'appelle Louis-Philippe Ier. Il a régné de 1830 à 1848 et il est roi des Français, monarchie de Juillet. | roi,france,nom,comment,appelle,louis-philippe,ier
+Qui est le roi de France ? | Il n'y a pas un seul roi : la France a eu plus de 60 rois, de Hugues Capet (987) à Louis-Philippe (1830). Aujourd'hui, la France est une république, sans roi. Dis-moi une date ou une époque pour que je te donne le roi correspondant. | roi,france,qui,nom,comment,appelle,actuel
+Quel est le roi de France actuel ? | La France n'a plus de roi : elle est une république depuis 1870 (IIIe République), et la Ve République est en place depuis 1958. | roi,france,actuel,republique
+Combien de rois a eu la France ? | La France a eu plus de 60 rois, de Hugues Capet (987) à Louis-Philippe (1830), sans compter les empereurs. | combien,rois,france,nombre

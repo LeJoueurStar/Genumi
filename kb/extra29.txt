@@ -1,0 +1,32 @@
+# ---------- Probabilités ----------
+Qu'est-ce qu'une probabilité ? | C'est un nombre entre 0 et 1 qui mesure la chance qu'un événement se réalise. 0 signifie impossible, 1 signifie certain. | probabilite,chance,evenement,nombre
+Comment calculer une probabilité en situation d'équiprobabilité ? | P(A) = nombre de cas favorables / nombre de cas possibles. Exemple : un dé à 6 faces, P(obtenir 2) = 1/6. | probabilite,equiprobabilite,cas,favorables,de,calcul
+Quelle est la probabilité d'obtenir un as dans un jeu de 32 cartes ? | Il y a 4 as sur 32 cartes, donc P = 4/32 = 1/8, soit 0,125. | as,carte,32,probabilite
+Quelle est la probabilité d'obtenir un nombre pair avec un dé à 6 faces ? | Les nombres pairs sont 2, 4 et 6 : P = 3/6 = 1/2, soit 0,5. | pair,de,6,probabilite
+Qu'est-ce qu'un événement contraire ? | Le contraire de A, noté A-barre, est l'événement « A ne se réalise pas ». On a P(contraire de A) = 1 - P(A). | contraire,evenement,probabilite,complementaire
+Qu'est-ce que la probabilité de A ou B ? | P(A ou B) = P(A) + P(B) - P(A et B). On retranche P(A et B) pour ne pas le compter deux fois. | union,ou,probabilite,intersection
+Qu'est-ce que la probabilité de A et B ? | Pour deux événements indépendants, P(A et B) = P(A) x P(B). | intersection,et,independant,produit
+Qu'est-ce que deux événements indépendants ? | Deux événements sont indépendants si la réalisation de l'un ne change pas la probabilité de l'autre. On a alors P(A et B) = P(A) x P(B). | independant,evenement,probabilite
+Qu'est-ce qu'une probabilité conditionnelle ? | P_B(A) est la probabilité de A sachant que B est réalisé : P_B(A) = P(A et B) / P(B). | conditionnelle,sachant,probabilite,formule
+Comment utiliser un arbre pondéré ? | On écrit sur chaque branche la probabilité de l'étape, et la probabilité d'un chemin est le produit des branches. On additionne les chemins qui mènent à un même résultat. | arbre,pondere,branche,chemin,produit
+Qu'est-ce qu'un tirage avec remise ? | C'est un tirage où l'objet tiré est remis dans l'urne avant le tirage suivant : les tirages sont indépendants, et les probabilités ne changent pas. | tirage,remise,independant,urne
+Qu'est-ce qu'un tirage sans remise ? | C'est un tirage où l'objet tiré n'est pas remis : les probabilités changent à chaque tirage. | tirage,sans,remise,urne
+Qu'est-ce qu'un arrangement ? | Le nombre d'arrangements de k objets parmi n, où l'ordre compte, est n x (n - 1) x ... x (n - k + 1). | arrangement,ordre,nombre,k,n
+Qu'est-ce qu'une combinaison ? | Le nombre de combinaisons de k objets parmi n, où l'ordre ne compte pas, est C(n ; k) = n! / (k! x (n - k)!). | combinaison,coefficient,binomial,n,k
+Comment calculer C(n ; k) ? | C(n ; k) se lit « k parmi n ». Exemple : C(5 ; 2) = 5 x 4 / (2 x 1) = 10. | combinaison,calcul,k,parmi,n
+Qu'est-ce que la loi binomiale ? | Pour n épreuves indépendantes de probabilité de succès p, P(X = k) = C(n ; k) x p^k x (1 - p)^(n - k). | binomiale,loi,succes,epreuve,independante
+Quelle est l'espérance d'une loi binomiale ? | E(X) = n x p, où n est le nombre d'épreuves et p la probabilité de succès. | esperance,binomiale,loi,n,p
+Qu'est-ce que l'espérance d'une variable aléatoire ? | C'est la moyenne théorique des valeurs prises, pondérée par leurs probabilités : E(X) = somme des xi x P(X = xi). | esperance,moyenne,variable,aleatoire
+Qu'est-ce que la variance ? | C'est la moyenne des carrés des écarts à l'espérance : V(X) = E(X2) - E(X)2. Elle mesure la dispersion. | variance,dispersion,ecart,esperance
+Qu'est-ce que l'écart-type ? | C'est la racine carrée de la variance : sigma = racine de V(X). Il s'exprime dans la même unité que X. | ecart,type,sigma,variance,racine
+Quelle est la probabilité d'obtenir au moins un six en deux lancers de dé ? | Le contraire est « aucun six », de probabilité (5/6)2 = 25/36. Donc P = 1 - 25/36 = 11/36, soit environ 0,306. | six,de,deux,lancers,contraire,probabilite
+Comment calculer une probabilité avec « au moins » ? | On calcule souvent d'abord la probabilité du contraire, « aucun », puis on fait 1 - P(contraire). | au,moins,contraire,probabilite
+Qu'est-ce que la fréquence d'un événement ? | C'est le rapport entre le nombre de fois où l'événement se réalise et le nombre total d'expériences. Quand le nombre d'expériences augmente, la fréquence se rapproche de la probabilité. | frequence,evenement,experience,probabilite
+Qu'est-ce que la loi des grands nombres ? | Quand le nombre d'expériences augmente, la fréquence observée se rapproche de la probabilité théorique. | loi,grands,nombres,frequence
+# ---------- Calcul : pourcentages et proportions ----------
+Comment calculer un pourcentage ? | Pour trouver x % d'un nombre N, on calcule N x x / 100. Exemple : 15 % de 240 = 240 x 15 / 100 = 36. | pourcentage,calcul,pour,cent
+Comment trouver quel pourcentage représente une valeur ? | On calcule (partie / total) x 100. Exemple : 36 sur 240 donne 36 / 240 x 100 = 15 %. | pourcentage,part,total,rapport
+Comment augmenter une valeur de x % ? | On multiplie par (1 + x / 100). Exemple : augmenter 200 de 10 % donne 200 x 1,10 = 220. | augmentation,pourcentage,hausse,coefficient
+Comment diminuer une valeur de x % ? | On multiplie par (1 - x / 100). Exemple : diminuer 200 de 10 % donne 200 x 0,90 = 180. | diminution,pourcentage,baisse,coefficient
+Comment calculer un taux d'évolution ? | Taux = (valeur finale - valeur initiale) / valeur initiale x 100. Exemple : de 200 à 220, le taux est (220 - 200) / 200 x 100 = 10 %. | taux,evolution,variation,pourcentage
+Comment faire une division à la calculatrice ? | Une division donne un résultat à virgule : 7 / 2 = 3,5, et 1 / 3 = 0,333333. Genumi affiche les étapes avec une virgule. | division,virgule,calcul,decimal
