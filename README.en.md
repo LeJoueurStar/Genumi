@@ -1,70 +1,53 @@
-# NumMasterGear
+# Genumi
 
-Sega **Master System** and **Game Gear** emulator for the **NumWorks** calculator (N0110, N0115, N0120).
+Local chatbot for the **NumWorks** calculator (`.nwa` app), written in C for Epsilon's EADK.
 
-It runs as a `.nwa` application: you send the app and your ROM to [my.numworks.com/apps](https://my.numworks.com/apps), and the game starts from the calculator's menu.
-
-*Français : [README.md](README.md)*
-
-## Features
-
-- `.sms` (Master System) and `.gg` (Game Gear) files, detected automatically from the ROM header.
-- Full-screen display (default) or the console's original pixel size.
-- Speeds x1, x2, x3, x4 and x1.5.
-- Full state saving, which also works for games without a battery backup.
-- Save and quit, save without quitting, erase the current game's save.
-- Game reset.
-
-## Controls
-
-| Key | Action |
-|---|---|
-| Arrows | D-pad |
-| OK | Button 1 |
-| Back | Button 2 |
-| Backspace (clear) | Pause (Master System); Start, so pause (Game Gear) |
-| π | Reset the game |
-| + / - | Fill the screen / original size |
-| 1 / 2 / 3 / 4 / . | Speed x1 / x2 / x3 / x4 / x1.5 |
-| √ | Save without quitting |
-| 0 | Save and quit |
-| Toolbox (hold ~1.5 s) | Erase the current game's save |
-| Home | Quit without saving |
-
-## Download
-
-Latest version: [NumMasterGear.nwa](https://github.com/LeJoueurStar/NumMasterGear/releases/latest/download/NumMasterGear.nwa)
-
-Then install it on [my.numworks.com/apps](https://my.numworks.com/apps) with your ROM (see below).
-
-## Build
-
-You need `arm-none-eabi-gcc`, `make`, `node` and `npm` (for example Debian under Termux with proot-distro).
-
-```
-make clean && make build
-```
-
-The output is `output/NumMasterGear.nwa`.
+Genumi answers questions from a knowledge base (science, history, geography, literature, STI2D, middle and high school), does step-by-step calculations, percentages, French-English translation, and offers a typing practice mode.
 
 ## Installation
 
-1. Open [my.numworks.com/apps](https://my.numworks.com/apps) and send `NumMasterGear.nwa`.
-2. Also send your ROM (`.sms` or `.gg`) as the app's data file.
-3. Install the app on the calculator.
+1. Download the `.nwa` file from the [Releases](../../releases) section.
+2. Open *Extra apps* on the NumWorks website or on the calculator and select the file.
 
-If you had an older version installed, reset the calculator before installing this one.
+Two variants are provided:
+- **Genumi_visible.nwa**: with the name and the coloured icon;
+- **Genumi_invisible.nwa**: with a white icon and no name.
 
-## Known limitations
+## Quick use
 
-- Korean cartridges (special mappers) are not fully supported for restoring saves.
-- Saves use Epsilon's file records. They are deleted when another app is installed, unless you keep a copy elsewhere.
-- The calculator has no speaker: sound is not emulated.
+- Type your question and press **EXE**: `c'est quoi une molécule ?`
+- Calculations with steps: `(2+3)*4`, `2(3+4)`, `7/2`
+- Percentages: `15 % de 240`, `36 sur 240`
+- Translation: `traduis bonjour en anglais`
+- Multiplication table: `table de 7`
+- Typing practice: press the **×10^x** key (the input bar must be empty), type the displayed sentence, then EXE. Press ×10^x again to quit.
 
-## Legal
+## Build
 
-This project does not contain any game ROM. Use your own cartridges or free games.
+The `.nwa` is built automatically by **GitHub Actions** (workflow `build-nwa`).
+
+Locally, with the ARM toolchain and `nwlink`:
+
+```sh
+python3 tools/build_kb.py kb/qa.txt
+make VARIANT=visible      # output/visible/Genumi_visible.nwa
+make VARIANT=invisible    # output/invisible/Genumi_invisible.nwa
+```
+
+## Knowledge base
+
+- `kb/qa.txt` and `kb/extra*.txt`: one entry per line, format `question | answer | keywords`.
+- `kb/dict_fr_en.tsv`: French-English dictionary, one pair per line (`french|english`).
+- `tools/build_kb.py` generates `src/kb_data.h`, `src/kb_words.h` and `src/dict_data.h`.
+
+## Limits
+
+Genumi does not understand the meaning of sentences: it answers from keywords and its knowledge base. It does not solve new exercises and does not replace a teacher.
+
+## Credits
+
+See [CREDITS.md](CREDITS.md).
 
 ## License
 
-This project is distributed under the **GPL-3.0** license (see [LICENSE](LICENSE)), except for `src/sms/z80.c`, which remains under its author's license (Juergen Buchmueller, then R. Danbrook): free, non-commercial use, with credit. The other reused files keep their original licenses (see [CREDITS.md](CREDITS.md)).
+GPL-3.0: Genumi reuses code from NumPlay, which is distributed under this license. See the LICENSE file.
