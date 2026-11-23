@@ -5,7 +5,7 @@ on:
 jobs:
   build:
     runs-on: ubuntu-24.04
-    timeout-minutes: 25
+    timeout-minutes: 30
     steps:
       - uses: actions/checkout@v4
 
@@ -35,12 +35,21 @@ jobs:
         run: |
           echo 'Object.defineProperty(globalThis,"navigator",{value:{userAgent:"node"},writable:true,configurable:true});' > $HOME/nwpre.js
 
-      - name: Base et compilation
-        run: |
-          python3 tools/build_kb.py kb/qa.txt
-          make
+      - name: Base de connaissances
+        run: python3 tools/build_kb.py kb/qa.txt
+
+      - name: Compilation invisible
+        run: make VARIANT=invisible
+
+      - name: Compilation visible
+        run: make VARIANT=visible
 
       - uses: actions/upload-artifact@v4
         with:
-          name: Genumi
-          path: output/Genumi.nwa
+          name: Genumi-invisible
+          path: output/invisible/Genumi_invisible.nwa
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: Genumi-visible
+          path: output/visible/Genumi_visible.nwa

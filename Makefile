@@ -1,11 +1,24 @@
 # Genumi - chatbot NumWorks (.nwa). Base : NumMasterGear (Makefile adapté).
 #
-#   make clean && make            ->  output/Genumi.nwa
+#   make VARIANT=invisible / make VARIANT=visible
 
 Q ?= @
 
 CC = arm-none-eabi-gcc
-BUILD_DIR = output
+# Deux variantes :
+#   make VARIANT=invisible  -> nom vide, icône blanche   (output/invisible/Genumi_invisible.nwa)
+#   make VARIANT=visible    -> nom Genumi, icône colorée (output/visible/Genumi_visible.nwa)
+VARIANT ?= invisible
+ifeq ($(VARIANT),visible)
+  NAME_DEF = -DNW_APP_NAME='"Genumi"'
+  ICON = genumi_visible.png
+  OUT = Genumi_visible
+else
+  NAME_DEF = -DNW_APP_NAME='""'
+  ICON = genumi_flat.png
+  OUT = Genumi_invisible
+endif
+BUILD_DIR = output/$(VARIANT)
 
 NWPRE = $(HOME)/nwpre.js
 NWLINK = node -r $(NWPRE) $(HOME)/nwtools/node_modules/nwlink/bin/nwlink
@@ -18,7 +31,7 @@ CFLAGS = -std=gnu99
 CFLAGS += $(EADK_CFLAGS)
 CFLAGS += -O2 -Wall
 CFLAGS += -DPLATFORM_DEVICE=1 -Isrc -Isrc/common
-CFLAGS += -DNW_APP_NAME=\"\"
+CFLAGS += $(NAME_DEF)
 CFLAGS += -fdata-sections -ffunction-sections
 
 LDFLAGS = -Wl,--relocatable
@@ -30,9 +43,9 @@ LDFLAGS += -Wl,--gc-sections
 OBJ = $(addprefix $(BUILD_DIR)/,$(patsubst %.c,%.o,$(src)))
 
 .PHONY: build clean
-build: $(BUILD_DIR)/Genumi.nwa
+build: $(BUILD_DIR)/$(OUT).nwa
 
-$(BUILD_DIR)/Genumi.nwa: $(OBJ) $(BUILD_DIR)/icon.o
+$(BUILD_DIR)/$(OUT).nwa: $(OBJ) $(BUILD_DIR)/icon.o
 	@echo "LD  $@"
 	$(Q) $(CC) $(CFLAGS) $(LDFLAGS) $^ -o $@
 
@@ -41,7 +54,7 @@ $(BUILD_DIR)/%.o: %.c
 	@echo "CC  $<"
 	$(Q) $(CC) $(CFLAGS) -c $< -o $@
 
-$(BUILD_DIR)/icon.o: genumi_flat.png
+$(BUILD_DIR)/icon.o: $(ICON)
 	@mkdir -p $(BUILD_DIR)
 	@echo "ICON $<"
 	$(Q) $(NWLINK) png-icon-o $< $@
