@@ -23,7 +23,7 @@ BUILD_DIR = output/$(VARIANT)
 NWPRE = $(HOME)/nwpre.js
 NWLINK = node -r $(NWPRE) $(HOME)/nwtools/node_modules/nwlink/bin/nwlink
 
-src = src/main.c src/meta.c src/suggest.c src/save.c src/kb.c src/engine.c src/dict.c
+src = src/main.c src/meta.c src/suggest.c src/save.c src/kb.c src/engine.c src/dict.c src/tutor.c
 
 EADK_CFLAGS := $(shell $(NWLINK) eadk-cflags)
 

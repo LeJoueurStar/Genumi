@@ -1,0 +1,354 @@
+capitale de france | La capitale de France est Paris. | capitale France Paris geographie pays ville
+quelle est la capitale de france | La capitale de France est Paris. | capitale France Paris geographie pays ville capitale pays
+explique : capitale de france | La capitale de France est Paris. | capitale France Paris geographie pays ville cours explication
+capitale de allemagne | La capitale de Allemagne est Berlin. | capitale Allemagne Berlin geographie pays ville
+quelle est la capitale de allemagne | La capitale de Allemagne est Berlin. | capitale Allemagne Berlin geographie pays ville capitale pays
+explique : capitale de allemagne | La capitale de Allemagne est Berlin. | capitale Allemagne Berlin geographie pays ville cours explication
+capitale de italie | La capitale de Italie est Rome. | capitale Italie Rome geographie pays ville
+quelle est la capitale de italie | La capitale de Italie est Rome. | capitale Italie Rome geographie pays ville capitale pays
+explique : capitale de italie | La capitale de Italie est Rome. | capitale Italie Rome geographie pays ville cours explication
+capitale de espagne | La capitale de Espagne est Madrid. | capitale Espagne Madrid geographie pays ville
+quelle est la capitale de espagne | La capitale de Espagne est Madrid. | capitale Espagne Madrid geographie pays ville capitale pays
+explique : capitale de espagne | La capitale de Espagne est Madrid. | capitale Espagne Madrid geographie pays ville cours explication
+capitale de portugal | La capitale de Portugal est Lisbonne. | capitale Portugal Lisbonne geographie pays ville
+quelle est la capitale de portugal | La capitale de Portugal est Lisbonne. | capitale Portugal Lisbonne geographie pays ville capitale pays
+explique : capitale de portugal | La capitale de Portugal est Lisbonne. | capitale Portugal Lisbonne geographie pays ville cours explication
+capitale de belgique | La capitale de Belgique est Bruxelles. | capitale Belgique Bruxelles geographie pays ville
+quelle est la capitale de belgique | La capitale de Belgique est Bruxelles. | capitale Belgique Bruxelles geographie pays ville capitale pays
+explique : capitale de belgique | La capitale de Belgique est Bruxelles. | capitale Belgique Bruxelles geographie pays ville cours explication
+capitale de pays-bas | La capitale de Pays-Bas est Amsterdam. | capitale Pays-Bas Amsterdam geographie pays ville
+quelle est la capitale de pays-bas | La capitale de Pays-Bas est Amsterdam. | capitale Pays-Bas Amsterdam geographie pays ville capitale pays
+explique : capitale de pays-bas | La capitale de Pays-Bas est Amsterdam. | capitale Pays-Bas Amsterdam geographie pays ville cours explication
+capitale de luxembourg | La capitale de Luxembourg est Luxembourg. | capitale Luxembourg Luxembourg geographie pays ville
+quelle est la capitale de luxembourg | La capitale de Luxembourg est Luxembourg. | capitale Luxembourg Luxembourg geographie pays ville capitale pays
+explique : capitale de luxembourg | La capitale de Luxembourg est Luxembourg. | capitale Luxembourg Luxembourg geographie pays ville cours explication
+capitale de suisse | La capitale de Suisse est Berne. | capitale Suisse Berne geographie pays ville
+quelle est la capitale de suisse | La capitale de Suisse est Berne. | capitale Suisse Berne geographie pays ville capitale pays
+explique : capitale de suisse | La capitale de Suisse est Berne. | capitale Suisse Berne geographie pays ville cours explication
+capitale de autriche | La capitale de Autriche est Vienne. | capitale Autriche Vienne geographie pays ville
+quelle est la capitale de autriche | La capitale de Autriche est Vienne. | capitale Autriche Vienne geographie pays ville capitale pays
+explique : capitale de autriche | La capitale de Autriche est Vienne. | capitale Autriche Vienne geographie pays ville cours explication
+capitale de royaume-uni | La capitale de Royaume-Uni est Londres. | capitale Royaume-Uni Londres geographie pays ville
+quelle est la capitale de royaume-uni | La capitale de Royaume-Uni est Londres. | capitale Royaume-Uni Londres geographie pays ville capitale pays
+explique : capitale de royaume-uni | La capitale de Royaume-Uni est Londres. | capitale Royaume-Uni Londres geographie pays ville cours explication
+capitale de irlande | La capitale de Irlande est Dublin. | capitale Irlande Dublin geographie pays ville
+quelle est la capitale de irlande | La capitale de Irlande est Dublin. | capitale Irlande Dublin geographie pays ville capitale pays
+explique : capitale de irlande | La capitale de Irlande est Dublin. | capitale Irlande Dublin geographie pays ville cours explication
+capitale de danemark | La capitale de Danemark est Copenhague. | capitale Danemark Copenhague geographie pays ville
+quelle est la capitale de danemark | La capitale de Danemark est Copenhague. | capitale Danemark Copenhague geographie pays ville capitale pays
+explique : capitale de danemark | La capitale de Danemark est Copenhague. | capitale Danemark Copenhague geographie pays ville cours explication
+capitale de norvege | La capitale de Norvege est Oslo. | capitale Norvege Oslo geographie pays ville
+quelle est la capitale de norvege | La capitale de Norvege est Oslo. | capitale Norvege Oslo geographie pays ville capitale pays
+explique : capitale de norvege | La capitale de Norvege est Oslo. | capitale Norvege Oslo geographie pays ville cours explication
+capitale de suede | La capitale de Suede est Stockholm. | capitale Suede Stockholm geographie pays ville
+quelle est la capitale de suede | La capitale de Suede est Stockholm. | capitale Suede Stockholm geographie pays ville capitale pays
+explique : capitale de suede | La capitale de Suede est Stockholm. | capitale Suede Stockholm geographie pays ville cours explication
+capitale de finlande | La capitale de Finlande est Helsinki. | capitale Finlande Helsinki geographie pays ville
+quelle est la capitale de finlande | La capitale de Finlande est Helsinki. | capitale Finlande Helsinki geographie pays ville capitale pays
+explique : capitale de finlande | La capitale de Finlande est Helsinki. | capitale Finlande Helsinki geographie pays ville cours explication
+capitale de pologne | La capitale de Pologne est Varsovie. | capitale Pologne Varsovie geographie pays ville
+quelle est la capitale de pologne | La capitale de Pologne est Varsovie. | capitale Pologne Varsovie geographie pays ville capitale pays
+explique : capitale de pologne | La capitale de Pologne est Varsovie. | capitale Pologne Varsovie geographie pays ville cours explication
+capitale de tchequie | La capitale de Tchequie est Prague. | capitale Tchequie Prague geographie pays ville
+quelle est la capitale de tchequie | La capitale de Tchequie est Prague. | capitale Tchequie Prague geographie pays ville capitale pays
+explique : capitale de tchequie | La capitale de Tchequie est Prague. | capitale Tchequie Prague geographie pays ville cours explication
+capitale de hongrie | La capitale de Hongrie est Budapest. | capitale Hongrie Budapest geographie pays ville
+quelle est la capitale de hongrie | La capitale de Hongrie est Budapest. | capitale Hongrie Budapest geographie pays ville capitale pays
+explique : capitale de hongrie | La capitale de Hongrie est Budapest. | capitale Hongrie Budapest geographie pays ville cours explication
+capitale de grece | La capitale de Grece est Athenes. | capitale Grece Athenes geographie pays ville
+quelle est la capitale de grece | La capitale de Grece est Athenes. | capitale Grece Athenes geographie pays ville capitale pays
+explique : capitale de grece | La capitale de Grece est Athenes. | capitale Grece Athenes geographie pays ville cours explication
+capitale de turquie | La capitale de Turquie est Ankara. | capitale Turquie Ankara geographie pays ville
+quelle est la capitale de turquie | La capitale de Turquie est Ankara. | capitale Turquie Ankara geographie pays ville capitale pays
+explique : capitale de turquie | La capitale de Turquie est Ankara. | capitale Turquie Ankara geographie pays ville cours explication
+capitale de ukraine | La capitale de Ukraine est Kiev. | capitale Ukraine Kiev geographie pays ville
+quelle est la capitale de ukraine | La capitale de Ukraine est Kiev. | capitale Ukraine Kiev geographie pays ville capitale pays
+explique : capitale de ukraine | La capitale de Ukraine est Kiev. | capitale Ukraine Kiev geographie pays ville cours explication
+capitale de russie | La capitale de Russie est Moscou. | capitale Russie Moscou geographie pays ville
+quelle est la capitale de russie | La capitale de Russie est Moscou. | capitale Russie Moscou geographie pays ville capitale pays
+explique : capitale de russie | La capitale de Russie est Moscou. | capitale Russie Moscou geographie pays ville cours explication
+capitale de etats-unis | La capitale de Etats-Unis est Washington. | capitale Etats-Unis Washington geographie pays ville
+quelle est la capitale de etats-unis | La capitale de Etats-Unis est Washington. | capitale Etats-Unis Washington geographie pays ville capitale pays
+explique : capitale de etats-unis | La capitale de Etats-Unis est Washington. | capitale Etats-Unis Washington geographie pays ville cours explication
+capitale de canada | La capitale de Canada est Ottawa. | capitale Canada Ottawa geographie pays ville
+quelle est la capitale de canada | La capitale de Canada est Ottawa. | capitale Canada Ottawa geographie pays ville capitale pays
+explique : capitale de canada | La capitale de Canada est Ottawa. | capitale Canada Ottawa geographie pays ville cours explication
+capitale de mexique | La capitale de Mexique est Mexico. | capitale Mexique Mexico geographie pays ville
+quelle est la capitale de mexique | La capitale de Mexique est Mexico. | capitale Mexique Mexico geographie pays ville capitale pays
+explique : capitale de mexique | La capitale de Mexique est Mexico. | capitale Mexique Mexico geographie pays ville cours explication
+capitale de bresil | La capitale de Bresil est Brasilia. | capitale Bresil Brasilia geographie pays ville
+quelle est la capitale de bresil | La capitale de Bresil est Brasilia. | capitale Bresil Brasilia geographie pays ville capitale pays
+explique : capitale de bresil | La capitale de Bresil est Brasilia. | capitale Bresil Brasilia geographie pays ville cours explication
+capitale de argentine | La capitale de Argentine est Buenos Aires. | capitale Argentine Buenos Aires geographie pays ville
+quelle est la capitale de argentine | La capitale de Argentine est Buenos Aires. | capitale Argentine Buenos Aires geographie pays ville capitale pays
+explique : capitale de argentine | La capitale de Argentine est Buenos Aires. | capitale Argentine Buenos Aires geographie pays ville cours explication
+capitale de chili | La capitale de Chili est Santiago. | capitale Chili Santiago geographie pays ville
+quelle est la capitale de chili | La capitale de Chili est Santiago. | capitale Chili Santiago geographie pays ville capitale pays
+explique : capitale de chili | La capitale de Chili est Santiago. | capitale Chili Santiago geographie pays ville cours explication
+capitale de perou | La capitale de Perou est Lima. | capitale Perou Lima geographie pays ville
+quelle est la capitale de perou | La capitale de Perou est Lima. | capitale Perou Lima geographie pays ville capitale pays
+explique : capitale de perou | La capitale de Perou est Lima. | capitale Perou Lima geographie pays ville cours explication
+capitale de colombie | La capitale de Colombie est Bogota. | capitale Colombie Bogota geographie pays ville
+quelle est la capitale de colombie | La capitale de Colombie est Bogota. | capitale Colombie Bogota geographie pays ville capitale pays
+explique : capitale de colombie | La capitale de Colombie est Bogota. | capitale Colombie Bogota geographie pays ville cours explication
+capitale de venezuela | La capitale de Venezuela est Caracas. | capitale Venezuela Caracas geographie pays ville
+quelle est la capitale de venezuela | La capitale de Venezuela est Caracas. | capitale Venezuela Caracas geographie pays ville capitale pays
+explique : capitale de venezuela | La capitale de Venezuela est Caracas. | capitale Venezuela Caracas geographie pays ville cours explication
+capitale de equateur | La capitale de Equateur est Quito. | capitale Equateur Quito geographie pays ville
+quelle est la capitale de equateur | La capitale de Equateur est Quito. | capitale Equateur Quito geographie pays ville capitale pays
+explique : capitale de equateur | La capitale de Equateur est Quito. | capitale Equateur Quito geographie pays ville cours explication
+capitale de bolivie | La capitale de Bolivie est Sucre. | capitale Bolivie Sucre geographie pays ville
+quelle est la capitale de bolivie | La capitale de Bolivie est Sucre. | capitale Bolivie Sucre geographie pays ville capitale pays
+explique : capitale de bolivie | La capitale de Bolivie est Sucre. | capitale Bolivie Sucre geographie pays ville cours explication
+capitale de uruguay | La capitale de Uruguay est Montevideo. | capitale Uruguay Montevideo geographie pays ville
+quelle est la capitale de uruguay | La capitale de Uruguay est Montevideo. | capitale Uruguay Montevideo geographie pays ville capitale pays
+explique : capitale de uruguay | La capitale de Uruguay est Montevideo. | capitale Uruguay Montevideo geographie pays ville cours explication
+capitale de paraguay | La capitale de Paraguay est Asuncion. | capitale Paraguay Asuncion geographie pays ville
+quelle est la capitale de paraguay | La capitale de Paraguay est Asuncion. | capitale Paraguay Asuncion geographie pays ville capitale pays
+explique : capitale de paraguay | La capitale de Paraguay est Asuncion. | capitale Paraguay Asuncion geographie pays ville cours explication
+capitale de chine | La capitale de Chine est Pekin. | capitale Chine Pekin geographie pays ville
+quelle est la capitale de chine | La capitale de Chine est Pekin. | capitale Chine Pekin geographie pays ville capitale pays
+explique : capitale de chine | La capitale de Chine est Pekin. | capitale Chine Pekin geographie pays ville cours explication
+capitale de japon | La capitale de Japon est Tokyo. | capitale Japon Tokyo geographie pays ville
+quelle est la capitale de japon | La capitale de Japon est Tokyo. | capitale Japon Tokyo geographie pays ville capitale pays
+explique : capitale de japon | La capitale de Japon est Tokyo. | capitale Japon Tokyo geographie pays ville cours explication
+capitale de coree du sud | La capitale de Coree du Sud est Seoul. | capitale Coree du Sud Seoul geographie pays ville
+quelle est la capitale de coree du sud | La capitale de Coree du Sud est Seoul. | capitale Coree du Sud Seoul geographie pays ville capitale pays
+explique : capitale de coree du sud | La capitale de Coree du Sud est Seoul. | capitale Coree du Sud Seoul geographie pays ville cours explication
+capitale de inde | La capitale de Inde est New Delhi. | capitale Inde New Delhi geographie pays ville
+quelle est la capitale de inde | La capitale de Inde est New Delhi. | capitale Inde New Delhi geographie pays ville capitale pays
+explique : capitale de inde | La capitale de Inde est New Delhi. | capitale Inde New Delhi geographie pays ville cours explication
+capitale de pakistan | La capitale de Pakistan est Islamabad. | capitale Pakistan Islamabad geographie pays ville
+quelle est la capitale de pakistan | La capitale de Pakistan est Islamabad. | capitale Pakistan Islamabad geographie pays ville capitale pays
+explique : capitale de pakistan | La capitale de Pakistan est Islamabad. | capitale Pakistan Islamabad geographie pays ville cours explication
+capitale de bangladesh | La capitale de Bangladesh est Dacca. | capitale Bangladesh Dacca geographie pays ville
+quelle est la capitale de bangladesh | La capitale de Bangladesh est Dacca. | capitale Bangladesh Dacca geographie pays ville capitale pays
+explique : capitale de bangladesh | La capitale de Bangladesh est Dacca. | capitale Bangladesh Dacca geographie pays ville cours explication
+capitale de indonesie | La capitale de Indonesie est Jakarta. | capitale Indonesie Jakarta geographie pays ville
+quelle est la capitale de indonesie | La capitale de Indonesie est Jakarta. | capitale Indonesie Jakarta geographie pays ville capitale pays
+explique : capitale de indonesie | La capitale de Indonesie est Jakarta. | capitale Indonesie Jakarta geographie pays ville cours explication
+capitale de australie | La capitale de Australie est Canberra. | capitale Australie Canberra geographie pays ville
+quelle est la capitale de australie | La capitale de Australie est Canberra. | capitale Australie Canberra geographie pays ville capitale pays
+explique : capitale de australie | La capitale de Australie est Canberra. | capitale Australie Canberra geographie pays ville cours explication
+capitale de nouvelle-zelande | La capitale de Nouvelle-Zelande est Wellington. | capitale Nouvelle-Zelande Wellington geographie pays ville
+quelle est la capitale de nouvelle-zelande | La capitale de Nouvelle-Zelande est Wellington. | capitale Nouvelle-Zelande Wellington geographie pays ville capitale pays
+explique : capitale de nouvelle-zelande | La capitale de Nouvelle-Zelande est Wellington. | capitale Nouvelle-Zelande Wellington geographie pays ville cours explication
+capitale de egypte | La capitale de Egypte est Le Caire. | capitale Egypte Le Caire geographie pays ville
+quelle est la capitale de egypte | La capitale de Egypte est Le Caire. | capitale Egypte Le Caire geographie pays ville capitale pays
+explique : capitale de egypte | La capitale de Egypte est Le Caire. | capitale Egypte Le Caire geographie pays ville cours explication
+capitale de maroc | La capitale de Maroc est Rabat. | capitale Maroc Rabat geographie pays ville
+quelle est la capitale de maroc | La capitale de Maroc est Rabat. | capitale Maroc Rabat geographie pays ville capitale pays
+explique : capitale de maroc | La capitale de Maroc est Rabat. | capitale Maroc Rabat geographie pays ville cours explication
+capitale de algerie | La capitale de Algerie est Alger. | capitale Algerie Alger geographie pays ville
+quelle est la capitale de algerie | La capitale de Algerie est Alger. | capitale Algerie Alger geographie pays ville capitale pays
+explique : capitale de algerie | La capitale de Algerie est Alger. | capitale Algerie Alger geographie pays ville cours explication
+capitale de tunisie | La capitale de Tunisie est Tunis. | capitale Tunisie Tunis geographie pays ville
+quelle est la capitale de tunisie | La capitale de Tunisie est Tunis. | capitale Tunisie Tunis geographie pays ville capitale pays
+explique : capitale de tunisie | La capitale de Tunisie est Tunis. | capitale Tunisie Tunis geographie pays ville cours explication
+capitale de afrique du sud | La capitale de Afrique du Sud est Pretoria. | capitale Afrique du Sud Pretoria geographie pays ville
+quelle est la capitale de afrique du sud | La capitale de Afrique du Sud est Pretoria. | capitale Afrique du Sud Pretoria geographie pays ville capitale pays
+explique : capitale de afrique du sud | La capitale de Afrique du Sud est Pretoria. | capitale Afrique du Sud Pretoria geographie pays ville cours explication
+capitale de nigeria | La capitale de Nigeria est Abuja. | capitale Nigeria Abuja geographie pays ville
+quelle est la capitale de nigeria | La capitale de Nigeria est Abuja. | capitale Nigeria Abuja geographie pays ville capitale pays
+explique : capitale de nigeria | La capitale de Nigeria est Abuja. | capitale Nigeria Abuja geographie pays ville cours explication
+capitale de kenya | La capitale de Kenya est Nairobi. | capitale Kenya Nairobi geographie pays ville
+quelle est la capitale de kenya | La capitale de Kenya est Nairobi. | capitale Kenya Nairobi geographie pays ville capitale pays
+explique : capitale de kenya | La capitale de Kenya est Nairobi. | capitale Kenya Nairobi geographie pays ville cours explication
+capitale de ethiopie | La capitale de Ethiopie est Addis-Abeba. | capitale Ethiopie Addis-Abeba geographie pays ville
+quelle est la capitale de ethiopie | La capitale de Ethiopie est Addis-Abeba. | capitale Ethiopie Addis-Abeba geographie pays ville capitale pays
+explique : capitale de ethiopie | La capitale de Ethiopie est Addis-Abeba. | capitale Ethiopie Addis-Abeba geographie pays ville cours explication
+capitale de senegal | La capitale de Senegal est Dakar. | capitale Senegal Dakar geographie pays ville
+quelle est la capitale de senegal | La capitale de Senegal est Dakar. | capitale Senegal Dakar geographie pays ville capitale pays
+explique : capitale de senegal | La capitale de Senegal est Dakar. | capitale Senegal Dakar geographie pays ville cours explication
+capitale de cote d'ivoire | La capitale de Cote d'Ivoire est Yamoussoukro. | capitale Cote d'Ivoire Yamoussoukro geographie pays ville
+quelle est la capitale de cote d'ivoire | La capitale de Cote d'Ivoire est Yamoussoukro. | capitale Cote d'Ivoire Yamoussoukro geographie pays ville capitale pays
+explique : capitale de cote d'ivoire | La capitale de Cote d'Ivoire est Yamoussoukro. | capitale Cote d'Ivoire Yamoussoukro geographie pays ville cours explication
+capitale de ghana | La capitale de Ghana est Accra. | capitale Ghana Accra geographie pays ville
+quelle est la capitale de ghana | La capitale de Ghana est Accra. | capitale Ghana Accra geographie pays ville capitale pays
+explique : capitale de ghana | La capitale de Ghana est Accra. | capitale Ghana Accra geographie pays ville cours explication
+capitale de cameroun | La capitale de Cameroun est Yaounde. | capitale Cameroun Yaounde geographie pays ville
+quelle est la capitale de cameroun | La capitale de Cameroun est Yaounde. | capitale Cameroun Yaounde geographie pays ville capitale pays
+explique : capitale de cameroun | La capitale de Cameroun est Yaounde. | capitale Cameroun Yaounde geographie pays ville cours explication
+capitale de madagascar | La capitale de Madagascar est Antananarivo. | capitale Madagascar Antananarivo geographie pays ville
+quelle est la capitale de madagascar | La capitale de Madagascar est Antananarivo. | capitale Madagascar Antananarivo geographie pays ville capitale pays
+explique : capitale de madagascar | La capitale de Madagascar est Antananarivo. | capitale Madagascar Antananarivo geographie pays ville cours explication
+capitale de ile maurice | La capitale de Ile Maurice est Port-Louis. | capitale Ile Maurice Port-Louis geographie pays ville
+quelle est la capitale de ile maurice | La capitale de Ile Maurice est Port-Louis. | capitale Ile Maurice Port-Louis geographie pays ville capitale pays
+explique : capitale de ile maurice | La capitale de Ile Maurice est Port-Louis. | capitale Ile Maurice Port-Louis geographie pays ville cours explication
+capitale de arabie saoudite | La capitale de Arabie Saoudite est Riyad. | capitale Arabie Saoudite Riyad geographie pays ville
+quelle est la capitale de arabie saoudite | La capitale de Arabie Saoudite est Riyad. | capitale Arabie Saoudite Riyad geographie pays ville capitale pays
+explique : capitale de arabie saoudite | La capitale de Arabie Saoudite est Riyad. | capitale Arabie Saoudite Riyad geographie pays ville cours explication
+capitale de emirats arabes unis | La capitale de Emirats arabes unis est Abu Dhabi. | capitale Emirats arabes unis Abu Dhabi geographie pays ville
+quelle est la capitale de emirats arabes unis | La capitale de Emirats arabes unis est Abu Dhabi. | capitale Emirats arabes unis Abu Dhabi geographie pays ville capitale pays
+explique : capitale de emirats arabes unis | La capitale de Emirats arabes unis est Abu Dhabi. | capitale Emirats arabes unis Abu Dhabi geographie pays ville cours explication
+capitale de qatar | La capitale de Qatar est Doha. | capitale Qatar Doha geographie pays ville
+quelle est la capitale de qatar | La capitale de Qatar est Doha. | capitale Qatar Doha geographie pays ville capitale pays
+explique : capitale de qatar | La capitale de Qatar est Doha. | capitale Qatar Doha geographie pays ville cours explication
+capitale de israel | La capitale de Israel est Jerusalem. | capitale Israel Jerusalem geographie pays ville
+quelle est la capitale de israel | La capitale de Israel est Jerusalem. | capitale Israel Jerusalem geographie pays ville capitale pays
+explique : capitale de israel | La capitale de Israel est Jerusalem. | capitale Israel Jerusalem geographie pays ville cours explication
+capitale de jordanie | La capitale de Jordanie est Amman. | capitale Jordanie Amman geographie pays ville
+quelle est la capitale de jordanie | La capitale de Jordanie est Amman. | capitale Jordanie Amman geographie pays ville capitale pays
+explique : capitale de jordanie | La capitale de Jordanie est Amman. | capitale Jordanie Amman geographie pays ville cours explication
+capitale de irak | La capitale de Irak est Bagdad. | capitale Irak Bagdad geographie pays ville
+quelle est la capitale de irak | La capitale de Irak est Bagdad. | capitale Irak Bagdad geographie pays ville capitale pays
+explique : capitale de irak | La capitale de Irak est Bagdad. | capitale Irak Bagdad geographie pays ville cours explication
+capitale de iran | La capitale de Iran est Teheran. | capitale Iran Teheran geographie pays ville
+quelle est la capitale de iran | La capitale de Iran est Teheran. | capitale Iran Teheran geographie pays ville capitale pays
+explique : capitale de iran | La capitale de Iran est Teheran. | capitale Iran Teheran geographie pays ville cours explication
+capitale de syrie | La capitale de Syrie est Damas. | capitale Syrie Damas geographie pays ville
+quelle est la capitale de syrie | La capitale de Syrie est Damas. | capitale Syrie Damas geographie pays ville capitale pays
+explique : capitale de syrie | La capitale de Syrie est Damas. | capitale Syrie Damas geographie pays ville cours explication
+capitale de liban | La capitale de Liban est Beyrouth. | capitale Liban Beyrouth geographie pays ville
+quelle est la capitale de liban | La capitale de Liban est Beyrouth. | capitale Liban Beyrouth geographie pays ville capitale pays
+explique : capitale de liban | La capitale de Liban est Beyrouth. | capitale Liban Beyrouth geographie pays ville cours explication
+capitale de thailande | La capitale de Thailande est Bangkok. | capitale Thailande Bangkok geographie pays ville
+quelle est la capitale de thailande | La capitale de Thailande est Bangkok. | capitale Thailande Bangkok geographie pays ville capitale pays
+explique : capitale de thailande | La capitale de Thailande est Bangkok. | capitale Thailande Bangkok geographie pays ville cours explication
+capitale de vietnam | La capitale de Vietnam est Hanoi. | capitale Vietnam Hanoi geographie pays ville
+quelle est la capitale de vietnam | La capitale de Vietnam est Hanoi. | capitale Vietnam Hanoi geographie pays ville capitale pays
+explique : capitale de vietnam | La capitale de Vietnam est Hanoi. | capitale Vietnam Hanoi geographie pays ville cours explication
+capitale de malaisie | La capitale de Malaisie est Kuala Lumpur. | capitale Malaisie Kuala Lumpur geographie pays ville
+quelle est la capitale de malaisie | La capitale de Malaisie est Kuala Lumpur. | capitale Malaisie Kuala Lumpur geographie pays ville capitale pays
+explique : capitale de malaisie | La capitale de Malaisie est Kuala Lumpur. | capitale Malaisie Kuala Lumpur geographie pays ville cours explication
+capitale de singapour | La capitale de Singapour est Singapour. | capitale Singapour Singapour geographie pays ville
+quelle est la capitale de singapour | La capitale de Singapour est Singapour. | capitale Singapour Singapour geographie pays ville capitale pays
+explique : capitale de singapour | La capitale de Singapour est Singapour. | capitale Singapour Singapour geographie pays ville cours explication
+capitale de philippines | La capitale de Philippines est Manille. | capitale Philippines Manille geographie pays ville
+quelle est la capitale de philippines | La capitale de Philippines est Manille. | capitale Philippines Manille geographie pays ville capitale pays
+explique : capitale de philippines | La capitale de Philippines est Manille. | capitale Philippines Manille geographie pays ville cours explication
+capitale de cambodge | La capitale de Cambodge est Phnom Penh. | capitale Cambodge Phnom Penh geographie pays ville
+quelle est la capitale de cambodge | La capitale de Cambodge est Phnom Penh. | capitale Cambodge Phnom Penh geographie pays ville capitale pays
+explique : capitale de cambodge | La capitale de Cambodge est Phnom Penh. | capitale Cambodge Phnom Penh geographie pays ville cours explication
+capitale de cuba | La capitale de Cuba est La Havane. | capitale Cuba La Havane geographie pays ville
+quelle est la capitale de cuba | La capitale de Cuba est La Havane. | capitale Cuba La Havane geographie pays ville capitale pays
+explique : capitale de cuba | La capitale de Cuba est La Havane. | capitale Cuba La Havane geographie pays ville cours explication
+capitale de jamaïque | La capitale de Jamaïque est Kingston. | capitale Jamaïque Kingston geographie pays ville
+quelle est la capitale de jamaïque | La capitale de Jamaïque est Kingston. | capitale Jamaïque Kingston geographie pays ville capitale pays
+explique : capitale de jamaïque | La capitale de Jamaïque est Kingston. | capitale Jamaïque Kingston geographie pays ville cours explication
+capitale de haïti | La capitale de Haïti est Port-au-Prince. | capitale Haïti Port-au-Prince geographie pays ville
+quelle est la capitale de haïti | La capitale de Haïti est Port-au-Prince. | capitale Haïti Port-au-Prince geographie pays ville capitale pays
+explique : capitale de haïti | La capitale de Haïti est Port-au-Prince. | capitale Haïti Port-au-Prince geographie pays ville cours explication
+capitale de republique dominicaine | La capitale de Republique dominicaine est Santo Domingo. | capitale Republique dominicaine Santo Domingo geographie pays ville
+quelle est la capitale de republique dominicaine | La capitale de Republique dominicaine est Santo Domingo. | capitale Republique dominicaine Santo Domingo geographie pays ville capitale pays
+explique : capitale de republique dominicaine | La capitale de Republique dominicaine est Santo Domingo. | capitale Republique dominicaine Santo Domingo geographie pays ville cours explication
+revolution francaise | 1789 : prise de la Bastille le 14 juillet, fin de l'Ancien Regime, proclamation des droits de l'homme. | 1789 revolution francaise bastille histoire
+quelle est la capitale de revolution francaise | 1789 : prise de la Bastille le 14 juillet, fin de l'Ancien Regime, proclamation des droits de l'homme. | 1789 revolution francaise bastille histoire capitale pays
+explique : revolution francaise | 1789 : prise de la Bastille le 14 juillet, fin de l'Ancien Regime, proclamation des droits de l'homme. | 1789 revolution francaise bastille histoire cours explication
+seconde guerre mondiale | 1939-1945 : conflit mondial ; la France est envahie en 1940, liberee en 1944 ; fin le 8 mai 1945 en Europe. | 1939 1945 seconde guerre mondiale liberation histoire
+quelle est la capitale de seconde guerre mondiale | 1939-1945 : conflit mondial ; la France est envahie en 1940, liberee en 1944 ; fin le 8 mai 1945 en Europe. | 1939 1945 seconde guerre mondiale liberation histoire capitale pays
+explique : seconde guerre mondiale | 1939-1945 : conflit mondial ; la France est envahie en 1940, liberee en 1944 ; fin le 8 mai 1945 en Europe. | 1939 1945 seconde guerre mondiale liberation histoire cours explication
+declaration des droits de l homme | 26 aout 1789 : 17 articles, libertes fondamentales, souverainete nationale. | 1789 droits homme 17 articles revolution
+quelle est la capitale de l homme | 26 aout 1789 : 17 articles, libertes fondamentales, souverainete nationale. | 1789 droits homme 17 articles revolution capitale pays
+explique : declaration des droits de l homme | 26 aout 1789 : 17 articles, libertes fondamentales, souverainete nationale. | 1789 droits homme 17 articles revolution cours explication
+napoleon empereur | 2 decembre 1804 : Napoléon Ier sacre empereur ; Code civil en 1804. | Napoleon 1804 code civil empereur histoire
+quelle est la capitale de napoleon empereur | 2 decembre 1804 : Napoléon Ier sacre empereur ; Code civil en 1804. | Napoleon 1804 code civil empereur histoire capitale pays
+explique : napoleon empereur | 2 decembre 1804 : Napoléon Ier sacre empereur ; Code civil en 1804. | Napoleon 1804 code civil empereur histoire cours explication
+premiere guerre mondiale | 1914-1918 : guerre de tranchées, traite de Versailles 1919, Societe des Nations. | 1914 1918 premiere guerre mondiale versailles
+quelle est la capitale de premiere guerre mondiale | 1914-1918 : guerre de tranchées, traite de Versailles 1919, Societe des Nations. | 1914 1918 premiere guerre mondiale versailles capitale pays
+explique : premiere guerre mondiale | 1914-1918 : guerre de tranchées, traite de Versailles 1919, Societe des Nations. | 1914 1918 premiere guerre mondiale versailles cours explication
+guerre froide | 1947-1991 : opposition USA/URSS, rideau de fer, chute du mur de Berlin 1989, fin URSS 1991. | guerre froide 1947 1991 berlin URSS USA
+quelle est la capitale de guerre froide | 1947-1991 : opposition USA/URSS, rideau de fer, chute du mur de Berlin 1989, fin URSS 1991. | guerre froide 1947 1991 berlin URSS USA capitale pays
+explique : guerre froide | 1947-1991 : opposition USA/URSS, rideau de fer, chute du mur de Berlin 1989, fin URSS 1991. | guerre froide 1947 1991 berlin URSS USA cours explication
+debarquement de normandie | 6 juin 1944 : operation Overlord, liberation de la France. | 6 juin 1944 debarquement normandie d day
+quelle est la capitale de normandie | 6 juin 1944 : operation Overlord, liberation de la France. | 6 juin 1944 debarquement normandie d day capitale pays
+explique : debarquement de normandie | 6 juin 1944 : operation Overlord, liberation de la France. | 6 juin 1944 debarquement normandie d day cours explication
+revolution industrielle | XVIIIe-XIXe siecle : machine a vapeur, chemins de fer, urbanisation, capitalisme industriel. | revolution industrielle XVIII XIX vapeur usine histoire
+quelle est la capitale de revolution industrielle | XVIIIe-XIXe siecle : machine a vapeur, chemins de fer, urbanisation, capitalisme industriel. | revolution industrielle XVIII XIX vapeur usine histoire capitale pays
+explique : revolution industrielle | XVIIIe-XIXe siecle : machine a vapeur, chemins de fer, urbanisation, capitalisme industriel. | revolution industrielle XVIII XIX vapeur usine histoire cours explication
+renaissance | XVe-XVIe siecle : humanisme, art (Leonard de Vinci, Michel-Ange), decouvertes. | Renaissance humanisme Leonard Michel-Ange art histoire
+quelle est la capitale de renaissance | XVe-XVIe siecle : humanisme, art (Leonard de Vinci, Michel-Ange), decouvertes. | Renaissance humanisme Leonard Michel-Ange art histoire capitale pays
+explique : renaissance | XVe-XVIe siecle : humanisme, art (Leonard de Vinci, Michel-Ange), decouvertes. | Renaissance humanisme Leonard Michel-Ange art histoire cours explication
+age des lumieres | XVIIIe siecle : raison, encyclopedie (Diderot, d'Alembert), philosophes (Voltaire, Rousseau, Montesquieu). | Lumieres XVIII raison Voltaire Rousseau Montesquieu encyclopedie
+quelle est la capitale de age des lumieres | XVIIIe siecle : raison, encyclopedie (Diderot, d'Alembert), philosophes (Voltaire, Rousseau, Montesquieu). | Lumieres XVIII raison Voltaire Rousseau Montesquieu encyclopedie capitale pays
+explique : age des lumieres | XVIIIe siecle : raison, encyclopedie (Diderot, d'Alembert), philosophes (Voltaire, Rousseau, Montesquieu). | Lumieres XVIII raison Voltaire Rousseau Montesquieu encyclopedie cours explication
+invention de l imprimerie | vers 1450 Gutenberg : diffusion du savoir, reforme protestante, renaissance. | Gutenberg imprimerie 1450 livre savoir histoire
+quelle est la capitale de l imprimerie | vers 1450 Gutenberg : diffusion du savoir, reforme protestante, renaissance. | Gutenberg imprimerie 1450 livre savoir histoire capitale pays
+explique : invention de l imprimerie | vers 1450 Gutenberg : diffusion du savoir, reforme protestante, renaissance. | Gutenberg imprimerie 1450 livre savoir histoire cours explication
+decouverte de l amerique | 1492 Christophe Colomb atteint les Caraïbes, ouverture des echanges transatlantiques. | 1492 Colomb Amerique decouverte Caraïbes histoire
+quelle est la capitale de l amerique | 1492 Christophe Colomb atteint les Caraïbes, ouverture des echanges transatlantiques. | 1492 Colomb Amerique decouverte Caraïbes histoire capitale pays
+explique : decouverte de l amerique | 1492 Christophe Colomb atteint les Caraïbes, ouverture des echanges transatlantiques. | 1492 Colomb Amerique decouverte Caraïbes histoire cours explication
+traite de versailles | 28 juin 1919 : paix avec l'Allemagne, clauses lourdes, SDN creee. | 1919 traite versailles paix Allemagne SDN
+quelle est la capitale de versailles | 28 juin 1919 : paix avec l'Allemagne, clauses lourdes, SDN creee. | 1919 traite versailles paix Allemagne SDN capitale pays
+explique : traite de versailles | 28 juin 1919 : paix avec l'Allemagne, clauses lourdes, SDN creee. | 1919 traite versailles paix Allemagne SDN cours explication
+chute du mur de berlin | 9 novembre 1989 : fin du rideau de fer, reunification allemande en 1990. | 9 novembre 1989 mur Berlin chute allemagne
+quelle est la capitale de berlin | 9 novembre 1989 : fin du rideau de fer, reunification allemande en 1990. | 9 novembre 1989 mur Berlin chute allemagne capitale pays
+explique : chute du mur de berlin | 9 novembre 1989 : fin du rideau de fer, reunification allemande en 1990. | 9 novembre 1989 mur Berlin chute allemagne cours explication
+premier homme sur la lune | 20 juillet 1969 : Apollo 11, Neil Armstrong, Buzz Aldrin. | 1969 lune Apollo 11 Armstrong espace histoire
+quelle est la capitale de premier homme sur la lune | 20 juillet 1969 : Apollo 11, Neil Armstrong, Buzz Aldrin. | 1969 lune Apollo 11 Armstrong espace histoire capitale pays
+explique : premier homme sur la lune | 20 juillet 1969 : Apollo 11, Neil Armstrong, Buzz Aldrin. | 1969 lune Apollo 11 Armstrong espace histoire cours explication
+moliere | XVIIe s., comedies (Tartuffe, Le Misanthrope), maitre de la satire. | Moliere theatre comedie Tartuffe Misanthrope litterature
+quelle est la capitale de moliere | XVIIe s., comedies (Tartuffe, Le Misanthrope), maitre de la satire. | Moliere theatre comedie Tartuffe Misanthrope litterature capitale pays
+explique : moliere | XVIIe s., comedies (Tartuffe, Le Misanthrope), maitre de la satire. | Moliere theatre comedie Tartuffe Misanthrope litterature cours explication
+victor hugo | XIXe s., Les Miserables, Notre-Dame de Paris, Hernani, poetique du peuple. | Victor Hugo Miserables Notre-Dame Hernani litterature
+quelle est la capitale de victor hugo | XIXe s., Les Miserables, Notre-Dame de Paris, Hernani, poetique du peuple. | Victor Hugo Miserables Notre-Dame Hernani litterature capitale pays
+explique : victor hugo | XIXe s., Les Miserables, Notre-Dame de Paris, Hernani, poetique du peuple. | Victor Hugo Miserables Notre-Dame Hernani litterature cours explication
+emile zola | XIXe s., cycle des Rougon-Macquart, Germinal, naturalisme, affaire Dreyfus (J'accuse). | Zola Rougon-Macquart Germinal naturalisme J'accuse Dreyfus
+quelle est la capitale de emile zola | XIXe s., cycle des Rougon-Macquart, Germinal, naturalisme, affaire Dreyfus (J'accuse). | Zola Rougon-Macquart Germinal naturalisme J'accuse Dreyfus capitale pays
+explique : emile zola | XIXe s., cycle des Rougon-Macquart, Germinal, naturalisme, affaire Dreyfus (J'accuse). | Zola Rougon-Macquart Germinal naturalisme J'accuse Dreyfus cours explication
+albert camus | XXe s., L'Etranger, La Peste, La Chute, absurde, prix Nobel 1957. | Camus Etranger Peste absurde Nobel litterature
+quelle est la capitale de albert camus | XXe s., L'Etranger, La Peste, La Chute, absurde, prix Nobel 1957. | Camus Etranger Peste absurde Nobel litterature capitale pays
+explique : albert camus | XXe s., L'Etranger, La Peste, La Chute, absurde, prix Nobel 1957. | Camus Etranger Peste absurde Nobel litterature cours explication
+marcel proust | XXe s., A la recherche du temps perdu, memoire involontaire, madeleine. | Proust recherche temps perdu madeleine memoire litterature
+quelle est la capitale de marcel proust | XXe s., A la recherche du temps perdu, memoire involontaire, madeleine. | Proust recherche temps perdu madeleine memoire litterature capitale pays
+explique : marcel proust | XXe s., A la recherche du temps perdu, memoire involontaire, madeleine. | Proust recherche temps perdu madeleine memoire litterature cours explication
+jean racine | XVIIe s., tragedies (Phedre, Andromaque), alexandrins, passions. | Racine Phedre Andromaque tragedie alexandrin litterature
+quelle est la capitale de jean racine | XVIIe s., tragedies (Phedre, Andromaque), alexandrins, passions. | Racine Phedre Andromaque tragedie alexandrin litterature capitale pays
+explique : jean racine | XVIIe s., tragedies (Phedre, Andromaque), alexandrins, passions. | Racine Phedre Andromaque tragedie alexandrin litterature cours explication
+baudelaires | Les Fleurs du mal, poete maudit, spleen et ideal. | Baudelaire Fleurs du mal spleen ideal poete litterature
+quelle est la capitale de baudelaires | Les Fleurs du mal, poete maudit, spleen et ideal. | Baudelaire Fleurs du mal spleen ideal poete litterature capitale pays
+explique : baudelaires | Les Fleurs du mal, poete maudit, spleen et ideal. | Baudelaire Fleurs du mal spleen ideal poete litterature cours explication
+verlaine | Poemes saturniens, chanson d'automne, symbolisme. | Verlaine saturnien chanson automne symbolisme poete
+quelle est la capitale de verlaine | Poemes saturniens, chanson d'automne, symbolisme. | Verlaine saturnien chanson automne symbolisme poete capitale pays
+explique : verlaine | Poemes saturniens, chanson d'automne, symbolisme. | Verlaine saturnien chanson automne symbolisme poete cours explication
+la fontaine | Fables (Le Corbeau et le Renard), morale en vers. | La Fontaine fables Corbeau Renard morale litterature
+quelle est la capitale de la fontaine | Fables (Le Corbeau et le Renard), morale en vers. | La Fontaine fables Corbeau Renard morale litterature capitale pays
+explique : la fontaine | Fables (Le Corbeau et le Renard), morale en vers. | La Fontaine fables Corbeau Renard morale litterature cours explication
+becket | En attendant Godot, theatre de l'absurde, XXe s. | Beckett Godot absurde theatre litterature
+quelle est la capitale de becket | En attendant Godot, theatre de l'absurde, XXe s. | Beckett Godot absurde theatre litterature capitale pays
+explique : becket | En attendant Godot, theatre de l'absurde, XXe s. | Beckett Godot absurde theatre litterature cours explication
+accord du participe passe avec etre | Avec etre, le participe passe s'accorde en genre et nombre avec le sujet : elles sont arrivees. | participe passe etre accorde sujet francais grammaire
+quelle est la capitale de accord du participe passe avec etre | Avec etre, le participe passe s'accorde en genre et nombre avec le sujet : elles sont arrivees. | participe passe etre accorde sujet francais grammaire capitale pays
+explique : accord du participe passe avec etre | Avec etre, le participe passe s'accorde en genre et nombre avec le sujet : elles sont arrivees. | participe passe etre accorde sujet francais grammaire cours explication
+accord du participe passe avec avoir | Avec avoir, il s'accorde avec le COD si celui-ci est place avant : les lettres que j'ai ecrites. | participe passe avoir COD avant accorde francais
+quelle est la capitale de accord du participe passe avec avoir | Avec avoir, il s'accorde avec le COD si celui-ci est place avant : les lettres que j'ai ecrites. | participe passe avoir COD avant accorde francais capitale pays
+explique : accord du participe passe avec avoir | Avec avoir, il s'accorde avec le COD si celui-ci est place avant : les lettres que j'ai ecrites. | participe passe avoir COD avant accorde francais cours explication
+conjugaison du verbe aller au present | je vais, tu vas, il va, nous allons, vous allez, ils vont. | aller present conjugaison verbe francais
+quelle est la capitale de conjugaison du verbe aller au present | je vais, tu vas, il va, nous allons, vous allez, ils vont. | aller present conjugaison verbe francais capitale pays
+explique : conjugaison du verbe aller au present | je vais, tu vas, il va, nous allons, vous allez, ils vont. | aller present conjugaison verbe francais cours explication
+conjugaison du verbe faire au present | je fais, tu fais, il fait, nous faisons, vous faites, ils font. | faire present conjugaison verbe francais
+quelle est la capitale de conjugaison du verbe faire au present | je fais, tu fais, il fait, nous faisons, vous faites, ils font. | faire present conjugaison verbe francais capitale pays
+explique : conjugaison du verbe faire au present | je fais, tu fais, il fait, nous faisons, vous faites, ils font. | faire present conjugaison verbe francais cours explication
+conjugaison du verbe avoir au present | j'ai, tu as, il a, nous avons, vous avez, ils ont. | avoir present conjugaison verbe francais
+quelle est la capitale de conjugaison du verbe avoir au present | j'ai, tu as, il a, nous avons, vous avez, ils ont. | avoir present conjugaison verbe francais capitale pays
+explique : conjugaison du verbe avoir au present | j'ai, tu as, il a, nous avons, vous avez, ils ont. | avoir present conjugaison verbe francais cours explication
+conjugaison du verbe etre au present | je suis, tu es, il est, nous sommes, vous etes, ils sont. | etre present conjugaison verbe francais
+quelle est la capitale de conjugaison du verbe etre au present | je suis, tu es, il est, nous sommes, vous etes, ils sont. | etre present conjugaison verbe francais capitale pays
+explique : conjugaison du verbe etre au present | je suis, tu es, il est, nous sommes, vous etes, ils sont. | etre present conjugaison verbe francais cours explication
+les determinants possessifs | mon, ton, son, ma, ta, sa, mes, tes, ses, notre, votre, leur, nos, vos, leurs. | determinants possessifs mon ton son francais grammaire
+quelle est la capitale de les determinants possessifs | mon, ton, son, ma, ta, sa, mes, tes, ses, notre, votre, leur, nos, vos, leurs. | determinants possessifs mon ton son francais grammaire capitale pays
+explique : les determinants possessifs | mon, ton, son, ma, ta, sa, mes, tes, ses, notre, votre, leur, nos, vos, leurs. | determinants possessifs mon ton son francais grammaire cours explication
+les pronoms relatifs | qui (sujet), que (COD), dont (complement avec de), ou (lieu/temps). | pronoms relatifs qui que dont ou francais grammaire
+quelle est la capitale de les pronoms relatifs | qui (sujet), que (COD), dont (complement avec de), ou (lieu/temps). | pronoms relatifs qui que dont ou francais grammaire capitale pays
+explique : les pronoms relatifs | qui (sujet), que (COD), dont (complement avec de), ou (lieu/temps). | pronoms relatifs qui que dont ou francais grammaire cours explication
+le subjonctif | Emploi apres il faut que, bien que, pour que ; terminaisons -e,-es,-e,-ions,-iez,-ent. | subjonctif mode terminaisons il faut que francais
+quelle est la capitale de le subjonctif | Emploi apres il faut que, bien que, pour que ; terminaisons -e,-es,-e,-ions,-iez,-ent. | subjonctif mode terminaisons il faut que francais capitale pays
+explique : le subjonctif | Emploi apres il faut que, bien que, pour que ; terminaisons -e,-es,-e,-ions,-iez,-ent. | subjonctif mode terminaisons il faut que francais cours explication
+l imparfait de l indicatif | Terminaisons -ais,-ais,-ait,-ions,-iez,-aient ; emploi : habitude, description dans le passe. | imparfait indicatif ais ais ait ions iez aient francais
+quelle est la capitale de l indicatif | Terminaisons -ais,-ais,-ait,-ions,-iez,-aient ; emploi : habitude, description dans le passe. | imparfait indicatif ais ais ait ions iez aient francais capitale pays
+explique : l imparfait de l indicatif | Terminaisons -ais,-ais,-ait,-ions,-iez,-aient ; emploi : habitude, description dans le passe. | imparfait indicatif ais ais ait ions iez aient francais cours explication
+le passe simple | Actions achevees dans le passe, souvent dans le recit litteraire ; terminaisons variables selon le groupe. | passe simple recit litteraire action achevee francais
+quelle est la capitale de le passe simple | Actions achevees dans le passe, souvent dans le recit litteraire ; terminaisons variables selon le groupe. | passe simple recit litteraire action achevee francais capitale pays
+explique : le passe simple | Actions achevees dans le passe, souvent dans le recit litteraire ; terminaisons variables selon le groupe. | passe simple recit litteraire action achevee francais cours explication
+le conditionnel present | Terminaisons de l'imparfait avec infinitif : je donnerais, tu finirais ; sert a l'hypothese, la politesse. | conditionnel present donnerais hypothese politesse francais
+quelle est la capitale de le conditionnel present | Terminaisons de l'imparfait avec infinitif : je donnerais, tu finirais ; sert a l'hypothese, la politesse. | conditionnel present donnerais hypothese politesse francais capitale pays
+explique : le conditionnel present | Terminaisons de l'imparfait avec infinitif : je donnerais, tu finirais ; sert a l'hypothese, la politesse. | conditionnel present donnerais hypothese politesse francais cours explication
+le plus-que-parfait | Auxiliaire a l'imparfait + participe passe : j'avais mange ; action anterieure a une autre action passee. | plus que parfait avais participe passe anterieur francais
+quelle est la capitale de le plus-que-parfait | Auxiliaire a l'imparfait + participe passe : j'avais mange ; action anterieure a une autre action passee. | plus que parfait avais participe passe anterieur francais capitale pays
+explique : le plus-que-parfait | Auxiliaire a l'imparfait + participe passe : j'avais mange ; action anterieure a une autre action passee. | plus que parfait avais participe passe anterieur francais cours explication
+accord de l adjectif qualificatif | L'adjectif s'accorde en genre et nombre avec le nom : des maisons blanches, un grand garcon. | adjectif qualificatif accorde genre nombre nom francais
+quelle est la capitale de l adjectif qualificatif | L'adjectif s'accorde en genre et nombre avec le nom : des maisons blanches, un grand garcon. | adjectif qualificatif accorde genre nombre nom francais capitale pays
+explique : accord de l adjectif qualificatif | L'adjectif s'accorde en genre et nombre avec le nom : des maisons blanches, un grand garcon. | adjectif qualificatif accorde genre nombre nom francais cours explication
+les complements du nom | Le complement du nom precise un nom, souvent avec de : la maison de campagne. | complement du nom de campagne francais grammaire
+quelle est la capitale de les complements du nom | Le complement du nom precise un nom, souvent avec de : la maison de campagne. | complement du nom de campagne francais grammaire capitale pays
+explique : les complements du nom | Le complement du nom precise un nom, souvent avec de : la maison de campagne. | complement du nom de campagne francais grammaire cours explication
