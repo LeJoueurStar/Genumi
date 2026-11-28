@@ -1,0 +1,171 @@
+formule de l aire d un carre | A = cote^2. Exemple : cote 5 cm -> A = 25 cm^2. | aire carre formule geometrie surface
+comment faire : formule de l aire d un carre | A = cote^2. Exemple : cote 5 cm -> A = 25 cm^2. | aire carre formule geometrie surface comment exercice methode
+explique : formule de l aire d un carre | A = cote^2. Exemple : cote 5 cm -> A = 25 cm^2. | aire carre formule geometrie surface explication cours exemple definition
+formule du perimetre d un carre | P = 4 x cote. Exemple : cote 5 cm -> P = 20 cm. | perimetre carre formule geometrie
+comment faire : formule du perimetre d un carre | P = 4 x cote. Exemple : cote 5 cm -> P = 20 cm. | perimetre carre formule geometrie comment exercice methode
+explique : formule du perimetre d un carre | P = 4 x cote. Exemple : cote 5 cm -> P = 20 cm. | perimetre carre formule geometrie explication cours exemple definition
+formule de l aire d un rectangle | A = longueur x largeur. Exemple : 6 m x 4 m -> 24 m^2. | aire rectangle formule surface
+comment faire : formule de l aire d un rectangle | A = longueur x largeur. Exemple : 6 m x 4 m -> 24 m^2. | aire rectangle formule surface comment exercice methode
+explique : formule de l aire d un rectangle | A = longueur x largeur. Exemple : 6 m x 4 m -> 24 m^2. | aire rectangle formule surface explication cours exemple definition
+formule du perimetre d un rectangle | P = 2 x (longueur + largeur). Exemple : 6 m et 4 m -> 20 m. | perimetre rectangle formule
+comment faire : formule du perimetre d un rectangle | P = 2 x (longueur + largeur). Exemple : 6 m et 4 m -> 20 m. | perimetre rectangle formule comment exercice methode
+explique : formule du perimetre d un rectangle | P = 2 x (longueur + largeur). Exemple : 6 m et 4 m -> 20 m. | perimetre rectangle formule explication cours exemple definition
+formule de l aire d un triangle | A = (base x hauteur) / 2. Exemple : base 8 cm, hauteur 5 cm -> 20 cm^2. | aire triangle formule hauteur base surface
+comment faire : formule de l aire d un triangle | A = (base x hauteur) / 2. Exemple : base 8 cm, hauteur 5 cm -> 20 cm^2. | aire triangle formule hauteur base surface comment exercice methode
+explique : formule de l aire d un triangle | A = (base x hauteur) / 2. Exemple : base 8 cm, hauteur 5 cm -> 20 cm^2. | aire triangle formule hauteur base surface explication cours exemple definition
+formule de l aire d un disque | A = pi x r^2. Exemple : r = 3 cm -> A = pi x 9 = environ 28,27 cm^2. | aire disque cercle rayon pi formule
+comment faire : formule de l aire d un disque | A = pi x r^2. Exemple : r = 3 cm -> A = pi x 9 = environ 28,27 cm^2. | aire disque cercle rayon pi formule comment exercice methode
+explique : formule de l aire d un disque | A = pi x r^2. Exemple : r = 3 cm -> A = pi x 9 = environ 28,27 cm^2. | aire disque cercle rayon pi formule explication cours exemple definition
+formule de la circonference d un cercle | C = 2 x pi x r. Exemple : r = 3 cm -> C = environ 18,85 cm. | circonference cercle perimetre 2 pi r
+comment faire : formule de la circonference d un cercle | C = 2 x pi x r. Exemple : r = 3 cm -> C = environ 18,85 cm. | circonference cercle perimetre 2 pi r comment exercice methode
+explique : formule de la circonference d un cercle | C = 2 x pi x r. Exemple : r = 3 cm -> C = environ 18,85 cm. | circonference cercle perimetre 2 pi r explication cours exemple definition
+formule du volume d un cube | V = cote^3. Exemple : cote 4 cm -> V = 64 cm^3. | volume cube formule cote^3
+comment faire : formule du volume d un cube | V = cote^3. Exemple : cote 4 cm -> V = 64 cm^3. | volume cube formule cote^3 comment exercice methode
+explique : formule du volume d un cube | V = cote^3. Exemple : cote 4 cm -> V = 64 cm^3. | volume cube formule cote^3 explication cours exemple definition
+formule du volume d un pave droit | V = longueur x largeur x hauteur. Exemple : 5 x 3 x 2 = 30 cm^3. | volume pave droit formule pavé
+comment faire : formule du volume d un pave droit | V = longueur x largeur x hauteur. Exemple : 5 x 3 x 2 = 30 cm^3. | volume pave droit formule pavé comment exercice methode
+explique : formule du volume d un pave droit | V = longueur x largeur x hauteur. Exemple : 5 x 3 x 2 = 30 cm^3. | volume pave droit formule pavé explication cours exemple definition
+formule du volume d un cylindre | V = pi x r^2 x h. Exemple : r = 2 cm, h = 5 cm -> V = 20 pi = environ 62,83 cm^3. | volume cylindre formule rayon hauteur
+comment faire : formule du volume d un cylindre | V = pi x r^2 x h. Exemple : r = 2 cm, h = 5 cm -> V = 20 pi = environ 62,83 cm^3. | volume cylindre formule rayon hauteur comment exercice methode
+explique : formule du volume d un cylindre | V = pi x r^2 x h. Exemple : r = 2 cm, h = 5 cm -> V = 20 pi = environ 62,83 cm^3. | volume cylindre formule rayon hauteur explication cours exemple definition
+formule de la vitesse moyenne | v = d / t. Exemple : d = 100 km, t = 2 h -> v = 50 km/h. | vitesse moyenne formule d t distance temps
+comment faire : formule de la vitesse moyenne | v = d / t. Exemple : d = 100 km, t = 2 h -> v = 50 km/h. | vitesse moyenne formule d t distance temps comment exercice methode
+explique : formule de la vitesse moyenne | v = d / t. Exemple : d = 100 km, t = 2 h -> v = 50 km/h. | vitesse moyenne formule d t distance temps explication cours exemple definition
+formule de la distance | d = v x t. Exemple : v = 60 km/h, t = 0,5 h -> d = 30 km. | distance formule vitesse temps d v t
+comment faire : formule de la distance | d = v x t. Exemple : v = 60 km/h, t = 0,5 h -> d = 30 km. | distance formule vitesse temps d v t comment exercice methode
+explique : formule de la distance | d = v x t. Exemple : v = 60 km/h, t = 0,5 h -> d = 30 km. | distance formule vitesse temps d v t explication cours exemple definition
+formule du temps | t = d / v. Exemple : d = 120 km, v = 60 km/h -> t = 2 h. | temps formule distance vitesse t d v
+comment faire : formule du temps | t = d / v. Exemple : d = 120 km, v = 60 km/h -> t = 2 h. | temps formule distance vitesse t d v comment exercice methode
+explique : formule du temps | t = d / v. Exemple : d = 120 km, v = 60 km/h -> t = 2 h. | temps formule distance vitesse t d v explication cours exemple definition
+formule de la seconde loi de Newton | F = m x a. Exemple : m = 10 kg, a = 2 m/s^2 -> F = 20 N. | force newton F m a deuxieme loi mecanique
+comment faire : formule de la seconde loi de Newton | F = m x a. Exemple : m = 10 kg, a = 2 m/s^2 -> F = 20 N. | force newton F m a deuxieme loi mecanique comment exercice methode
+explique : formule de la seconde loi de Newton | F = m x a. Exemple : m = 10 kg, a = 2 m/s^2 -> F = 20 N. | force newton F m a deuxieme loi mecanique explication cours exemple definition
+formule du poids | P = m x g avec g = 9,81 N/kg. Exemple : m = 5 kg -> P = 49,05 N. | poids formule P m g pesanteur newton
+comment faire : formule du poids | P = m x g avec g = 9,81 N/kg. Exemple : m = 5 kg -> P = 49,05 N. | poids formule P m g pesanteur newton comment exercice methode
+explique : formule du poids | P = m x g avec g = 9,81 N/kg. Exemple : m = 5 kg -> P = 49,05 N. | poids formule P m g pesanteur newton explication cours exemple definition
+formule de l energie cinetique | Ec = 1/2 x m x v^2. Exemple : m = 2 kg, v = 3 m/s -> Ec = 9 J. | energie cinetique formule Ec m v^2 joule
+comment faire : formule de l energie cinetique | Ec = 1/2 x m x v^2. Exemple : m = 2 kg, v = 3 m/s -> Ec = 9 J. | energie cinetique formule Ec m v^2 joule comment exercice methode
+explique : formule de l energie cinetique | Ec = 1/2 x m x v^2. Exemple : m = 2 kg, v = 3 m/s -> Ec = 9 J. | energie cinetique formule Ec m v^2 joule explication cours exemple definition
+formule de l energie potentielle de pesanteur | Ep = m x g x h. Exemple : m = 2 kg, h = 10 m -> Ep = 196,2 J. | energie potentielle formule Ep m g h hauteur
+comment faire : formule de l energie potentielle de pesanteur | Ep = m x g x h. Exemple : m = 2 kg, h = 10 m -> Ep = 196,2 J. | energie potentielle formule Ep m g h hauteur comment exercice methode
+explique : formule de l energie potentielle de pesanteur | Ep = m x g x h. Exemple : m = 2 kg, h = 10 m -> Ep = 196,2 J. | energie potentielle formule Ep m g h hauteur explication cours exemple definition
+formule de la puissance | P = E / t. Exemple : E = 1000 J, t = 5 s -> P = 200 W. | puissance formule P E t watt energie temps
+comment faire : formule de la puissance | P = E / t. Exemple : E = 1000 J, t = 5 s -> P = 200 W. | puissance formule P E t watt energie temps comment exercice methode
+explique : formule de la puissance | P = E / t. Exemple : E = 1000 J, t = 5 s -> P = 200 W. | puissance formule P E t watt energie temps explication cours exemple definition
+formule de la loi d Ohm | U = R x I. Exemple : R = 10 ohm, I = 2 A -> U = 20 V. | loi d ohm U R I volt ampere resistance electricite
+comment faire : formule de la loi d Ohm | U = R x I. Exemple : R = 10 ohm, I = 2 A -> U = 20 V. | loi d ohm U R I volt ampere resistance electricite comment exercice methode
+explique : formule de la loi d Ohm | U = R x I. Exemple : R = 10 ohm, I = 2 A -> U = 20 V. | loi d ohm U R I volt ampere resistance electricite explication cours exemple definition
+formule de la resistance electrique | R = U / I. Exemple : U = 12 V, I = 0,5 A -> R = 24 ohm. | resistance formule R U I ohm electricite
+comment faire : formule de la resistance electrique | R = U / I. Exemple : U = 12 V, I = 0,5 A -> R = 24 ohm. | resistance formule R U I ohm electricite comment exercice methode
+explique : formule de la resistance electrique | R = U / I. Exemple : U = 12 V, I = 0,5 A -> R = 24 ohm. | resistance formule R U I ohm electricite explication cours exemple definition
+formule de la puissance electrique | P = U x I. Exemple : U = 230 V, I = 2 A -> P = 460 W. | puissance electrique formule P U I watt
+comment faire : formule de la puissance electrique | P = U x I. Exemple : U = 230 V, I = 2 A -> P = 460 W. | puissance electrique formule P U I watt comment exercice methode
+explique : formule de la puissance electrique | P = U x I. Exemple : U = 230 V, I = 2 A -> P = 460 W. | puissance electrique formule P U I watt explication cours exemple definition
+formule de l energie electrique | E = P x t. Exemple : P = 100 W, t = 2 h -> E = 200 Wh = 0,2 kWh. | energie electrique formule E P t kwh
+comment faire : formule de l energie electrique | E = P x t. Exemple : P = 100 W, t = 2 h -> E = 200 Wh = 0,2 kWh. | energie electrique formule E P t kwh comment exercice methode
+explique : formule de l energie electrique | E = P x t. Exemple : P = 100 W, t = 2 h -> E = 200 Wh = 0,2 kWh. | energie electrique formule E P t kwh explication cours exemple definition
+formule de la frequence | f = 1 / T. Exemple : T = 0,02 s -> f = 50 Hz. | frequence formule f T periode hertz onde
+comment faire : formule de la frequence | f = 1 / T. Exemple : T = 0,02 s -> f = 50 Hz. | frequence formule f T periode hertz onde comment exercice methode
+explique : formule de la frequence | f = 1 / T. Exemple : T = 0,02 s -> f = 50 Hz. | frequence formule f T periode hertz onde explication cours exemple definition
+formule de la periode | T = 1 / f. Exemple : f = 50 Hz -> T = 0,02 s. | periode formule T f frequence seconde
+comment faire : formule de la periode | T = 1 / f. Exemple : f = 50 Hz -> T = 0,02 s. | periode formule T f frequence seconde comment exercice methode
+explique : formule de la periode | T = 1 / f. Exemple : f = 50 Hz -> T = 0,02 s. | periode formule T f frequence seconde explication cours exemple definition
+formule de la longueur d onde | lambda = v / f. Exemple : v = 340 m/s, f = 1000 Hz -> lambda = 0,34 m. | longueur onde lambda v f son lumiere
+comment faire : formule de la longueur d onde | lambda = v / f. Exemple : v = 340 m/s, f = 1000 Hz -> lambda = 0,34 m. | longueur onde lambda v f son lumiere comment exercice methode
+explique : formule de la longueur d onde | lambda = v / f. Exemple : v = 340 m/s, f = 1000 Hz -> lambda = 0,34 m. | longueur onde lambda v f son lumiere explication cours exemple definition
+formule de la masse volumique | rho = m / V. Exemple : m = 100 g, V = 50 cm^3 -> rho = 2 g/cm^3. | masse volumique formule rho m V densite
+comment faire : formule de la masse volumique | rho = m / V. Exemple : m = 100 g, V = 50 cm^3 -> rho = 2 g/cm^3. | masse volumique formule rho m V densite comment exercice methode
+explique : formule de la masse volumique | rho = m / V. Exemple : m = 100 g, V = 50 cm^3 -> rho = 2 g/cm^3. | masse volumique formule rho m V densite explication cours exemple definition
+formule de la densite | d = rho / rho_eau. Exemple : rho = 800 kg/m^3 -> d = 0,8. | densite formule d rho masse volumique eau
+comment faire : formule de la densite | d = rho / rho_eau. Exemple : rho = 800 kg/m^3 -> d = 0,8. | densite formule d rho masse volumique eau comment exercice methode
+explique : formule de la densite | d = rho / rho_eau. Exemple : rho = 800 kg/m^3 -> d = 0,8. | densite formule d rho masse volumique eau explication cours exemple definition
+formule de la concentration molaire | C = n / V. Exemple : n = 0,2 mol, V = 0,5 L -> C = 0,4 mol/L. | concentration molaire C n V mol L solution chimie
+comment faire : formule de la concentration molaire | C = n / V. Exemple : n = 0,2 mol, V = 0,5 L -> C = 0,4 mol/L. | concentration molaire C n V mol L solution chimie comment exercice methode
+explique : formule de la concentration molaire | C = n / V. Exemple : n = 0,2 mol, V = 0,5 L -> C = 0,4 mol/L. | concentration molaire C n V mol L solution chimie explication cours exemple definition
+formule de la quantité de matiere | n = m / M. Exemple : m = 18 g, M = 18 g/mol -> n = 1 mol. | quantite matiere n m M mol masse molaire
+comment faire : formule de la quantité de matiere | n = m / M. Exemple : m = 18 g, M = 18 g/mol -> n = 1 mol. | quantite matiere n m M mol masse molaire comment exercice methode
+explique : formule de la quantité de matiere | n = m / M. Exemple : m = 18 g, M = 18 g/mol -> n = 1 mol. | quantite matiere n m M mol masse molaire explication cours exemple definition
+loi de conservation de la masse | Dans une reaction chimique, la masse totale des reactifs egale la masse totale des produits. | conservation masse Lavoisier reaction chimique loi
+comment faire : loi de conservation de la masse | Dans une reaction chimique, la masse totale des reactifs egale la masse totale des produits. | conservation masse Lavoisier reaction chimique loi comment exercice methode
+explique : loi de conservation de la masse | Dans une reaction chimique, la masse totale des reactifs egale la masse totale des produits. | conservation masse Lavoisier reaction chimique loi explication cours exemple definition
+formule du pH | pH = -log[H3O+]. Exemple : [H3O+] = 1e-3 mol/L -> pH = 3. | pH formule log acide concentration ion
+comment faire : formule du pH | pH = -log[H3O+]. Exemple : [H3O+] = 1e-3 mol/L -> pH = 3. | pH formule log acide concentration ion comment exercice methode
+explique : formule du pH | pH = -log[H3O+]. Exemple : [H3O+] = 1e-3 mol/L -> pH = 3. | pH formule log acide concentration ion explication cours exemple definition
+formule de la loi de Beer-Lambert | A = epsilon x l x C. Exemple : epsilon = 100 L/mol/cm, l = 1 cm, C = 0,001 mol/L -> A = 0,1. | Beer Lambert absorbance A epsilon l C spectrochimie
+comment faire : formule de la loi de Beer-Lambert | A = epsilon x l x C. Exemple : epsilon = 100 L/mol/cm, l = 1 cm, C = 0,001 mol/L -> A = 0,1. | Beer Lambert absorbance A epsilon l C spectrochimie comment exercice methode
+explique : formule de la loi de Beer-Lambert | A = epsilon x l x C. Exemple : epsilon = 100 L/mol/cm, l = 1 cm, C = 0,001 mol/L -> A = 0,1. | Beer Lambert absorbance A epsilon l C spectrochimie explication cours exemple definition
+formule de l energie d un photon | E = h x nu = h x c / lambda. Exemple : lambda = 500 nm -> E = environ 3,98e-19 J. | photon energie E h nu c lambda lumiere quantum
+comment faire : formule de l energie d un photon | E = h x nu = h x c / lambda. Exemple : lambda = 500 nm -> E = environ 3,98e-19 J. | photon energie E h nu c lambda lumiere quantum comment exercice methode
+explique : formule de l energie d un photon | E = h x nu = h x c / lambda. Exemple : lambda = 500 nm -> E = environ 3,98e-19 J. | photon energie E h nu c lambda lumiere quantum explication cours exemple definition
+formule de la relation de conjugaison | 1/f = 1/do + 1/di pour une lentille mince. | lentille formule conjugaison f do di optique
+comment faire : formule de la relation de conjugaison | 1/f = 1/do + 1/di pour une lentille mince. | lentille formule conjugaison f do di optique comment exercice methode
+explique : formule de la relation de conjugaison | 1/f = 1/do + 1/di pour une lentille mince. | lentille formule conjugaison f do di optique explication cours exemple definition
+formule du grandissement | gamma = di / do = hi / ho. | grandissement gamma lentille optique di do
+comment faire : formule du grandissement | gamma = di / do = hi / ho. | grandissement gamma lentille optique di do comment exercice methode
+explique : formule du grandissement | gamma = di / do = hi / ho. | grandissement gamma lentille optique di do explication cours exemple definition
+theoreme de Pythagore | Dans un triangle rectangle : a^2 + b^2 = c^2 (c hypothenuse). Exemple : 3^2 + 4^2 = 5^2. | Pythagore theoreme triangle rectangle a^2 b^2 c^2
+comment faire : theoreme de Pythagore | Dans un triangle rectangle : a^2 + b^2 = c^2 (c hypothenuse). Exemple : 3^2 + 4^2 = 5^2. | Pythagore theoreme triangle rectangle a^2 b^2 c^2 comment exercice methode
+explique : theoreme de Pythagore | Dans un triangle rectangle : a^2 + b^2 = c^2 (c hypothenuse). Exemple : 3^2 + 4^2 = 5^2. | Pythagore theoreme triangle rectangle a^2 b^2 c^2 explication cours exemple definition
+theoreme de Thales | Si deux droites sont coupees par des paralleles, les rapports sont conserves : AB/AC = AD/AE = BD/CE. | Thales theoreme rapports paralleles droites
+comment faire : theoreme de Thales | Si deux droites sont coupees par des paralleles, les rapports sont conserves : AB/AC = AD/AE = BD/CE. | Thales theoreme rapports paralleles droites comment exercice methode
+explique : theoreme de Thales | Si deux droites sont coupees par des paralleles, les rapports sont conserves : AB/AC = AD/AE = BD/CE. | Thales theoreme rapports paralleles droites explication cours exemple definition
+identite remarquable (a+b)^2 | (a+b)^2 = a^2 + 2ab + b^2. Exemple : (x+3)^2 = x^2 + 6x + 9. | identite remarquable carre somme a b developpement
+comment faire : identite remarquable (a+b)^2 | (a+b)^2 = a^2 + 2ab + b^2. Exemple : (x+3)^2 = x^2 + 6x + 9. | identite remarquable carre somme a b developpement comment exercice methode
+explique : identite remarquable (a+b)^2 | (a+b)^2 = a^2 + 2ab + b^2. Exemple : (x+3)^2 = x^2 + 6x + 9. | identite remarquable carre somme a b developpement explication cours exemple definition
+identite remarquable a^2-b^2 | a^2 - b^2 = (a-b)(a+b). Exemple : x^2 - 9 = (x-3)(x+3). | identite remarquable difference carres factorisation
+comment faire : identite remarquable a^2-b^2 | a^2 - b^2 = (a-b)(a+b). Exemple : x^2 - 9 = (x-3)(x+3). | identite remarquable difference carres factorisation comment exercice methode
+explique : identite remarquable a^2-b^2 | a^2 - b^2 = (a-b)(a+b). Exemple : x^2 - 9 = (x-3)(x+3). | identite remarquable difference carres factorisation explication cours exemple definition
+formule du discriminant | Pour ax^2+bx+c=0 : delta = b^2 - 4ac. Si delta > 0 deux racines, = 0 une, < 0 aucune reelle. | discriminant delta b^2 4ac equation second degre racines
+comment faire : formule du discriminant | Pour ax^2+bx+c=0 : delta = b^2 - 4ac. Si delta > 0 deux racines, = 0 une, < 0 aucune reelle. | discriminant delta b^2 4ac equation second degre racines comment exercice methode
+explique : formule du discriminant | Pour ax^2+bx+c=0 : delta = b^2 - 4ac. Si delta > 0 deux racines, = 0 une, < 0 aucune reelle. | discriminant delta b^2 4ac equation second degre racines explication cours exemple definition
+formule des racines d une equation du second degre | x1 = (-b - sqrt(delta))/(2a), x2 = (-b + sqrt(delta))/(2a). | racines x1 x2 second degre formule delta
+comment faire : formule des racines d une equation du second degre | x1 = (-b - sqrt(delta))/(2a), x2 = (-b + sqrt(delta))/(2a). | racines x1 x2 second degre formule delta comment exercice methode
+explique : formule des racines d une equation du second degre | x1 = (-b - sqrt(delta))/(2a), x2 = (-b + sqrt(delta))/(2a). | racines x1 x2 second degre formule delta explication cours exemple definition
+formule de la somme des racines | S = -b/a et produit P = c/a pour ax^2+bx+c=0. | somme produit racines Vieta b a c a
+comment faire : formule de la somme des racines | S = -b/a et produit P = c/a pour ax^2+bx+c=0. | somme produit racines Vieta b a c a comment exercice methode
+explique : formule de la somme des racines | S = -b/a et produit P = c/a pour ax^2+bx+c=0. | somme produit racines Vieta b a c a explication cours exemple definition
+derivee de x^n | La derivee de x^n est n x^(n-1). Exemple : derivee de x^3 = 3x^2. | derivee x^n puissance regle n x n-1 calcul differentiel
+comment faire : derivee de x^n | La derivee de x^n est n x^(n-1). Exemple : derivee de x^3 = 3x^2. | derivee x^n puissance regle n x n-1 calcul differentiel comment exercice methode
+explique : derivee de x^n | La derivee de x^n est n x^(n-1). Exemple : derivee de x^3 = 3x^2. | derivee x^n puissance regle n x n-1 calcul differentiel explication cours exemple definition
+derivee de u x v | (u v)' = u' v + u v'. | derivee produit u v regle leibniz
+comment faire : derivee de u x v | (u v)' = u' v + u v'. | derivee produit u v regle leibniz comment exercice methode
+explique : derivee de u x v | (u v)' = u' v + u v'. | derivee produit u v regle leibniz explication cours exemple definition
+derivee de u / v | (u/v)' = (u' v - u v') / v^2. | derivee quotient u v formule
+comment faire : derivee de u / v | (u/v)' = (u' v - u v') / v^2. | derivee quotient u v formule comment exercice methode
+explique : derivee de u / v | (u/v)' = (u' v - u v') / v^2. | derivee quotient u v formule explication cours exemple definition
+formule de la derivee de sin et cos | sin' = cos et cos' = -sin. | derivee sinus cosinus trigonometrie
+comment faire : formule de la derivee de sin et cos | sin' = cos et cos' = -sin. | derivee sinus cosinus trigonometrie comment exercice methode
+explique : formule de la derivee de sin et cos | sin' = cos et cos' = -sin. | derivee sinus cosinus trigonometrie explication cours exemple definition
+formule de la derivee de exp | La derivee de exp(x) est exp(x). | derivee exponentielle exp x
+comment faire : formule de la derivee de exp | La derivee de exp(x) est exp(x). | derivee exponentielle exp x comment exercice methode
+explique : formule de la derivee de exp | La derivee de exp(x) est exp(x). | derivee exponentielle exp x explication cours exemple definition
+formule de la derivee de ln | La derivee de ln(x) est 1/x pour x > 0. | derivee logarithme ln x 1/x
+comment faire : formule de la derivee de ln | La derivee de ln(x) est 1/x pour x > 0. | derivee logarithme ln x 1/x comment exercice methode
+explique : formule de la derivee de ln | La derivee de ln(x) est 1/x pour x > 0. | derivee logarithme ln x 1/x explication cours exemple definition
+formule de la primitive de x^n | Primitive de x^n : x^(n+1)/(n+1) + C pour n different de -1. | primitive x^n integrale x n+1 constante
+comment faire : formule de la primitive de x^n | Primitive de x^n : x^(n+1)/(n+1) + C pour n different de -1. | primitive x^n integrale x n+1 constante comment exercice methode
+explique : formule de la primitive de x^n | Primitive de x^n : x^(n+1)/(n+1) + C pour n different de -1. | primitive x^n integrale x n+1 constante explication cours exemple definition
+formule de l aire sous la courbe | L aire entre f et l axe des x sur [a,b] vaut l integrale de a à b de f(x) dx si f positive. | integrale aire courbe primitive calcul
+comment faire : formule de l aire sous la courbe | L aire entre f et l axe des x sur [a,b] vaut l integrale de a à b de f(x) dx si f positive. | integrale aire courbe primitive calcul comment exercice methode
+explique : formule de l aire sous la courbe | L aire entre f et l axe des x sur [a,b] vaut l integrale de a à b de f(x) dx si f positive. | integrale aire courbe primitive calcul explication cours exemple definition
+formule de la moyenne | Moyenne = somme des valeurs / effectif total. Exemple : (10+12+14)/3 = 12. | moyenne statistique somme effectif formule
+comment faire : formule de la moyenne | Moyenne = somme des valeurs / effectif total. Exemple : (10+12+14)/3 = 12. | moyenne statistique somme effectif formule comment exercice methode
+explique : formule de la moyenne | Moyenne = somme des valeurs / effectif total. Exemple : (10+12+14)/3 = 12. | moyenne statistique somme effectif formule explication cours exemple definition
+formule de l ecart type | Ecart type = racine de la variance ; variance = moyenne des (x - moyenne)^2. | ecart type variance statistique formule racine
+comment faire : formule de l ecart type | Ecart type = racine de la variance ; variance = moyenne des (x - moyenne)^2. | ecart type variance statistique formule racine comment exercice methode
+explique : formule de l ecart type | Ecart type = racine de la variance ; variance = moyenne des (x - moyenne)^2. | ecart type variance statistique formule racine explication cours exemple definition
+formule de la mediane | Mediane : valeur centrale quand les valeurs sont rangees dans l ordre croissant. | mediane statistique valeur centrale ordre
+comment faire : formule de la mediane | Mediane : valeur centrale quand les valeurs sont rangees dans l ordre croissant. | mediane statistique valeur centrale ordre comment exercice methode
+explique : formule de la mediane | Mediane : valeur centrale quand les valeurs sont rangees dans l ordre croissant. | mediane statistique valeur centrale ordre explication cours exemple definition
+formule des probabilites | P(A) = nombre de cas favorables / nombre de cas possibles. Exemple : 1 as sur 52 cartes -> 1/52. | probabilite P A cas favorables possibles formule
+comment faire : formule des probabilites | P(A) = nombre de cas favorables / nombre de cas possibles. Exemple : 1 as sur 52 cartes -> 1/52. | probabilite P A cas favorables possibles formule comment exercice methode
+explique : formule des probabilites | P(A) = nombre de cas favorables / nombre de cas possibles. Exemple : 1 as sur 52 cartes -> 1/52. | probabilite P A cas favorables possibles formule explication cours exemple definition
+formule des arrangements | A_n^p = n! / (n-p)!. Exemple : A_5^2 = 5!/3! = 20. | arrangements A n p factorielle combinatoire denombrement
+comment faire : formule des arrangements | A_n^p = n! / (n-p)!. Exemple : A_5^2 = 5!/3! = 20. | arrangements A n p factorielle combinatoire denombrement comment exercice methode
+explique : formule des arrangements | A_n^p = n! / (n-p)!. Exemple : A_5^2 = 5!/3! = 20. | arrangements A n p factorielle combinatoire denombrement explication cours exemple definition
+formule des combinaisons | C_n^p = n! / (p! (n-p)!). Exemple : C_5^2 = 10. | combinaisons C n p factorielle Pascal denombrement
+comment faire : formule des combinaisons | C_n^p = n! / (p! (n-p)!). Exemple : C_5^2 = 10. | combinaisons C n p factorielle Pascal denombrement comment exercice methode
+explique : formule des combinaisons | C_n^p = n! / (p! (n-p)!). Exemple : C_5^2 = 10. | combinaisons C n p factorielle Pascal denombrement explication cours exemple definition
+formule du coefficient binomial | (a+b)^n = somme des C_n^k a^(n-k) b^k. | binomial Newton formule (a+b)^n somme C n k
+comment faire : formule du coefficient binomial | (a+b)^n = somme des C_n^k a^(n-k) b^k. | binomial Newton formule (a+b)^n somme C n k comment exercice methode
+explique : formule du coefficient binomial | (a+b)^n = somme des C_n^k a^(n-k) b^k. | binomial Newton formule (a+b)^n somme C n k explication cours exemple definition

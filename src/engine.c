@@ -6,6 +6,7 @@
 #include "engine.h"
 #include "kb.h"
 #include "dict.h"
+#include "tutor.h"
 
 #define Q_MAX 160
 
@@ -581,7 +582,7 @@ typedef enum {
   I_MYNAME_SAY, I_SAD, I_TIME, I_NUMWORKS, I_CAPITAL, I_JOKE, I_DEFINE, I_FOLLOW
 } Intent;
 
-typedef struct { Intent id; const char *kw[12]; } Rule;
+typedef struct { Intent id; const char *kw[24]; } Rule;
 
 static const Rule RULES[] = {
   {I_GREET, {" bonjour ", " salut ", " bonsoir ", " hello ", " coucou ", " hey ", NULL}},
@@ -598,7 +599,7 @@ static const Rule RULES[] = {
   {I_CAPITAL, {" capitale ", NULL}},
   {I_JOKE, {" blague ", " drole ", " rigole ", " fais moi rire ", NULL}},
   {I_DEFINE, {" c est quoi ", " qu est ce que ", " definition ", " explique moi ", " ca veut dire ", " signifie ", NULL}},
-  {I_FOLLOW, {" et toi ", " pourquoi ", " comment ca ", " et lui ", " et elle ", " et ca ", " encore ", " plus de details ", " davantage ", NULL}},
+  {I_FOLLOW, {"et toi ", "pourquoi ", "comment ca ", "et lui ", "et elle ", "et ca ", "et sa ", "et son ", "et ses ", "et le ", "et la ", "et pour ", "encore ", "plus de details ", "davantage ", NULL}},
 };
 
 static int score(const char *q, const Rule *r) {
@@ -789,6 +790,7 @@ static void answer_core(const char *raw, char *out, int cap, bool art) {
     put(out, cap, "Je n'ai pas bien compris ce message. Peux-tu le reformuler avec des mots simples ?");
     return;
   }
+  if (tutor_answer(raw, q, out, cap)) return;
   if (percent_answer(q, out, cap)) return;
   if (math_answer(q, out, cap)) return;
 
@@ -919,7 +921,9 @@ static void answer_core(const char *raw, char *out, int cap, bool art) {
         }
       }
     }
-    if (words == 1 && kb_find_question(one, out, cap)) {
+    if (words == 1 && it != I_FOLLOW && kb_find_question(one, out, cap)) {
+      strncpy(g_topic, one, sizeof g_topic - 1);
+      g_topic[sizeof g_topic - 1] = 0;
       if (has(q, " c est quoi ") || has(q, " qu est ce que ")) {
         strncpy(g_def_term, one, sizeof g_def_term - 1);
         g_def_term[sizeof g_def_term - 1] = 0;
@@ -970,8 +974,18 @@ static void answer_core(const char *raw, char *out, int cap, bool art) {
       put(out, cap, "Moi, je suis une IA qui tourne sur ta calculatrice. Et toi, qu'est-ce qui t'intéresse ?");
       return;
     }
-    if (g_topic[0] && kb_search(g_topic, out, cap)) return;
     if (g_topic[0]) {
+      /* Relance sur le sujet courant : « et sa structure ? » -> « atome structure » */
+      char ext[Q_MAX + 4];
+      const char *rest = q;
+      if (!strncmp(rest, " et ", 4)) rest += 4;
+      while (*rest == ' ') rest++;
+      put(ext, sizeof ext, g_topic);
+      add(ext, sizeof ext, " ");
+      add(ext, sizeof ext, rest);
+      if (kb_find_question(g_topic, out, cap)) return;
+      if (kb_search(g_topic, out, cap)) return;
+      if (kb_search(ext, out, cap)) return;
       put(out, cap, "Bonne question sur ");
       add(out, cap, g_topic);
       add(out, cap, " ! Je peux t'expliquer davantage si tu veux.");
